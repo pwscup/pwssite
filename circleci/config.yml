@@ -23,4 +23,4 @@ jobs:
       - deploy:
           name: Start master deploy
           command: |
-            echo hoge >> /usr/share/html/pws2019site/hoge.txt
+            echo hoge >> /usr/share/nginx/html/pws2019site/hoge.txt
