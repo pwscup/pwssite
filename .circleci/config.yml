@@ -22,4 +22,4 @@ jobs:
       - deploy:
           name: Start master deploy
           command: |
-            ssh $USER_NAME@$HOST_NAME "echo hoge >> /usr/share/nginx/html/hoge.txt"
+            ssh $USER_NAME@$HOST_NAME "whoami; id"
