@@ -1,15 +1,23 @@
-# Use the latest 2.1 version of CircleCI pipeline processing engine, see https://circleci.com/docs/2.0/configuration-reference/
-version: 2.1
-
-# Use a package of configuration called an orb, see https://circleci.com/docs/2.0/orb-intro/
-orbs:
-  # Declare a dependency on the welcome-orb
-  welcome: circleci/welcome-orb@0.3.1
-
-# Orchestrate or schedule a set of jobs, see https://circleci.com/docs/2.0/workflows/
-workflows:
-  # Name the workflow "Welcome"
-  Welcome:
-    # Run the welcome/run job in its own container
-    jobs:
-      - welcome/run
+# Environment variables
+# - HOST_NAME
+# - USER_NAME
+ 
+version: 2
+jobs:
+  build:
+    steps:
+      - checkout
+ 
+      - add_ssh_keys:
+          fingerprints:
+            - "c2:a8:1a:f8:3c:b4:4f:58:a8:2a:9e:98:66:43:3b:73"
+ 
+      - run:
+          name: Start ssh-keyscan
+          command: |
+            ssh-keyscan ${HOST_NAME} >> ~/.ssh/known_hosts
+ 
+      - deploy:
+          name: Start master deploy
+          command: |
+            echo hoge >> /usr/share/html/pws2019site/hoge.txt
