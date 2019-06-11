@@ -1,0 +1,26 @@
+# Environment variables
+# - HOST_NAME
+# - USER_NAME
+ 
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/php:7.1-browsers
+ 
+    steps:
+      - checkout
+ 
+      - add_ssh_keys:
+          fingerprints:
+            - "c2:a8:1a:f8:3c:b4:4f:58:a8:2a:9e:98:66:43:3b:73"
+ 
+      - run:
+          name: Start ssh-keyscan
+          command: |
+            ssh-keyscan ${HOST_NAME} >> ~/.ssh/known_hosts
+ 
+      - deploy:
+          name: Start master deploy
+          command: |
+            echo hoge >> /usr/share/nginx/html/hoge.txt
