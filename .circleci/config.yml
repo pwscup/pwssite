@@ -13,6 +13,7 @@ jobs:
       - add_ssh_keys:
           fingerprints:
             - "ac:f8:02:1c:ce:ed:fb:94:5a:60:62:9d:ac:c3:7f:cf"
+            - "e1:1a:fe:aa:51:14:86:92:ac:87:bc:73:b1:dc:26:a8"
  
       - run:
           name: Start deploy
@@ -22,6 +23,6 @@ jobs:
             fi  
 
             if [ "${CIRCLE_BRANCH}" == "develop" ]; then  
-                echo "hoge"
-            fi
+                ssh  -o StrictHostKeyChecking=no $TEST_USER_NAME@$TEST_HOST_NAME "cd /usr/share/nginx/pws2019site/; git pull origin develop"
+            fi  
 
