@@ -15,6 +15,13 @@ jobs:
             - "ac:f8:02:1c:ce:ed:fb:94:5a:60:62:9d:ac:c3:7f:cf"
  
       - run:
-          name: Start master deploy
+          name: Start deploy
           command: |
-            ssh  -o StrictHostKeyChecking=no $USER_NAME@$HOST_NAME "cd /var/www/html/pws/2019; git pull origin master"
+            if [ "${CIRCLE_BRANCH}" == "master" ]; then  
+                ssh  -o StrictHostKeyChecking=no $USER_NAME@$HOST_NAME "cd /var/www/html/pws/2019; git pull origin master"
+            fi  
+
+            if [ "${CIRCLE_BRANCH}" == "develop" ]; then  
+                echo "hoge"
+            fi
+
