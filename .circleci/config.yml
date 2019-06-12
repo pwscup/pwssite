@@ -12,14 +12,9 @@ jobs:
  
       - add_ssh_keys:
           fingerprints:
-            - "c2:a8:1a:f8:3c:b4:4f:58:a8:2a:9e:98:66:43:3b:73"
+            - "ac:f8:02:1c:ce:ed:fb:94:5a:60:62:9d:ac:c3:7f:cf"
  
-      - run:
-          name: Start ssh-keyscan
-          command: |
-            ssh-keyscan ${HOST_NAME} >> ~/.ssh/known_hosts
- 
-      - deploy:
+      - master-deploy:
           name: Start master deploy
           command: |
-            ssh $USER_NAME@$HOST_NAME "whoami; id"
+            ssh $USER_NAME@$HOST_NAME "cd /var/www/html/pws/2019; git pull origin master"
