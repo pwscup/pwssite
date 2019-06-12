@@ -14,7 +14,7 @@ jobs:
           fingerprints:
             - "ac:f8:02:1c:ce:ed:fb:94:5a:60:62:9d:ac:c3:7f:cf"
  
-      - master-deploy:
+      - run:
           name: Start master deploy
           command: |
             ssh $USER_NAME@$HOST_NAME "cd /var/www/html/pws/2019; git pull origin master"
