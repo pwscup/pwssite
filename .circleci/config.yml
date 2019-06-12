@@ -7,20 +7,22 @@ jobs:
   build:
     docker:
       - image: circleci/php:7.1-browsers
- 
     steps:
       - checkout
  
       - add_ssh_keys:
           fingerprints:
-            - "c2:a8:1a:f8:3c:b4:4f:58:a8:2a:9e:98:66:43:3b:73"
+            - "ac:f8:02:1c:ce:ed:fb:94:5a:60:62:9d:ac:c3:7f:cf"
+            - "e1:1a:fe:aa:51:14:86:92:ac:87:bc:73:b1:dc:26:a8"
  
       - run:
-          name: Start ssh-keyscan
+          name: Start deploy
           command: |
-            ssh-keyscan ${HOST_NAME} >> ~/.ssh/known_hosts
- 
-      - deploy:
-          name: Start master deploy
-          command: |
-            echo hoge >> /usr/share/nginx/html/hoge.txt
+            if [ "${CIRCLE_BRANCH}" == "master" ]; then  
+                ssh  -o StrictHostKeyChecking=no $USER_NAME@$HOST_NAME "cd /var/www/html/pws/2019; git pull origin master"
+            fi  
+
+            if [ "${CIRCLE_BRANCH}" == "develop" ]; then  
+                ssh  -o StrictHostKeyChecking=no $TEST_USER_NAME@$TEST_HOST_NAME "cd /usr/share/nginx/html/pws2019site/; git pull origin develop"
+            fi  
+
