@@ -23,6 +23,6 @@ jobs:
             fi  
 
             if [ "${CIRCLE_BRANCH}" == "develop" ]; then  
-                ssh  -o StrictHostKeyChecking=no $TEST_USER_NAME@$TEST_HOST_NAME "cd /usr/share/nginx/pws2019site/; git pull origin develop"
+                ssh  -o StrictHostKeyChecking=no $TEST_USER_NAME@$TEST_HOST_NAME "cd /usr/share/nginx/html/pws2019site/; git pull origin develop"
             fi  
 
