@@ -1,0 +1,28 @@
+# Environment variables
+# - HOST_NAME
+# - USER_NAME
+ 
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/php:7.1-browsers
+    steps:
+      - checkout
+ 
+      - add_ssh_keys:
+          fingerprints:
+            - "ac:f8:02:1c:ce:ed:fb:94:5a:60:62:9d:ac:c3:7f:cf"
+            - "e1:1a:fe:aa:51:14:86:92:ac:87:bc:73:b1:dc:26:a8"
+ 
+      - run:
+          name: Start deploy
+          command: |
+            if [ "${CIRCLE_BRANCH}" == "master" ]; then  
+                ssh  -o StrictHostKeyChecking=no $USER_NAME@$HOST_NAME "cd /var/www/html/pws/2019; git pull origin master"
+            fi  
+
+            if [ "${CIRCLE_BRANCH}" == "develop" ]; then  
+                ssh  -o StrictHostKeyChecking=no $TEST_USER_NAME@$TEST_HOST_NAME "cd /usr/share/nginx/html/pws2019site/; git pull origin develop"
+            fi  
+
