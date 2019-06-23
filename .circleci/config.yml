@@ -19,10 +19,10 @@ jobs:
           name: Start deploy
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then  
-                ssh  -o StrictHostKeyChecking=no $USER_NAME@$HOST_NAME "cd /var/www/html/pws/2019; git pull origin master"
+                ssh -o StrictHostKeyChecking=no $USER_NAME@$HOST_NAME "cd /var/www/html/pws/; git pull origin master"
             fi  
 
             if [ "${CIRCLE_BRANCH}" == "develop" ]; then  
-                ssh  -o StrictHostKeyChecking=no $TEST_USER_NAME@$TEST_HOST_NAME "cd /usr/share/nginx/html/pws2019site/; git pull origin develop"
+                ssh -o StrictHostKeyChecking=no $TEST_USER_NAME@$TEST_HOST_NAME "cd /usr/share/nginx/html/pws2019site/; git pull origin develop"
             fi  
 
