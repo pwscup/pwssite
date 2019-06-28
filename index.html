@@ -1,236 +1,80 @@
-
 <!DOCTYPE html>
-<html lang="ja" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="ja" dir="ltr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>PWS</title>
+  </head>
+  <body style="margin-top: 40px;">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="./PWS2018_files/jquery.min.js"></script>
+    <div id="menu-wrap" class="fixed">
+      <ul id="menu">
+        <li>
+          <a href="#">Top</a>
+        </li>
+        <li>
+          <a href="#pws">About PWS</a>
+        </li>
+        <li>
+          <a href="#past">Past PWS</a>
+        </li>
+      </ul>
+    </div>
+    <div id="page">
+      <h1>プライバシーワークショップ (PWS)
+        <br>
+        <font size="2">
+          <a href="./index_e.html">[English]</a>
+        </font>
+      </h1>
+      <h2>PWS (Privacy Workshop) について </h2>
+      <h3>概要</h3>
+      <p>国内外においてビッグデータ活用ニーズが急速に高まる中で、データの効果的な活用とプライバシー保護を両立させる技術や規準の発展と確立が強く求められています。そのためには、プライバシー保護技術の研究開発を進める学術機関とデータ活用の現場で活躍する技術者・専門家との間での議論や交流を活発にし、日本におけるプライバシー保護技術の研究開発を活性化していくことが重要と考えられます。 </p>
+      <p>上記を目的として、情報処理学会コンピュータセキュリティ研究会 (CSEC 研究会) はPWS 組織委員会を立ち上げ、同学会セキュリティ心理学とトラスト研究会 (SPT 研究会)との共催で「プライバシーワークショップ (PWS)」を開催いたします。PWS は、コンピュータセキュリティシンポジウム (CSS) の併催として年に一度開催予定であり、主にデータ活用を円滑にするためのプライバシー保護技術に焦点を当てた企画およびセッションから構成されます。 </p>
+      <h3>PWS組織委員会</h3>
+      <dl>
+        <dt>委員長</dt>
+        <dd>菊池浩明 (明治大学)</dd>
+        <dt>委員</dt>
+        <dd>寺田雅之 (NTTドコモ)、千田浩司 (NTT)</dd>
+      </dl>
+      <h2>PWSイベントへのリンク</h2>
+      <ul>
+        <li>
+          <a href="./2015/index.html" target="_blank">第1回プライバシーワークショップ (PWS2015)</a>
+        </li>
+        <li>
+          <a href="./2016/index.html" target="_blank">第2回プライバシーワークショップ (PWS2016)</a>
+        </li>
+        <li>
+          <a href="./2017/index.html" target="_blank">第3回プライバシーワークショップ (PWS2017)</a>
+        </li>
+        <li>
+          <a href="./2018/index.html" target="_blank">第4回プライバシーワークショップ (PWS2018)</a>
+        </li>
+        <li>
+          <a href="./2019/index.html" target="_blank">第5回プライバシーワークショップ (PWS2019)</a>
+        </li>
+      </ul>
+      <div id="footer">
+        <p id="copyright">Copyright 2019 (社)情報処理学会 コンピュータセキュリティ研究会 PWS組織委員会 All rights reserved.</p>
+      </div>
+    </div>
 
-<title>PWS2018</title>
-</head>
-<body style="margin-top: 40px;">
-
-
-<style type="text/css">
-* {
-    font-family:'Hiragino Kaku Gothic ProN',
-    Meiryo, sans-serif;
-}
-
-
-body {
-  margin: 0;
-  padding: 0;
-  color: #5f5f5f; 
-  background-color: #ffffff;
-}
-
-#page {
-    margin: 0 auto;
-    width: 820px;
-}
-
-
-#triangleDown{
-    width:0;
-    height:0;
-    border-right:40px solid transparent;
-    border-left:40px solid transparent;
-    border-top:20px solid #333333;
-}
-
-h1 {
-    text-align: center;
-}
-
-h2 {
-    font-size: 1.5em;
-    padding-bottom: 0.15em;
-    border-bottom: 1px solid black;
-    font-weight: bold;
-}
-
-h3 {
-    font-size: 1.3em;
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-h4 {
-    font-size: 1.1em;
-}
-
-#footer {
-    margin-top: 30px;
-    border-top: 3px solid #745850;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-#copyright {
-    text-align: center;
-}
-#copyright a{
-    text-decoration: none;
-}
-
-#menu-wrap {
-  width: 100%;
-  height: 40px;
-  box-shadow: 0 1px 10px #333;
-  background: #2f2b3f;
-}
-
-#menu {
-  list-style-type: none;
-  width: 960px;
-  margin: 0px auto 0px;
-  padding: 0;
-}
-
-#menu li {
-  width: 20%;
-  float: left;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-#menu li a {
-  display: block;
-  width : 100%;
-  padding: 13px 0;
-  color: #fff;
-  font-size: 14px;
-  font-weight: bold;
-  line-height: 1;
-  text-decoration: none;
-}
-
-#menu li a:hover {
-  background: #272435;
-}
-
-.fixed{
-  position: fixed;
-  top: 0px;
-  left: 0px
-  z-index: 9999;
-}
-
-/** menu のナビ **/
-#menunavi {
-  width:530px;
-  padding:0;
-  margin:0;
-  list-style-type: none;
-  margin-left:auto;margin-right:auto;
-  text-align:left;
-}
-
-#menunavi ul {
-  display:inline-block;
-}
-
-
-#menunavi li {
-  width:25%;
-  float:left;
-  padding:0;
-  margin:0;
-  text-align:center;
-}
-
-#menunavi li a {
-  width:auto;
-  color:#fff;
-  font-size:12px;
-  font-weight:bold;
-  padding:10px 0;
-  text-decoration:none;
-  display:block;
-  background:#2f2b3f;
-}
-
-#menunavi li a:hover {
-  background:#555;
-}
-
-.clearLeft { 
-clear: left; 
-}
-
-
-</style>
-<script src="./PWS2018_files/jquery.min.js"></script>
-
-<div id="menu-wrap" class="fixed">
-  <ul id="menu">
-    <li><a href="#">Top</a></li>
-    <li><a href="#pws">About PWS</a></li>
-    <li><a href="#past">Past PWS</a></li>
-  </ul>
-</div>
-
-
-<div id="page">
-<h1>プライバシーワークショップ (PWS)<br>
-
-
-<h2 id="pws" style="border-bottom: 2px dotted #180614;border-left: 10px solid #180614;padding: 7px;">PWS (Privacy Workshop) について</h2>
-
-<h3>概要</h3>
-<p>
-国内外においてビッグデータ活用ニーズが急速に高まる中で、データの効果的な活用とプライバシー保護を両立させる技術や規準の発展と確立が強く求められています。そのためには、プライバシー保護技術の研究開発を進める学術機関とデータ活用の現場で活躍する技術者・専門家との間での議論や交流を活発にし、日本におけるプライバシー保護技術の研究開発を活性化していくことが重要と考えられます。
-</p>
-<p>
-上記を目的として、情報処理学会コンピュータセキュリティ研究会 (CSEC 研究会) はPWS 組織委員会を立ち上げ、同学会セキュリティ心理学とトラスト研究会 (SPT 研究会)との共催で「プライバシーワークショップ (PWS)」を開催いたします。PWS は、コンピュータセキュリティシンポジウム (CSS) の併催として年に一度開催予定であり、主にデータ活用を円滑にするためのプライバシー保護技術に焦点を当てた企画およびセッションから構成されます。
-</p>
-
-<h3>PWS組織委員会</h3>
-
-<dl>
-<dt>委員長</dt>
-<dd>菊池浩明 (明治大学)</dd>
-<dt>委員</dt>
-<dd>寺田雅之 (NTTドコモ)、千田浩司 (NTT)</dd>
-</dl>
-
-
-<h2 id="past" style="border-bottom: 2px dotted #180614;border-left: 10px solid #180614;padding: 7px;">PWSイベントへのリンク</h2>
-<ul>
-<li><a href="http://www.iwsec.org/pws/2015/" target="_blank">第1回プライバシーワークショップ (PWS2015)</a></li>
-<li><a href="http://www.iwsec.org/pws/2016/" target="_blank">第2回プライバシーワークショップ (PWS2016)</a></li>
-<li><a href="http://www.iwsec.org/pws/2017/" target="_blank">第3回プライバシーワークショップ (PWS2017)</a></li>
-<li><a href="http://www.iwsec.org/pws/2018/" target="_blank">第4回プライバシーワークショップ (PWS2018)</a></li>
-<li><a href="http://www.iwsec.org/pws/2019/" target="_blank">第5回プライバシーワークショップ (PWS2019)</a></li>
-</ul>
-
-
-
-
-<div id="footer">
-<p id="copyright">Copyright 2019 (社)情報処理学会 コンピュータセキュリティ研究会 PWS組織委員会 All rights reserved.</p>
-</div>
-
-
-
-</div>
-
-
-
-<script type="text/javascript">
-$(function(){
-    var box    = $("#menu-wrap");
-    var boxTop = box.offset().top;
-    $(window).scroll(function () {
-        if($(window).scrollTop() >= boxTop) {
+    <script type="text/javascript">
+      $(function(){
+        var box    = $("#menu-wrap");
+        var boxTop = box.offset().top;
+        $(window).scroll(function () {
+         if($(window).scrollTop() >= boxTop) {
             box.addClass("fixed");
             $("body").css("margin-top","40px");
-        } else {
+         } else {
             box.removeClass("fixed");
             $("body").css("margin-top","0px");
-        }
-    });
-});
-</script>
-
-
-</body></html>
-
+          }
+       });
+      });
+    </script>
+  </body>
+</html>

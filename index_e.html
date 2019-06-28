@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>PWS</title>
+  </head>
+  <body style="margin-top: 40px;">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="./PWS2018_files/jquery.min.js"></script>
+    <div id="menu-wrap" class="fixed">
+      <ul id="menu">
+        <li>
+          <a href="#">Top</a>
+        </li>
+        <li>
+          <a href="#pws">About PWS</a>
+        </li>
+        <li>
+          <a href="#past">Past PWS</a>
+        </li>
+      </ul>
+    </div>
+    <div id="page">
+      <h1>Privacy Workshop (PWS)
+        <br>
+        <font size="2">
+          <a href="./index.html">[Japanese]</a>
+        </font>
+      </h1>
+      <h2>About PWS (Privacy Workshop)</h2>
+      <h3>Overview</h3>
+      <p>
+        As the need for big data utilization grows rapidly in Japan and overseas, there is a strong need for developing and establishing technologies and standards that balance the effective use of data while preserving privacy. To achieve this goal, it is essential to activate research and development of privacy protection technologies in Japan; this can be accomplished through active discussions and exchanges among academic institutions that promote research and development of privacy protection technologies and practitioners in industry who are active in the field of data utilization. 
+      </p>
+      <p>
+        For the above purpose, the Computer Security Special Interest Group (CSEC) of the Information Processing Society of Japan has established the PWS Organizing Committee and co-hosted the "Privacy Workshop (PWS)" with the Security Psychology and Trust Special Interest Group (SPT) of the Information Processing Society of Japan. The PWS is scheduled to be held annually in conjunction with the Computer Security Symposium (CSS) and consists of events and sessions focusing mainly on privacy protection technologies for facilitating data utilization. 
+      </p>
+      <h3>PWS Steering Committee</h3>
+      <dl>
+        <dt>Chair</dt>
+        <dd>Hiroaki Kikuchi (Meiji University)</dd>
+        <dt>Members</dt>
+        <dd>Masayuki Terada (NTT DOCOMO), Koji Chida (NTT)</dd>
+      </dl>
+      <h2>PWS Events</h2>
+      <ul>
+        <li>
+          <a href="./2015/index.html" target="_blank">The 1st Privacy Workshop (PWS2015)</a>(in Japanese)
+        </li>
+        <li>
+          <a href="./2016/index.html" target="_blank">The 2nd Privacy Workshop (PWS2016)</a>(in Japanese)
+        </li>
+        <li>
+          <a href="./2017/index.html" target="_blank">The 3rd Privacy Workshop (PWS2017)</a>(in Japanese)
+        </li>
+        <li>
+          <a href="./2018/index.html" target="_blank">The 4th Privacy Workshop (PWS2018)</a>(in Japanese)
+        </li>
+        <li>
+          <a href="./2019/index_e.html" target="_blank">The 5th Privacy Workshop (PWS2019)</a>
+        </li>
+      </ul>
+      <div id="footer">
+        <p id="copyright">Copyright 2019 Information Processing Society of Japan, Computer Security Special Interest Group, PWS Organizing Committee. All rights reserved.</p>
+      </div>
+    </div>
+    <script type="text/javascript">
+      $(function(){
+        var box    = $("#menu-wrap");
+        var boxTop = box.offset().top;
+        $(window).scroll(function () {
+          if($(window).scrollTop() >= boxTop) {
+            box.addClass("fixed");
+            $("body").css("margin-top","40px");
+          } else {
+            box.removeClass("fixed");
+            $("body").css("margin-top","0px");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
