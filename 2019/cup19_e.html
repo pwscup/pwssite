@@ -37,8 +37,22 @@
         <img src="./images/pwscup-poster2019_500x700.jpg" width="600" alt="PWS Cup 2019 poster">
        </div>
 
-      <h2>What's new</h2>
+      <h3>What's new</h2>
       <ul>
+        <li>2019/09/20 (Fri): Update documents for Final round
+         <ul>
+          <li><a href="./cup19-rule-e.pdf"> rule</a> (Add additional rule for final round in 2.9 )</li>
+          <li><a href="./cup19-sample-e.pdf">Sample program description</a> (Add the result of experiment for final round in 4)</li>
+          <li><a href="./data/Pubinfo_20190920.pdf"> Sample program and dataset</a> (Add Osaka data which has 20 days trace) </li>
+         </ul>
+        </li>
+        <li>2019/09/20 (Fri): Set the parameters for final round.
+         <ul>
+	  <li>The length of orgtrace and reftrace is 20 days.</li>
+          <li>Utility: s_req is 0.7  </li>
+         </ul>
+        </li>
+        <li>2019/09/20 (Fri): <a href="#pre_result">Result and comment for Preliminary round</a>
         <li>2019/09/12 (Thu): Minor Update <a href="./cup19-rule-e.pdf">Contest Overview and Rule</a>
          <ul>
           <li> What is updated is written in <font color="red">red</font> (Inference for one's own trace is not evaluated). </li>
@@ -77,11 +91,9 @@
         <li><a href="./cup19-paper-e.pdf">Contest Paper (detailed rule description)</a></li>
         <li><a href="./cup19-dataset-e.pdf">Data set description</a></li>
         <li><a href="./cup19-sample-e.pdf">Sample program description</a></li>
-        <li><a href="./data/PubInfo_20190905.zip">Dataset and Sample program</a>
+        <li><a href="./data/PubInfo_20190920.zip">Dataset and Sample program</a>
          <ul>
-          <li>2019/08/16 Dataset and Sample program is published </li>
-          <li>2019/08/28 Update Dataset : update README file only </li>
-          <li>2019/09/05 Update Dataset : ADD org/ref traces for comparison (refer to 2.7.8 in rule) </li>
+          <li>2019/09/20 Update Dataset : ADD org/ref trace of Osaka dataset for experiment</li>
          </ul>
         </li>
       </ul>
@@ -124,6 +136,49 @@
 			</ul>
 			
       <h2>Result</h2>
+      <h3 id="pre_result">Preliminary round </h3>
+
+	<table border="1" align="center" cellpadding="2">
+	<tr><th>Section</th><th> Rank</th><th> Team ID</th><th> Team name</th></tr>
+	<tr><td>Overall</td><td>1st</td><td>011</td><td>Unkown IPA</td></tr>
+	<tr><td>Overall</td><td>2nd</td><td> 008</td><td>K-HOUSE</td></tr>
+	<tr><td>Overall</td><td>3rd</td><td>016</td><td>🍎</td></tr>
+	<tr><td>Anonymizer (IDP)</td><td>1st</td><td>011</td><td>Uknown IPA</td></tr>
+	<tr><td>Anonymizer (TRP)</td><td>1st </td><td>016</td><td>🍎</td></tr>
+	<tr><td>Risk assessor (IDP)</td><td>1st</td><td>006</td><td>wakaName</td></tr>
+	<tr><td>Risk assessor (TRP)</td><td>1st</td><td>004</td><td>またぼっち</td></tr>
+	</table>
+
+
+        <p>The award-winning teams will be selected after adding corresponding scores (privacy score against ID disclosure and/or trace inference attacks) from the preliminary and final rounds at a ratio of 1:9. </p>
+	<p> <a href="./results_preliminary.xlsx">Detail Result</a>is here </p>
+	
+
+        <h4><u> Comments from PWSCUP 2019 chaiman</u></h3>
+	<p>	
+	<div onclick="obj=document.getElementById('murakami_comment_pre').style; obj.display=(obj.display=='none')?'block':'none';">
+	<a style="cursor:pointer;">▼ <b>Expand :click here </b></a></p>
+	</div>
+	<div id="murakami_comment_pre" style="display:none;clear:both;">
+
+Below I provide my comments on the results of the preliminary round. I hope it would be helpful for you in the final round.
+
+</p>(1) The submitted file (inferred original trace set) of the best risk assessor (trace inference) in the preliminary round was the same as the reference trace set. In other words, the team sent the reference trace set as an inferred original trace set *without* seeing the public anonymized set. We refer to this attack as a "reference trace replay attack." Some teams adopted the reference trace replay attack or its variant.</p>
+
+<p>I'm afraid that many teams might feel that this attack made the contest uninteresting. However, we will give scores of the preliminary round for the above teams according to the rule. </p>
+
+<p>In the preliminary round, the reference trace replay attack was very powerful, because the length of the reference and original trace sets was too short and the accuracy of the ID disclosure was low for most teams. Taking this into account, we will increase the length of the reference and original traces in the final round. </p>
+
+<p>(2) It is also important to note that the sample program T3 was the most powerful for the anonymized traces (by the committee) in the preliminary round. This was because the accuracy of the ID disclosure was high for the anonymized traces. For such traces, a trace inference method that first re-identifies the anonymized traces and then infers the original traces can outperform the reference trace replay attack. </p>
+
+<p>(3) My comments on the preliminary round are given in (1) and (2). However, in the final round, the length of the reference and original trace sets will be 20 days, respectively, and hence I anticipate that different strategies can be effective for anonymization, ID disclosure, and trace. We also performed some experiments for the 20-days long trace sets using the sample programs (see Section 4 of https://www.iwsec.org/pws/2019/cup19-sample.pdf). This might be helpful in the final round. </p>
+
+	</div>
+	
+
+
+
+
       <h3 id="pre_result_idp">(Preliminary) IDP</h3>
         <table border="1" align="center" cellpadding="2">
 		<tr>
