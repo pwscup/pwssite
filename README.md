@@ -1,4 +1,4 @@
-# pws2019site
+# pwssite
 Privacy Workshop Webサイト管理用です
 
 # フォルダ構成
