@@ -14,6 +14,7 @@ jobs:
           fingerprints:
             - "ac:f8:02:1c:ce:ed:fb:94:5a:60:62:9d:ac:c3:7f:cf"
             - "e1:1a:fe:aa:51:14:86:92:ac:87:bc:73:b1:dc:26:a8"
+            - "81:a1:ee:97:71:d9:ea:53:50:82:fc:e4:b0:a3:a7:f3"
  
       - run:
           name: Start deploy
@@ -23,3 +24,9 @@ jobs:
             fi  
 
 
+          name: Make html file
+          command: |
+            if [ "${CIRCLE_BRANCH}" == "gh-pages" ]; then  
+                ssh -o StrictHostKeyChecking=no $TEST_USER_NAME@$TEST_HOST_NAME \ 
+                "cd /home/$TEST_USER_NAME/pwssite; git pull origin gh_pages; bash ./2020/scripts/make.bash; git add -A git commit -m 'make.bash'; git push origin gh-pages"
+            fi  
