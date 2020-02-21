@@ -18,7 +18,7 @@ Privacy Workshop Webサイト管理用です
 - gh-pages
   - テスト用
   - 本番にデプロイする前に、gh-pagesにpushしましょう
-  - [github-pages](https://pwscup.github.io/pws2019site)で確認できます
+  - [github-pages](https://pwscup.github.io/pwssite)で確認できます
 - その他
   - 自由
 
