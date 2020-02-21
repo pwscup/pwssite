@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>PWS2019</title>
+  </head>
+  <body style="margin-top: 40px;">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <script src="./PWS2019_files/jquery.min.js"></script>
+    <div id="menu-wrap" class="fixed">
+      <ul id="menu">
+        <li>
+          <a href="./index.html#">Top</a>
+        </li>
+        <li>
+          <a href="./index.html#pws">About PWS</a>
+        </li>
+        <li>
+          <a href="./cup19.html">PWSCUP 2019</a>
+        </li>
+        <li>
+          <a href="http://www.iwsec.org/pws/2018/pwsmeetup2019.html">Related Events</a>
+        </li>
+        <li>
+          <a href="http://www.iwsec.org/pws">Past PWS</a>
+        </li>
+      </ul>
+    </div>
+    <div id="page">
+
+    <!-- ここにコンテンツを差し込む --> 
+
+    </div>
+    <div id="footer">
+      <p id="copyright">Copyright 2019 (社)情報処理学会 コンピュータセキュリティ研究会 PWS組織委員会 All rights reserved.</p>
+    </div>
+    <script type="text/javascript">
+      $(function(){
+        var box    = $("#menu-wrap");
+        var boxTop = box.offset().top;
+        $(window).scroll(function () {
+          if($(window).scrollTop() >= boxTop) {
+            box.addClass("fixed");
+            $("body").css("margin-top","40px");
+          } else {
+            box.removeClass("fixed");
+            $("body").css("margin-top","0px");
+         }
+        });
+      });
+    </script>
+  </body>
+</html>
