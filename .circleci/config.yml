@@ -28,5 +28,5 @@ jobs:
           command: |
             if [ "${CIRCLE_BRANCH}" == "gh-pages" ]; then  
                 ssh -o StrictHostKeyChecking=no $TEST_USER_NAME@$TEST_HOST_NAME \ 
-                "cd /home/$TEST_USER_NAME/pwssite; git pull origin gh_pages; bash ./2020/scripts/make.bash; git add -A git commit -m 'make.bash'; git push origin gh-pages"
+                "cd /home/$TEST_USER_NAME/pwssite; git pull origin gh-pages; bash ./2020/scripts/make.bash; git add -A; git commit -m 'make.bash'; git push origin gh-pages"
             fi  
