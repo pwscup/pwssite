@@ -27,6 +27,5 @@ jobs:
           name: Make html file
           command: |
             if [ "${CIRCLE_BRANCH}" == "gh-pages" ]; then  
-                ssh -o StrictHostKeyChecking=no $TEST_USER_NAME@$TEST_HOST_NAME \ 
-                "cd /tmp/pwssite; git pull origin gh-pages; git checkout gh-pages; bash ./2020/scripts/make.bash; git add -A; git commit -m 'make.bash'; git push origin gh-pages"
+                ssh -o StrictHostKeyChecking=no $TEST_USER_NAME@$TEST_HOST_NAME "cd /tmp/pwssite; git pull origin gh-pages; git checkout gh-pages; bash ./2020/scripts/make.bash; git add -A; git commit -m 'make.bash'; git push origin gh-pages"
             fi  
