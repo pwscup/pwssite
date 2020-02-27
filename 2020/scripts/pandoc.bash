@@ -8,7 +8,7 @@ PID=$$
 
 ## ***.md -> ***.htmlを生成する
 
-pandoc -f markdown -t html ${dir}/../markdown/${basefilename}.md > ${dir}/${PID}.${basefilename}.html
+pandoc -f markdown-auto_identifiers -t html ${dir}/../markdown/${basefilename}.md > ${dir}/${PID}.${basefilename}.html
 
 ## headとtailの間に、***.mdをhtmlに変換したものを追加する
 
