@@ -9,8 +9,10 @@ do
   echo "basefilename: "$basefilename
 
   if [ "$line" -nt "$dir/../html/${basefilename}.html" ]; then
-    echo "新規作成/更新ある"
+    echo "created or updated"
     bash $dir/pandoc.bash $basefilename
+    tidy -i -utf8 $dir/../html/${basefilename}.html > $dir/../html/${basefilename}.tmp.html
+    mv $dir/../html/${basefilename}.tmp.html $dir/../html/${basefilename}.html
   fi
 done
 
