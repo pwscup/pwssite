@@ -36,7 +36,7 @@ Privacy Workshop Webサイト管理用です
   - サイズの大きなデータは、githubには置けないので注意
     - 2019 は 2019/data/ をgitignoreしています data以下はローカルから直接scpしています
   - GCPのインスタンスを再起動したら
-    - 静的IPアドレスの確保をしていないので、変更する
+    - 静的IPアドレスの確保をしていないので、設定変更が必要
     - circleci > pwscup の環境変数 TEST_HOST_NAMEに、GCPインスタンスのIPアドレスを指定する
 
 # 詳細は
