@@ -16,11 +16,11 @@
 
 ### PWS組織委員会
 
-#### PWS2020実行委員長
-- 寺田雅之 (NTTドコモ)
+- PWS2020実行委員長
+    - 寺田雅之 (NTTドコモ)
 
-#### PWS2020副実行委員長
-- 千田浩司 (NTT)
+- PWS2020副実行委員長
+    - 千田浩司 (NTT)
 
 ### 参加登録
 
@@ -50,14 +50,12 @@
 
 (作成中)
 
-
 ### 過去のPWS
 - [PWS2019](https://www.iwsec.org/pws/2019/)
 - [PWS2018](https://www.iwsec.org/pws/2018/)
 - [PWS2017](https://www.iwsec.org/pws/2017/)
 - [PWS2016](https://www.iwsec.org/pws/2016/)
 - [PWS2015](https://www.iwsec.org/pws/2015/)
-
 
 ### プライバシーポリシー
 
