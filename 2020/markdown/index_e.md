@@ -23,9 +23,9 @@ and consists of events and sessions focusing mainly on privacy protection techno
 ### PWS Steering Committee
 
 - Chair
-    - TBD
+    - Terada Masayuki (NTT DOCOMO)
 - Members 
-    - TBD
+    - Chida Kohji (HTT)
 
 ### Registration for Participation
 
