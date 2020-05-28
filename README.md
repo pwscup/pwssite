@@ -26,11 +26,10 @@ Privacy Workshop Webサイト管理用です
   - 自由
 
 # ワークフロー
-  - gh-pagesからbranchを切る
-  - ローカルでcommitする
-  - gh-pagesにマージして、pushする
+  - gh-pagesで適当に編集してpushする
   - [github-pages](https://pwscup.github.io/pwssite)で確認する
-  - masterにマージして、本番の[IWSECサーバ](https://www.iwsec.org/pws)を確認する
+  - masterにマージする
+  - 自動でデプロイされるので、少し待ってから本番の[IWSECサーバ](https://www.iwsec.org/pws)を確認する
 
 # 備考
   - サイズの大きなデータは、githubには置けないので注意
