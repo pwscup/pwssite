@@ -12,7 +12,12 @@ do
     echo "created or updated"
     bash $dir/pandoc.bash $basefilename
     tidy -i -utf8 $dir/../html/${basefilename}.html > $dir/../html/${basefilename}.tmp.html
+
+    ## mv $dir/../html/${basefilename}.tmp.html $dir/../html/${basefilename}.html
     mv $dir/../html/${basefilename}.tmp.html $dir/../html/${basefilename}.html
+
+    ## 公開する
+    cp $dir/../html/${basefilename}.html $dir/../${basefilename}.html
   fi
 done
 
