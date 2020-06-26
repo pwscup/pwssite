@@ -30,24 +30,9 @@
 
 
 ## 発表リスト
-|  |発表者(所属)|学会|タイトル|
-|:---|:-------------------------|:----------|:----------------------------------------------------------------------|
-| 1  |高橋翼(LINE)|SIGMOD20| Estimating Numerical Distributions under Local Differential Privacy |
-| 2  |竹之内隆夫(Digital Garage)|SP20|未定|
-| 3  |氏名|学会名| タイトル |
-| 4  |氏名|学会名| タイトル |
-| 5  |氏名|学会名| タイトル |
-| 6  |氏名|学会名| タイトル |
-| 7  |氏名|学会名| タイトル |
-| 8  |氏名|学会名| タイトル |
-| 9  |氏名|学会名| タイトル |
-| 10 |氏名|学会名| タイトル |
-| 11 |氏名|学会名| タイトル |
-| 12 |氏名|学会名| タイトル |
-
-1. Estimating Numerical Distributions under Local Differential Privacy, SIGMOD20  
+1. *Estimating Numerical Distributions under Local Differential Privacy*, SIGMOD20  
  担当: 高橋翼 (LINE)  
-1. 未定, S&P20  
+1. *未定*, S&P20  
  担当: 竹之内隆夫 (Digital Garage)  
 
 ## 代表的な国際会議論文リスト
