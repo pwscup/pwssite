@@ -45,10 +45,10 @@
 | 11 |所属|氏名|学会名| タイトル |
 | 12 |所属|氏名|学会名| タイトル |
 
-1. (SIGMOD20)Estimating Numerical Distributions under Local Differential Privacy
- 高橋翼 (LINE)
-1. (S&P20)未定
- 竹之内隆夫 (Digital Garage)
+1. (SIGMOD20)Estimating Numerical Distributions under Local Differential Privacy  
+ 高橋翼 (LINE)  
+1. (S&P20)未定  
+ 竹之内隆夫 (Digital Garage)  
 
 ## 代表的な国際会議論文リスト
 ### IEEE S&P 2020
