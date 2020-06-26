@@ -18,7 +18,8 @@
 
 ## 発表申込
 発表ご希望の方は、次のアドレスに電子メールをお送りください。
-　tsubasa.takahashi あっとまーく linecorp.com
+
+　　tsubasa.takahashi あっとまーく linecorp.com
 
 ご記載いただきたい内容：
 - 氏名
@@ -30,8 +31,8 @@
 ## 発表リスト
 | |所属|講演者|学会|タイトル|
 |:---|:---|:---|:---|:---|
-| 1  | LINE |高橋翼| SIGMOD |　Estimating Numerical Distributions under Local Differential Privacy |
-| 2  | 所属 |講演者氏名| 学会名 |　タイトル |
+| 1  | LINE |高橋翼| SIGMOD20 |　Estimating Numerical Distributions under Local Differential Privacy |
+| 2  | Digital Garage |竹之内隆夫| SP20 |　未定 |
 | 3  | 所属 |講演者氏名| 学会名 |　タイトル |
 | 4  | 所属 |講演者氏名| 学会名 |　タイトル |
 | 5  | 所属 |講演者氏名| 学会名 |　タイトル |
@@ -121,4 +122,5 @@
 ## お問い合わせ先
 
 - 問い合わせ先
-  - 連絡先
+  - 竹之内:
+  - 高橋: tsubasa.takahashi　あっとまーく linecorp.com
