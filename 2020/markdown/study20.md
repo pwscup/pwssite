@@ -1,22 +1,31 @@
 # [作成中] PWS論文読破会
-## 開催概要
+## What' new
+- 2020/07/XX(X) 本ページを作成
 
+## 開催概要
 本読破会で論文を報告していただける方を募集します。 1論文につき15分程度（質疑込み）でご紹介ください。 
+
 発表申し込みは、定員に達し次第締め切ります。
+
 論文は2020年4月～2020年7月に発表された秘密計算や差分プライバシーに関わると考えられる論文からご自由にお選びください。
 参考までに、IEEE S&P、SIGMOD、ICDE、ICMLで発表された関連論文をリストアップ致しました。
 
-発表ご希望の方は、次のアドレスに電子メールをお送りください。
-
-testtesttest
-
-## What' new
-
-- 2020/07/XX(X) 本ページを作成
-
 ## 日時・場所
 - 2020年7月31日(金) 15:00--18:00
-- 
+- オンライン
+
+懇親会もオンラインで開催予定です。
+
+## 発表申込
+発表ご希望の方は、次のアドレスに電子メールをお送りください。
+　tsubasa.takahashi あっとまーく linecorp.com
+
+ご記載いただきたい内容：
+- 氏名
+- 所属（会社名、学校名など）
+- メールアドレス
+- 希望する論文
+
 
 ## 発表リスト
 | |所属|講演者|学会|タイトル|
@@ -81,6 +90,33 @@ testtesttest
 - Privately detecting changes in unknown distributions
 
 ### PETS 2020
+- SoK: Differential Privacies
+- A Framework of Metrics for Differential Privacy from Local Sensitivity
+- Not All Attributes are Created Equal: 𝘥𝓧-Private Mechanisms for Linear Queries
+- The Power of the Hybrid Model for Mean Estimation
+- Automatic Discovery of Privacy-Utility Pareto Fronts
+- Practical Privacy-Preserving K-means Clustering
+- Secure Evaluation of Quantized Neural Networks
+- Secure k-ish Nearest Neighbors Classifier
+- FLASH: Fast and Robust Framework for Privacy-preserving Machine Learning
+- Differentially Private SQL with Bounded User Contribution
+- VideoDP: A Flexible Platform for Video Analytics with Differential Privacy
+- Publishing Community-Preserving Attributed Social Graphs with a Differential Privacy Guarantee
+- Impact of Frequency of Location Reports on the Privacy Level of Geo-indistinguishability
+- Discontinued Privacy: Personal Data Leaks in Apple Bluetooth-Low-Energy Continuity Protocols
+- SPy: Car Steering Reveals Your Trip Route!
+- Averaging Attacks on Bounded Noise-based Disclosure Control Algorithms
+- Exposing Private User Behaviors of Collaborative Filtering via Model Inversion Techniques
+- Secure and Scalable Document Similarity on Distributed Databases: Differential Privacy to the Rescue
+- Protecting Private Inputs: Bounded Distortion Guarantees With Randomised Approximations
+- Differentially-Private Multi-Party Sketching for Large-Scale Statistics
+- Computation on Encrypted Data using Dataflow Authentication
+- A Tale of Two Trees: One Writes, and Other Reads. Optimized Oblivious Accesses to Large-Scale Blockchains
+- SqORAM: Read-Optimized Sequential Write-Only Oblivious RAM
+- Self-Processing Sensor Data via Garbled Encryption
+- Anatomy of Data Breaches
+- The Privacy Policy Landscape After the GDPR
+- Mitigator: Privacy policy compliance using trusted hardware
 
 ## お問い合わせ先
 
