@@ -136,5 +136,5 @@
 ## お問い合わせ先
 
 - 問い合わせ先
-  - 竹之内:
+  - 竹之内: takao-takenouchi あっとまーく garage.co.jp
   - 高橋: tsubasa.takahashi　あっとまーく linecorp.com
