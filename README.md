@@ -26,14 +26,12 @@ Privacy Workshop Webサイト管理用です
   - 自由
 
 # ワークフロー
-  - gh-pagesで適当に編集してpushする
-  - [github-pages](https://pwscup.github.io/pwssite)で確認する
-  - masterにマージする
-  - 自動でデプロイされるので、少し待ってから本番の[IWSECサーバ](https://www.iwsec.org/pws)を確認する
+  - スライド参照
+
 
 # 備考
   - サイズの大きなデータは、githubには置けないので注意
-    - 2019 は 2019/data/ をgitignoreしています data以下はローカルから直接scpしています
+    - 2019 は 2019/data/ をgitignoreしています data以下はローカルから直接iwsecサーバにscpしています
   - GCPのインスタンスを再起動したら
     - 静的IPアドレスの確保をしていないので、設定変更が必要
     - circleci > pwscup の環境変数 TEST_HOST_NAMEに、GCPインスタンスのIPアドレスを指定する
