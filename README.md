@@ -28,6 +28,7 @@ Privacy Workshop Webサイト管理用です
 # ワークフロー
   - スライド参照
 
+
 # 備考
   - サイズの大きなデータは、githubには置けないので注意
     - 2019 は 2019/data/ をgitignoreしています data以下はローカルから直接iwsecサーバにscpしています
