@@ -34,11 +34,10 @@
 1論文につき15分程度（質疑込み）を想定しています。
 
 ## 聴講申込
-聴講を希望される方は、以下のフォームにメールアドレスなどを入力してください。後日、参加方法(Zoom URLなど)を連絡します。
-https://forms.gle/k2Z1jZ4GJsRmwvFR9
+聴講を希望される方は、[申し込みフォーム](https://forms.gle/k2Z1jZ4GJsRmwvFR9)にメールアドレスなどを入力してください。後日、参加方法(Zoom URLなど)を連絡します。
 
-なお、入力頂いた内容は本イベントの運営のために利用します。
-プライバシポリシはこちらを参照ください。http://www.ipsj.or.jp/privacypolicy.html
+
+なお、入力頂いた内容は本イベントの運営のために利用します。プライバシポリシは[こちら](http://www.ipsj.or.jp/privacypolicy.html)を参照ください。
 
 ## 発表リスト
 1. *Estimating Numerical Distributions under Local Differential Privacy*, SIGMOD20  
