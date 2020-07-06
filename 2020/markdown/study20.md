@@ -48,8 +48,8 @@
  担当: 未定 (LINE) 
 1. *The Privacy Policy Landscape After the GDPR*, PETS2020  
  担当: 井口誠 (Kii)  
-1. *タイトル*, 学会  
- 担当: 氏名 (所属)  
+1. *SoK: Differential Privacy as a Causal Property*, S&P20  
+ 担当: Yang Cao (京都大学)  
 1. *タイトル*, 学会  
  担当: 氏名 (所属)  
 1. *タイトル*, 学会  
