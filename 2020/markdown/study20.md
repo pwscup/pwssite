@@ -44,12 +44,12 @@
  担当: 高橋翼 (LINE)  
 1. *未定(秘密計算関係を数件)*, S&P20  
  担当: 竹之内隆夫 (Digital Garage)  
-1. *Estimating Numerical Distributions under Local Differential Privacy*, SIGMOD20  
- 担当: 未定 (LINE) 
 1. *The Privacy Policy Landscape After the GDPR*, PETS2020  
  担当: 井口誠 (Kii)  
 1. *SoK: Differential Privacy as a Causal Property*, S&P20  
  担当: Yang Cao (京都大学)  
+1. *Estimating Numerical Distributions under Local Differential Privacy*, SIGMOD20  
+ 担当: 高木駿 (京都大学) 
 1. *タイトル*, 学会  
  担当: 氏名 (所属)  
 1. *タイトル*, 学会  
