@@ -42,7 +42,7 @@
 ## 発表リスト
 1. *Crypt epsilon: Crypto-Assisted Differential Privacy on Untrusted Servers*, SIGMOD20  
  担当: 高橋翼 (LINE)  
-1. *未定(秘密計算関係を数件)*, S&P20  
+1. *CRYPTFLOW: Secure TensorFlow Inference*, S&P20  
  担当: 竹之内隆夫 (Digital Garage)  
 1. *The Privacy Policy Landscape After the GDPR*, PETS2020  
  担当: 井口誠 (Kii)  
@@ -50,8 +50,8 @@
  担当: Yang Cao (京都大学)  
 1. *Estimating Numerical Distributions under Local Differential Privacy*, SIGMOD20  
  担当: 高木駿 (京都大学) 
-1. *タイトル*, 学会  
- 担当: 氏名 (所属)  
+1. *Bayesian Differential Privacy for Machine Learning*, ICML2020  
+ 担当: 上野道彦 (LINE)  
 1. *タイトル*, 学会  
  担当: 氏名 (所属)  
 1. *タイトル*, 学会  
