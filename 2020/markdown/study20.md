@@ -50,8 +50,8 @@
  担当: Yang Cao (京都大学)  
 1. *Estimating Numerical Distributions under Local Differential Privacy*, SIGMOD20  
  担当: 高木駿 (京都大学) 
-1. *タイトル*, 学会  
- 担当: 氏名 (所属)  
+1. *Bayesian Differential Privacy for Machine Learning*, ICML2020  
+ 担当: 上野道彦 (LINE)  
 1. *タイトル*, 学会  
  担当: 氏名 (所属)  
 1. *タイトル*, 学会  
