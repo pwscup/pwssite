@@ -42,7 +42,7 @@
 ## 発表リスト
 1. *Crypt epsilon: Crypto-Assisted Differential Privacy on Untrusted Servers*, SIGMOD20  
  担当: 高橋翼 (LINE)  
-1. *未定(秘密計算関係を数件)*, S&P20  
+1. *CRYPTFLOW: Secure TensorFlow Inference*, S&P20  
  担当: 竹之内隆夫 (Digital Garage)  
 1. *The Privacy Policy Landscape After the GDPR*, PETS2020  
  担当: 井口誠 (Kii)  
