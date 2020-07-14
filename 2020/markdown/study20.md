@@ -39,6 +39,16 @@
 
 なお、入力頂いた内容は本イベントの運営のために利用します。プライバシポリシは[こちら](http://www.ipsj.or.jp/privacypolicy.html)を参照ください。
 
+## プログラム
+1. 15:00~15:05オープニング  
+1. 15:05~15:20  
+ *Crypt epsilon: Crypto-Assisted Differential Privacy on Untrusted Servers*, SIGMOD20  
+ 担当: 高橋翼 (LINE)  
+1.  15:20~15:35  
+ *CRYPTFLOW: Secure TensorFlow Inference*, S&P2020  
+ 担当: 竹之内隆夫 (Digital Garage)  
+
+
 ## 発表リスト
 1. *Crypt epsilon: Crypto-Assisted Differential Privacy on Untrusted Servers*, SIGMOD20  
  担当: 高橋翼 (LINE)  
