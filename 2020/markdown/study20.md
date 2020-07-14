@@ -58,8 +58,14 @@
  担当: 中川拓麻 (日鉄ソリューションズ)  
 1. *Tale of Two Trees: One Writes, and Other Reads Optimized Oblivious Accesses to Bitcoin and other UTXO-based Blockchains*, PETS2020  
  担当: 須賀祐治 (IIJ)  
+1. *Differentially Private SQL with Bounded User Contribution*, PETS2020  
+ 担当: 渡辺知恵美 (筑波技術大学)  
 1. *未定*, 未定  
  担当: 荒井ひろみ (理研)  
+1. *タイトル*, 学会  
+ 担当: 氏名 (所属)  
+1. *タイトル*, 学会  
+ 担当: 氏名 (所属)  
 1. *タイトル*, 学会  
  担当: 氏名 (所属)  
 1. *タイトル*, 学会  
