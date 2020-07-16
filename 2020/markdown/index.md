@@ -61,6 +61,6 @@
 
 ### プライバシーポリシー
 
-PWS2020のプライバシーポリシーは、 [CSS220のプライバシーポリシー](https://www.iwsec.org/css/2020/privacy.html)に準じます。
+PWS2020のプライバシーポリシーは、 [CSS2020のプライバシーポリシー](https://www.iwsec.org/css/2020/privacy.html)に準じます。
 
 
