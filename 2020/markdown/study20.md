@@ -66,10 +66,10 @@
  *Estimating Numerical Distributions under Local Differential Privacy*, SIGMOD2020  
 - 17:40~17:55 清雄一 (電気通信大学)  
  *Context Aware Local Differential Privacy*, ICML2020  
-- 17:55~18:10 荒井ひろみ (理研AIP)   
+- 17:55~18:10 石原詢大 (筑波大学)    
+ *Providing Input-Discriminative Protection for Local Differential Privacy*, ICDE 2020  
+- 18:10~18:25 荒井ひろみ (理研AIP)   
  *未定, 未定  
-- 18:10~18:25 氏名 (所属)   
- *論文12*, 学会名  
 - 18:25~18:30 クロージング  
 - 18:30~ オンライン懇親会  
 
@@ -97,8 +97,8 @@
  担当: 渡辺知恵美 (筑波技術大学)  
 1. *未定*, 未定  
  担当: 荒井ひろみ (理研)  
-1. *タイトル*, 学会  
- 担当: 氏名 (所属)  
+1. *Providing Input-Discriminative Protection for Local Differential Privacy*, ICDE 2020  
+ 担当: 石原詢大 (筑波大学)  
 1. *タイトル*, 学会  
  担当: 氏名 (所属)  
 1. *タイトル*, 学会  
