@@ -39,49 +39,39 @@
 
 なお、入力頂いた内容は本イベントの運営のために利用します。プライバシポリシは[こちら](http://www.ipsj.or.jp/privacypolicy.html)を参照ください。
 
-## プログラム
+## プログラム (暫定)
 
 ※検討中
 
 - 15:00~15:05 オープニング  
 - 15:05~15:20 高橋翼 (LINE)  
  *Crypt epsilon: Crypto-Assisted Differential Privacy on Untrusted Servers*, SIGMOD20  
--  15:20~15:35 竹之内隆夫 (Digital Garage)   
+- 15:20~15:35 竹之内隆夫 (Digital Garage)   
  *CRYPTFLOW: Secure TensorFlow Inference*, S&P2020  
-
-## 発表リスト
-1. *Crypt epsilon: Crypto-Assisted Differential Privacy on Untrusted Servers*, SIGMOD20  
- 担当: 高橋翼 (LINE)  
-1. *CRYPTFLOW: Secure TensorFlow Inference*, S&P2020  
- 担当: 竹之内隆夫 (Digital Garage)  
-1. *The Privacy Policy Landscape After the GDPR*, PETS2020  
- 担当: 井口誠 (Kii)  
-1. *SoK: Differential Privacy as a Causal Property*, S&P2020  
- 担当: Yang Cao (京都大学)  
-1. *Estimating Numerical Distributions under Local Differential Privacy*, SIGMOD2020  
- 担当: 高木駿 (京都大学) 
-1. *Bayesian Differential Privacy for Machine Learning*, ICML2020  
- 担当: 上野道彦 (LINE)  
-1. *Context Aware Local Differential Privacy*, ICML2020  
- 担当: 清雄一 (電気通信大学)  
-1. *Practical Federated Gradient Boosting Decision Trees*, AAAI2020  
- 担当: 中川拓麻 (日鉄ソリューションズ)  
-1. *Tale of Two Trees: One Writes, and Other Reads Optimized Oblivious Accesses to Bitcoin and other UTXO-based Blockchains*, PETS2020  
- 担当: 須賀祐治 (IIJ)  
-1. *Differentially Private SQL with Bounded User Contribution*, PETS2020  
- 担当: 渡辺知恵美 (筑波技術大学)  
-1. *未定*, 未定  
- 担当: 荒井ひろみ (理研)  
-1. *タイトル*, 学会  
- 担当: 氏名 (所属)  
-1. *タイトル*, 学会  
- 担当: 氏名 (所属)  
-1. *タイトル*, 学会  
- 担当: 氏名 (所属)  
-1. *タイトル*, 学会  
- 担当: 氏名 (所属)  
-
-
+- 15:35~15:50 須賀祐治 (IIJ)   
+ *Tale of Two Trees: One Writes, and Other Reads Optimized Oblivious Accesses to Bitcoin and other UTXO-based Blockchains*, PETS2020  
+- 15:50~16:05 井口誠 (Kii)   
+ *The Privacy Policy Landscape After the GDPR*, PETS2020  
+- 16:05~16:15 休憩   
+- 16:15~16:30 Yang Cao (京都大学)  
+ *SoK: Differential Privacy as a Causal Property*, S&P2020  
+- 16:30~16:45 上野道彦 (LINE)     
+ *Bayesian Differential Privacy for Machine Learning*, ICML2020  
+- 16:45~17:00 中川拓麻 (日鉄ソリューションズ)    
+ *Practical Federated Gradient Boosting Decision Trees*, AAAI2020  
+- 17:00~17:15 渡辺知恵美 (筑波技術大学)   
+ *Differentially Private SQL with Bounded User Contribution*, PETS2020    
+- 17:15~17:25 休憩   
+- 17:25~17:40 高木駿 (京都大学)  
+ *Estimating Numerical Distributions under Local Differential Privacy*, SIGMOD2020  
+- 17:40~17:55 清雄一 (電気通信大学)  
+ *Context Aware Local Differential Privacy*, ICML2020  
+- 17:55~18:10 石原詢大 (筑波大学)    
+ *Providing Input-Discriminative Protection for Local Differential Privacy*, ICDE2020  
+- 18:10~18:25 荒井ひろみ (理研AIP)   
+ *Ask the Experts: What Should Be on an IoT Privacy and Security Label?*, S&P2020  
+- 18:25~18:30 クロージング  
+- 18:30~ オンライン懇親会  
 
 
 ## 代表的な国際会議論文リスト
