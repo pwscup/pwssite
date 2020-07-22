@@ -54,7 +54,7 @@
  *The Privacy Policy Landscape After the GDPR*, PETS2020  
 - 16:05~16:15 休憩   
 - 16:15~16:30 Yang Cao (京都大学)  
- *SoK: Differential Privacy as a Causal Property*, S&P2020  
+ *One-sided Differential Privacy*, ICDE2020  
 - 16:30~16:45 上野道彦 (LINE)     
  *Bayesian Differential Privacy for Machine Learning*, ICML2020  
 - 16:45~17:00 中川拓麻 (日鉄ソリューションズ)    
