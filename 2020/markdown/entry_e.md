@@ -1,30 +1,30 @@
-## PWS Cup 2020 エントリー時の諸注意
+## PWS Cup 2020 Entry Instructions
 
-### 【参加規定】
+### [Participation Rules]
 
-- コンテストはチーム戦として実施します
-- 1チームに含まれるメンバーの人数制限はありません
-- 複数組織共同での参加が可能です
-- 組織・個人名を非公開にした状態での参加が可能です
-- 予備戦のみ、本戦のみの参加が可能です
-- チームメンバーは、チーム間で重複があってはなりません
-- 各チームで1名、責任者（チームメンバーでなくてもよい）の登録が必要です
-  - 学生は責任者になれません。研究室の先生にお願いするなどしてください
-  - 責任者は、チーム間で重複があっても構いません
-- 使用するソフトウェアやハードウェアには制限を加えません
-- 少なくともチームから1名、CSSに参加登録し、PWS Cupセッションにて発表を行い、発表資料を提出する必要があります
-  - （諸事情により参加登録、発表、発表資料の提出ができないチームは、PWS Cup実行委員会(問い合わせ先はページ下部参照)にご相談ください）
+- The contest will be conducted as a team competition.
+- There is no limit to the number of members on a team
+- Multi-organizational collaboration is possible.
+- You can participate in the program while keeping your organization and individual names private.
+- You can participate in the preliminaries only, and the main game only.
+- Team members must not overlap between teams
+- One responsible person (not necessarily a team member) for each team must be registered
+  - Students cannot be in charge. Please ask your lab teacher for help, etc.
+  - Responsible parties may have overlap between teams
+- There are no restrictions on the software or hardware used
+- At least one person from each team must register for CSS, present at a PWS Cup session, and submit a presentation
+  - (If you are unable to register, make a presentation, or submit your presentation materials for the PWS Cup, please contact the PWS Cup Executive Committee (see below for contact information).
 
-### 【諸注意】
-- システムの準備やメンテナンス等の都合により、スケジュールは予告なく変更する場合があります
-- 最終的な順位は、予備選と本戦の両方の成績を総合して決める予定です
-- 参加申込されたチームには、予備選開始前にルール詳細について連絡いたします
-- コンテストで提出されたデータは、コンテスト終了後に公開いたします
-- 個人情報の取り扱いについては、PWS 2020 プライバシーポリシーをご参照ください
+### [Notes]
+- The schedule is subject to change without notice due to system preparation and maintenance.
+- The final standings will be determined based on the combined results of both the preliminary and main rounds
+- Teams that have applied for participation will be contacted with detailed rules before the start of the preliminary round.
+- The data submitted in the contest will be released after the contest is over.
+- Please refer to the PWS 2020 Privacy Policy for information on the handling of personal information.
 
-### 参加申し込み方法
-- こちらのフォーム(後で作る)に必要な情報を入力してください
-  - 後日、頂いた情報をもとに、コンテスト参加に必要な情報を送付します
+### [How to Sign Up.]
+- Please fill out this form (to be created later) with the required information
+  - We will use the information you provide to send you the information you need to participate in the contest at a later date
 
-### 問い合わせ先
+### Contact
 - 後で作る
