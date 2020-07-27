@@ -2,12 +2,12 @@
 
 ## What' new
 
-- 2020/02/18(火) 本ページを作成
-- 2020/07/29(水) ルール概要説明を作成
+- 2020/02/18(Tue) This page was created
+- 2020/07/29(Wed) Prepared a summary explanation of the rules
 
 
-## PWS Cup 2020 匿名メンバシップ推定コンテスト AMIC ルール概要
-匿名メンバシップ推定コンテスト "AMIC" (Anonymous Membership Inference Contest)を開催します。ルール詳細は後日公開します。
+## PWS Cup 2020 "AMIC" rule (overview)
+The Anonymous Membership Inference Contest "AMIC" (Anonymous Membership Inference Contest) will be held. Details of the rules will be published at a later date.
 
 <img src="./Images/overview_e.png" width=100%>
 
@@ -36,12 +36,12 @@
 - 2020/10/26(火) CSS2020にて、各チームの加工・攻撃手法のポスターセッション
 
 
-## 参加方法
-- [参加規定](../entry.html)のページをご確認ください。
+## How to register
+- Check the [regulation](../entry_e.html) page
 
 ## 公式Twitter
 
-[PWSCUP公式Twitter](https://twitter.com/pwscup_admin)で最新情報をお知らせしています。
+[PWSCUP公式Twitter](https://twitter.com/pwscup_admin)
 
 
 
