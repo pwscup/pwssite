@@ -3,7 +3,7 @@
 ## What' new
 
 - 2020/02/18(Tue) This page was created
-- 2020/07/29(Wed) Prepared a summary explanation of the rules
+- 2020/07/29(Wed) Contest overview was added
 
 
 ## PWS Cup 2020 "AMIC" rule (overview)
