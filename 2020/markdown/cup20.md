@@ -1,5 +1,5 @@
 # PWS Cup 2020 
-- English version -> [here](./cup20_e.md)
+- English version -> [here](./cup20_e.html)
 
 ## What' new
 
