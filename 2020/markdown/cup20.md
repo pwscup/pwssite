@@ -1,4 +1,5 @@
-# PWS Cup 2020
+# PWS Cup 2020 
+- English version -> [here](./cup20_e.md)
 
 ## What' new
 
