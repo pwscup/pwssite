@@ -9,7 +9,7 @@
 ## PWS Cup 2020 匿名メンバシップ推定コンテスト AMIC ルール概要
 匿名メンバシップ推定コンテスト "AMIC" (Anonymous Membership Inference Contest)を開催します。ルール詳細は後日公開します。
 
-![PWS Cup 2020 全体概要](./Images/pwscup2020_overview.png)
+![PWS Cup 2020 全体概要](./Images/overview.png)
 
 - コンテストの流れ
   - 出題者(運営)は、参加チーム毎に「擬似データ」を生成する。擬似データから10%抽出した「サンプリングデータ」を生成し、参加チームに配布する。
