@@ -4,7 +4,8 @@ Privacy Workshop Webサイト管理用です
   - gh-pagesブランチの2020/markdown にある.mdファイルを、マークダウン形式で編集しましょう。github上でやるといいと思います
   - commitして少し待つと、[github-pages](https://pwscup.github.io/pwssite)に反映されます
   - 表示が問題なければ、master branchにマージしましょう。少し待つと、[IWSECサーバ](https://www.iwsec.org/pws/)にデプロイされます
-  - 詳細は、 [このスライド](https://docs.google.com/presentation/d/1VPrXKw8AN9LVo-EXei2zOkcJoQwn1LSfwvPKT-2-5lA/edit)を見ましょう
+  - 詳細が気になる場合は [このスライド](https://docs.google.com/presentation/d/1VPrXKw8AN9LVo-EXei2zOkcJoQwn1LSfwvPKT-2-5lA/edit)を見ましょう
+  
 # フォルダ構成
 - 2019
   - PWS2019のサイト
@@ -25,8 +26,8 @@ Privacy Workshop Webサイト管理用です
 - その他
   - 自由
 
-# ワークフロー
-  - スライド参照
+# 裏側で何が動いているか
+  - 気になる人は[このスライド](https://docs.google.com/presentation/d/1VPrXKw8AN9LVo-EXei2zOkcJoQwn1LSfwvPKT-2-5lA/edit)を見ましょう
 
 
 # 備考
