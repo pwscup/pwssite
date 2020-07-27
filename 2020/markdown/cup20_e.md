@@ -12,21 +12,21 @@
 <img src="./Images/overview_e.png" width=100%>
 
 
-- コンテストの流れ
-  - 出題者(運営)は、参加チーム毎に「擬似データ」を生成する。擬似データから10%抽出した「サンプリングデータ」を生成し、参加チームに配布する。
-  - 加工者(各参加チーム)は、「サンプリングデータ」を加工（匿名化）して作成した「匿名化データ」を提出する。「匿名化データ」が、指定された有用性基準を満たしていない場合は失格。
-  - 攻撃者(他の参加チーム)は、自分以外の全加工者の(擬似データ、匿名化データ)の組を受け取る。「匿名化データ」から「サンプリングデータ」を推定する。
+- Contest Flow
+  - The Committee generates "synthetic-data" for each participating team. The "sampled data" is extracted from the "synthetic-data" and distributed to the participating teams.
+  - The anonymizer (each team) processes the "sampled-data" and submits the "anonymized-data". If the "anonymized-data" does not meet the specified criteria for utility, it will be disqualified.
+  - The attacker (each team) receives a pair of (synthetic-data, anonymized-data) of all anonymizers other than themselves. From the "anonymized-data", the attacker estimated the "sampling data".
+
+- Evaluation
+  - Anonymization phase: the total number of successful estimates made by each attacker is deducted from the anonymizer's points, and the anonymizer with the highest score wins
+  - Attack phase: the attacker with more success in estimating the sampled data of the winner of the anonymization phase wins.
 
 
-- 採点
-  - 匿名化部門：各攻撃者が推定に成功した数の合計を加工者の減点とし、得点の高い加工者が勝利
-  - 攻撃部門：匿名化部門優勝者のサンプリングデータの推定により多く成功した攻撃者が勝利
+- Determination of Final Ranking
+  - There will be two rounds in this contest, the preliminary and final round, and each round has distribute, anonymize, and attack phase.
+  - The results of the scoring in each round will be used to determine the final rankings.
 
-- 最終順位の確定
-  - 予備戦と本戦の2つのフェーズを設けて、各フェーズでデータ配布・加工・攻撃・評価を実施する。
-  - 各フェーズでの採点結果を利用して最終順位を定める
-
-## PWS Cup 2020 スケジュール (作成中)
+## PWS Cup 2020 schedle (作成中)
 
 - 2020/07/29(水) - 2020/08/26(水) エントリー受付
 - 2020/07/??(?) ルール公開
