@@ -1,5 +1,5 @@
 ## PWS Cup 2020 Entry
-- English version -> [here](./cup20_e.md)
+- English version -> [here](./entry_e.html)
 
 
 ### 【参加規定】
