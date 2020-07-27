@@ -15,7 +15,7 @@ The Anonymous Membership Inference Contest "AMIC" (Anonymous Membership Inferenc
 - Contest Flow
     - The Committee generates "synthetic-data" for each participating team. The "sampled data" is extracted from the "synthetic-data" and distributed to the participating teams.
     - The anonymizer (each team) processes the "sampled-data" and submits the "anonymized-data". If the "anonymized-data" does not meet the specified criteria for utility, it will be disqualified.
-    - The attacker (each team) receives a pair of (synthetic-data, anonymized-data) of all anonymizers other than themselves. From the "anonymized-data", the attacker estimated the "sampling data".
+    - The attacker (each team) receives a pair of (synthetic-data, anonymized-data) of all anonymizers other than themselves. From the "anonymized-data", the attacker estimated the "sampled-data".
 
 - Evaluation
     - Anonymization phase: the total number of successful estimates made by each attacker is deducted from the anonymizer's points, and the anonymizer with the highest score wins
@@ -45,7 +45,7 @@ The Anonymous Membership Inference Contest "AMIC" (Anonymous Membership Inferenc
 
 
 
-## お問い合わせ先
+## Contact
 
 - PWS2020 Committee
   - (作成中)
