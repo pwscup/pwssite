@@ -28,12 +28,12 @@ The Anonymous Membership Inference Contest "AMIC" (Anonymous Membership Inferenc
 
 ## PWS Cup 2020 schedle (作成中)
 
-- 2020/07/29(水) - 2020/08/26(水) エントリー受付
-- 2020/07/??(?) ルール公開
-- 2020/08/03(月) - 2020/08/31(月) 予備戦匿名化フェーズ開始
-- (以降のスケジュールは検討中)
-- 2020/10/26(火) CSS2020にて、最終結果発表
-- 2020/10/26(火) CSS2020にて、各チームの加工・攻撃手法のポスターセッション
+- 2020/07/29(Wed) - 2020/08/26(Wed) Entries accepted
+- 2020/07/?? (?) Rules published
+- 2020/08/03(Mon) - 2020/08/31(Mon) Preliminary round Anonymization Phase
+- (The schedule after is under consideration.)
+- 2020/10/26(Tue) Final results announced at CSS2020 
+- 2020/10/26(Tue) Poster session 
 
 
 ## How to register
@@ -47,5 +47,5 @@ The Anonymous Membership Inference Contest "AMIC" (Anonymous Membership Inferenc
 
 ## お問い合わせ先
 
-- PWS2020実行委員会 Cupワーキングループ
+- PWS2020 Committee
   - (作成中)
