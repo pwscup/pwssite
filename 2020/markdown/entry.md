@@ -1,4 +1,6 @@
-## PWS Cup 2020 エントリー時の諸注意
+## PWS Cup 2020 Entry
+- English version -> [here](./cup20_e.md)
+
 
 ### 【参加規定】
 
