@@ -37,7 +37,7 @@ The Anonymous Membership Inference Contest "AMIC" (Anonymous Membership Inferenc
 
 
 ## How to register
-- Check the [Entry](../entry_e.html) page
+- Check the [Entry](./entry_e.html) page
 
 ## Twitter
 
