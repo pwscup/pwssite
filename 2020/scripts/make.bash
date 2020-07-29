@@ -16,9 +16,13 @@ do
     ## mv $dir/../html/${basefilename}.tmp.html $dir/../html/${basefilename}.html
     mv $dir/../html/${basefilename}.tmp.html $dir/../html/${basefilename}.html
     chmod 770 $dir/../html/*.html
+    chmod 770 $dir/../Images
 
     ## 公開する
     cp $dir/../html/${basefilename}.html $dir/../${basefilename}.html
   fi
 done
+
+## 図のコピー
+cp -r $dir/../markdown/Images $dir/../
 

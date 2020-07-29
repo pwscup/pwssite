@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+
+<html lang="ja" dir="ltr">
+<head>
+  <meta name="generator" content=
+  "HTML Tidy for Linux (vers 25 March 2009), see www.w3.org">
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8">
+  <script src="jquery.min.js" type="text/javascript">
+</script>
+
+  <title>PWS2020</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body style="margin-top:40px">
+  <div id="menu-wrap" class="fixed">
+    <ul id="menu">
+      <li><a href="./index.html">Top</a></li>
+
+      <li><a href="./index.html">About PWS</a></li>
+
+      <li><a href="./cup20.html">PWSCUP 2020</a></li>
+
+      <li><a href="http://www.iwsec.org/pws">Past PWS</a></li>
+    </ul>
+  </div>
+
+  <div id="page">
+    <!-- contents start -->
+
+    <h1>PWS Cup 2020</h1>
+
+    <h2>What' new</h2>
+
+    <ul>
+      <li>2020/02/18 (Tue): This page was created</li>
+
+      <li>2020/07/29 (Wed): Contest overview was added</li>
+    </ul>
+
+    <h2>PWS Cup 2020 "AMIC" rule (Overview)</h2>
+
+    <p>We will be holding the Anonymous Membership Inference Contest (AMIC). Details of the contest
+    rules will be announced soon.</p>
+
+    <p><img src="./Images/overview_e.png" width="100%"></p>
+
+    <ul>
+      <li>Contest Flow
+
+        <ul>
+          <li>The <b>Committee</b> generates <b>Synthetic Data</b> for each
+          participating team. The Committee then generates <b>Sampled Data</b>
+          by extracting records from the Synthetic Data with the sampling ratio of
+          10%. The Synthetic Data is distributed to the participating teams.</li>
+
+          <li>Each team (as an <b>Anonymizer</b>) processes their
+          Sampled Data and generates <b>Anonymized Data</b>. The Anonymizer then
+          submits their Anonymized Data to the Committee.
+          The submitted Anonymized data must fulfill the specified data utility
+          criteria, or the team will be disqualified.</li>
+
+          <li>Each team (as an <b>Attacker</b>) receives pairs of
+          (Synthetic Data, Anonymized Data) that are submitted by Anonymizers
+          other than themselves. From the Anonymized Data, the
+          Attacker estimates the Sampled Data.</li>
+        </ul>
+      </li>
+
+      <li>Evaluation
+
+        <ul>
+          <li>Anonymizer Award: the total number of records 
+          successfully estimated by Attackers is deducted 
+          from the Anonymizer's point. The Anonymizer with the highest
+          points will win the award</li>
+
+          <li>Attacker Award: the Attacker who successfully estimated
+          the most records in Sampled Data submitted by the Anonymize 
+          Phase winner will win the award.</li>
+        </ul>
+      </li>
+
+      <li>Determination of Final Ranking
+
+        <ul>
+          <li>There will be two rounds in this contest: the
+          preliminary and final round. Each round has
+          distribute, anonymize, and attack phases.</li>
+
+          <li>The results of the scoring in both rounds will be used
+          to determine the final rankings.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2>PWS Cup 2020 schedule (tentative)</h2>
+
+    <ul>
+      <li>2020/07/29 (Wed) - 2020/08/26 (Wed): Contest registration</li>
+
+      <li>2020/07/?? (?): Rules published</li>
+
+      <li>2020/08/03 (Mon) - 2020/08/31 (Mon): Preliminary round
+      Anonymization Phase</li>
+
+      <li>(The schedule hereafter is tbd.)</li>
+
+      <li>2020/10/26 (Tue): Final results to be announced at CSS2020</li>
+
+      <li>2020/10/26 (Tue): Poster session</li>
+    </ul>
+
+    <h2>How to register</h2>
+
+    <ul>
+      <li>Check the <a href="./entry_e.html">Entry</a> page</li>
+    </ul>
+
+    <h2>Twitter</h2>
+
+    <p><a href="https://twitter.com/pwscup_admin">PWS Cup Official
+    Twitter</a></p>
+
+    <h2>Contact</h2>
+
+    <ul>
+      <li>PWS2020 Committee</li>
+
+      <li>(作成中)</li>
+    </ul><!-- contents end -->
+  </div><script type="text/javascript">
+      $(function(){
+          var box    = $("#menu-wrap");
+          var boxTop = box.offset().top;
+          $(window).scroll(function () {
+            if($(window).scrollTop() >= boxTop) {
+              box.addClass("fixed");
+              $("body").css("margin-top","40px");
+            } else {
+              box.removeClass("fixed");
+              $("body").css("margin-top","0px");
+           }
+          });
+        });
+  </script>
+</body>
+</html>
