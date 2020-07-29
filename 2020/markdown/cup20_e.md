@@ -9,7 +9,7 @@
 ## PWS Cup 2020 "AMIC" rule (overview)
 The Anonymous Membership Inference Contest "AMIC" (Anonymous Membership Inference Contest) will be held. Details of the rules will be published at a later date.
 
-<img src="./Images/overview_en.png" width=100%>
+<img src="./Images/overview_eng.png" width=100%>
 
 
 - Contest Flow
