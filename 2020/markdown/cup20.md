@@ -49,4 +49,4 @@
 ## お問い合わせ先
 
 - PWS2020実行委員会 Cupワーキングループ
-  - (作成中)
+    - pwscup2020-info(at)iwsec.org
