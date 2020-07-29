@@ -27,4 +27,6 @@
     - We will use the information you provide to send you the information you need to participate in the contest at a later date
 
 ### Contact
-- 後で作る
+- PWS Cup 2020 committee
+    - pwscup2020-info(at)iwsec.org
+
