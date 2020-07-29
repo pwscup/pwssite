@@ -48,4 +48,5 @@ The Anonymous Membership Inference Contest "AMIC" (Anonymous Membership Inferenc
 ## Contact
 
 - PWS2020 Committee
-  - (作成中)
+    - pwscup2020-info(at)iwsec.org
+
