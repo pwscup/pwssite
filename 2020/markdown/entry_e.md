@@ -1,4 +1,4 @@
-## PWS Cup 2020 Entry Instructions
+## PWS Cup 2020 Entry Instructions [WIP]
 
 ### [Participation Rules]
 
@@ -23,8 +23,10 @@
 - Please read PWS Cup 2020 privacy policy (Japanese) regarding how we handle personal information.
 
 ### [How to Register]
-- Please fill out this form (to be created later) with the required information
+- Please fill out [this form](https://forms.gle/ocyma4UizWmyTjfY9) with the required information
     - We will use the information you provide to send you the information you need to participate in the contest at a later date
 
 ### Contact
-- 後で作る
+- PWS Cup 2020 committee
+    - pwscup2020-info(at)iwsec.org
+
