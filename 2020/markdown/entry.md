@@ -1,4 +1,4 @@
-## PWS Cup 2020 Entry
+## PWS Cup 2020 Entry [作成中]
 - English version -> [here](./entry_e.html)
 
 
