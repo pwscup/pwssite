@@ -1,4 +1,4 @@
-## PWS Cup 2020 Entry Instructions
+## PWS Cup 2020 Entry Instructions [WIP]
 
 ### [Participation Rules]
 
