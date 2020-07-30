@@ -6,7 +6,7 @@
 - 2020/07/29(Wed) Contest overview was added
 
 
-## PWS Cup 2020 "AMIC" rule (overview)
+## PWS Cup 2020 "AMIC" rule (overview) (WIP)
 The Anonymous Membership Inference Contest "AMIC" (Anonymous Membership Inference Contest) will be held. Details of the rules will be published at a later date.
 
 <img src="./Images/overview_eng.png" width=100%>
@@ -26,11 +26,11 @@ The Anonymous Membership Inference Contest "AMIC" (Anonymous Membership Inferenc
     - There will be two rounds in this contest, the preliminary and final round, and each round has distribute, anonymize, and attack phase.
     - The results of the scoring in each round will be used to determine the final rankings.
 
-## PWS Cup 2020 schedle (作成中)
+## PWS Cup 2020 schedle (WIP)
 
-- 2020/07/29(Wed) - 2020/08/26(Wed) Entries accepted
-- 2020/07/?? (?) Rules published
-- 2020/08/03(Mon) - 2020/08/31(Mon) Preliminary round Anonymization Phase
+- 2020/08/06(Thu) - 2020/08/26(Wed) Entries accepted
+- 2020/08/?? (?) Rules published
+- 2020/08/?? (?) - 2020/0?/??(?) Preliminary round Anonymization Phase
 - (The schedule after is under consideration.)
 - 2020/10/26(Tue) Final results announced at CSS2020 
 - 2020/10/26(Tue) Poster session 
