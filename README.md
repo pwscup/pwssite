@@ -29,6 +29,14 @@ Privacy Workshop Webサイト管理用です
 # 裏側で何が動いているか
   - 気になる人は[このスライド](https://docs.google.com/presentation/d/1VPrXKw8AN9LVo-EXei2zOkcJoQwn1LSfwvPKT-2-5lA/edit)を見ましょう
 
+# markdown作成Tips
+- インデントはタブ2つで
+  - pandocの設定不足なせいで、タブ１つだと深さが変わりません　いつか調べて直します
+- 画像の場所に注意
+  - 作成されたhtmlファイルのパスに注意して、画像ファイルを配置する
+- masterへのマージのタイミング
+  - gh-pagesにcommitして少し待つと、CircleCIによるmarkdown->html変換が走って反映される
+  - 焦ってすぐにmasterにmergeすると、htmlが生成されずにmasterに含まれてしまうので注意
 
 # 備考
   - サイズの大きなデータは、githubには置けないので注意
