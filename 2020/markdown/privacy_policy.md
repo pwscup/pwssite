@@ -22,4 +22,5 @@ PWS Cup 2020 実行委員会（以下、当委員会）では、情報処理学�
 
 
 PWS2020実行委員会 Cupワーキングループ
+
 - pwscup2020-info(at)iwsec.org
