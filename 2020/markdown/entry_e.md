@@ -1,5 +1,11 @@
 ## PWS Cup 2020 Entry Instructions [WIP]
 
+<div style="text-align: center;">
+ <font size="2">
+  <a href="./entry.html">[Japanese]</a>
+ </font>
+</div>
+
 ### [Participation Rules]
 
 - The contest will be conducted as a team competition.
