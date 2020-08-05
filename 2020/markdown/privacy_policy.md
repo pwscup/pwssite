@@ -17,10 +17,6 @@ PWS Cup 2020 実行委員会（以下、当委員会）では、情報処理学�
 
 ##  問い合わせ先
 
-
 本イベントに関する問い合わせ先は次の通りです。 
 
-
-PWS2020実行委員会 Cupワーキングループ
-
-- pwscup2020-info(at)iwsec.org
+PWS2020実行委員会 Cupワーキングループ: pwscup2020-info(at)iwsec.org
