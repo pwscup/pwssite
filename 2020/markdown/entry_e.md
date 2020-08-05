@@ -26,7 +26,7 @@
 - The final ranking will be decided by combining the results of both preliminary and main rounds.
 - We will inform the details of the contest rules to the teams before starting the preliminary game.
 - The data submitted in the contest will be disclosed after the contest.
-- Please read PWS Cup 2020 privacy policy (Japanese) regarding how we handle personal information.
+- Please read [PWS Cup 2020 privacy policy](./privacy_policy_e.html) regarding how we handle personal information.
 
 ### [How to Register]
 - Please fill out [this form (not yet opened)](https://forms.gle/ocyma4UizWmyTjfY9) with the required information
