@@ -49,6 +49,9 @@
 ## 参加方法
 - [参加規定](./entry.html)のページをご確認ください。
 
+## プライバシーポリシー
+- [PWS Cup 2020 プライバシーポリシー](./privacy_policy.html)をご確認ください。
+
 ## 公式Twitter
 
 [PWSCUP公式Twitter](https://twitter.com/pwscup_admin)で最新情報をお知らせしています。
