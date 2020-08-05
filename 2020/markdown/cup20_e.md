@@ -1,13 +1,25 @@
 # PWS Cup 2020
 
+
+<div style="text-align: center;">
+ <font size="2">
+  <a href="./cup20.html">[Japanese]</a>
+ </font>
+</div>
+
+<div align="center">
+ <img src="./Images/pwscup2020_poster.png" width=50%>
+</div>
+
 ## What' new
 
-- 2020/02/18(Tue) This page was created
-- 2020/07/29(Wed) Contest overview was added
+- 2020/02/18 (Tue): This page was created
+- 2020/07/29 (Wed): Contest overview was added
+- 2020/08/06 (Thu): Contest registratin started 
 
 
 ## PWS Cup 2020 "AMIC" rule (overview) (WIP)
-The Anonymous Membership Inference Contest "AMIC" (Anonymous Membership Inference Contest) will be held. Details of the rules will be published at a later date.
+The Anonymous Membership Inference Contest "AMIC" ("Anonymity against Membership Inference" Contest) will be held. Details of the rules will be published at a later date.
 
 <img src="./Images/overview_eng.png" width=100%>
 
@@ -30,7 +42,7 @@ The Anonymous Membership Inference Contest "AMIC" (Anonymous Membership Inferenc
 
 - 2020/08/06(Thu) - 2020/08/26(Wed) Entries accepted
 - 2020/08/?? (?) Rules published
-- 2020/08/?? (?) - 2020/0?/??(?) Preliminary round Anonymization Phase
+- 2020/08/27 (Thu) - 2020/09/??(?) Preliminary round Anonymization Phase
 - (The schedule after is under consideration.)
 - 2020/10/26(Tue) Final results announced at CSS2020 
 - 2020/10/26(Tue) Poster session 
