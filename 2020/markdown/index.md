@@ -1,5 +1,11 @@
 # 第6回プライバシーワークショップ (PWS2020)
 
+<div style="text-align: center;">
+ <font size="2">
+  <a href="./index_e.html">[English]</a>
+ </font>
+</div>
+
 ## What's new
 - 2020/02/18(火) 本ページの作成を開始
 - 2020/05/27(水) ページを更新(実行委員長・副実行委員長名を記載)
