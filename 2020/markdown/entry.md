@@ -1,5 +1,10 @@
 ## PWS Cup 2020 Entry [作成中]
-- English version -> [here](./entry_e.html)
+
+<div style="text-align: center;">
+ <font size="2">
+  <a href="./entry_e.html">[English]</a>
+ </font>
+</div>
 
 ### 【参加規定】
 
