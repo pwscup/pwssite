@@ -7,7 +7,8 @@
 </div>
 
 ## What's new
-- 2020/02/18(Tue) Add this page
+- 2020/02/18 (Tue): This page was created
+- 2020/05/27 (Wed): Committee member list updated
 
 ## About PWS(Privacy Workshop)
 ### Overview
@@ -52,7 +53,7 @@ TODO
 TODO
 
 ### Past PWS
-- [PWS2019](https://www.iwsec.org/pws/2019/)
+- [PWS2019](https://www.iwsec.org/pws/2019/index_e.html)
 - [PWS2018](https://www.iwsec.org/pws/2018/) (in Japanese)
 - [PWS2017](https://www.iwsec.org/pws/2017/) (in Japanese)
 - [PWS2016](https://www.iwsec.org/pws/2016/) (in Japanese)
