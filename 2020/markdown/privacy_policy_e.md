@@ -1,25 +1,18 @@
-## PWS Cup 2020 Privacy Policy
+# PWS Cup 2020 Privacy Policy
 
+The PWS Cup 2020 Committee (hereafter referred to as Committee) has established the privacy policy for this event as follows, in addition to the privacy policy established by the Information Processing Society of Japan (hereafter referred to as IPSJ).
+Personal information collected during this event will not be used for purposes other than the event itself.
 
-PWS Cup 2020 実行委員会（以下、当委員会）では、情報処理学会のプライバシーポリシーに加えて、以下のように本イベントのプライバシーポリシーを定めます。
-本イベント開催にあたって収集した個人情報は本イベント実施に関する目的以外には利用しません。 
+To organize the "PWS Cup 2020 AMIC ("Anonymity against Membership Inference" Contest)," the Committee will obtain the contact information, names, and affiliations of the event participants as well as data processed by the participants and the results of the risk assessment.
+This information may be published in academic papers or other publications after the event in a form that allows no specific individuals to be identified. The information will not be provided to a third party who has no involvement in this event. In addition, the algorithms used in the contest by the participants do not need to be disclosed in this event unless the participants agree to do so.
 
+The committee will strive to protect personal information appropriately in accordance with the IPSJ privacy policy. We will delete your personal information as soon as the purpose of this event is completed.
 
-当委員会は、「PWS Cup 2020 匿名メンバシップ推定コンテスト AMIC」を実施する目的で、本イベント参加者の連絡先、参加者氏名、所属先の情報と、加工結果やリスク評価等をしたデータを取得します。
-本情報は、本イベントの実施の後で、特定の個人を識別できない形で学術論文などにて発表することがあります。本イベントに関わらない、第三者提供は行いません。また、参加者がコンテストで使ったアルゴリズムに関しては、参加者の了解が得られない場合は本イベントにおいても公開していただく必要はありません。
+[IPSJ Privacy Policy](https://www.ipsj.or.jp/english/privacypolicy_e.html)
 
+## Contact
 
-当委員会では、一般社団法人 情報処理学会のプライバシーポリシーに準じ、個人情報の適切な保護に努めます。本イベントの目的が終了し次第、速やかに消去いたします。
+For more information on this event, please contact the following:
 
-
-[一般社団法人 情報処理学会 プライバシーポリシー](http://www.ipsj.or.jp/privacypolicy.html)
-
-
-##  問い合わせ先
-
-
-本イベントに関する問い合わせ先は次の通りです。 
-
-
-PWS2020実行委員会 Cupワーキングループ
+PWS2020 Committee Cup working group
 - pwscup2020-info(at)iwsec.org
