@@ -1,5 +1,10 @@
 # PWS Cup 2020 
-- English version -> [here](./cup20_e.html)
+
+<div style="text-align: center;">
+ <font size="2">
+  <a href="./cup20_e.html">[English]</a>
+ </font>
+</div>
 
 <div align="center">
  <img src="./Images/pwscup2020_poster.png" width=50%>
@@ -12,7 +17,7 @@
 - 2020/08/06(木) エントリー受付開始
 
 ## PWS Cup 2020 匿名メンバシップ推定コンテスト AMIC ルール概要 (作成中)
-匿名メンバシップ推定コンテスト "AMIC" (Anonymous Membership Inference Contest)を開催します。ルール詳細は後日公開します。
+匿名メンバシップ推定コンテスト "AMIC" ("Anonymity against Membership Inference" Contest)を開催します。ルール詳細は後日公開します。
 
 <img src="./Images/overview.png" width=100%>
 
