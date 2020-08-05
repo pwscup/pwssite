@@ -15,7 +15,7 @@
 
 - 2020/02/18 (Tue): This page was created
 - 2020/07/29 (Wed): Contest overview was added
-- 2020/08/06 (Thu): Contest registratin started 
+- 2020/08/06 (Thu): Contest registration started 
 
 
 ## PWS Cup 2020 "AMIC" rule (overview) (WIP)
@@ -25,18 +25,17 @@ The Anonymous Membership Inference Contest "AMIC" ("Anonymity against Membership
 
 
 - Contest Flow
-    - The Committee generates "synthetic-data" for each participating team. The "sampled data" is extracted from the "synthetic-data" and distributed to the participating teams.
-    - The anonymizer (each team) processes the "sampled-data" and submits the "anonymized-data". If the "anonymized-data" does not meet the specified criteria for utility, it will be disqualified.
-    - The attacker (each team) receives a pair of (synthetic-data, anonymized-data) of all anonymizers other than themselves. From the "anonymized-data", the attacker estimated the "sampled-data".
+    - The **Committee** generates **Synthetic Data** for each participating team. The Committee then generates **Sampled Data** by extracting records from the Synthetic Data with the sampling ratio of 10%. The Synthetic Data is distributed to the participating teams.
+    - Each team (as an **Anonymizer**) processes their Sampled Data and generates **Anonymized Data**. The Anonymizer then submits their Anonymized Data to the Committee. The submitted Anonymized data must fulfill the data utility requirements designated by the Committee, or the team will be disqualified.
+    - Each team (as an **Attacker**) receives pairs of (Synthetic Data, Anonymized Data) of all Anonymizers other than themselves. From the Anonymized Data, the Attacker estimates the Sampled Data.
 
 - Evaluation
-    - Anonymization phase: the total number of successful estimates made by each attacker is deducted from the anonymizer's points, and the anonymizer with the highest score wins
-    - Attack phase: the attacker with more success in estimating the sampled data of the winner of the anonymization phase wins.
-
+    - Anonymizer Phase: the total number of records successfully estimated by Attackers is deducted from the Anonymizer's point. The Anonymizer with the highest points will be a winner of the anonymization phase.
+    - Attacker Phase: the Attacker who successfully estimated the most records in Sampled Data submitted by the Anonymize phase winner will be a winner of the attack phase.
 
 - Determination of Final Ranking
-    - There will be two rounds in this contest, the preliminary and final round, and each round has distribute, anonymize, and attack phase.
-    - The results of the scoring in each round will be used to determine the final rankings.
+    - There will be two rounds in this contest: the preliminary and final round. Each round has distribution, anonymization, and attack phases.
+    - The results of the scoring in both rounds will be used to determine the final rankings.
 
 ## PWS Cup 2020 schedle (WIP)
 
