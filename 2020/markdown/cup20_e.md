@@ -49,6 +49,9 @@ The Anonymous Membership Inference Contest "AMIC" ("Anonymity against Membership
 ## How to register
 - Check the [Entry](./entry_e.html) page
 
+## Privacy Policy
+- Check [PWS Cup 2020 Privacy Policy](./privacy_policy_e.html).
+
 ## Twitter
 
 [PWS Cup Official Twitter](https://twitter.com/pwscup_admin)
