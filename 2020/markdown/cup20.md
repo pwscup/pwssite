@@ -1,6 +1,9 @@
 # PWS Cup 2020 
 - English version -> [here](./cup20_e.html)
 
+<img src="./Images/pwscup2020_poster.pdf" width=100%>
+
+
 ## What' new
 
 - 2020/02/18(火) 本ページを作成
