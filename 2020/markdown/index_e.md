@@ -1,5 +1,11 @@
 # The 6th Privacy Workshop (PWS2020)
 
+<div style="text-align: center;">
+ <font size="2">
+  <a href="./index.html">[Japanese]</a>
+ </font>
+</div>
+
 ## What's new
 - 2020/02/18(Tue) Add this page
 
