@@ -1,6 +1,5 @@
 # PWS Cup 2020
 
-
 <div style="text-align: center;">
  <font size="2">
   <a href="./cup20.html">[Japanese]</a>
