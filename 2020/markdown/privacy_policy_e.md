@@ -15,4 +15,5 @@ The committee will strive to protect personal information appropriately in accor
 For more information on this event, please contact the following:
 
 PWS2020 Committee Cup working group
+
 - pwscup2020-info(at)iwsec.org
