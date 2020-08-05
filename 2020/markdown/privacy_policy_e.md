@@ -1,4 +1,4 @@
-# PWS Cup 2020 Privacy Policy
+## PWS Cup 2020 Privacy Policy
 
 The PWS Cup 2020 Committee (hereafter referred to as Committee) has established the privacy policy for this event as follows, in addition to the privacy policy established by the Information Processing Society of Japan (hereafter referred to as IPSJ).
 Personal information collected during this event will not be used for purposes other than the event itself.
