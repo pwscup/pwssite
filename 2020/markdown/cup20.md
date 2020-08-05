@@ -1,7 +1,7 @@
 # PWS Cup 2020 
 - English version -> [here](./cup20_e.html)
 
-<img src="./Images/pwscup2020_poster.pdf" width=100%>
+<img src="./Images/pwscup2020_poster.png" width=100%>
 
 ## What' new
 
