@@ -14,7 +14,7 @@
 
 - 2020/02/18 (Tue): This page was created
 - 2020/07/29 (Wed): Contest overview was added
-- 2020/08/06 (Thu): Contest registration started 
+- 2020/08/07 (Fri): Contest entry started. Please read [PWS Cup 2020 Entry Instructions](./entry_e.html) and fill out the entry form.
 
 
 ## PWS Cup 2020 "AMIC" rule (overview) (WIP)
@@ -36,14 +36,17 @@ The Anonymous Membership Inference Contest "AMIC" ("Anonymity against Membership
     - There will be two rounds in this contest: the preliminary and final round. Each round has distribution, anonymization, and attack phases.
     - The results of the scoring in both rounds will be used to determine the final rankings.
 
-## PWS Cup 2020 schedle (WIP)
+## Organizer
+Information Processing Society of Japan, Computer Security Special Interest Group, PWS Committee
 
-- 2020/08/06(Thu) - 2020/08/26(Wed) Entries accepted
-- 2020/08/?? (?) Rules published
-- 2020/08/27 (Thu) - 2020/09/??(?) Preliminary round Anonymization Phase
-- (The schedule after is under consideration.)
-- 2020/10/26(Tue) Final results announced at CSS2020 
-- 2020/10/26(Tue) Poster session 
+## PWS Cup 2020 Schedule
+
+- 2020/08/07 (Fri) - 2020/08/26 (Wed): Entries accepted
+- 2020/08/?? (?): Rules published
+- 2020/08/27 (Thu) - 2020/09/18 (Fri): Preliminary Round
+- 2020/09/24 (Thu) - 2020/10/20 (Tue): Final Round
+- 2020/10/26(Tue): Final results announced at CSS2020 
+- 2020/10/26(Tue): Poster session 
 
 
 ## How to register
@@ -60,6 +63,6 @@ The Anonymous Membership Inference Contest "AMIC" ("Anonymity against Membership
 
 ## Contact
 
-- PWS2020 Committee
+- PWS2020 Committee, PWS Cup Working Group
     - pwscup2020-info(at)iwsec.org
 
