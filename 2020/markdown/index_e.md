@@ -9,15 +9,16 @@
 ## What's new
 - 2020/02/18 (Tue): This page was created
 - 2020/05/27 (Wed): Committee member list updated
+- 2020/08/07 (Fri): PWS Cup 2020 entry started. Please check [PWS Cup 2020 page](https://pwscup.github.io/pwssite/2020/cup20_e.html).
 
-## About PWS(Privacy Workshop)
+## About PWS (Privacy Workshop)
 ### Overview
 As the need for big data utilization grows rapidly in Japan and overseas, there is a strong need for developing and establishing technologies and standards that balance the effective use of data while preserving privacy. To achieve this goal, it is essential to activate research and development of privacy protection technologies in Japan; this can be accomplished through active discussions and exchanges among academic institutions that promote research and development of privacy protection technologies and practitioners in industry who are active in the field of data utilization.
 
 For the above purpose, the Computer Security Special Interest Group (CSEC) of the Information Processing Society of Japan has established the PWS Organizing Committee and co-hosted the “Privacy Workshop (PWS)” with the Security Psychology and Trust Special Interest Group (SPT) of the Information Processing Society of Japan. The PWS is scheduled to be held annually in conjunction with the Computer Security Symposium (CSS) and consists of events and sessions focusing mainly on privacy protection technologies for facilitating data utilization.
 
 ### Schedule
-- 2020/10/26(Mon) - 2020/10/29(Thu)
+- 2020/10/26 (Mon) - 2020/10/29 (Thu)
 
 ### PWS Committee
 
@@ -46,6 +47,18 @@ If you wish to present your paper in PWS2020 session, please select "PWS" when y
 Please note that we might not be able to accommodate your request to present your paper in PWS2020 session due to the number of paper submission. 
 In such a case, we might ask you to present your paper in other CSS sessions.
 
+### Paper Awards
+
+We will present the following two awards:
+
+- PWS Paper Award
+    - The program committee of the PWS track will select one paper that makes a particular contribution to the development of privacy protection technologies and the proper awareness of privacy risks among all papers presented at the PWS sessions. All authors of the selected paper will be awarded.
+    - Receiving this award does not prevent you from receiving other awards granted in CSS 2020, such as CSS Best Paper Award, CSS Paper Awards, CSS Student Paper Awards, and SPT Paper Awards.
+
+- PWS Student Paper Award
+    - The program committee of the PWS track will select one paper that makes a particular contribution to the development of privacy protection technologies and the proper awareness of privacy risks among all papers presented by students (excluding adult students) at the PWS sessions. All authors of the selected paper will be awarded.
+    - Receiving this award does not prevent you from receiving other awards granted in CSS 2020, such as CSS Best Paper Award, CSS Paper Awards, CSS Student Paper Awards, and SPT Paper Awards.
+    
 ### Sponsors
 TODO
 
@@ -61,4 +74,4 @@ TODO
 
 ### Privacy Policy
 
-The PWS2019 privacy policy is governed by the [CSS2020 privacy policy](https://www.iwsec.org/css/2020/privacy.html).
+The PWS2020 privacy policy is governed by the [CSS2020 privacy policy](https://www.iwsec.org/css/2020/privacy.html).
