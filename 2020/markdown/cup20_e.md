@@ -14,7 +14,7 @@
 
 - 2020/02/18 (Tue): This page was created
 - 2020/07/29 (Wed): Contest overview was added
-- 2020/08/07 (Fri): Contest entry started. Please read [PWS Cup 2020 Entry Instructions](./entry_e.html) and fill out the entry form.
+- 2020/08/07 (Fri): Contest entry started. Please read the [Participation Rules](./entry_e.html) and fill out the entry form.
 
 
 ## PWS Cup 2020 "AMIC" rule (overview) (WIP)
