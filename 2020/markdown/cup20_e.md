@@ -37,7 +37,7 @@ We will hold the Anonymous Membership Inference Contest "AMIC" ("Anonymity again
     - The results of the scoring in both rounds will be used to determine the final rankings.
 
 ## Organizer
-Information Processing Society of Japan, Computer Security Special Interest Group, PWS Committee
+PWS Committee (in the Computer Security Special Interest Group of the Information Processing Society of Japan)
 
 ## PWS Cup 2020 Schedule
 
@@ -47,8 +47,8 @@ The schedule is subject to change without notice.
 - 2020/08/?? (?): Rules published
 - 2020/08/27 (Thu) - 2020/09/18 (Fri): Preliminary Round
 - 2020/09/24 (Thu) - 2020/10/20 (Tue): Final Round
-- 2020/10/26(Tue): Final results announced at CSS2020 
-- 2020/10/26(Tue): Poster session 
+- 2020/10/26 (Tue): Final results announced at CSS2020 
+- 2020/10/26 (Tue): Poster session 
 
 
 ## How to register
