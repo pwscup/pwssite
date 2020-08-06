@@ -41,6 +41,8 @@ Information Processing Society of Japan, Computer Security Special Interest Grou
 
 ## PWS Cup 2020 Schedule
 
+The schedule is subject to change without notice.
+
 - 2020/08/07 (Fri) - 2020/08/26 (Wed): Entries accepted
 - 2020/08/?? (?): Rules published
 - 2020/08/27 (Thu) - 2020/09/18 (Fri): Preliminary Round
