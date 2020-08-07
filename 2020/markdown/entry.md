@@ -1,4 +1,4 @@
-## PWS Cup 2020 Entry [作成中]
+## PWS Cup 2020 Entry
 
 <div style="text-align: center;">
  <font size="2">
