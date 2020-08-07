@@ -27,7 +27,7 @@
 - Please read [PWS Cup 2020 privacy policy](./privacy_policy_e.html) regarding how we handle personal information.
 
 ### How to Register
-- Please fill out [this form (not yet opened)](https://forms.gle/ocyma4UizWmyTjfY9) with the required information
+- Please fill out [this form (not yet opened)](https://forms.gle/onVptywKpgbQXT4w5) with the required information
     - We will use the information you provide to send you the information you need to participate in the contest at a later date
 
 ### Contact
