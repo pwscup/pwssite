@@ -1,4 +1,4 @@
-## PWS Cup 2020 Entry Instructions [WIP]
+## PWS Cup 2020 Entry Instructions
 
 <div style="text-align: center;">
  <font size="2">
