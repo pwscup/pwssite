@@ -24,7 +24,7 @@ We will hold the Anonymous Membership Inference Contest "AMIC" ("Anonymity again
 
 
 - Contest Flow
-    - The **Committee** generates **Synthetic Data** for each participating team. The Committee then generates **Sampled Data** by extracting records from the Synthetic Data with the sampling ratio of 1%. The Synthetic Data is distributed to the participating teams.
+    - The **Committee** generates **Synthetic Data** for each participating team. The Committee then generates **Sampled Data** by extracting records from the Synthetic Data with the sampling ratio of 10%. The Synthetic Data is distributed to the participating teams.
     - Each team (as an **Anonymizer**) processes their Sampled Data and generates **Anonymized Data**. The Anonymizer then submits their Anonymized Data to the Committee. The submitted Anonymized data must fulfill the data utility requirements designated by the Committee, or the team will be disqualified.
     - Each team (as an **Attacker**) receives pairs of (Synthetic Data, Anonymized Data) of all Anonymizers other than themselves. From the Anonymized Data, the Attacker estimates the Sampled Data.
 
