@@ -47,8 +47,8 @@ The schedule is subject to change without notice.
 - 2020/08/?? (?): Rules published
 - 2020/08/27 (Thu) - 2020/09/18 (Fri): Preliminary Round
 - 2020/09/24 (Thu) - 2020/10/20 (Tue): Final Round
-- 2020/10/26 (Tue): Final results announced at CSS2020 
-- 2020/10/26 (Tue): Poster session 
+- 2020/10/27 (Tue): Final results announced at CSS2020 
+- 2020/10/27 (Tue): Poster session 
 
 
 ## How to register
