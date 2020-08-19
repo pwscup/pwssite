@@ -7,7 +7,7 @@
 </div>
 
 <div align="center">
- <img src="./Images/pwscup2020_poster.jpg" width=50%>
+ <img src="./Images/pwscup2020_poster_host.jpg" width=50%>
 </div>
 
 ## What' new
