@@ -14,12 +14,18 @@
 
 - 2020/02/18(火) 本ページを作成
 - 2020/07/29(水) ルール案の概要を作成
-- 2020/08/07(金) エントリー受付を開始しました。[参加規程](./entry.html)をご確認の上、エントリーフォームより登録をお願いします
+- 2020/08/07(金) エントリー受付を開始しました
+    - [参加規程](./entry.html)をご確認の上、エントリーフォームより登録をお願いします
 - 2020/08/19(水) 08/26(水) 17:00-19:00に、ルール説明会(@WebEX)を行います
     - ページ下部の「PWS Cup 2020 スケジュール」をご確認ください
+- 2020/08/26(水) ルール説明会(@WebEX)を行いました
+    - 説明会で利用したルール詳細資料は[こちら](./Images/PWSCUP2020_rule_20200826.pdf)です
+    
 
-## PWS Cup 2020 匿名メンバシップ推定コンテスト AMIC ルール概要 (作成中)
-匿名メンバシップ推定コンテスト "AMIC" ("Anonymity against Membership Inference" Contest)を開催します。ルール詳細は後日公開します。
+## PWS Cup 2020 匿名メンバシップ推定コンテスト AMIC ルール概要
+匿名メンバシップ推定コンテスト "AMIC" ("Anonymity against Membership Inference" Contest)を開催します。
+
+ルール詳細資料は[こちら](./Images/PWSCUP2020_rule_20200826.pdf)です。
 
 <img src="./Images/overview.png" width=100%>
 
@@ -63,7 +69,7 @@
 
 ## 公式Twitter
 
-[PWSCUP公式Twitter](https://twitter.com/pwscup_admin)で最新情報をお知らせしています。
+- [PWSCUP公式Twitter](https://twitter.com/pwscup_admin)で最新情報をお知らせしています。
 
 ## お問い合わせ先
 
