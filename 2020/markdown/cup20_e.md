@@ -14,14 +14,17 @@
 
 - 2020/02/18 (Tue): This page was created
 - 2020/07/29 (Wed): Contest overview was added
-- 2020/08/07 (Fri): Contest entry started. Please read the [Participation Rules](./entry_e.html) and fill out the entry form.
+- 2020/08/07 (Fri): Contest entry started. 
+    - Please read the [Participation Rules](./entry_e.html) and fill out the entry form.
 - 2020/08/19 (Wed): We will hold PWS Cup 2020 rule briefing session (2020/08/26 (Wed) 17:00-19:00 JST @WebEX) )
-    -  Please check the "PWS Cup 2020 Schedule" below
-- 2020/08/26 (Wed): PWS Cup 2020 rule briefing session was held. Details of the rules is [here](./Images/PWSCUP2020_rule_20200826.pdf)
+    - Please check the "PWS Cup 2020 Schedule" below
+- 2020/08/26 (Wed): PWS Cup 2020 rule briefing session was held. 
+    - Details of the rules is [here](./Images/PWSCUP2020_rule_20200826.pdf)
     - We will publish Rulebook (English version) 2020/08/27(Thu).
 
 ## PWS Cup 2020 "AMIC" rule (overview) (WIP)
 We will hold the AMIC ("Anonymity against Membership Inference" Contest). Details of the rules will be published at a later date.
+
 Details of the rules is [here](./Images/PWSCUP2020_rule_20200826.pdf). We will publish Rulebook (English version) 2020/08/27(Thu).
 
 <img src="./Images/overview_eng.png" width=100%>
