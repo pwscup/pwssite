@@ -20,7 +20,7 @@
     - Please check the "PWS Cup 2020 Schedule" below
 - 2020/08/26 (Wed): PWS Cup 2020 rule briefing session was held. 
     - Details of the rules is [here(English version)](./Images/PWSCUP2020_rule_20200826_e.pdf)
-- 2020/08/27 (Thu): Preliminary-anonymization Phase starts. (~2020/09/07(Wed) 23:59:59 JST).
+- 2020/08/27 (Thu): Preliminary-anonymization Phase starts. (~2020/09/07(Mon) 23:59:59 JST).
     - Please check an email (Subject: "[PWSCUP2020] Your team accout").
 
 ## PWS Cup 2020 "AMIC" rule (overview) (WIP)
