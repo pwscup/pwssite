@@ -70,7 +70,6 @@
 
 <table border="1">
 <tr><td>チーム名 </td><td>意気込み</td><td>チーム代表者</td><td>所属</td></tr>
-<tr><td>テストチーム</td><td>やります</td><td>-</td><td>-</td></tr>
 <tr><td>Brown DP</td><td></td><td>-</td><td>-</td></tr>
 <tr><td>鋼鉄の錬金術師</td><td>今年も錬金します。</td><td>中川拓麻</td><td>日鉄ソリューションズ株式会社</td></tr>
 <tr><td>Yichi</td><td></td><td>Ruska</td><td>-</td></tr>
@@ -78,7 +77,6 @@
 <tr><td>たけのこ半島</td><td>頑張ります</td><td>-</td><td>-</td></tr>
 <tr><td>JOSE2</td><td>がんばります</td><td>-</td><td>三菱電機株式会社</td></tr>
 <tr><td>サイコロ</td><td></td><td>-</td><td>-</td></tr>
-<tr><td>チーム出題者</td><td>出題者ならではの観点でがんばります！</td><td>-</td><td>-</td></tr>
 <tr><td>SynIPA</td><td></td><td>Alexandre Roy-Gaumond</td><td>UQAM</td></tr>
 <tr><td>ホンワカインコ</td><td>ほんわか楽しみたいと思います</td><td>-</td><td>-</td></tr>
 <tr><td>🍎🍎🍎</td><td>がんばります</td><td>北島祥伍</td><td>株式会社ミクシィ</td></tr>
