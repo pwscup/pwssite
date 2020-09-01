@@ -52,9 +52,6 @@ The schedule is subject to change without notice.
 
 - 2020/08/07 (Fri) - 2020/08/26 (Wed): Entries accepted
 - 2020/08/26 (Wed): Rules published
-    - 2020/08/26 (Wed) 17:00-19:00 JST: PWSCUP 2020 rule briefing session(@WebEx)
-    - If you would like to attend the briefing session, please contact pwscup2020-info(at)iwsec.org with an email address (list) to which we send  the web-meeting URL
-    - The contents will be posted this website immediately after the session
 - 2020/08/27 (Thu) - 2020/09/18 (Fri): Preliminary Round
 - 2020/09/24 (Thu) - 2020/10/20 (Tue): Final Round
 - 2020/10/27 (Tue): Final results announced at CSS2020 
