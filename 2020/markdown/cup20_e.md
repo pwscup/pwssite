@@ -52,13 +52,37 @@ The schedule is subject to change without notice.
 
 - 2020/08/07 (Fri) - 2020/08/26 (Wed): Entries accepted
 - 2020/08/26 (Wed): Rules published
-    - 2020/08/26 (Wed) 17:00-19:00 JST: PWSCUP 2020 rule briefing session(@WebEx)
-    - If you would like to attend the briefing session, please contact pwscup2020-info(at)iwsec.org with an email address (list) to which we send  the web-meeting URL
-    - The contents will be posted this website immediately after the session
 - 2020/08/27 (Thu) - 2020/09/18 (Fri): Preliminary Round
 - 2020/09/24 (Thu) - 2020/10/20 (Tue): Final Round
 - 2020/10/27 (Tue): Final results announced at CSS2020 
 - 2020/10/27 (Tue): Poster session 
+
+## 参加チーム
+
+<table border="1">
+<tr><td>Team </td><td>Comment</td><td>Leader</td><td>Affiliation</td></tr>
+<tr><td>Brown DP</td><td></td><td>-</td><td>-</td></tr>
+<tr><td>鋼鉄の錬金術師</td><td>今年も錬金します。</td><td>中川拓麻</td><td>日鉄ソリューションズ株式会社</td></tr>
+<tr><td>Yichi</td><td></td><td>Ruska</td><td>-</td></tr>
+<tr><td>小熊軟糖🧸</td><td></td><td>-</td><td>-</td></tr>
+<tr><td>たけのこ半島</td><td>頑張ります</td><td>-</td><td>-</td></tr>
+<tr><td>JOSE2</td><td>がんばります</td><td>-</td><td>三菱電機株式会社</td></tr>
+<tr><td>サイコロ</td><td></td><td>-</td><td>-</td></tr>
+<tr><td>SynIPA</td><td></td><td>Alexandre Roy-Gaumond</td><td>UQAM</td></tr>
+<tr><td>ホンワカインコ</td><td>ほんわか楽しみたいと思います</td><td>-</td><td>-</td></tr>
+<tr><td>🍎🍎🍎</td><td>がんばります</td><td>北島祥伍</td><td>株式会社ミクシィ</td></tr>
+<tr><td>ステテコ大木</td><td>🥺</td><td>菅沼弥生</td><td>静岡大学大木研究室</td></tr>
+<tr><td>ステテコ西垣</td><td>明治大には負けません！</td><td>北川沢水</td><td>静岡大学西垣研究室</td></tr>
+<tr><td>ステテコ菊池</td><td>静岡大には負けません</td><td>伊藤聡志</td><td>明治大学大学院</td></tr>
+<tr><td>匿工野郎Aチーム </td><td></td><td>-</td><td>-</td></tr>
+<tr><td>天然水</td><td>精一杯がんばります！</td><td>石原詢大</td><td>筑波大学</td></tr>
+<tr><td>Team d(仮)</td><td>楽しみます</td><td>片山源太郎</td><td>-</td></tr>
+<tr><td>未定</td><td></td><td>-</td><td>-</td></tr>
+<tr><td>初ぼっち</td><td>ぼっちなので何もできないかもしれません。</td><td>-</td><td>-</td></tr>
+<tr><td>テレぼっち</td><td>テレワークなので、例年よりぼっち度をアゲてがんばります！</td><td>井口誠</td><td>Kii株式会社</td></tr>
+</table>
+
+
 
 
 ## How to register
