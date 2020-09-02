@@ -80,7 +80,7 @@
 <tr><td>ステテコ大木</td><td>🥺</td><td>菅沼弥生</td><td>静岡大学大木研究室</td></tr>
 <tr><td>ステテコ西垣</td><td>明治大には負けません！</td><td>北川沢水</td><td>静岡大学西垣研究室</td></tr>
 <tr><td>ステテコ菊池</td><td>静岡大には負けません</td><td>伊藤聡志</td><td>明治大学大学院</td></tr>
-<tr><td> - </td><td></td><td>-</td><td>-</td></tr>
+<tr><td>匿工野郎Aチーム</td><td></td><td>-</td><td>-</td></tr>
 <tr><td>天然水</td><td>精一杯がんばります！</td><td>石原詢大</td><td>筑波大学</td></tr>
 <tr><td>Team d(仮)</td><td>楽しみます</td><td>片山源太郎</td><td>-</td></tr>
 <tr><td>未定</td><td></td><td>-</td><td>-</td></tr>
