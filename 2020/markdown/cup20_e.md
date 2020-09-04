@@ -22,7 +22,7 @@
     - Details of the rules is [here(English version)](./Images/PWSCUP2020_rule_20200826_e.pdf)
 - 2020/08/27 (Thu): Preliminary-anonymization Phase starts. (~2020/09/07(Mon) 23:59:59 JST).
     - Please check an email (Subject: "[PWSCUP2020] Your team accout").
-- 2020/09/04 (Fri): [Details of the rules Ver.2 (in JP)](./Images/PWSCUP2020_rule_20200904.pdf) (English version is opened at 2020/09/05).
+- 2020/09/04 (Fri): [Details of the rules Ver.2 (in JP)](./Images/PWSCUP2020_rule_20200904.pdf) is released. (English version is opened at 2020/09/05).
     - Change log is [here (in JP)](./Images/PWSCUP2020_ルール変更履歴.xlsx). (English version is opened at 2020/09/05).
     
 
