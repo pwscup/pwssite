@@ -84,7 +84,7 @@
 <tr><td>ステテコ菊池</td><td>静岡大には負けません</td><td>伊藤聡志</td><td>明治大学大学院</td></tr>
 <tr><td>匿工野郎Aチーム</td><td></td><td>-</td><td>-</td></tr>
 <tr><td>天然水</td><td>精一杯がんばります！</td><td>石原詢大</td><td>筑波大学</td></tr>
-<tr><td>docomo freshers</td><td>楽しみます</td><td>片山源太郎</td><td>-</td></tr>
+<tr><td>docomo freshers</td><td>楽しみます</td><td>片山源太郎</td><td>株式会社NTTドコモ</td></tr>
 <tr><td>wakanalie</td><td></td><td>-</td><td>-</td></tr>
 <tr><td>初ぼっち</td><td>ぼっちなので何もできないかもしれません。</td><td>-</td><td>-</td></tr>
 <tr><td>テレぼっち</td><td>テレワークなので、例年よりぼっち度をアゲてがんばります！</td><td>井口誠</td><td>Kii株式会社</td></tr>
