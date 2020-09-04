@@ -22,6 +22,9 @@
     - Details of the rules is [here(English version)](./Images/PWSCUP2020_rule_20200826_e.pdf)
 - 2020/08/27 (Thu): Preliminary-anonymization Phase starts. (~2020/09/07(Mon) 23:59:59 JST).
     - Please check an email (Subject: "[PWSCUP2020] Your team accout").
+- 2020/09/04 (Fri): [Details of the rules Ver.2 (in JP)](./Images/PWSCUP2020_rule_20200904.pdf) is released. (English version is opened at 2020/09/05).
+    - Change log is [here (in JP)](./Images/PWSCUP2020_ルール変更履歴.xlsx). (English version is opened at 2020/09/05).
+    
 
 ## PWS Cup 2020 "AMIC" rule (overview) (WIP)
 We will hold the AMIC ("Anonymity against Membership Inference" Contest). Details of the rules will be published at a later date.
@@ -76,7 +79,7 @@ The schedule is subject to change without notice.
 <tr><td>ステテコ菊池</td><td>静岡大には負けません</td><td>伊藤聡志</td><td>明治大学大学院</td></tr>
 <tr><td>匿工野郎Aチーム </td><td></td><td>-</td><td>-</td></tr>
 <tr><td>天然水</td><td>精一杯がんばります！</td><td>石原詢大</td><td>筑波大学</td></tr>
-<tr><td>Team d(仮)</td><td>楽しみます</td><td>片山源太郎</td><td>-</td></tr>
+<tr><td>docomo freshers</td><td>楽しみます</td><td>片山源太郎</td><td>-</td></tr>
 <tr><td>wakanalie</td><td></td><td>-</td><td>-</td></tr>
 <tr><td>初ぼっち</td><td>ぼっちなので何もできないかもしれません。</td><td>-</td><td>-</td></tr>
 <tr><td>テレぼっち</td><td>テレワークなので、例年よりぼっち度をアゲてがんばります！</td><td>井口誠</td><td>Kii株式会社</td></tr>

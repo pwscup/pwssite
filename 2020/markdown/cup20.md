@@ -22,12 +22,14 @@
     - 説明会で利用したルール詳細資料は[こちら](./Images/PWSCUP2020_rule_20200826.pdf)です
 - 2020/08/27(木): 予備戦匿名化フェーズをスタートしました。(2020/09/07(月) 23:59:59 JST までです).
     - チーム代表者の方にメールでご案内しました (件名: "[PWSCUP2020] Your team accout").
+- 2020/09/04(金): [ルール資料第2版](./Images/PWSCUP2020_rule_20200904.pdf)を公開しました
+    - 変更点は[変更履歴.xlsx](./Images/PWSCUP2020_ルール変更履歴.xlsx)に記載しています。ご確認ください。
     
 
 ## PWS Cup 2020 匿名メンバシップ推定コンテスト AMIC ルール概要
 匿名メンバシップ推定コンテスト "AMIC" ("Anonymity against Membership Inference" Contest)を開催します。
 
-ルール詳細資料は[こちら](./Images/PWSCUP2020_rule_20200826.pdf)です。
+[ルール詳細資料(Ver.2)はこちら](./Images/PWSCUP2020_rule_20200904.pdf)です。
 
 <img src="./Images/overview.png" width=100%>
 
@@ -82,7 +84,7 @@
 <tr><td>ステテコ菊池</td><td>静岡大には負けません</td><td>伊藤聡志</td><td>明治大学大学院</td></tr>
 <tr><td>匿工野郎Aチーム</td><td></td><td>-</td><td>-</td></tr>
 <tr><td>天然水</td><td>精一杯がんばります！</td><td>石原詢大</td><td>筑波大学</td></tr>
-<tr><td>Team d(仮)</td><td>楽しみます</td><td>片山源太郎</td><td>-</td></tr>
+<tr><td>docomo freshers</td><td>楽しみます</td><td>片山源太郎</td><td>-</td></tr>
 <tr><td>wakanalie</td><td></td><td>-</td><td>-</td></tr>
 <tr><td>初ぼっち</td><td>ぼっちなので何もできないかもしれません。</td><td>-</td><td>-</td></tr>
 <tr><td>テレぼっち</td><td>テレワークなので、例年よりぼっち度をアゲてがんばります！</td><td>井口誠</td><td>Kii株式会社</td></tr>
