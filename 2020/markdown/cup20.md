@@ -24,12 +24,15 @@
     - チーム代表者の方にメールでご案内しました (件名: "[PWSCUP2020] Your team accout").
 - 2020/09/04(金): [ルール資料第2版](./Images/PWSCUP2020_rule_20200904.pdf)を公開しました
     - 変更点は[変更履歴.xlsx](./Images/PWSCUP2020_ルール変更履歴.xlsx)に記載しています。ご確認ください。
-    
+- 2020/09/09(水): 予備戦攻撃フェーズをスタートしました。(2020/09/18(金) 23:59:59 JST までです).
+    - チーム代表者の方にメールでご案内しました   
 
 ## PWS Cup 2020 匿名メンバシップ推定コンテスト AMIC ルール概要
 匿名メンバシップ推定コンテスト "AMIC" ("Anonymity against Membership Inference" Contest)を開催します。
 
 [ルール詳細資料(Ver.2)はこちら](./Images/PWSCUP2020_rule_20200904.pdf)です。
+
+[サンプルデータ・サンプルスクリプトはこちら](./Images/PubInfo_20200826.zip)です。
 
 <img src="./Images/overview.png" width=100%>
 
