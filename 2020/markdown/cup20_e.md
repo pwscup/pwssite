@@ -21,16 +21,20 @@
 - 2020/08/26 (Wed): PWS Cup 2020 rule briefing session was held. 
     - Details of the rules is [here(English version)](./Images/PWSCUP2020_rule_20200826_e.pdf)
 - 2020/08/27 (Thu): Preliminary-anonymization Phase starts. (~2020/09/07(Mon) 23:59:59 JST).
-    - Please check an email (Subject: "[PWSCUP2020] Your team accout").
+    - Please check an email from committee (Subject: "[PWSCUP2020] Your team accout").
 - 2020/09/04 (Fri): [Details of the rules Ver.2](./Images/PWSCUP2020_rule_20200904_e.pdf) is released.
     - Change log is [here](./Images/PWSCUP2020_Rule_Changelog.xlsx).
+- 2020/09/09 (Wed): Preliminary-attack Phase starts. (~2020/09/18(Fri) 23:59:59 JST).
+    - Please check an email from committee.
 
 
-## PWS Cup 2020 "AMIC" rule (overview) (WIP)
-We will hold the AMIC ("Anonymity against Membership Inference" Contest). Details of the rules will be published at a later date.
+## PWS Cup 2020 "AMIC" rule (overview) 
+We will hold the AMIC ("Anonymity against Membership Inference" Contest). 
 
 Details of the rules is [here](./Images/PWSCUP2020_rule_20200826_e.pdf). 
 <img src="./Images/overview_eng.png" width=100%>
+
+[Sample data/script: here](./Images/PubInfo_20200826.zip).
 
 
 - Contest Flow
