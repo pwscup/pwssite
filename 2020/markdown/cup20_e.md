@@ -26,6 +26,11 @@
     - Change log is [here](./Images/PWSCUP2020_Rule_Changelog.xlsx).
 - 2020/09/09 (Wed): Preliminary-attack Phase starts. (~2020/09/18(Fri) 23:59:59 JST).
     - Please check an email from committee.
+- 2020/09/23 (Wed): Preliminary phase Meetup@WebEX
+    - Documents (Englinsh version) will be released on 2020/09/24(Thu).
+- 2020/09/24 (Thu): Main (anonymize) phase starts (~ 2020/10/05 (Mon) 23:59:59 JST)
+    - Please check an email from committee.
+    
 
 
 ## PWS Cup 2020 "AMIC" rule (overview) 
