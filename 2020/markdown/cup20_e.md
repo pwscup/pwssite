@@ -30,6 +30,8 @@
     - Documents (Englinsh version) will be released on 2020/09/24(Thu).
 - 2020/09/24 (Thu): Main (anonymize) phase starts (~ 2020/10/05 (Mon) 23:59:59 JST)
     - Please check an email from committee.
+- 2020/09/25 (Fri): Sampling(C) and inference(E) data of the preliminary phase were released.
+    - Please check an email from committee.
     
 
 
