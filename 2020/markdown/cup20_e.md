@@ -32,7 +32,9 @@
     - Please check an email from committee.
 - 2020/09/25 (Fri): Sampling(C) and inference(E) data of the preliminary phase were released.
     - Please check an email from committee.
-    
+- 2020/10/07 (Wed): Main-attack phase starts. (~2020/10/20(Tue) 23:59:59 JST)
+    - Please check an email from committee.
+
 
 
 ## PWS Cup 2020 "AMIC" rule (overview) 
