@@ -34,6 +34,8 @@
     - Please check an email from committee.
 - 2020/10/07 (Wed): Main-attack phase starts. (~2020/10/20(Tue) 23:59:59 JST)
     - Please check an email from committee.
+- 2020/10/19 (Mon): [Information for PWS Cup 2020 Session](./session_e.html) is released
+
 
 
 
@@ -71,7 +73,7 @@ The schedule is subject to change without notice.
 - 2020/08/27 (Thu) - 2020/09/18 (Fri): Preliminary Round
 - 2020/09/24 (Thu) - 2020/10/20 (Tue): Final Round
 - 2020/10/27 (Tue): Final results announced at CSS2020 
-- 2020/10/27 (Tue): Poster session 
+- 2020/10/27 (Tue): Spotlight/Poster session 
 
 ## 参加チーム
 
@@ -103,6 +105,9 @@ The schedule is subject to change without notice.
 
 ## How to register
 - Check the [Entry](./entry_e.html) page
+
+## PWS Cup 2020 session
+- Check the [Information for PWS Cup 2020 session](./session_e.html) page.
 
 ## Privacy Policy
 - Check [PWS Cup 2020 Privacy Policy](./privacy_policy_e.html).
