@@ -5,7 +5,7 @@ Information for PWS Cup 2020 Session.
 
 ## [ALL] Timetable
 <div align="center">
- <img src="./Images/Timetable_e.png" width=50%>
+ <img src="./Images/Timetable_e.png" width=100%>
 </div>
 
 ## [Team] Group 
