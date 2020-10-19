@@ -6,7 +6,7 @@ PWS Cup 2020 セッションのご案内です。
 ## [全体] タイムテーブル
 以下のように進行する予定です。
 <div align="center">
- <img src="./Images/Timetable.png" width=100%>
+ <img src="./Images/Timetable_2.png" width=100%>
 </div>
 
 ## [発表者] 発表順
