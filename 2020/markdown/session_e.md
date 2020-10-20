@@ -35,17 +35,17 @@ Information for PWS Cup 2020 Session.
 ###  Team Presentation
 - Please introduce your anonymize/attack method at Spotlight session(6min) and Poster session (75min).
 #### Spotlight session (6min)
-   - Please introduce the summary of anonymize/attack method.
-   - We will invite you to the Zoom session for PWS Cup 2020.
-   - We will inform you of the time schedule, url for the Zoom session, etc... later(around 10/20(Tue)).
+    - Please introduce the summary of anonymize/attack method.
+    - We will invite you to the Zoom session for PWS Cup 2020.
+    - We will inform you of the time schedule, url for the Zoom session, etc... later(around 10/20(Tue)).
 #### Poster session (75min)
-  - Please introduce the details of the  anonymize/attack method, and discuss with the participants.
-  - We will set the Zoom-breakout room for each team's poster presentation.
+   - Please introduce the details of the  anonymize/attack method, and discuss with the participants.
+   - We will set the Zoom-breakout room for each team's poster presentation.
 
 ### Zoom Client
 - Please update the Zoom client
 - Please use the latest version Zoom. (>v5.3.0)
-  - If you use the old version, you can not choose the breakout rooms as you like.
+   - If you use the old version, you can not choose the breakout rooms as you like.
 
 ### The deadline of uploading the material
 - Please upload your poster by "2020/10/26(Mon) 23:59:59 JST" to the GoogleDrive Folder.
@@ -54,4 +54,4 @@ Information for PWS Cup 2020 Session.
 
 ## Contact
 - PWS2020 Committee, PWS Cup Working Group
-  - pwscup2020-info(at)iwsec.org
+    - pwscup2020-info(at)iwsec.org
