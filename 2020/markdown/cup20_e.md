@@ -35,6 +35,8 @@
 - 2020/10/07 (Wed): Main-attack phase starts. (~2020/10/20(Tue) 23:59:59 JST)
     - Please check an email from committee.
 - 2020/10/19 (Mon): [Information for PWS Cup 2020 Session](./session_e.html) is released
+- 2020/10/20 (Tue): main-attack phase has ended. Please wait for [PWS Cup2020 Session](./session_e.html).
+
 
 
 

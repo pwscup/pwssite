@@ -58,22 +58,33 @@ PWS2020への論文投稿受付は、[コンピュータセキュリティシン
     - PWSセッションにおける講演者が学生（社会人学生を除く）の発表論文のうち、プライバシー保護技術の発展やプライバシーリスクの正しい啓発にとくに貢献すると認められる論文1編を、PWSトラックのプログラム委員による審議を経て決定し、当該論文の著者全員を表彰します。
     - CSS最優秀論文賞/優秀論文賞/学生論文賞など、CSS2020において設けられる他の賞との重複受賞を妨げるものではありません。
     
-### 協賛組織
+## 協賛組織
 
-(作成中)
+<a href="http://www.deloitte.com/jp/cyber/"><img src="Images/logo_deloitte.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.iij.ad.jp/wizsafe/"><img src="Images/logo_iij.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.garage.co.jp/ja/"><img src="Images/logo_digitalgarage.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.enna.co.jp/"><img src="Images/logo_enna.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.jipdec.or.jp/"><img src="Images/logo_jipdec.jpg" style="width:150px; margin: 10px"></a>
+<a href="https://www.nri.com/jp/"><img src="Images/logo_nri.jpg" style="width:150px; margin: 10px"></a>
+<a href="http://nflaboratories.co.jp/"><img src="Images/logo_nflabs.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.soliton.co.jp/"><img src="Images/logo_soliton.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.sios.com/"><img src="Images/logo_sios.gif" style="width:150px; margin: 10px"></a>
+<a href="http://www.qunie.com/"><img src="Images/logo_qunie.jpg" style="width:150px; margin: 10px"></a>
+<a href="https://www.qtnet.co.jp/"><img src="Images/logo_qtnet.png" style="width:150px; margin: 10px"></a>
+<a href="http://www.hitachi.co.jp/hirt/"><img src="Images/logo_hirt.png" style="width:150px; margin: 10px"></a>
 
-### 後援組織
+## 後援組織
 
-(作成中)
+[個人情報保護委員会](https://www.ppc.go.jp/)
 
-### 過去のPWS
+## 過去のPWS
 - [PWS2019](https://www.iwsec.org/pws/2019/)
 - [PWS2018](https://www.iwsec.org/pws/2018/)
 - [PWS2017](https://www.iwsec.org/pws/2017/)
 - [PWS2016](https://www.iwsec.org/pws/2016/)
 - [PWS2015](https://www.iwsec.org/pws/2015/)
 
-### プライバシーポリシー
+## プライバシーポリシー
 
 PWS2020のプライバシーポリシーは、 [CSS2020のプライバシーポリシー](https://www.iwsec.org/css/2020/privacy.html)に準じます。
 

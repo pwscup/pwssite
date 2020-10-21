@@ -35,6 +35,7 @@
 - 2020/10/07(水): 本戦攻撃フェーズをスタートしました。(2020/10/20(火) 23:59:59 JST までです)
     - チーム代表者の方にメールでご案内しました
 - 2020/10/19(月): [PWS Cup 2020 Sessionのご案内](./session.html)を公開しました
+- 2020/10/20(火): 本戦攻撃フェーズを終了しました。結果は、[PWS Cup2020Session](./session.html)で発表します！
 
 ## PWS Cup 2020 匿名メンバシップ推定コンテスト AMIC ルール概要
 匿名メンバシップ推定コンテスト "AMIC" ("Anonymity against Membership Inference" Contest)を開催します。
