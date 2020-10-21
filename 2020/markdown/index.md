@@ -60,18 +60,18 @@ PWS2020への論文投稿受付は、[コンピュータセキュリティシン
     
 ### 協賛組織
 
-[![](Images/logo_deloitte.png)](http://www.deloitte.com/jp/cyber/)
-[![](Images/log_iij.png)](https://www.iij.ad.jp/wizsafe/)
-[![](Images/logo_digitalgarage.png)](https://www.garage.co.jp/ja/)
-[![](Images/logo_enna.png)](https://www.enna.co.jp/)
-[![](Images/logo_jipdec.jpg)](https://www.jipdec.or.jp/)
-[![](Images/logo_nri.jpg)](https://www.nri.com/jp/)
-[![](Images/logo_nflabs.png)](http://nflaboratories.co.jp/)
-[![](Images/logo_soliton.png)](https://www.soliton.co.jp/)
-[![](Images/logo_sios.gif)](https://www.sios.com/)
-[![](Images/logo_qunie.jpg)](http://www.qunie.com/)
-[![](Images/logo_qtnet.png)](https://www.qtnet.co.jp/)
-[![](Images/logo_hirt.png)](http://www.hitachi.co.jp/hirt/)
+<a href="http://www.deloitte.com/jp/cyber/"><img src="Images/logo_deloitte.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.iij.ad.jp/wizsafe/"><img src="Images/log_iij.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.garage.co.jp/ja/"><img src="Images/logo_digitalgarage.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.enna.co.jp/"><img src="Images/logo_enna.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.jipdec.or.jp/"><img src="Images/logo_jipdec.jpg" style="width:150px; margin: 10px"></a>
+<a href="https://www.nri.com/jp/"><img src="Images/logo_nri.jpg" style="width:150px; margin: 10px"></a>
+<a href="http://nflaboratories.co.jp/"><img src="Images/logo_nflabs.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.soliton.co.jp/"><img src="Images/logo_soliton.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.sios.com/"><img src="Images/logo_sios.gif" style="width:150px; margin: 10px"></a>
+<a href="http://www.qunie.com/"><img src="Images/logo_qunie.jpg" style="width:150px; margin: 10px"></a>
+<a href="https://www.qtnet.co.jp/"><img src="Images/logo_qtnet.png" style="width:150px; margin: 10px"></a>
+<a href="http://www.hitachi.co.jp/hirt/"><img src="Images/logo_hirt.png" style="width:150px; margin: 10px"></a>
 
 ### 後援組織
 
