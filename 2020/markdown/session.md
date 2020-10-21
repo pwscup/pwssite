@@ -1,6 +1,12 @@
 PWS Cup 2020 セッション 2020/10/27(Tue) 09:55 ~ 17:45
 ==
 
+<div style="text-align: center;">
+ <font size="2">
+  <a href="./session_e.html">[English]</a>
+ </font>
+</div>
+
 PWS Cup 2020 セッションのご案内です。
 
 ## [全体] タイムテーブル
