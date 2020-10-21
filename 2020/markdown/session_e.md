@@ -52,7 +52,7 @@ Information for PWS Cup 2020 Session.
 - Poster filename: [teamid]_[teamname].pdf (ex: 01_テストチーム.pdf)
 - There is no restriction in the format/size/etc... to the poster file.
 
-### [Team] 　[2020/10/22(Wed) update] 
+### [Team] 　[2020/10/21(Wed) update] 
 - Copyright Ownership
     - The author owns the copyright of the submitted materials.
 - Release of the materials
