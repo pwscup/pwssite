@@ -60,11 +60,22 @@ PWS2020への論文投稿受付は、[コンピュータセキュリティシン
     
 ### 協賛組織
 
-(作成中)
+[![](Images/logo_deloitte.png)](http://www.deloitte.com/jp/cyber/)
+[![](Images/log_iij.png)](https://www.iij.ad.jp/wizsafe/)
+[![](Images/logo_digitalgarage.png)](https://www.garage.co.jp/ja/)
+[![](Images/logo_enna.png)](https://www.enna.co.jp/)
+[![](Images/logo_jipdec.jpg)](https://www.jipdec.or.jp/)
+[![](Images/logo_nri.jpg)](https://www.nri.com/jp/)
+[![](Images/logo_nflabs.png)](http://nflaboratories.co.jp/)
+[![](Images/logo_soliton.png)](https://www.soliton.co.jp/)
+[![](Images/logo_sios.gif)](https://www.sios.com/)
+[![](Images/logo_qunie.jpg)](http://www.qunie.com/)
+[![](Images/logo_qtnet.png)](https://www.qtnet.co.jp/)
+[![](Images/logo_hirt.png)](http://www.hitachi.co.jp/hirt/)
 
 ### 後援組織
 
-(作成中)
+[個人情報保護委員会](https://www.ppc.go.jp/)
 
 ### 過去のPWS
 - [PWS2019](https://www.iwsec.org/pws/2019/)
