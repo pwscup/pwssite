@@ -57,12 +57,11 @@ Information for PWS Cup 2020 Session.
     - The author owns the copyright of the submitted materials.
 - Release of the materials
     - You can set whether the other team can download your material or not.
-    - In the default setting, other team can download the submitted matrials (at the GoogleDrive) 
+    - In the default setting, other team can download the submitted matrials (at the GoogleDrive). 
     - Please check the [manual](https://support.google.com/a/users/answer/9308868?hl=ja) to change the settings.
 - Disclosing of the materials
-    - 
-
-
+    - After the PWS Cup 2020 session, if the each team inform the committee that "we agree that materials is disclosed",  the materias will be disclosed at this web site.
+    
 ## Contact
 - PWS2020 Committee, PWS Cup Working Group
     - pwscup2020-info(at)iwsec.org
