@@ -61,7 +61,7 @@ PWS2020への論文投稿受付は、[コンピュータセキュリティシン
 ### 協賛組織
 
 <a href="http://www.deloitte.com/jp/cyber/"><img src="Images/logo_deloitte.png" style="width:150px; margin: 10px"></a>
-<a href="https://www.iij.ad.jp/wizsafe/"><img src="Images/log_iij.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.iij.ad.jp/wizsafe/"><img src="Images/logo_iij.png" style="width:150px; margin: 10px"></a>
 <a href="https://www.garage.co.jp/ja/"><img src="Images/logo_digitalgarage.png" style="width:150px; margin: 10px"></a>
 <a href="https://www.enna.co.jp/"><img src="Images/logo_enna.png" style="width:150px; margin: 10px"></a>
 <a href="https://www.jipdec.or.jp/"><img src="Images/logo_jipdec.jpg" style="width:150px; margin: 10px"></a>
