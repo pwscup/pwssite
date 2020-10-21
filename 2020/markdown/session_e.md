@@ -23,7 +23,7 @@ Information for PWS Cup 2020 Session.
 
 ### Group 2 (Spotlight: 14:30-15:25、Poster: 15:25-16:40)
 - 16ステテコ菊池
-- 17-
+- 17匿工野郎Aチーム
 - 18天然水
 - 19docomo freshers
 - 21wakanalie
@@ -51,6 +51,17 @@ Information for PWS Cup 2020 Session.
 - Please upload your poster by "2020/10/26(Mon) 23:59:59 JST" to the GoogleDrive Folder.
 - Poster filename: [teamid]_[teamname].pdf (ex: 01_テストチーム.pdf)
 - There is no restriction in the format/size/etc... to the poster file.
+
+### [Team] 　[2020/10/22(Wed) update] 
+- Copyright Ownership
+    - The author owns the copyright of the submitted materials.
+- Release of the materials
+    - You can set whether the other team can download your material or not.
+    - In the default setting, other team can download the submitted matrials (at the GoogleDrive) 
+    - Please check the [manual](https://support.google.com/a/users/answer/9308868?hl=ja) to change the settings.
+- Disclosing of the materials
+    - 
+
 
 ## Contact
 - PWS2020 Committee, PWS Cup Working Group
