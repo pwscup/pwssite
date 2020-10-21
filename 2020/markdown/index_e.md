@@ -59,19 +59,32 @@ We will present the following two awards:
     - The program committee of the PWS track will select one paper that makes a particular contribution to the development of privacy protection technologies and the proper awareness of privacy risks among all papers presented by students (excluding adult students) at the PWS sessions. All authors of the selected paper will be awarded.
     - Receiving this award does not prevent you from receiving other awards granted in CSS 2020, such as CSS Best Paper Award, CSS Paper Awards, CSS Student Paper Awards, and SPT Paper Awards.
     
-### Sponsors
-TODO
+## Sponsors
 
-### Supporters
-TODO
+<a href="http://www.deloitte.com/jp/cyber/"><img src="Images/logo_deloitte.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.iij.ad.jp/wizsafe/"><img src="Images/logo_iij.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.garage.co.jp/ja/"><img src="Images/logo_digitalgarage.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.enna.co.jp/"><img src="Images/logo_enna.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.jipdec.or.jp/"><img src="Images/logo_jipdec.jpg" style="width:150px; margin: 10px"></a>
+<a href="https://www.nri.com/jp/"><img src="Images/logo_nri.jpg" style="width:150px; margin: 10px"></a>
+<a href="http://nflaboratories.co.jp/"><img src="Images/logo_nflabs.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.soliton.co.jp/"><img src="Images/logo_soliton.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.sios.com/"><img src="Images/logo_sios.gif" style="width:150px; margin: 10px"></a>
+<a href="http://www.qunie.com/"><img src="Images/logo_qunie.jpg" style="width:150px; margin: 10px"></a>
+<a href="https://www.qtnet.co.jp/"><img src="Images/logo_qtnet.png" style="width:150px; margin: 10px"></a>
+<a href="http://www.hitachi.co.jp/hirt/"><img src="Images/logo_hirt.png" style="width:150px; margin: 10px"></a>
 
-### Past PWS
+## Supporters
+
+[Personal Information Protection Commission (PPC)](https://www.ppc.go.jp/en/index.html)
+
+## Past PWS
 - [PWS2019](https://www.iwsec.org/pws/2019/index_e.html)
 - [PWS2018](https://www.iwsec.org/pws/2018/) (in Japanese)
 - [PWS2017](https://www.iwsec.org/pws/2017/) (in Japanese)
 - [PWS2016](https://www.iwsec.org/pws/2016/) (in Japanese)
 - [PWS2015](https://www.iwsec.org/pws/2015/) (in Japanese)
 
-### Privacy Policy
+## Privacy Policy
 
 The PWS2020 privacy policy is governed by the [CSS2020 privacy policy](https://www.iwsec.org/css/2020/privacy.html).
