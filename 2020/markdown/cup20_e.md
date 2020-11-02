@@ -102,8 +102,23 @@ The schedule is subject to change without notice.
 <tr><td>テレぼっち</td><td>テレワークなので、例年よりぼっち度をアゲてがんばります！</td><td>井口誠</td><td>Kii株式会社</td></tr>
 </table>
 
+## Result
+### Final 
+- 1st 333 point 03 鋼鉄の錬金術師（Anonymize 1st、Attack 2nd）
+- 2nd 143 point 08 サイコロ　　　（Anonymize 3rd、Attack 4th）
+- 3rd 083 point 06 たけのこ半島　（Anonymize 5th、Attack 7th）
 
+### Anonymize
+- 1st 877 point 03 鋼鉄の錬金術師
+- 2nd 840 point 18 天然水第
+- 3rd 813 point 08 サイコロ
 
+### Attack
+- 1st 122 point 14 ステテコ大木
+- 2nd 121 point 03 鋼鉄の錬金術師
+- 3rd 108 point 21 wakanalie
+
+The detail result is released at 2020/11/09(Fri).
 
 ## How to register
 - Check the [Entry](./entry_e.html) page
