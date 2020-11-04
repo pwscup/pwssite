@@ -119,7 +119,7 @@
 - 第2位 121点 03 鋼鉄の錬金術師
 - 第3位 108点 21 wakanalie
 
-結果詳細は11/02週に掲載します！
+結果詳細は[こちら(GoogleSpreadSheet)](https://drive.google.com/file/d/1ezGV1ip6F9PgHhMkZxA82SnSLlqhkv9O/view?usp=sharing)です！
 
 ## PWS Cup 2020 セッション
 - [PWS Cup 2020 セッションのご案内](./session.html) ページをご確認ください
