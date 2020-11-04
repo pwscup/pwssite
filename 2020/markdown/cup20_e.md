@@ -118,7 +118,7 @@ The schedule is subject to change without notice.
 - 2nd 121 point 03 鋼鉄の錬金術師
 - 3rd 108 point 21 wakanalie
 
-The detail result is released at 2020/11/09(Fri).
+[Detail Result (GoogleSpreadSheet)](https://drive.google.com/file/d/1ezGV1ip6F9PgHhMkZxA82SnSLlqhkv9O/view?usp=sharing).
 
 ## How to register
 - Check the [Entry](./entry_e.html) page
