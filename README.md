@@ -1,7 +1,8 @@
 # pwssite
-Privacy Workshop Webサイト管理用です
+Privacy Workshop Webサイト管理用です　誰でも触れるように、github上でページ作成できるようにしています　よく読みましょう
+
 - 運用方法
-  - gh-pagesブランチの2020/markdown にある.mdファイルを、マークダウン形式で編集しましょう。github上でやるといいと思います。
+  - gh-pagesブランチの2020/markdown にある.mdファイルを、マークダウン形式で編集しましょう。 [このスライド](https://docs.google.com/presentation/d/1VPrXKw8AN9LVo-EXei2zOkcJoQwn1LSfwvPKT-2-5lA/edit)を参考に、github上でやるといいと思います。
   - commitして少し待つと、[github-pages](https://pwscup.github.io/pwssite)に反映されます。ここで見た目を確認します。
   - 表示が問題なければ、内容をmaster branchにマージしましょう。自分で承認して構いません。少し待つと、[IWSECサーバ](https://www.iwsec.org/pws/)にデプロイされます。
   - 詳細が気になる場合は [このスライド](https://docs.google.com/presentation/d/1VPrXKw8AN9LVo-EXei2zOkcJoQwn1LSfwvPKT-2-5lA/edit)を見ましょう
