@@ -14,13 +14,43 @@ PWS2020、およびPWS Cupには多くのご参加ありがとうございまし
 - 参加費：無料
 
 ## スケジュール[仮]
-| スケジュール | テーマ                                                          | 発表者 (敬称略) | 
-| ------------ | --------------------------------------------------------------- | --------------- | 
-| 13:00 - XX:XX  | PWS Cup 2020 振り返り                                           | NTT 千田        | 
-| XX:XX - XX:XX  | PWS Cup 2020優勝チームスピーチ(鋼鉄の錬金術師)                  | NSSOL 中川      | 
-| XX:XX - XX:XX  | NeurlPS2020 Hide-and-Seek Privacy Challenge 優勝チームスピーチ  | NTT 濱田        | 
-| XX:XX - XX:XX  | 招待講演１ | TBA       | 
-| XX:XX - XX:XX  | 招待講演２ | TBA       | 
+
+<table border="1">
+   <thead>
+     <tr class="header">
+       <th align="left">スケジュール</th>
+       <th align="left">テーマ</th>
+       <th align="left">発表者 (敬称略)</th>
+     </tr>
+   </thead>
+   <tbody>
+     <tr class="odd">
+       <td align="left">13:00 - XX:XX</td>
+       <td align="left">PWS Cup 2020 振り返り</td>
+       <td align="left">NTT 千田</td>
+     </tr>
+     <tr class="even">
+       <td align="left">XX:XX - XX:XX</td>
+       <td align="left">PWS Cup 2020優勝チームスピーチ(鋼鉄の錬金術師)</td>
+       <td align="left">NSSOL 中川</td>
+     </tr>
+     <tr class="odd">
+       <td align="left">XX:XX - XX:XX</td>
+       <td align="left">NeurlPS2020 Hide-and-Seek Privacy Challenge 優勝チームスピーチ</td>
+       <td align="left">NTT 濱田</td>
+     </tr>
+     <tr class="even">
+       <td align="left">XX:XX - XX:XX</td>
+       <td align="left">招待講演１</td>
+       <td align="left">TBA</td>
+     </tr>
+     <tr class="odd">
+       <td align="left">XX:XX - XX:XX</td>
+       <td align="left">招待講演２</td>
+       <td align="left">TBA</td>
+     </tr>
+   </tbody>
+</table>
 
 ## 参加申込
 申し込み方法を書く
