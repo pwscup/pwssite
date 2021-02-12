@@ -14,15 +14,15 @@ PWS2020、およびPWS Cupには多くのご参加ありがとうございまし
 - 参加費：無料
 
 ## スケジュール[仮]
-- 13:00~13:XX  千田 (NTT)   
+- 13:00 - 13:XX  千田 (NTT)   
             - PWS Cup 2020 振り返り
-- XX:XX~XX:XX 中川 (NSSOL)
+- XX:XX - XX:XX 中川 (NSSOL)
             - PWS Cup 2020 優勝チームスピーチ (鋼鉄の錬金術師) 
-- XX:XX~XX:XX 濱田 (NTT)
+- XX:XX - XX:XX 濱田 (NTT)
             - NeurlIP 2020 Hide-and-Seek Privacy Challenge 優勝チームスピーチ
-- XX:XX~XX:XX TBA (***)
+- XX:XX - XX:XX TBA (***)
             - 招待講演1
-- XX:XX~XX:XX TBA (***)
+- XX:XX - XX:XX TBA (***)
             - 招待講演2
 
 
