@@ -19,7 +19,7 @@ PWS2020、およびPWS Cupには多くのご参加ありがとうございまし
 - XX:XX - XX:XX 中川 (NSSOL)
     - PWS Cup 2020 優勝チームスピーチ (鋼鉄の錬金術師)
 - XX:XX - XX:XX 濱田 (NTT)
-    - NeurlIPS 2020 Hide-and-Seek Privacy Challenge 優勝チームスピーチ
+    - NeurlPS 2020 Hide-and-Seek Privacy Challenge 優勝チームスピーチ
 - XX:XX - XX:XX TBA ()
     - 招待講演1
 - XX:XX - XX:XX TBA ()
