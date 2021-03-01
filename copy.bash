@@ -23,12 +23,13 @@ fi
 ## ディレクトリ構造のコピー
 rsync -avz --include "*/" --exclude "*" ${dir}/2020/ ${dir}/${input}/
 
+## 共通ファイルのコピー
 cp ${dir}/2020/style.css ${dir}/${input}/
 cp ${dir}/2020/template/* ${dir}/${input}/template/
 cp ${dir}/2020/scripts/* ${dir}/${input}/scripts/
 cp ${dir}/2020/markdown/index.md ${dir}/${input}/markdown/
 
-## make.bashに追加
+## make.bashに新年度分を追加
 echo "bash ${dir}/${input}/scripts/make.bash" >> ${dir}/make.bash
 
 ## ビルド
