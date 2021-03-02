@@ -34,7 +34,7 @@ PWS2020、およびPWS Cup 2020には多くのご参加ありがとうござい�
 
 
 ## 参加申込
-- 参加ご希望の方は、pwscup2020-info@iwsec.org 宛に以下の内容をメールでお送りください。追ってWebexのアクセスURLを返信します。
+- 参加ご希望の方は、[こちらのフォーム](https://forms.gle/DyHVy7nPhQLaqEMx5)からご登録いただくか、pwscup2020-info@iwsec.org 宛に以下の内容をメールでお送りください。追ってWebexのアクセスURLを返信します。
     - [maitoリンク(メーラが起動します)](mailto:pwscup2020-info@iwsec.org?subject=PWS2021%20Meetup%20%E5%8F%82%E5%8A%A0%E5%B8%8C%E6%9C%9B&body=%E6%B0%8F%E5%90%8D%EF%BC%9A%EF%BC%88%E5%8F%82%E5%8A%A0%E8%80%85%E6%B0%8F%E5%90%8D%EF%BC%89%0D%0A%E6%89%80%E5%B1%9E%EF%BC%9A%EF%BC%88%E5%8F%82%E5%8A%A0%E8%80%85%E6%89%80%E5%B1%9E%EF%BC%89%0D%0A%E3%83%A1%E3%83%BC%E3%83%AB%E3%82%A2%E3%83%89%E3%83%AC%E3%82%B9%EF%BC%88WebEX%E4%BC%9A%E8%AD%B0URL%E9%80%81%E4%BB%98%E7%94%A8%EF%BC%89%EF%BC%9A%EF%BC%88%E5%8F%82%E5%8A%A0%E8%80%85%E3%83%A1%E3%83%BC%E3%83%AB%E3%82%A2%E3%83%89%E3%83%AC%E3%82%B9%EF%BC%89)  
 - [件名]
     - PWS2021 Meetup 参加希望
