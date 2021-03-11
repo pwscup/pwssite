@@ -13,6 +13,7 @@ Privacy Workshop Webサイト管理用です　誰でも触れるように、git
   - 2018 以前は管理していません
 - 2020
   - PWS2020のサイト
+- 2021
 - .circleci
   - circleciの設定 (詳しくないなら触らない)
 
@@ -34,8 +35,7 @@ Privacy Workshop Webサイト管理用です　誰でも触れるように、git
 - インデントはタブ2つで
   - pandocの設定不足なせいで、タブ１つだと深さが変わりません　いつか調べて直します
 - 画像の場所に注意
-  - markdown/Imagesに配置して、mdファイル内では./Images/hoge.pngという形で参照するといいとおもいます
-  - 作成されたhtmlファイルのパスに注意して、画像ファイルを配置する
+  - markdown/Imagesに配置して、mdファイル内では./Images/hoge.pngという形で参照すれば大丈夫かと
 - masterへのマージのタイミング
   - gh-pagesにcommitして少し待つと、CircleCIによるmarkdown->html変換が走って反映されます
   - 焦ってすぐにmasterにmergeすると、htmlが生成されずにmasterに含まれてしまうので、注意です　gh-pagesで確認してからmasterにマージしましょう
