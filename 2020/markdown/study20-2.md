@@ -39,9 +39,26 @@
 
 なお、入力頂いた内容は本イベントの運営のために利用します。プライバシポリシは[こちら](http://www.ipsj.or.jp/privacypolicy.html)を参照ください。
 
-## プログラム
+## プログラム (暫定)
+- オープニング
+- 15:10-15:30 
+- 15:30-15:50
+- 15:50-16:10
+- 16:10-16:30
+- 休憩
+- 16:45-17:05
+- 17:05-17:25
+- 17:25-17:45
+- 17:45-18:05
+- クロージング
 
-- TBD
+## 発表予定
+- 渡辺知恵美 "ObliDB: Oblivious Query Processing for Secure Databases", VLDB20
+- 高橋翼 "Collecting and Analyzing Data Jointly from Multiple Services under Local Differential Privacy", VLDB20
+- リュウセンペイ "Inverting Gradients - How easy is it to break privacy in federated learning?", NeurIPS20
+- 上野道彦 "Exploring Design and Governance Challenges in the Development of Privacy-Preserving Computation", CHI21
+- 竹之内隆夫 "未定"
+- 
 
 ## 代表的な国際会議論文リスト
 ### KDD2020
