@@ -57,8 +57,8 @@
 - 高橋翼 "Collecting and Analyzing Data Jointly from Multiple Services under Local Differential Privacy", VLDB20
 - リュウセンペイ "Inverting Gradients - How easy is it to break privacy in federated learning?", NeurIPS20
 - 上野道彦 "Exploring Design and Governance Challenges in the Development of Privacy-Preserving Computation", CHI21
-- 竹之内隆夫 "未定"
-- 
+- 竹之内隆夫 "Lessons and Challenges in Deploying (Heavy) MPC in Different Environments", RWC21
+- 松本茉倫 "Glyph: Fast and Accurately Training Deep Neural Networks on Encrypted Data", NeurIPS20
 
 ## 代表的な国際会議論文リスト
 ### KDD2020
