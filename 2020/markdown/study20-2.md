@@ -59,6 +59,7 @@
 - 上野道彦 "Exploring Design and Governance Challenges in the Development of Privacy-Preserving Computation", CHI21
 - 竹之内隆夫 "Lessons and Challenges in Deploying (Heavy) MPC in Different Environments", RWC21
 - 松本茉倫 "Glyph: Fast and Accurately Training Deep Neural Networks on Encrypted Data", NeurIPS20
+- 荒井ひろみ "Privacy Norms for Smart Home Personal Assistants", CHI21
 
 ## 代表的な国際会議論文リスト
 ### KDD2020
