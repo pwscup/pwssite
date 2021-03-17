@@ -39,17 +39,17 @@
 
 なお、入力頂いた内容は本イベントの運営のために利用します。プライバシポリシは[こちら](http://www.ipsj.or.jp/privacypolicy.html)を参照ください。
 
-## プログラム (暫定)
+## プログラム
 - オープニング
-- 15:10-15:30 
-- 15:30-15:50
-- 15:50-16:10
-- 16:10-16:30
+- 15:10-15:30 高橋翼 "Collecting and Analyzing Data Jointly from Multiple Services under Local Differential Privacy", VLDB20
+- 15:30-15:50 リュウセンペイ "Inverting Gradients - How easy is it to break privacy in federated learning?", NeurIPS20
+- 15:50-16:10 荒井ひろみ "Privacy Norms for Smart Home Personal Assistants", CHI21
+- 16:10-16:30 上野道彦 "Exploring Design and Governance Challenges in the Development of Privacy-Preserving Computation", CHI21
 - 休憩
-- 16:45-17:05
-- 17:05-17:25
-- 17:25-17:45
-- 17:45-18:05
+- 16:45-17:05 松本茉倫 "Glyph: Fast and Accurately Training Deep Neural Networks on Encrypted Data", NeurIPS20
+- 17:05-17:25 渡辺知恵美 "ObliDB: Oblivious Query Processing for Secure Databases", VLDB20
+- 17:25-17:45 竹之内隆夫 "Lessons and Challenges in Deploying (Heavy) MPC in Different Environments", RWC21
+- 17:45-18:05 発表者募集中！！！
 - クロージング
 
 ## 発表予定
