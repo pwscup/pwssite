@@ -41,25 +41,19 @@
 
 ## プログラム
 - オープニング
-- 15:10-15:30 高橋翼 "Collecting and Analyzing Data Jointly from Multiple Services under Local Differential Privacy", VLDB20
-- 15:30-15:50 リュウセンペイ "Inverting Gradients - How easy is it to break privacy in federated learning?", NeurIPS20
+- 15:10-15:30 高橋翼 "Federated Evaluation and Tuning For On-device Personalization: System Design & Applications", https://arxiv.org/abs/2102.08503
+- 15:30-15:50 リュウセンペイ "Inverting Gradients - How easy is it to break privacy in federated learning?", NeurIPS20 https://arxiv.org/abs/2003.14053
 - 15:50-16:10 荒井ひろみ "Privacy Norms for Smart Home Personal Assistants", CHI21
-- 16:10-16:30 上野道彦 "Exploring Design and Governance Challenges in the Development of Privacy-Preserving Computation", CHI21
+- 16:10-16:30 上野道彦 "Exploring Design and Governance Challenges in the Development of Privacy-Preserving Computation", CHI21 https://arxiv.org/abs/2101.08048
 - 休憩
-- 16:45-17:05 松本茉倫 "Glyph: Fast and Accurately Training Deep Neural Networks on Encrypted Data", NeurIPS20
-- 17:05-17:25 渡辺知恵美 "ObliDB: Oblivious Query Processing for Secure Databases", VLDB20
+- 16:45-17:05 松本茉倫 "Glyph: Fast and Accurately Training Deep Neural Networks on Encrypted Data", NeurIPS20 https://arxiv.org/abs/1911.07101
+- 17:05-17:25 渡辺知恵美 "ObliDB: Oblivious Query Processing for Secure Databases", VLDB20 https://arxiv.org/abs/1710.00458
 - 17:25-17:45 竹之内隆夫 "Lessons and Challenges in Deploying (Heavy) MPC in Different Environments", RWC21
-- 17:45-18:05 発表者募集中！！！
+- 17:45-18:05 廣江彩乃 "Usage Patterns of Privacy-Enhancing Technologies", CCS21 https://arxiv.org/abs/2009.10278
 - クロージング
 
-## 発表予定
-- 渡辺知恵美 "ObliDB: Oblivious Query Processing for Secure Databases", VLDB20
-- 高橋翼 "Collecting and Analyzing Data Jointly from Multiple Services under Local Differential Privacy", VLDB20
-- リュウセンペイ "Inverting Gradients - How easy is it to break privacy in federated learning?", NeurIPS20
-- 上野道彦 "Exploring Design and Governance Challenges in the Development of Privacy-Preserving Computation", CHI21
-- 竹之内隆夫 "Lessons and Challenges in Deploying (Heavy) MPC in Different Environments", RWC21
-- 松本茉倫 "Glyph: Fast and Accurately Training Deep Neural Networks on Encrypted Data", NeurIPS20
-- 荒井ひろみ "Privacy Norms for Smart Home Personal Assistants", CHI21
+発表者はまだまだ募集中です！
+
 
 ## 代表的な国際会議論文リスト
 ### KDD2020
