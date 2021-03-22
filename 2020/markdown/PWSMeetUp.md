@@ -1,7 +1,8 @@
 # PWS2021 MeetUp 
 ## What' new
 - 2021/02/19(金) 本ページを作成・公開
-- 2021/03/15(月) 発表・QAメモは[こちら](https://docs.google.com/document/d/1YU8qeFXzwaO0PCfXdRGoABU45KnD9usa7oFFA7RbfQI/edit#heading=h.yq6rfi5ajc61)です。発表資料の公開準備中です。少々お待ちください
+- 2021/03/15(月) 発表・QAメモは[こちら](https://docs.google.com/document/d/1YU8qeFXzwaO0PCfXdRGoABU45KnD9usa7oFFA7RbfQI/edit#heading=h.yq6rfi5ajc61)です。
+- 2021/03/22(月) 発表資料を一部公開しました。「スケジュール」をご確認ください。
 
 ## 開催概要
 PWS2020、およびPWS Cup 2020には多くのご参加ありがとうございました。
@@ -18,18 +19,23 @@ PWS2020、およびPWS Cup 2020には多くのご参加ありがとうござい�
     - 開会あいさつ
 - 15:05 - 15:50　矢田晴之 (個人情報保護委員会事務局企画官)
     - 招待講演1　個人情報保護法の2020年改正のポイントと今後の動向(仮)
+    - 資料公開なし
 - 15:50 - 16:00
     - 休憩
 - 16:00 - 16:15　千田浩司 (PWS2020実行委員会副委員長)
     - PWS Cup 2020 振り返り
+    - 資料は[こちら](./Images/20210312_PWS2021Meetup_PWSCUP2020振り返り.pdf)
 - 16:15 - 16:45　中川拓麻 (日鉄ソリューションズ)
     - PWS Cup 2020 優勝チームスピーチ (鋼鉄の錬金術師)
+    - 資料は希望者に提供 (pwscup2020-info [at] iwsec.org)にご連絡ください
 - 16:45 - 17:15　濱田浩気 (NTT)
     - NeurlPS 2020 Hide-and-Seek Privacy Challenge 優勝スピーチ
+    - 資料は希望者に提供 (pwscup2020-info [at] iwsec.org)にご連絡ください
 - 17:15 - 17:30
     - 休憩
 - 17:30 - 18:15　星野伸明 (金沢大学 経済学類 教授)
     - 招待講演2　差分プライバシーの母数の決め方
+    - 資料は[こちら](./Images/20210312_PWS2021Meetup_金沢大星野.pdf)
 - 18:15 - 18:20　菊池浩明 (PWS組織委員会委員長)
     - 閉会あいさつ
 
