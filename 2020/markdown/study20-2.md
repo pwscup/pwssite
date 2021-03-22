@@ -40,7 +40,7 @@
 なお、入力頂いた内容は本イベントの運営のために利用します。プライバシポリシは[こちら](http://www.ipsj.or.jp/privacypolicy.html)を参照ください。
 
 ## プログラム
-- オープニング
+- 15:00-15:05 オープニング
 - 15:05-15:20 高橋翼 "Federated Evaluation and Tuning For On-device Personalization: System Design & Applications", https://arxiv.org/abs/2102.08503
 - 15:20-15:35 リュウセンペイ "Inverting Gradients - How easy is it to break privacy in federated learning?", NeurIPS20 https://arxiv.org/abs/2003.14053
 - 15:35-15:50 菊池浩明 "R2DP: A Universal and Automated Approach to Optimizing the Randomization Mechanisms of Differential Privacy for Utility Metrics with No Known Optimal Distributions", CCS20 https://arxiv.org/abs/2009.09451
