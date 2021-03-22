@@ -1,7 +1,8 @@
 # PWS2021 MeetUp 
 ## What' new
 - 2021/02/19(金) 本ページを作成・公開
-- 2021/03/15(月) 発表・QAメモは[こちら](https://docs.google.com/document/d/1YU8qeFXzwaO0PCfXdRGoABU45KnD9usa7oFFA7RbfQI/edit#heading=h.yq6rfi5ajc61)です。発表資料の公開準備中です。少々お待ちください
+- 2021/03/15(月) 発表・QAメモは[こちら](https://docs.google.com/document/d/1YU8qeFXzwaO0PCfXdRGoABU45KnD9usa7oFFA7RbfQI/edit#heading=h.yq6rfi5ajc61)です。
+- 2021/03/22(月) 発表資料を一部公開しました。「スケジュール」をご確認ください。
 
 ## 開催概要
 PWS2020、およびPWS Cup 2020には多くのご参加ありがとうございました。
