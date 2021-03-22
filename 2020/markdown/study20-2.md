@@ -43,15 +43,15 @@
 - オープニング
 - 15:05-15:20 高橋翼 "Federated Evaluation and Tuning For On-device Personalization: System Design & Applications", https://arxiv.org/abs/2102.08503
 - 15:20-15:35 リュウセンペイ "Inverting Gradients - How easy is it to break privacy in federated learning?", NeurIPS20 https://arxiv.org/abs/2003.14053
-- 15:35-15:50 荒井ひろみ "Privacy Norms for Smart Home Personal Assistants", CHI21
+- 15:35-15:50 菊池浩明 "R2DP: A Universal and Automated Approach to Optimizing the Randomization Mechanisms of Differential Privacy for Utility Metrics with No Known Optimal Distributions", CCS20 https://arxiv.org/abs/2009.09451
 - 15:50-16:00 休憩
-- 16:00-16:15 上野道彦 "Exploring Design and Governance Challenges in the Development of Privacy-Preserving Computation", CHI21 https://arxiv.org/abs/2101.08048
-- 16:15-16:30 松本茉倫 "Glyph: Fast and Accurately Training Deep Neural Networks on Encrypted Data", NeurIPS20 https://arxiv.org/abs/1911.07101
-- 16:30-16:45 渡辺知恵美 "ObliDB: Oblivious Query Processing for Secure Databases", VLDB20 https://arxiv.org/abs/1710.00458
+- 16:00-16:15 荒井ひろみ "Privacy Norms for Smart Home Personal Assistants", CHI21
+- 16:15-16:30 上野道彦 "Exploring Design and Governance Challenges in the Development of Privacy-Preserving Computation", CHI21 https://arxiv.org/abs/2101.08048
+- 16:30-16:45 廣江彩乃 "Usage Patterns of Privacy-Enhancing Technologies", CCS20 https://arxiv.org/abs/2009.10278
 - 16:45-17:00 休憩 
-- 17:00-17:15 竹之内隆夫 "Lessons and Challenges in Deploying (Heavy) MPC in Different Environments", RWC21
-- 17:15-17:30 廣江彩乃 "Usage Patterns of Privacy-Enhancing Technologies", CCS20 https://arxiv.org/abs/2009.10278
-- 17:30-17:45 菊池浩明 "R2DP: A Universal and Automated Approach to Optimizing the Randomization Mechanisms of Differential Privacy for Utility Metrics with No Known Optimal Distributions", CCS20 https://arxiv.org/abs/2009.09451
+- 17:00-17:15 松本茉倫 "Glyph: Fast and Accurately Training Deep Neural Networks on Encrypted Data", NeurIPS20 https://arxiv.org/abs/1911.07101
+- 17:15-17:30 渡辺知恵美 "ObliDB: Oblivious Query Processing for Secure Databases", VLDB20 https://arxiv.org/abs/1710.00458
+- 17:30-17:45 竹之内隆夫 "Lessons and Challenges in Deploying (Heavy) MPC in Different Environments", RWC21 
 - クロージング
 
 
