@@ -7,6 +7,7 @@
 </div>
 
 ## What's new
+- 2021/04/27(火) [第3回PWS論文読破会](./study21.html)のご案内ページを作成
 - 2021/03/01(月) 本ページの作成を開始
 
 ## PWS(Privacy Workshop)について
