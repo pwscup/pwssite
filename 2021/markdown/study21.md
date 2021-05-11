@@ -1,6 +1,7 @@
 # 第三回 PWS論文読破会 
 ## What' new
 - 2021/04/27(火) 本ページを作成
+- 2021/05/11(火) 参考論文リストを記載
 
 ## 開催概要
 
@@ -56,12 +57,102 @@
 
 
 ## 代表的な国際会議論文リスト
-### S&P 2021
-### NDSS 2021 
-### ICLR 2021 
-### AIStats 2021 
-### ICDE 2021 
+### IEEE S&P 2021 
+- Detecting AI Trojans Using Meta Neural Analysis
+- Adversarial Watermarking Transformer: Towards Tracing Text Provenance with Data Hiding
+- Machine Unlearning
+- Defensive Technology Use by Political Activists During the Sudanese Revolution
+- DP-Sniper: Black-Box Discovery of Differential Privacy Violations using Classifiers
+- Is Private Learning Possible with Instance Encoding?
+- DIANE: Identifying Fuzzing Triggers in Apps to Generate Under-constrained Inputs for IoT Devices
+- Data Privacy in Trigger-Action Systems
+- Which Privacy and Security Attributes Most Impact Consumers‚ Risk Perception and Willingness to Purchase IoT Devices?
+- Learning Differentially Private Mechanisms
+- Adversary Instantiation: Lower bounds for differentially private machine learning
+- Manipulation Attacks in Local Differential Privacy
+- SIRNN: A Math Library for Secure RNN Inference
+- CryptGPU: Fast Privacy-Preserving Machine Learning on the GPU
+- Proof-of-Learning: Definitions and Practice
+- Pegasus: Bridging Polynomial and Non-polynomial Evaluations in Homomorphic Encryption
+- Wolverine: Fast, Scalable, and Communication-Efficient Zero-Knowledge Proofs for Boolean and Arithmetic Circuits
+- SoK: Fully Homomorphic Encryption Compilers
 
+### NDSS 2021 
+- GALA: Greedy ComputAtion for Linear Algebra in Privacy-Preserved Neural Networks
+- POSEIDON: Privacy-Preserving Federated Neural Network Learning
+- PrivacyFlash Pro: Automating Privacy Policy Generation for Mobile Apps
+- Understanding Worldwide Private Information Collection on Android
+- FLTrust: Byzantine-robust Federated Learning via Trust Bootstrapping
+- Manipulating the Byzantine: Optimizing Model Poisoning Attacks and Defenses for Federated Learning
+
+### ICDE 2021 
+- Differentially Private Publication of Multi-Party Sequential Data
+- Secure Dynamic Skyline Queries Using Result Materialization
+- P3GM: Private High-Dimensional Data Release via Privacy Preserving Phased Generative Model
+- Feature Inference Attack on Model Predictions in Vertical Federated Learning
+- Privacy Preserving Strong Simulation Queries for Large Graphs
+- Aria: Tolerating Skewed Workloads in Secure In-memory Key-Value Store
+- Efficient Federated-Learning Model Debugging
+- An Efficient Approach for Cross-Silo Federated Learning to Rank
+
+### AIStats 2021
+- Revisiting Model-Agnostic Private Learning: Faster Rates and Active Learning
+- Differentially Private Analysis on Graph Streams
+- Differentially Private Online Submodular Maximization
+- On the Privacy Properties of GAN-generated Samples
+- Robust and Private Learning of Halfspaces
+- DP-MERF: Differentially Private Mean Embeddings with RandomFeatures for Practical Privacy-preserving Data Generation
+- Stability and Differential Privacy of Stochastic Gradient Descent for Pairwise Learning with Non-Smooth Loss
+- No-Regret Algorithms for Private Gaussian Process Bandit Optimization
+- Federated f-Differential Privacy
+- Quantifying the Privacy Risks of Learning High-Dimensional Graphical Models
+- Optimal query complexity for private sequential learning against eavesdropping
+- Differentially Private Weighted Sampling
+- Shuffled Model of Differential Privacy in Federated Learning
+- Private optimization without constraint violations
+- Evading the Curse of Dimensionality in Unconstrained Private GLMs
+- Location Trace Privacy Under Conditional Priors
+- Differentially Private Monotone Submodular Maximization Under Matroid and Knapsack Constraints
+- Tight Differential Privacy for Discrete-Valued Mechanisms and for the Subsampled Gaussian Mechanism Using FFT
+- On Data Efficiency of Meta-learning for Personalized Federated Learning
+- Free-rider Attacks on Model Aggregation in Federated Learning
+- Federated Learning with Compression: Unified Analysis and Sharp Guarantees
+- Convergence and Accuracy Trade-Offs in Federated Learning and Meta-Learning
+- Federated Multi-armed Bandits with Personalization
+- Towards Flexible Device Participation in Federated Learning
+- Learning Individually Fair Classifier with Path-Specific Causal-Effect Constraint
+- Learning Smooth and Fair Representations
+- Learning Fair Scoring Functions: Bipartite Ranking under ROC-based Fairness Constraints
+- Algorithms for Fairness in Sequential Decision Making
+- All of the Fairness for Edge Prediction with Optimal Transport
+- Fair for All: Best-effort Fairness Guarantees for Classification
+
+### ICLR 2021 
+- Bypassing the Ambient Dimension: Private SGD with Gradient Subspace Identification
+- Information Laundering for Model Privacy
+- Differentially Private Learning Needs Better Features (or Much More Data)
+- Do not Let Privacy Overbill Utility: Gradient Embedding Perturbation for Private Learning
+- Private Image Reconstruction from System Side Channels Using Generative Models
+- R-GAP: Recursive Gradient Attack on Privacy
+- CaPC Learning: Confidential and Private Collaborative Learning
+- Private Post-GAN Boosting
+- SenSeI: Sensitive Set Invariance for Enforcing Individual Fairness
+- Fair Mixup: Fairness via Interpolation
+- FairBatch: Batch Selection for Model Fairness
+- Statistical inference for individual fairness
+- Individually Fair Rankings
+- Individually Fair Gradient Boosting
+- FairFil: Contrastive Neural Debiasing Method for Pretrained Text Encoders
+- On Dyadic Fairness: Exploring and Mitigating Bias in Graph Connections
+- Personalized Federated Learning with First Order Model Optimization
+- FedMix: Approximation of Mixup under Mean Augmented Federated Learning
+- Federated Semi-Supervised Learning with Inter-Client Consistency & Disjoint Learning
+- Achieving Linear Speedup with Partial Worker Participation in Non-IID Federated Learning
+- FedBE: Making Bayesian Model Ensemble Applicable to Federated Learning
+- Federated Learning via Posterior Averaging: A New Perspective and Practical Algorithms
+- HeteroFL: Computation and Communication Efficient Federated Learning for Heterogeneous Clients
+- FedBN: Federated Learning on Non-IID Features via Local Batch Normalization
+- SAFENet: A Secure, Accurate and Fast Neural Network Inference
 
 ## お問い合わせ先
 - 竹之内: takao-takenouchi あっとまーく garage.co.jp
