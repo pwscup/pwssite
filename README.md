@@ -30,6 +30,7 @@ Privacy Workshop Webサイト管理用です　誰でも触れるように、git
 
 # 裏側で何が動いているか
   - 気になる人は[このスライド](https://docs.google.com/presentation/d/1VPrXKw8AN9LVo-EXei2zOkcJoQwn1LSfwvPKT-2-5lA/edit)を見ましょう
+  - [CircleCI](https://app.circleci.com/pipelines/github/pwscup/pwssite) + GCPのEC2インスタンスが頑張っています
 
 # markdown作成Tips
 - インデントはタブ2つで
