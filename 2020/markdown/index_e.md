@@ -28,7 +28,7 @@ For the above purpose, the Computer Security Special Interest Group (CSEC) of th
  <dt>Co-Chair</dt>
  <dd>Koji Chida (NTT)</dd>
  <dt>Members</dt>
- <dd>Hiromi Arai (RIKEN), Makoto Iguchi (Kii), Shinsuke Ito (Chuo University), Hidenobu Oguri (Fujitsu Laboratories), Hiroaki Kikuchi (Meiji University), Atsushi Kuromasa (Fujitsu Cloud Technologies), Masahiro Sugawa (Niigata University), Yuichi Sei (The Univesity of Electro-Communications), Tsubasa Takahashi (LINE), Takao Takenouchi (Digital Garage), Mutsumi Tamai (SECOM), Hiroshi Nakagawa (RIKEN), Yuichi Nakagawa (Waseda University), Kenshiro Nishiyama (Bizreach), Ryo Nomura (NICT), Takuma Hatano (NS Solutions), Koki Hamada (NTT), Ryo Furukawa (NEC), Shoji Mima (Hitachi Consulting), Kazuhiro Minami (The Institute of Statistical Mathematics), Takao Murakami (AIST), Yuji Yamaoka (Fujitsu Laboratories), Akira Yamada (KDDI Research), Chiemi Watanabe (Tsukuba University of Technology)
+ <dd>Hiromi Arai (RIKEN), Makoto Iguchi (Kii), Shinsuke Ito (Chuo University), Hidenobu Oguri (Fujitsu Laboratories), Hiroaki Kikuchi (Meiji University), Atsushi Kuromasa (Fujitsu Cloud Technologies), Masahiro Sugawa (Niigata University), Yuichi Sei (The Univesity of Electro-Communications), Tsubasa Takahashi (LINE), Takao Takenouchi (Digital Garage), Mutsumi Tamai (SECOM), Hiroshi Nakagawa (RIKEN), Yuichi Nakamura (Waseda University), Kenshiro Nishiyama (Bizreach), Ryo Nomura (NICT), Takuma Hatano (NS Solutions), Koki Hamada (NTT), Ryo Furukawa (NEC), Shoji Mima (Hitachi Consulting), Kazuhiro Minami (The Institute of Statistical Mathematics), Takao Murakami (AIST), Yuji Yamaoka (Fujitsu Laboratories), Akira Yamada (KDDI Research), Chiemi Watanabe (Tsukuba University of Technology)
  </dd>
 </dl>
 
