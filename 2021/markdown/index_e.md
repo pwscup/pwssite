@@ -43,7 +43,7 @@ TBD
 ### Paper Awards
 
 TBD
-    
+
 ## Sponsors
 
 TBD
