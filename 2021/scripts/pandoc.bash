@@ -12,7 +12,12 @@ pandoc -f markdown-auto_identifiers -t html ${dir}/../markdown/${basefilename}.m
 
 ## headとtailの間に、***.mdをhtmlに変換したものを追加する
 
-cat $dir/../template/header.html > $dir/../html/${basefilename}.html
+## _eで終わるファイルのヘッダは英語版に
+if test ${basefilename: -2} = '_e'; then
+  cat $dir/../template/header_e.html > $dir/../html/${basefilename}.html
+else
+  cat $dir/../template/header.html > $dir/../html/${basefilename}.html
+fi
 
 echo "<!-- contents start -->" >> $dir/../html/${basefilename}.html
 
