@@ -7,6 +7,7 @@
 </div>
 
 ## What's new
+- 2021/05/28(金) 概要、およびPWS2021実行委員会メンバーの更新、過去のPWSへのリンクの掲載
 - 2021/04/27(火) [第3回PWS論文読破会](./study21.html)のご案内ページを作成
 - 2021/03/01(月) 本ページの作成を開始
 
@@ -47,6 +48,13 @@ TBD
 ## 後援組織
 TBD
 
+## 過去のPWS
+- [PWS2020](https://www.iwsec.org/pws/2020/)
+- [PWS2019](https://www.iwsec.org/pws/2019/)
+- [PWS2018](https://www.iwsec.org/pws/2018/)
+- [PWS2017](https://www.iwsec.org/pws/2017/)
+- [PWS2016](https://www.iwsec.org/pws/2016/)
+- [PWS2015](https://www.iwsec.org/pws/2015/)
 
 ## プライバシーポリシー
 TBD
