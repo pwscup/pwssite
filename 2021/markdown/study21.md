@@ -55,6 +55,12 @@
 - 17:30-17:45 発表9 
 - クロージング
 
+## 発表予定
+- 藤田 真浩 (三菱電機) "Visual Interactive Privacy Policy: The Better Choice?" (CHI2021) https://dl.acm.org/doi/10.1145/3411764.3445465
+- 高木 駿 (京都大学) "P3GM: Private High-Dimensional Data Release via Privacy Preserving Phased Generative Model" (ICDE2021) https://arxiv.org/abs/2006.12101
+- 上野 道彦 (LINE) "Robustness Gym: Unifying the NLP Evaluation Landscape" (NAACL2021) https://arxiv.org/abs/2101.04840
+- 高橋 翼 (LINE) 未定
+- 
 
 ## 代表的な国際会議論文リスト
 ### IEEE S&P 2021 
