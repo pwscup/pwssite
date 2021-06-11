@@ -42,25 +42,17 @@
 
 ## プログラム
 - 15:00-15:05 オープニング
-- 15:05-15:20 発表1 
-- 15:20-15:35 発表2 
-- 15:35-15:50 発表3 
-- 15:50-16:00 休憩
-- 16:00-16:15 発表4 
-- 16:15-16:30 発表5 
-- 16:30-16:45 発表6 
-- 16:45-17:00 休憩 
-- 17:00-17:15 発表7 
-- 17:15-17:30 発表8 
-- 17:30-17:45 発表9 
+- 15:05-15:25 高木 駿 (京都大学) "P3GM: Private High-Dimensional Data Release via Privacy Preserving Phased Generative Model" (ICDE2021) https://arxiv.org/abs/2006.12101 
+- 15:25-15:45 松本 茉倫 (お茶の水女子大学) "Practical and Private (Deep) Learning without Sampling or Shuffling" (ICML 2021) https://arxiv.org/abs/2103.00039 
+- 15:45-16:05 藤田 真浩 (三菱電機) "Visual Interactive Privacy Policy: The Better Choice?" (CHI2021) https://dl.acm.org/doi/10.1145/3411764.3445465 
+- 16:05-16:25 発表7 or 休憩 
+- 16:25-16:30 休憩 
+- 16:30-16:50 上野 道彦 (LINE) "Robustness Gym: Unifying the NLP Evaluation Landscape" (NAACL2021) https://arxiv.org/abs/2101.04840 
+- 16:50-17:10 綿岡 晃輝 (LINE) "Nice Try, Kiddo: Investigating Ad Hominems in Dialogue Responses" (NAACL2021) https://www.aclweb.org/anthology/2021.naacl-main.60.pdf 
+- 17:10-17:30 発表6 
+- 17:30-17:50 発表8 
 - クロージング
 
-## 発表予定
-- 藤田 真浩 (三菱電機) "Visual Interactive Privacy Policy: The Better Choice?" (CHI2021) https://dl.acm.org/doi/10.1145/3411764.3445465
-- 高木 駿 (京都大学) "P3GM: Private High-Dimensional Data Release via Privacy Preserving Phased Generative Model" (ICDE2021) https://arxiv.org/abs/2006.12101
-- 上野 道彦 (LINE) "Robustness Gym: Unifying the NLP Evaluation Landscape" (NAACL2021) https://arxiv.org/abs/2101.04840
-- 高橋 翼 (LINE) 未定
-- 
 
 ## 代表的な国際会議論文リスト
 ### IEEE S&P 2021 
