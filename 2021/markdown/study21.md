@@ -2,6 +2,8 @@
 ## What' new
 - 2021/04/27(火) 本ページを作成
 - 2021/05/11(火) 参考論文リストを記載
+- 2021/06/09(水) 暫定プログラムを公開
+- 2021/06/15(火) 最終プログラムを公開
 
 ## 開催概要
 
@@ -45,12 +47,9 @@
 - 15:05-15:25 高木 駿 (京都大学) "P3GM: Private High-Dimensional Data Release via Privacy Preserving Phased Generative Model" (ICDE2021) https://arxiv.org/abs/2006.12101 
 - 15:25-15:45 松本 茉倫 (お茶の水女子大学) "Practical and Private (Deep) Learning without Sampling or Shuffling" (ICML 2021) https://arxiv.org/abs/2103.00039 
 - 15:45-16:05 藤田 真浩 (三菱電機) "Visual Interactive Privacy Policy: The Better Choice?" (CHI2021) https://dl.acm.org/doi/10.1145/3411764.3445465 
-- 16:05-16:25 発表7 or 休憩 
-- 16:25-16:30 休憩 
+- 16:05-16:30 休憩 
 - 16:30-16:50 上野 道彦 (LINE) "Robustness Gym: Unifying the NLP Evaluation Landscape" (NAACL2021) https://arxiv.org/abs/2101.04840 
 - 16:50-17:10 綿岡 晃輝 (LINE) "Nice Try, Kiddo: Investigating Ad Hominems in Dialogue Responses" (NAACL2021) https://www.aclweb.org/anthology/2021.naacl-main.60.pdf 
-- 17:10-17:30 発表6 
-- 17:30-17:50 発表8 
 - クロージング
 
 
