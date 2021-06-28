@@ -1,5 +1,7 @@
 # pwssite
-Privacy Workshop Webサイト管理用です　誰でも触れるように、github上でページ作成できるようにしています　よく読みましょう
+- Privacy Workshop Webサイト管理用です。
+- 誰でも触れるように、github上でページを作成・編集できるようにしています。
+- ↓の運用方法をよく読みましょう　難しくありません
 
 - 運用方法
   - gh-pagesブランチの2020/markdown にある.mdファイルを、マークダウン形式で編集しましょう。 [このスライド](https://docs.google.com/presentation/d/1VPrXKw8AN9LVo-EXei2zOkcJoQwn1LSfwvPKT-2-5lA/edit)を参考に、github上でやるといいと思います。
@@ -8,12 +10,14 @@ Privacy Workshop Webサイト管理用です　誰でも触れるように、git
   - 詳細が気になる場合は [このスライド](https://docs.google.com/presentation/d/1VPrXKw8AN9LVo-EXei2zOkcJoQwn1LSfwvPKT-2-5lA/edit)を見ましょう
   
 # フォルダ構成
+- 2018以前
+  - PWS2018以前のサイト gitで管理していませんでした 
 - 2019
-  - PWS2019のサイト
-  - 2018 以前は管理していません
+  - PWS2019のサイト htmlファイルを直接編集しています
 - 2020
-  - PWS2020のサイト
+  - PWS2020のサイト mdファイルをビルドして作っています
 - 2021
+  - PWS2021のサイト PWS2020と同様です
 - .circleci
   - circleciの設定 (詳しくないなら触らない)
 
@@ -42,6 +46,8 @@ Privacy Workshop Webサイト管理用です　誰でも触れるように、git
   - 焦ってすぐにmasterにmergeすると、htmlが生成されずにmasterに含まれてしまうので、注意です　gh-pagesで確認してからmasterにマージしましょう
 
 # 備考
+  - Masterへの直接commit禁止
+    - iwsecサーバで↑の設定をしています   
   - サイズの大きなデータは、githubには置けないので注意です
     - 2019 は 2019/data/ をgitignoreしています data以下はローカルから直接iwsecサーバにscpしています
   - はたのむけ: ビルド用GCPインスタンスを再起動したら
