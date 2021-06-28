@@ -7,7 +7,7 @@
 </div>
 
 ## What's new
-- 2020/05/28 (Fri): Created this page.
+- 2021/05/28 (Fri): Created this page.
 
 ## About PWS (Privacy Workshop)
 ### Overview
