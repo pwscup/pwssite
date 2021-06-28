@@ -64,7 +64,8 @@ Details of the rules is [here](./Images/PWSCUP2020_rule_20200826_e.pdf).
     - The results of the scoring in both rounds will be used to determine the final rankings.
 
 ## Organizer
-PWS Committee (in the Computer Security Special Interest Group of the Information Processing Society of Japan)
+PWS Committee in the Computer Security Special Interest Group of the Information Processing Society of Japan  
+(PWS Cup 2020 is a co-located workshop with the Computer Security Symposium 2020.)
 
 ## PWS Cup 2020 Schedule
 
@@ -136,6 +137,7 @@ The schedule is subject to change without notice.
 
 ## Contact
 
-- PWS2020 Committee, PWS Cup Working Group
+- PWS Cup 2020 Working Group in the PWS Committee
+
     - pwscup2020-info(at)iwsec.org
 
