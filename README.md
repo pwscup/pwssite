@@ -1,4 +1,4 @@
-# pwssite
+# pwssite 概要
 - Privacy Workshop Webサイト管理用です。
 - 誰でも触れるように、github上でページを作成・編集できるようにしています。
 - ↓の運用方法をよく読みましょう　難しくありません
