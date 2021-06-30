@@ -6,14 +6,30 @@
   </head>
   <body style="margin-top: 40px;">
     <link rel="stylesheet" type="text/css" href="../style.css">
-
+    <div id="menu-wrap" class="fixed">
+      <ul id="menu">
+        <li>
+          <a href="./cup19_e.html">Top</a>
+        </li>
+        <li>
+          <a href="./cup19_e.html#about">About PWS Cup 2019</a>
+        </li>
+        <li>
+          <a href="./cup19_e.html#result">Result</a>
+        </li>
+        <li>
+          <a href="./cup19_e.html#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <br/>
     <div id="page">
 
       <div align="center">
         <img src="./images/pwscup-poster2019_500x700.jpg" width="600" alt="PWS Cup 2019 poster">
       </div>
 
-      <h2>About PWS Cup 2019</h2>
+      <h2 id="about">About PWS Cup 2019</h2>
       <p>
         In this contest, you are to anonymize traces (i.e., movement history data that is a set of location data) while balancing the utility and privacy of the anonymized traces.
       </p>
@@ -77,7 +93,7 @@
         <li>The schedule and contents are subject to change without notice. Any changes will be noted on this page at any time.</li>
 			</ul>
 			
-      <h2>Result</h2>
+      <h2 id="result">Result</h2>
       <h3 id="fin_result">Final round</h3>
 
 	<table border="1" align="center" cellpadding="2">
@@ -109,28 +125,6 @@
 
         <p>The award-winning teams will be selected after adding corresponding scores (privacy score against ID disclosure and/or trace inference attacks) from the preliminary and final rounds at a ratio of 1:9. </p>
 	<p> Here are <a href="./results_preliminary.xlsx">Details of the Results</a>. </p>
-	
-        <h4><u> Comments from PWSCUP 2019 chairman</u></h4>
-	<p>	
-	<div onclick="obj=document.getElementById('murakami_comment_pre').style; obj.display=(obj.display=='none')?'block':'none';">
-	<a style="cursor:pointer;">▼ <b>Expand :click here </b></a>
-	</p>
-	</div>
-	<div id="murakami_comment_pre" style="display:none;clear:both;">
-
-Below I provide my comments on the results of the preliminary round. I hope it would be helpful for you in the final round.
-
-<p>(1) The submitted file (inferred original trace set) of the best risk assessor (trace inference) in the preliminary round was the same as the reference trace set. In other words, the team sent the reference trace set as an inferred original trace set *without* seeing the public anonymized set. We refer to this attack as a "reference trace replay attack." Some teams adopted the reference trace replay attack or its variant.</p>
-
-<p>I'm afraid that many teams might feel that this attack made the contest uninteresting. However, we will give scores of the preliminary round for the above teams according to the rule. </p>
-
-<p>In the preliminary round, the reference trace replay attack was very powerful, because the length of the reference and original trace sets was too short and the accuracy of the ID disclosure was low for most teams. Taking this into account, we will increase the length of the reference and original traces in the final round. </p>
-
-<p>(2) It is also important to note that the sample program T3 was the most powerful for the anonymized traces (by the committee) in the preliminary round. This was because the accuracy of the ID disclosure was high for the anonymized traces. For such traces, a trace inference method that first re-identifies the anonymized traces and then infers the original traces can outperform the reference trace replay attack. </p>
-
-<p>(3) My comments on the preliminary round are given in (1) and (2). However, in the final round, the length of the reference and original trace sets will be 20 days, respectively, and hence I anticipate that different strategies can be effective for anonymization, ID disclosure, and trace inference. We also performed some experiments for the 20-days long trace sets using the sample programs (see Section 4 of https://www.iwsec.org/pws/2019/cup19-sample-e.pdf). This might be helpful in the final round. </p>
-
-	</div>
 	
       <h2 id="contact">Contact</h2>PWS 2019 Organizing Committee CUP WG
       <br>pwscup2019-info@iwsec.org
