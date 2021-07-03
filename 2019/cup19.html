@@ -1,207 +1,132 @@
 <!DOCTYPE html>
-
-<html lang="ja" dir="ltr">
-
+<html lang="en" dir="ltr">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <script src="jquery.min.js" type="text/javascript"></script>
     <title>PWS Cup 2019</title>
   </head>
-  <body style="margin-top:40px">
+  <body style="margin-top: 40px;">
     <link rel="stylesheet" type="text/css" href="../style.css">
     <div id="menu-wrap" class="fixed">
       <ul id="menu">
         <li>
-          <a href="./index.html">Top</a>
+          <a href="./cup19_e.html">Top</a>
         </li>
         <li>
-          <a href="./index.html#pws">About PWS</a>
+          <a href="./cup19_e.html#about">About PWS Cup 2019</a>
         </li>
         <li>
-          <a href="./cup19.html">PWSCUP 2019</a>
+          <a href="./cup19_e.html#result">Result</a>
         </li>
         <li>
-          <a href="http://www.iwsec.org/pws/2018/pwsmeetup2019.html">Related Events</a>
-        </li>
-        <li>
-          <a href="http://www.iwsec.org/pws">Past PWS</a>
+          <a href="./cup19_e.html#contact">Contact</a>
         </li>
       </ul>
     </div>
+    <br/>
     <div id="page">
-      <br>
-      <div align="center">
-        <font size="2">
-          <a href="./cup19_e.html">[English]</a>
-        </font>
-      </div>
 
       <div align="center">
-       <img src="./images/pwscup-poster2019_500x700.jpg" width="600" alt="PWS Cup 2019 poster">
+        <img src="./images/pwscup-poster2019_500x700.jpg" width="600" alt="PWS Cup 2019 poster">
       </div>
 
-      <h2>PWS Cup 2019 について</h2>
-      <p>本コンテストでは、位置情報・移動履歴データ(トレース)に対して、安全性と有用性を両立した加工を行って頂きます。</p>
-  
-        <div align="center">
-         <img src="./entry/pwscup2019_image.jpg" width="800" alt="PWS Cup 2019 image">
-        </div>
-  
-      <p>匿名加工フェーズでは、元のトレースの特徴は保ちつつ、トレースから元の個人の識別(ID識別)や元の位置情報を復元(トレース推定)が成功しないように加工します。</p>
-      <p>ID識別・トレース推定フェーズでは、加工されたトレースから、どの程度ID識別やトレース推定が成功するかを評価します。
-  
-      <p>データの仕様や加工・評価方法については、以下のコンテスト資料をご参照ください。</p>
-      <ul id="documents">
-        <li><a href="./cup19-rule.pdf">ルール概要</a></li>
-        <li><a href="./data/PubInfo_20190926.zip">サンプルプログラムとデータセット</a>
+      <h2 id="about">About PWS Cup 2019</h2>
+      <p>
+        In this contest, you are to anonymize traces (i.e., movement history data that is a set of location data) while balancing the utility and privacy of the anonymized traces.
+      </p>
+      <div align="center">
+        <img src="./entry/pwscup2019_image_e.png" width="800" alt="PWS Cup 2019 image">
+      </div>
+      <p>
+        There are two phases in the contest.
+      </p>
+      <p>
+        In the data anonymizing phase, you are to anonymize traces so as to make the traces resistant to ID disclosure attack (i.e., re-identification of the original user) and trace inference attack (i.e., restoring the original location data). You also need to try to preserve the characteristics of the original traces as much as you can when you anonymize them.
+      </p>
+      <p>
+        In the ID disclosure & trace inference phase, you are to assess anonymized traces submitted by other participants. You are expected to assess the privacy level of the anonymized traces by attempting to re-identify the original users and to restore the original location data in the traces.
+      </p>
+      <p>Please check the following documentation for more details information, such as contest rule and data format:</p>
+      <ul>
+        <li><a href="https://www.iwsec.org/pws/2019/cup19-rule-e.pdf">Contest Overview and Rule</a></li>
+        <li><a href="https://www.iwsec.org/pws/2019/data/PubInfo_20190926.zip">Dataset and Sample program</a>
+	<li><a href="https://www.iwsec.org/pws/2019/data/PWSCup2019_Final_Submitted.zip">Submitted Files by All Teams (Final Round)</a> (~1.0GB zipped)
          <ul>
-          <li>2019/09/20 本戦向け実験用の大阪データセットを配置しました</li>
-         </ul>
-        </li>
-        <li><a href="./doc/PWSCupセッション結果発表_20191022.pdf">2019/10/22 PWSCupセッション資料（結果発表）</a>
-        <li><a href="./data/PWSCup2019_Final_Submitted.zip">各チームが提出したファイル（本戦）</a>(※約1.0GBあるので注意)
-        <li id = "poster"> CSS2019会場での発表資料
-         <ul>
-          <li>ポスター資料
-           <ul>
-		<li><a href="./poster/team004_poster.pdf">team 004</a> </li>
-		<li><a href="./poster/team013_poster.pdf">team 013</a> </li>
-           </ul>
-          </li>
-          <li>スポットライト発表資料
-           <ul>
-		<li><a href="./poster/team004_slide.pdf">team 004</a> </li>
-		<li><a href="./poster/team013_slide.pdf">team 013</a> </li>
-		<li><a href="./poster/team017_slide.pdf">team 017</a> </li>
-           </ul>
-          </li>
+          <li>2019/09/20 Update Dataset : ADD org/ref trace of Osaka dataset for experiment</li>
          </ul>
         </li>
       </ul>
   
-      <h2>スケジュール</h2>
+      <h3>Schedule</h3>
       <table border="1" align="center" cellpadding="2">
         <tr>
-          <td>コンテストエントリー期間</td>
-          <td>08/16(金) - 09/03(火)</td>
+          <td>Contest Entry Period</td>
+          <td>Aug 16 (Fri) - Sep 03 (Tue)</td>
         </tr>
         <tr>
-          <td>予備戦(匿名加工フェーズ)</td>
-          <td>09/04(水) - 09/09(月) 23:59:59 JST</td>
+          <td>Preliminary Round<br/>(Data anonymizing phase)</td>
+          <td>Sep 04 (Wed) - Sep 09 (Mon) 23:59:59 JST</td>
         </tr>
         <tr>
-          <td>予備戦(ID識別・トレース推定フェーズ)</td>
-          <td>09/11(水) - 09/17(火) 23:59:59 JST</td>
+          <td>Preliminary Round<br/> (ID disclosure and trace inference phase)</td>
+          <td>Sep 11 (Wed) - Sep 17 (Tue) 23:59:59 JST</td>
         </tr>
         <tr>
-          <td>予備戦結果通知</td>
-          <td>09/19(木)</td>
+          <td>Preliminary Round Result Notification</td>
+          <td>Sep 19 (Thu)</td>
         </tr>
         <tr>
-          <td>本戦(匿名加工フェーズ)</td>
-          <td>09/26(木) - 10/07(月) 23:59:59 JST</td>
+          <td>Final Round (Data anonymizing phase)</td>
+          <td>Sep 26 (Thu) - Oct 07 (Mon) 23:59:59 JST</td>
         </tr>
         <tr>
-          <td>本戦(ID識別・トレース推定フェーズ)</td>
-          <td>10/09(水) - 10/15(火) 23:59:59 JST</td>
+          <td>Final Round (ID disclosure and trace inference phase)</td>
+          <td>Oct 09 (Wed) - Oct 15 (Tue) 23:59:59 JST</td>
         </tr>
         <tr>
-          <td>プレゼン・ポスター発表、結果発表</td>
-          <td>10/22(火)</td>
+          <td>Presentation, Poster Session, and <br/>Final Round Result Announcement</td>
+          <td>Oct 22 (Tue)</td>
         </tr>
       </table>
       <ul>
-        <li>上記スケジュールを整理した<a href="https://calendar.google.com/calendar?cid=MTJ1bnRpYmxuZzQxMDIzZTE5N2RxdnBmcjRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ">Google Calendar</a>もご利用ください</li>
-        <li>予備戦・本戦ともにスケジュールに沿ったオンラインでの対戦を計画しています。両方の成績を総合して総合優勝を決める予定です。</li>
-        <li>10/22(火)は、コンテストで使用した手法について、プレゼンテーションおよびポスターで各参加チームに発表いただきます。CSS2019の会場(ハウステンボス)で実施予定です。</li>
-        <li>スケジュール・内容は予告なく変更する可能性があります。変更の場合は随時このページに記載いたします。</li>
-      </ul>
-      <h2>結果</h2>
-      <h3 id="result">最終結果</h3>
-        <table border="1" align="center" cellpadding="2">
-        <tr><th>部門</th><th> 順位</th><th> チームID</th><th> チーム名</th></tr>
-        <tr><td>総合</td><td>1位</td><td>001</td><td>よぞら</td></tr>
-        <tr><td>総合</td><td>2位</td><td> 009</td><td>鋼鉄の錬金術師</td></tr>
-        <tr><td>総合</td><td>3位</td><td>016</td><td>🍎</td></tr>
-        <tr><td>匿名加工（ID識別対策部門）</td><td>1位</td><td>001</td><td>よぞら </td></tr>
-        <tr><td>匿名加工（トレース推定対策部門）</td><td>1位 </td><td>009</td><td>鋼鉄の錬金術師</td></tr>
-        <tr><td>リスク評価（ID識別部門）</td><td>1位</td><td>004</td><td>またぼっち</td></tr>
-	<tr><td>リスク評価（トレース推定部門）</td><td>1位</td><td>002</td><td>再識別から国民を守る党</td></tr>
-	<tr><td>プレゼンテーション賞</td><td>1位</td><td>006</td><td>wakaName</td></tr>
-        </table>
-	<p>最終結果の詳細は<a href="./results_final.xlsx">こちら</a></p>
-
-      <h3 id="pre_result">予備戦 結果</h3>
+        <li>We are planning to hold both preliminary and final rounds online as described in the above schedule. The overall winner will be decided by combining the results from both matches.</li>
+        <li>Each participating team will make a presentation and poster that describe the techniques used in the contest on October 22. The presentation session is going to be held in the CSS2019 venue (Huis Ten Bosch).</li>
+        <li>The schedule and contents are subject to change without notice. Any changes will be noted on this page at any time.</li>
+			</ul>
+			
+      <h2 id="result">Result</h2>
+      <h3 id="fin_result">Final round</h3>
 
 	<table border="1" align="center" cellpadding="2">
-	<tr><th>部門</th><th> 順位</th><th> チームID</th><th> チーム名</th></tr>
-	<tr><td>総合</td><td>1位</td><td>011</td><td>Unknown IPA</td></tr>
-	<tr><td>総合</td><td>2位</td><td> 008</td><td>K-HOUSE</td></tr>
-	<tr><td>総合</td><td>3位</td><td>016</td><td>🍎</td></tr>
-	<tr><td>匿名加工（ID識別対策部門）</td><td>1位</td><td>011</td><td>Unknown IPA</td></tr>
-	<tr><td>匿名加工（トレース推定対策部門）</td><td>1位 </td><td>016</td><td>🍎</td></tr>
-	<tr><td>リスク評価（ID識別部門）</td><td>1位</td><td>006</td><td>wakaName</td></tr>
-	<tr><td>リスク評価（トレース推定部門）</td><td>1位</td><td>004</td><td>またぼっち</td></tr>
+	<tr><th>Section</th><th> Rank</th><th> Team ID</th><th> Team name</th></tr>
+	<tr><td>Overall</td><td>1st</td><td>001</td><td>よぞら</td></tr>
+	<tr><td>Overall</td><td>2nd</td><td>009</td><td>鋼鉄の錬金術師</td></tr>
+	<tr><td>Overall</td><td>3rd</td><td>016</td><td>🍎</td></tr>
+	<tr><td>Anonymizer (IDP)</td><td>1st</td><td>001</td><td>よぞら</td></tr>
+	<tr><td>Anonymizer (TRP)</td><td>1st </td><td>009</td><td>鋼鉄の錬金術師</td></tr>
+	<tr><td>Risk assessor (IDP)</td><td>1st</td><td>004</td><td>またぼっち</td></tr>
+	<tr><td>Risk assessor (TRP)</td><td>1st</td><td>002</td><td>再識別から国民を守る党</td></tr>
+	<tr><td>Best presenter</td><td>1st</td><td>006</td><td>wakaName</td></tr>
 	</table>
 
+	<p> Here are <a href="https://www.iwsec.org/pws/2019/results_final.xlsx">Details of the Results</a>. </p>
 
-	<p>上記の結果は，あくまで予備戦に基づく暫定的な結果であり，最終的には予備戦の値と本戦の値を 1:9 の割合で合計して受賞チームを決定します  </p>
-	<p>予備戦結果の詳細については、<a href="./results_preliminary.xlsx">こちらのxlsxファイル</a>をご参照ください</p>
+      <h3 id="pre_result">Preliminary round </h3>
+
+	<table border="1" align="center" cellpadding="2">
+	<tr><th>Section</th><th> Rank</th><th> Team ID</th><th> Team name</th></tr>
+	<tr><td>Overall</td><td>1st</td><td>011</td><td>Unknown IPA</td></tr>
+	<tr><td>Overall</td><td>2nd</td><td> 008</td><td>K-HOUSE</td></tr>
+	<tr><td>Overall</td><td>3rd</td><td>016</td><td>🍎</td></tr>
+	<tr><td>Anonymizer (IDP)</td><td>1st</td><td>011</td><td>Unknown IPA</td></tr>
+	<tr><td>Anonymizer (TRP)</td><td>1st </td><td>016</td><td>🍎</td></tr>
+	<tr><td>Risk assessor (IDP)</td><td>1st</td><td>006</td><td>wakaName</td></tr>
+	<tr><td>Risk assessor (TRP)</td><td>1st</td><td>004</td><td>またぼっち</td></tr>
+	</table>
+
+        <p>The award-winning teams will be selected after adding corresponding scores (privacy score against ID disclosure and/or trace inference attacks) from the preliminary and final rounds at a ratio of 1:9. </p>
+	<p> Here are <a href="https://www.iwsec.org/pws/2019/results_preliminary.xlsx">Details of the Results</a>. </p>
 	
-
-        <h4><u>予備戦の結果に関する講評</u></h4>
-	<p>	
-	<div onclick="obj=document.getElementById('murakami_comment_pre').style; obj.display=(obj.display=='none')?'block':'none';">
-	<a style="cursor:pointer;">▼ <b>PWSCup2019実行委員長による予備戦講評(クリックで展開) </b></a></p>
-	</div>
-	<div id="murakami_comment_pre" style="display:none;clear:both;">
-
-	予備戦の結果を見て私が感じたことを，以下に記します．本戦での参考になれば幸いです．
-
-	<p> (1) 予備戦において，リスク評価（トレース推定）1位となったチームの提出データ（元トレースの推定値）は，（匿名加工トレースを見ずに）参照トレースをそのまま元トレースの推定値としています．
-	このような攻撃を「参照トレース再送攻撃」と呼ぶことにします．
-	幾つかのチームが，この参照トレース再送攻撃やその変形版を採用しています．
-
-	コンテストとしての面白みが欠けるものになったと感じたチームも多いかも知れませんが，ルール通り，予備戦での点数を与えます．
-
-	このような攻撃が予備戦で猛威を振るったのは，参照・元トレースの長さが短すぎて，ほとんどのチームに対してID識別の精度が低くなったことが原因です．
-
-	そこで，本攻撃を考慮して，本戦でのトレース長を調整しました．
-	</p>
-
-	<p>(2) 予備戦において，仮名化トレースに対しては「サンプルプログラムT3」がトレース推定安全性を最も下げることに成功しています．
-
-	これは仮名化トレースに対するID識別率が高いことが原因として挙げられます．
-	このような場合，匿名加工トレースに対してID識別をした上で，トレース推定を行う方法が，参照トレース再送攻撃よりも有効となります．
-	</p>
-
-	<p>(3) 予備戦を見た上での私の感想は(1)(2)の通りですが，本戦では「参照・元トレースの長さが20日ずつ」と長くなるため，匿名加工・ID識別・トレース推定の
-	全てにおいて，予備戦と異なる戦略が有効になる可能性が高いと考えています．
-
-	参照・元トレースの長さを20日ずつにしたときのサンプルを用いた評価実験も行っており（https://www.iwsec.org/pws/2019/cup19-sample.pdf の第4章），こちらも参考になるかと思います．
-	</p>
-	</div>
-
-      <h2>過去のPWSCUP</h2>
-      <ul>
-        <li>
-          <a href="http://www.iwsec.org/pws/pwscup/PWSCUP2015.html">PWS Cup 2015</a>
-        </li>
-        <li>
-          <a href="http://www.iwsec.org/pws/pwscup/PWSCUP2016.html">PWS Cup 2016</a>
-        </li>
-        <li>
-          <a href="http://www.iwsec.org/pws/pwscup/PWSCUP2017.html">PWS Cup 2017</a>
-        </li>
-        <li>
-          <a href="http://www.iwsec.org/pws/2018/cup18.html">PWS Cup 2018</a>
-        </li>
-      </ul>
-      <h2>公式Twitter</h2>
-      <p>
-        <a href="https://twitter.com/pwscup_admin" target="_blank">PWSCUP公式Twitter</a>で最新情報をお知らせします。
-      </p>
-      <h2 id="contact">問合せ先</h2>PWS 2019 実行委員会 CUP WG
+      <h2 id="contact">Contact</h2>PWS 2019 Organizing Committee CUP WG
       <br>pwscup2019-info@iwsec.org
     </div>
   </body>
