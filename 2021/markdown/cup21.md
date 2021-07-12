@@ -1,4 +1,4 @@
-# PWSCUP2021
+# PWS Cup 2021
 
 <div style="text-align: center;">
  <font size="2">
@@ -32,6 +32,6 @@ TBD
 [PWSCUP公式Twitter](https://twitter.com/pwscup_admin)で最新情報をお知らせしています。
 
 ## お問い合わせ先
-PWS組織委員会 PWSCUP2021ワーキンググループ
+PWS組織委員会 PWS Cup 2021 ワーキンググループ
 
   - pwscup2021-info(at)iwsec.org
