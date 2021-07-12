@@ -1,4 +1,4 @@
-# PWSCUP2021
+# PWS Cup 2021
 
 <div style="text-align: center;">
  <font size="2">
@@ -20,12 +20,12 @@ TBD
 
 ## Organizer
 PWS Committee in the Computer Security Special Interest Group of the Information Processing Society of Japan  
-(PWSCUP2021 is a co-located workshop with the Computer Security Symposium 2021.)
+(PWS Cup 2021 is a co-located workshop with the Computer Security Symposium 2021.)
 
 ## Schedule
 TBD
 
-## How to attend the PWSCUP2021
+## How to attend the PWS Cup 2021
 TBD
 
 ## Twitter
@@ -33,6 +33,6 @@ TBD
 
 
 ## Contact
-PWSCUP2021 Working Group in the PWS Committee
+PWS Cup 2021 Working Group in the PWS Committee
 
   - pwscup2021-info(at)iwsec.org
