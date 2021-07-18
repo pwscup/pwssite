@@ -29,8 +29,6 @@
 ## How to Register
 - Please fill out this form(TBD) with the required information
     - We will use the information you provide to send you the information you need to participate in the contest at a later date.
-- We use Box to manage data. Please prepare a Box account for your team and let us know the Box id (e-mail address) at the form.
-    - You can sign up for the Box Individual plan for free from [here](https://account.box.com/signup/personal).
 
 ## Contact
 PWS Cup 2021 Working Group in the PWS Committee
