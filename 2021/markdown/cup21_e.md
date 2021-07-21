@@ -13,6 +13,7 @@
 </div>
 
 ## What' new
+- July 22nd, 2021: [The entry form](https://forms.gle/b2gBRWQnkRifPWcC6) has been opened.
 - July 18th, 2021: Added the schedule, the privacy policy, and the entry page.
 - June 28th, 2021: Created this page.
 
