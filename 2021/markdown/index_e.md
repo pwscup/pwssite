@@ -7,7 +7,8 @@
 </div>
 
 ## What's new
-- 2021/05/28 (Fri): Created this page.
+- July 22nd, 2021: PWS Cup 2021 entry started. Please check [PWS Cup 2021 page](./cup21_e.html).
+- May 28th, 2021: Created this page.
 
 ## About PWS (Privacy Workshop)
 ### Overview
