@@ -7,6 +7,7 @@
 </div>
 
 ## What's new
+- July 26th, 2021: Updated information.
 - July 22nd, 2021: PWS Cup 2021 entry started. Please check [PWS Cup 2021 page](./cup21_e.html).
 - May 28th, 2021: Created this page.
 
@@ -19,7 +20,7 @@ For the above purpose, the Computer Security Special Interest Group (CSEC) of th
 
 ### Schedule
 
-TBD
+- Tue., October 26th, 2021 - Fri., October 29th, 2021
 
 ### PWS Committee
 
@@ -35,11 +36,18 @@ TBD
 
 ### Registration for Participation
 
-TBD
+To regsiter for PWS2021, please visit the registration site of [Computer Security Symposium 2021 (CSS2021)](https://www.iwsec.org/css/2021/index.html)(in Japanese). By registering for CSS2021, you will be able to participate in CSS2021 and the joint sessions.
+
+For more information about the registration process, please check the CSS2021 registration site and its registration fee page.
 
 ### Paper Submission
 
-TBD
+To submit your paper to PWS2021, please submit the paper to Computer Security Symposium 2021 (CSS2021).
+
+The CSS2021 Program Committee will decide a session your paper is to be presented on the basis of the paper's summary and keywords.  
+If you wish to present your paper in PWS2021 session, please select "PWSトラック" when you submit your paper.  
+Please note that we might not be able to accommodate your request to present your paper in PWS2021 session due to the number of paper submission.  
+In such a case, we might ask you to present your paper in other CSS sessions.
 
 ### Paper Awards
 
@@ -47,7 +55,14 @@ TBD
 
 ## Sponsors
 
-TBD
+<a href="https://www.enna.co.jp/"><img src="Images/sponsors/ENNA.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.iij.ad.jp/wizsafe/"><img src="Images/sponsors/IIJ.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.jipdec.or.jp/"><img src="Images/sponsors/JIPDEC.jpg" style="width:150px; margin: 10px"></a>
+<a href="http://nflaboratories.co.jp/"><img src="Images/sponsors/NFLabs.jpg" style="width:150px; margin: 10px"></a>
+<a href="https://www.qtnet.co.jp/"><img src="Images/sponsors/QTnet.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.sios.com/"><img src="Images/sponsors/SIOS.gif" style="width:150px; margin: 10px"></a>
+<a href="https://www.soliton.co.jp/"><img src="Images/sponsors/Soliton.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.trendmicro.com"><img src="Images/sponsors/TM.png" style="width:150px; margin: 10px"></a>
 
 ## Supporters
 
@@ -63,4 +78,4 @@ TBD
 
 ## Privacy Policy
 
-TBD
+The PWS2021 privacy policy is governed by the [CSS2021 privacy policy](https://www.iwsec.org/css/2021/privacy.html).

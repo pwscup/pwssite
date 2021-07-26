@@ -7,7 +7,8 @@
 </div>
 
 ## What's new
-- 2021/07/22(木)  PWS Cup 2021のエントリー受付を開始　[こちら](./cup21.html)をご確認ください
+- 2021/07/26(月) 各種情報の更新
+- 2021/07/22(木) PWS Cup 2021のエントリー受付を開始　[こちら](./cup21.html)をご確認ください
 - 2021/05/28(金) 概要、およびPWS2021実行委員会メンバーの更新、過去のPWSへのリンクの掲載
 - 2021/04/27(火) [第3回PWS論文読破会](./study21.html)のご案内ページを作成
 - 2021/03/01(月) 本ページの作成を開始
@@ -21,7 +22,7 @@
 
 ### 開催日時
 
-TBD
+- 2021/10/26(火) - 2021/10/29(金)
 
 <h3>PWS2021実行委員会 </h3>
 <dl>
@@ -35,11 +36,15 @@ TBD
 
 ### 参加登録
 
-TBD
+PWS2021への参加登録は、[コンピュータセキュリティシンポジウム2021 (CSS2021)](https://www.iwsec.org/css/2021/index.html)への参加登録と共通となっております (ご登録頂くと、CSS2021 および併催の他のワークショップにも参加が可能です)。
+
+参加登録手続きの詳細につきましては、CSS2021の「参加登録」ページおよび 「参加費」ページをご参照ください。
 
 ### 論文投稿 (発表申し込み)
 
-TBD
+PWS2021への論文投稿受付は、コンピュータセキュリティシンポジウム2021 (CSS2021) への論文投稿受付と共通となっております。
+
+ご投稿頂いた論文の発表セッションの割り当ては、ご投稿頂く論文の概要やキーワードを参考にCSS2021プログラム委員会により定められますが、特にPWS2021でのご発表を希望される場合、発表申し込みの手続きの「希望トラック」において「PWSトラック」をお選びください。 なお、発表多数の場合など、会場準備の都合上 PWS でのご発表をご希望されてもCSSのセッションでのご発表となる場合があります。恐れいりますが、あらかじめご承知おきのほどお願いいたします。
 
 ### 論文賞
 
@@ -47,7 +52,14 @@ TBD
 
 ## 協賛組織
 
-TBD
+<a href="https://www.enna.co.jp/"><img src="Images/sponsors/ENNA.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.iij.ad.jp/wizsafe/"><img src="Images/sponsors/IIJ.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.jipdec.or.jp/"><img src="Images/sponsors/JIPDEC.jpg" style="width:150px; margin: 10px"></a>
+<a href="http://nflaboratories.co.jp/"><img src="Images/sponsors/NFLabs.jpg" style="width:150px; margin: 10px"></a>
+<a href="https://www.qtnet.co.jp/"><img src="Images/sponsors/QTnet.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.sios.com/"><img src="Images/sponsors/SIOS.gif" style="width:150px; margin: 10px"></a>
+<a href="https://www.soliton.co.jp/"><img src="Images/sponsors/Soliton.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.trendmicro.com"><img src="Images/sponsors/TM.png" style="width:150px; margin: 10px"></a>
 
 ## 後援組織
 
@@ -62,4 +74,4 @@ TBD
 - [PWS2015](https://www.iwsec.org/pws/2015/)
 
 ## プライバシーポリシー
-TBD
+PWS2021のプライバシーポリシーは、 [CSS2021のプライバシーポリシー](https://www.iwsec.org/css/2021/privacy.html)に準じます。
