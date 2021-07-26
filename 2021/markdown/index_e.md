@@ -49,10 +49,6 @@ If you wish to present your paper in PWS2021 session, please select "PWSトラ�
 Please note that we might not be able to accommodate your request to present your paper in PWS2021 session due to the number of paper submission.  
 In such a case, we might ask you to present your paper in other CSS sessions.
 
-### Paper Awards
-
-TBD
-
 ## Sponsors
 
 <a href="https://www.enna.co.jp/"><img src="Images/sponsors/ENNA.png" style="width:150px; margin: 10px"></a>
