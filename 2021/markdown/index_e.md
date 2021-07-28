@@ -55,6 +55,7 @@ Please note that conventional awards in PWS (the PWS Paper Award and the PWS Stu
 
 <a href="https://www.iij.ad.jp/wizsafe/"><img src="Images/sponsors/IIJ.png" style="width:150px; margin: 10px"></a>
 <a href="https://www.soliton.co.jp/"><img src="Images/sponsors/Soliton.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.nri.com/jp/"><img src="Images/sponsors/NRI.png" style="width:150px; margin: 10px"></a>
 <a href="https://www.enna.co.jp/"><img src="Images/sponsors/ENNA.png" style="width:150px; margin: 10px"></a>
 <a href="https://www.jipdec.or.jp/"><img src="Images/sponsors/JIPDEC.jpg" style="width:150px; margin: 10px"></a>
 <a href="https://www.qtnet.co.jp/"><img src="Images/sponsors/QTnet.png" style="width:150px; margin: 10px"></a>
