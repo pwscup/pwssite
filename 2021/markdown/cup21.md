@@ -13,6 +13,7 @@
 </div>
 
 ## What' new
+- 2021/07/31（土） PWS Cup 紹介ムービーの公開
 - 2021/07/22（木） [参加申込フォーム](https://forms.gle/b2gBRWQnkRifPWcC6)の公開
 - 2021/07/18（日） スケジュール、プライバシーポリシー、参加ページの公開
 - 2021/06/28（月） 本ページを作成
@@ -23,6 +24,9 @@
 匿名加工フェーズでは削除等の措置を施し、受診者が特定されないようにデータに適切な加工を施してください。  
 再識別フェーズでは、他のチームが加工した匿名ヘルスケアデータに対して、自分のデータが含まれていないかを検査してください。含まれている時は、どのデータかを識別してください。  
 総合的に最も安全で、最も有用性が高いデータとなるよう加工したチームが勝者です。
+
+### ムービー
+<center><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5iItc_uT9hk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
 ## 主催
 情報処理学会 コンピュータセキュリティ研究会 PWS組織委員会  
