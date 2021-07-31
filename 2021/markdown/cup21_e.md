@@ -13,7 +13,7 @@
 </div>
 
 ## What' new
-- July 31st, 2021: [The introduction movie of PWS Cup](https://www.youtube.com/watch?v=5iItc_uT9hk) has been released.
+- July 31st, 2021: [The introduction movie of PWS Cup 2021](https://www.youtube.com/watch?v=5iItc_uT9hk) has been released.
 - July 22nd, 2021: [The entry form](https://forms.gle/b2gBRWQnkRifPWcC6) has been opened.
 - July 18th, 2021: Added the schedule, the privacy policy, and the entry page.
 - June 28th, 2021: Created this page.

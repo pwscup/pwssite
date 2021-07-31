@@ -13,7 +13,7 @@
 </div>
 
 ## What' new
-- 2021/07/31（土） [PWS Cup 紹介ムービー](https://www.youtube.com/watch?v=5iItc_uT9hk)の公開
+- 2021/07/31（土） [PWS Cup 2021 紹介ムービー](https://www.youtube.com/watch?v=5iItc_uT9hk)の公開
 - 2021/07/22（木） [参加申込フォーム](https://forms.gle/b2gBRWQnkRifPWcC6)の公開
 - 2021/07/18（日） スケジュール、プライバシーポリシー、参加ページの公開
 - 2021/06/28（月） 本ページを作成
