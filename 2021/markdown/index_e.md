@@ -62,6 +62,8 @@ Please note that conventional awards in PWS (the PWS Paper Award and the PWS Stu
 <a href="https://www.sios.com/"><img src="Images/sponsors/SIOS.gif" style="width:150px; margin: 10px"></a>
 <a href="https://www.trendmicro.com"><img src="Images/sponsors/TM.png" style="width:150px; margin: 10px"></a>
 <a href="http://nflaboratories.co.jp/"><img src="Images/sponsors/NFLabs.jpg" style="width:150px; margin: 10px"></a>
+<a href="http://www.deloitte.com/jp/cyber/"><img src="Images/sponsors/deloitte.JPG" style="width:150px; margin: 10px"></a>
+<a href="https://www.qunie.com/"><img src="Images/sponsors/qunie.JPG" style="width:150px; margin: 10px"></a>
 
 ## Supporters
 
