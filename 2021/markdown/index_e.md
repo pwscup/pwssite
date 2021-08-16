@@ -49,7 +49,17 @@ If you wish to present your paper in PWS2021 session, please select "PWSトラ�
 Please note that we might not be able to accommodate your request to present your paper in PWS2021 session due to the number of paper submission.  
 In such a case, we might ask you to present your paper in other CSS sessions.
 
-Please note that conventional awards in PWS (the PWS Paper Award and the PWS Student Paper Award) will be integrated with relevant awards in CSS2021.
+### Paper Awards
+
+We will present the following two awards:
+
+- PWS Paper Award
+    - The program committee of the PWS track will select one paper that makes a particular contribution to the development of privacy protection technologies and the proper awareness of privacy risks among all papers presented at the PWS sessions. All authors of the selected paper will be awarded.
+    - Receiving this award does not prevent you from receiving other awards granted in CSS 2021, such as CSS Best Paper Award, CSS Paper Awards, CSS Student Paper Awards, and SPT Paper Awards.
+
+- PWS Student Paper Award
+    - The program committee of the PWS track will select one paper that makes a particular contribution to the development of privacy protection technologies and the proper awareness of privacy risks among all papers presented by students (excluding adult students) at the PWS sessions. All authors of the selected paper will be awarded.
+    - Receiving this award does not prevent you from receiving other awards granted in CSS 2021, such as CSS Best Paper Award, CSS Paper Awards, CSS Student Paper Awards, and SPT Paper Awards.
 
 ## Sponsors
 
