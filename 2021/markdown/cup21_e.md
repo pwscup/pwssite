@@ -13,10 +13,14 @@
 </div>
 
 ## What' new
+- Aug. 18th, 2021: Added participating teams list. Added a document describing [how to share and upload files (Japanese)](./docs/README.pdf).
 - July 31st, 2021: [The introduction movie of PWS Cup 2021](https://www.youtube.com/watch?v=5iItc_uT9hk) has been released.
 - July 22nd, 2021: [The entry form](https://forms.gle/b2gBRWQnkRifPWcC6) has been opened.
 - July 18th, 2021: Added the schedule, the privacy policy, and the entry page.
 - June 28th, 2021: Created this page.
+
+## Documents for participating teams
+- [How to share and upload files?](./docs/README.pdf) (Japanese)
 
 ## Rules (overview)
 ### Story
@@ -50,6 +54,25 @@ The schedule is subject to change without notice.
 
 ## How to participate the PWS Cup 2021
 Check the [Entry](./entry_e.html) page
+
+## Participating teams
+
+<table border="1">
+<tr><td>Team </td><td>Comment</td><td>Leader</td><td>Affiliation</td></tr>
+<tr><td>内気ジャッカル</td><td></td><td>-</td><td>-</td></tr>
+<tr><td>麦わら海賊団</td><td>初心者ながらベストを尽くしたいと思います。</td><td>吉田伸弥</td><td>-</td></tr>
+<tr><td>大崎KG</td><td>頑張ります。</td><td>-</td><td>-</td></tr>
+<tr><td>Erhoehts</td><td>「エルヘーツ」と読みます</td><td>-</td><td>-</td></tr>
+<tr><td>宮地研.exe</td><td>初参加ですが頑張ります</td><td>-</td><td>-</td></tr>
+<tr><td>Data Protection Club</td><td></td><td>-</td><td>-</td></tr>
+<tr><td>ステテコfishy</td><td>勝ちます</td><td>伊藤聡志</td><td>明治大学</td></tr>
+<tr><td>めたぼっち</td><td>減量しながらがんばります！</td><td>井口誠</td><td>Kii株式会社</td></tr>
+<tr><td>Abyssec</td><td></td><td>成田惇</td><td>静岡大学</td></tr>
+<tr><td>たけのこ医院</td><td>頑張ります</td><td>-</td><td>-</td></tr>
+<tr><td>みどりぐみ</td><td></td><td>-</td><td>-</td></tr>
+<tr><td>匿工野郎Aチーム</td><td></td><td>長谷川慶太</td><td>-</td></tr>
+<tr><td>なし</td><td>あまり当てられないように頑張ります</td><td>-</td><td>-</td></tr>
+</table>
 
 ## Privacy Policy
 Check [PWS Cup 2021 Privacy Policy](./privacy_policy_e.html).
