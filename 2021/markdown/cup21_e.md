@@ -13,7 +13,10 @@
 </div>
 
 ## What' new
-- Aug. 18th, 2021: Added participating teams list. Added a document describing [how to share and upload files (Japanese)](./Images/docs/README.pdf).
+- Aug. 18th, 2021:
+    - Added participating teams list.
+    - Added a document describing [how to share and upload files (Japanese)](./Images/docs/README.pdf) and [the contest data set](./Nhanes.html).
+    - Update the schedule (The anonymization phase of preliminary round and the review of the preliminary round)
 - July 31st, 2021: [The introduction movie of PWS Cup 2021](https://www.youtube.com/watch?v=5iItc_uT9hk) has been released.
 - July 22nd, 2021: [The entry form](https://forms.gle/b2gBRWQnkRifPWcC6) has been opened.
 - July 18th, 2021: Added the schedule, the privacy policy, and the entry page.
@@ -21,6 +24,7 @@
 
 ## Documents for participating teams
 - [How to share and upload files?](./Images/docs/README.pdf) (Japanese)
+- [About the contest data set](./Nhanes.html) (English follows Japanese)
 
 ## Rules (overview)
 ### Story
@@ -41,9 +45,11 @@ PWS Committee in the Computer Security Special Interest Group of the Information
 The schedule is subject to change without notice.
 
 - Thu., July 22nd, 2021 - Mon., July August 16th, 2021: Entries accepted
-- Thu., August 19th, 2021: Start date of the preliminary round (anonymization phase)
+- Thu., August 19th, 2021 - Tues., August 31st, 2021: The dates of the preliminary round (anonymization phase)
+    - __Submission deadline: August 31st, 2021 23:59:59(JST)__
 - Thu., September 2nd, 2021: Start date of the preliminary round (attack phase)
 - Wed,. September 15th, 2021: Review of the preliminary round
+    - The review will be held at 5:00 p.m. to 7:00 p.m. (JST) (Online)
 - Thu., September 16th, 2021: Start date of the final round (anonymization phase)
 - Thu., September 30th, 2021: Start date of the final round (attack phase)
 - Wed., October 27th, 2021 (TBD): The final presentation by participating teams / Presentation of the final result
