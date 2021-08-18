@@ -13,10 +13,14 @@
 </div>
 
 ## What' new
+- 2021/08/18（水） 参加チーム一覧の追加。[ファイルの共有と提出方法について](./Images/docs/README.pdf)の資料の追加。
 - 2021/07/31（土） [PWS Cup 2021 紹介ムービー](https://www.youtube.com/watch?v=5iItc_uT9hk)の公開
 - 2021/07/22（木） [参加申込フォーム](https://forms.gle/b2gBRWQnkRifPWcC6)の公開
 - 2021/07/18（日） スケジュール、プライバシーポリシー、参加ページの公開
 - 2021/06/28（月） 本ページを作成
+
+## 参加者向け資料
+- [ファイルの共有と提出方法について](./Images/docs/README.pdf)
 
 ## ルール概要
 ### ストーリー
@@ -50,6 +54,25 @@
 
 ## 参加方法
 [参加規定](./entry.html)のページをご確認ください。
+
+## 参加チーム
+
+<table border="1">
+<tr><td>チーム名 </td><td>意気込み</td><td>チーム代表者</td><td>所属</td></tr>
+<tr><td>内気ジャッカル</td><td></td><td>-</td><td>-</td></tr>
+<tr><td>麦わら海賊団</td><td>初心者ながらベストを尽くしたいと思います。</td><td>吉田伸弥</td><td>-</td></tr>
+<tr><td>大崎KG</td><td>頑張ります。</td><td>-</td><td>-</td></tr>
+<tr><td>Erhoehts</td><td>「エルヘーツ」と読みます</td><td>-</td><td>-</td></tr>
+<tr><td>宮地研.exe</td><td>初参加ですが頑張ります</td><td>-</td><td>-</td></tr>
+<tr><td>Data Protection Club</td><td></td><td>-</td><td>-</td></tr>
+<tr><td>ステテコfishy</td><td>勝ちます</td><td>伊藤聡志</td><td>明治大学</td></tr>
+<tr><td>めたぼっち</td><td>減量しながらがんばります！</td><td>井口誠</td><td>Kii株式会社</td></tr>
+<tr><td>Abyssec</td><td></td><td>成田惇</td><td>静岡大学</td></tr>
+<tr><td>たけのこ医院</td><td>頑張ります</td><td>-</td><td>-</td></tr>
+<tr><td>みどりぐみ</td><td></td><td>-</td><td>-</td></tr>
+<tr><td>匿工野郎Aチーム</td><td></td><td>長谷川慶太</td><td>-</td></tr>
+<tr><td>なし</td><td>あまり当てられないように頑張ります</td><td>-</td><td>-</td></tr>
+</table>
 
 ## プライバシーポリシー
 [PWS Cup 2021 プライバシーポリシー](./privacy_policy.html)をご確認ください。
