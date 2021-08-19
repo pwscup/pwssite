@@ -13,6 +13,7 @@
 </div>
 
 ## What' new
+- Aug. 19th, 2021: [Documents of the rules / scripts for PWS Cup 2021](https://github.com/kikn88/pwscup2021) have been released.
 - Aug. 18th, 2021:
     - Added participating teams list.
     - Added a document describing [how to share and upload files (Japanese)](./Images/docs/README.pdf) and [the contest data set](./Nhanes.html).
@@ -25,6 +26,7 @@
 ## Documents for participating teams
 - [How to share and upload files?](./Images/docs/README.pdf) (Japanese)
 - [About the contest data set](./Nhanes.html) (English follows Japanese)
+- [Documents of the rules / scripts for PWS Cup 2021](https://github.com/kikn88/pwscup2021)
 
 ## Rules (overview)
 ### Story
