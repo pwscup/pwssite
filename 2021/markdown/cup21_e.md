@@ -24,7 +24,7 @@
 - June 28th, 2021: Created this page.
 
 ## Documents for participating teams
-- [How to share and upload files?](./Images/docs/README.pdf) (Japanese)
+- [How to share and upload files?](./Images/docs/README.pdf) (Japanese) (Last update: Aug. 19th)
 - [About the contest data set](./Nhanes.html) (English follows Japanese)
 - [Documents of the rules / scripts for PWS Cup 2021](https://github.com/kikn88/pwscup2021)
 
