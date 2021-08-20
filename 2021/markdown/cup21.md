@@ -83,6 +83,7 @@
 <tr><td>みどりぐみ</td><td></td><td>-</td><td>-</td></tr>
 <tr><td>匿工野郎Aチーム</td><td></td><td>長谷川慶太</td><td>-</td></tr>
 <tr><td>なし</td><td>あまり当てられないように頑張ります</td><td>-</td><td>-</td></tr>
+<tr><td>JMG</td><td>JMG</td><td>-</td><td>-</td></tr>
 </table>
 
 ## プライバシーポリシー
