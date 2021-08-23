@@ -13,6 +13,12 @@
 </div>
 
 ## What' new
+- Aug. 23th, 2021:
+    - Added [The rules of PWS Cup 2021 (video)](https://youtu.be/ccaTI_dE2VQ)
+    - Updated [Documents of the rules / scripts for PWS Cup 2021](https://github.com/kikn88/pwscup2021)
+        -  Updated files are [PWSCup2021-rule.pdf](https://github.com/kikn88/pwscup2021/blob/main/PWSCup2021-rule.pdf), [README.md](https://github.com/kikn88/pwscup2021/blob/main/README.md), and [diabdetes.pdf](https://github.com/kikn88/pwscup2021/blob/main/diabetes.pdf)
+    - Updated [How to share and upload files?](./Images/docs/README.pdf)
+        - Replaced variable names according to the updates of diabetes.pdf.
 - Aug. 19th, 2021: [Documents of the rules / scripts for PWS Cup 2021](https://github.com/kikn88/pwscup2021) have been released.
 - Aug. 18th, 2021:
     - Added participating teams list.
@@ -24,9 +30,10 @@
 - June 28th, 2021: Created this page.
 
 ## Documents for participating teams
-- [How to share and upload files?](./Images/docs/README.pdf) (Japanese) (Last update: Aug. 19th)
+- [How to share and upload files?](./Images/docs/README.pdf) (Japanese) (Last update: Aug. 23th)
 - [About the contest data set](./Nhanes.html) (English follows Japanese)
-- [Documents of the rules / scripts for PWS Cup 2021](https://github.com/kikn88/pwscup2021)
+- [Documents of the rules / scripts for PWS Cup 2021](https://github.com/kikn88/pwscup2021) (Last update: Aug. 23th)
+- [The rules of PWS Cup 2021 (video)](https://youtu.be/ccaTI_dE2VQ) (Japanese) (Released on Aug. 23th)
 
 ## Rules (overview)
 ### Story

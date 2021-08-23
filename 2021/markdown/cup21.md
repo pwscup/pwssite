@@ -13,6 +13,12 @@
 </div>
 
 ## What' new
+- 2021/08/23（月）
+    - [PWS Cup 201 コンテストルール（動画）](https://youtu.be/ccaTI_dE2VQ)を追加
+    - [コンテストルール説明資料、各種プログラム](https://github.com/kikn88/pwscup2021)の更新
+        - 更新箇所: [PWSCup2021-rule.pdf](https://github.com/kikn88/pwscup2021/blob/main/PWSCup2021-rule.pdf), [README.md](https://github.com/kikn88/pwscup2021/blob/main/README.md), [diabdetes.pdf](https://github.com/kikn88/pwscup2021/blob/main/diabetes.pdf)
+    - [ファイルの共有と提出方法について](./Images/docs/README.pdf)の資料更新
+        - ルール論文 diabetes.pdf の更新に伴い、提出物の変数名を更新(命名規則は変わりません)
 - 2021/08/19（木）
     - 「匿名加工フェーズ」を「匿名化フェーズ」に改称
     - [コンテストルール説明資料、各種プログラム](https://github.com/kikn88/pwscup2021)の公開
@@ -27,9 +33,10 @@
 - 2021/06/28（月） 本ページを作成
 
 ## 参加者向け資料
-- [ファイルの共有と提出方法について](./Images/docs/README.pdf) （2021/08/19 更新）
+- [ファイルの共有と提出方法について](./Images/docs/README.pdf) （2021/08/23 更新）
 - [コンテストデータセットについて](./Nhanes.html)
-- [コンテストルール説明資料、各種プログラム](https://github.com/kikn88/pwscup2021)
+- [コンテストルール説明資料、各種プログラム](https://github.com/kikn88/pwscup2021) （2021/08/23 更新）
+- [PWS Cup 201 コンテストルール（動画）](https://youtu.be/ccaTI_dE2VQ) （2021/08/23 追加）
 
 ## ルール概要
 ### ストーリー
