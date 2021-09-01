@@ -13,6 +13,7 @@
 </div>
 
 ## What' new
+- Sep. 2nd, 2021: Updated the schedule.
 - Aug. 23th, 2021:
     - Added [The rules of PWS Cup 2021 (video)](https://youtu.be/ccaTI_dE2VQ)
     - Updated [Documents of the rules / scripts for PWS Cup 2021](https://github.com/kikn88/pwscup2021)
@@ -60,10 +61,13 @@ The schedule is subject to change without notice.
 - Thu., August 19th, 2021 - Tues., August 31st, 2021: The dates of the preliminary round (anonymization phase)
     - __Submission deadline: August 31st, 2021 23:59:59(JST)__
 - Thu., September 2nd, 2021: Start date of the preliminary round (attack phase)
+    - __Submission deadline: September 13th, 2021 11:59:59(JST)__
 - Wed,. September 15th, 2021: Review of the preliminary round
     - The review will be held at 5:00 p.m. to 7:00 p.m. (JST) (Online)
 - Thu., September 16th, 2021: Start date of the final round (anonymization phase)
+    - __Submission deadline: September 27th, 2021 11:59:59(JST)__
 - Thu., September 30th, 2021: Start date of the final round (attack phase)
+    - __Submission deadline: October 11st, 2021 11:59:59(JST)__
 - Wed., October 27th, 2021 (TBD): The final presentation by participating teams / Presentation of the final result
 
 ### Remarks
