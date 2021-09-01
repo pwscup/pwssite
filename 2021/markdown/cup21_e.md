@@ -67,7 +67,7 @@ The schedule is subject to change without notice.
 - Thu., September 16th, 2021: Start date of the final round (anonymization phase)
     - __Submission deadline: September 27th, 2021 11:59:59(JST)__
 - Thu., September 30th, 2021: Start date of the final round (attack phase)
-    - __Submission deadline: October 11st, 2021 11:59:59(JST)__
+    - __Submission deadline: October 11th, 2021 11:59:59(JST)__
 - Wed., October 27th, 2021 (TBD): The final presentation by participating teams / Presentation of the final result
 
 ### Remarks
