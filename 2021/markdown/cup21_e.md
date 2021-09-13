@@ -13,6 +13,7 @@
 </div>
 
 ## What' new
+- Sep. 13th, 2021: Updated the "[How to share and upload files?](./Images/docs/README.pdf)"
 - Sep. 2nd, 2021: Updated the schedule.
 - Aug. 23th, 2021:
     - Added [The rules of PWS Cup 2021 (video)](https://youtu.be/ccaTI_dE2VQ)
@@ -31,7 +32,7 @@
 - June 28th, 2021: Created this page.
 
 ## Documents for participating teams
-- [How to share and upload files?](./Images/docs/README.pdf) (Japanese) (Last update: Aug. 23th)
+- [How to share and upload files?](./Images/docs/README.pdf) (Japanese) (Last update: Sep. 13th)
 - [About the contest data set](./Nhanes.html) (English follows Japanese)
 - [Documents of the rules / scripts for PWS Cup 2021](https://github.com/kikn88/pwscup2021) (Last update: Aug. 23th)
 - [The rules of PWS Cup 2021 (video)](https://youtu.be/ccaTI_dE2VQ) (Japanese) (Released on Aug. 23th)
