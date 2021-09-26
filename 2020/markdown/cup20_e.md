@@ -101,6 +101,8 @@ The schedule is subject to change without notice.
 <tr><td>wakanalie</td><td></td><td>-</td><td>-</td></tr>
 <tr><td>初ぼっち</td><td>ぼっちなので何もできないかもしれません。</td><td>-</td><td>-</td></tr>
 <tr><td>テレぼっち</td><td>テレワークなので、例年よりぼっち度をアゲてがんばります！</td><td>井口誠</td><td>Kii株式会社</td></tr>
+<tr><td>Mostly.AI</td><td>-</td><td>-</td><td>-</td></tr>
+
 </table>
 
 ## Result
