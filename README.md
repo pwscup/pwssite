@@ -50,9 +50,10 @@
     - iwsecサーバで↑の設定をしています   
   - サイズの大きなデータは、githubには置けないので注意です
     - 2019 は 2019/data/ をgitignoreしています data以下はローカルから直接iwsecサーバにscpしています
-  - はたのむけ: ビルド用GCPインスタンスを再起動したら
+  - はたの向け: ビルド用GCPインスタンスを再起動したら
     - ケチって静的IPアドレスの確保をしていないので、再起動したらIPアドレスが変わる。circleciで設定変更が必要
     - circleci > pwscup の環境変数 TEST_HOST_NAMEに、GCPインスタンスのIPアドレスを指定する
+    - /tmp/pwssiteが消えているかも git clone git:// .... する 
 
 # 詳細は
 - [PWS Slack](https://pwscup.slack.com)で質問してください
