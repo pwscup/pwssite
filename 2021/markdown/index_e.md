@@ -77,7 +77,7 @@ We will present the following two awards:
 
 ## Supporters
 
-TBD
+[Personal Information Protection Commission (PPC)](https://www.ppc.go.jp/en/index.html)
 
 ## Past PWS
 - [PWS2020](https://www.iwsec.org/pws/2020/index_e.html)
