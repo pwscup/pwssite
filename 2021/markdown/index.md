@@ -74,7 +74,7 @@ PWS2021への論文投稿受付は、コンピュータセキュリティシン�
 
 ## 後援組織
 
-TBD
+[個人情報保護委員会](https://www.ppc.go.jp/)
 
 ## 過去のPWS
 - [PWS2020](https://www.iwsec.org/pws/2020/)
