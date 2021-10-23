@@ -13,6 +13,7 @@
 </div>
 
 ## What' new
+- 2021/10/23（土） [PWS Cup 2021 セッションのご案内](./session.html)の公開
 - 2021/09/13（月） [ファイルの共有と提出方法について](./Images/docs/README.pdf)の資料の更新
 - 2021/09/02（木） スケジュールの更新
 - 2021/08/23（月）
@@ -100,6 +101,9 @@
 <tr><td>なし</td><td>あまり当てられないように頑張ります</td><td>-</td><td>-</td></tr>
 <tr><td>JMG</td><td>JMG</td><td>-</td><td>-</td></tr>
 </table>
+
+## PWS Cup 2021 セッション
+- [PWS Cup 2021 セッションのご案内](./session.html) ページをご確認ください
 
 ## プライバシーポリシー
 [PWS Cup 2021 プライバシーポリシー](./privacy_policy.html)をご確認ください。
