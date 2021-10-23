@@ -70,19 +70,19 @@ All teams at the same time (01~14)
 ### Zoom Client
 - Please update the Zoom client
 - Please use the latest version Zoom. (>v5.3.0)
-   - If you use the old version, you can not choose the breakout rooms as you like.
+   - If you use the old version, you can not choose the breakout rooms by yourself.
 
 ### The deadline of uploading the material
 - Please upload your poster by "2020/10/25(Mon) 12:59:59 JST" to the BOX.
 
-### [Team] 　
+### [Team] Copyright Ownership / About publishing of materials
 - Copyright Ownership
     - The author owns the copyright of the submitted materials.
 - Release of the materials
-    - The submitted materials does not release.
+    - The submitted materials do not release.
     - **You are NOT allowed to download the submitted materials.**
 - Disclosing of the materials
-    - After the PWS Cup 2021 session, if the each team inform the committee that "we agree that materials is disclosed",  the materials will be disclosed at this web site.
+    - After the PWS Cup 2021 session, if each team informs the committee that "we agree that materials is disclosed",  the materials will be disclosed at this web site.
     
 ## Contact
 - PWS Cup 2021 Working Group in the PWS Committee
