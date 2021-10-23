@@ -13,6 +13,7 @@
 </div>
 
 ## What' new
+- Oct. 23th, 2021: Created the [Information for PWS Cup 2021 session](./session_e.html) page.
 - Sep. 13th, 2021: Updated the "[How to share and upload files?](./Images/docs/README.pdf)"
 - Sep. 2nd, 2021: Updated the schedule.
 - Aug. 23th, 2021:
@@ -97,6 +98,9 @@ Check the [Entry](./entry_e.html) page
 <tr><td>なし</td><td>あまり当てられないように頑張ります</td><td>-</td><td>-</td></tr>
 <tr><td>JMG</td><td>JMG</td><td>-</td><td>-</td></tr>
 </table>
+
+## PWS Cup 2021 session
+- Check the [Information for PWS Cup 2021 session](./session_e.html) page.
 
 ## Privacy Policy
 Check [PWS Cup 2021 Privacy Policy](./privacy_policy_e.html).
