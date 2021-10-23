@@ -52,9 +52,11 @@ All teams at the same time (01~14)
 ###  Team Presentation
 - Please introduce your anonymize/attack method at presentation session(5min) and Poster session (twice).
 - We will inform you of the url for the Zoom session in Slack of CSS2021.
+
 #### Presentation session (5min)
    - Please introduce the summary of anonymize/attack method.
    - We will invite you to the Zoom session for PWS Cup 2021.
+
 #### Poster session (twice)
    - Please introduce the details of the  anonymize/attack method, and discuss with the participants.
    - Way
