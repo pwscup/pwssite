@@ -99,6 +99,24 @@ Check the [Entry](./entry_e.html) page
 <tr><td>JMG</td><td>JMG</td><td>-</td><td>-</td></tr>
 </table>
 
+## Result
+### Overall
+- 1st Team10 宮地研.exe
+- 2nd Team06 Data Protection Club
+- 3rd Team04 麦わら海賊団
+
+### Anonymization
+- 1st Team06 Data Protection Club
+- 2nd Team04 麦わら海賊団
+- 3rd Team10 宮地研.exe
+
+### Attack
+- 1st Team09 「なし」
+- 2nd Team10 宮地研.exe
+- 3rd Team08 Abyssec
+
+[Result details (Japanese)](./Images/docs/PWSCup2021_result.pdf)
+
 ## PWS Cup 2021 session
 - Check the [Information for PWS Cup 2021 session](./session_e.html) page.
 

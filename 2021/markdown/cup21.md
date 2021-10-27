@@ -102,8 +102,26 @@
 <tr><td>JMG</td><td>JMG</td><td>-</td><td>-</td></tr>
 </table>
 
+## 最終結果
+### 総合
+- 第1位 Team10 宮地研.exe
+- 第2位 Team06 Data Protection Club
+- 第3位 Team04 麦わら海賊団
+
+### 匿名化部門
+- 第1位 Team06 Data Protection Club
+- 第2位 Team04 麦わら海賊団
+- 第3位 Team10 宮地研.exe
+
+### 攻撃部門
+- 第1位 Team09 「なし」
+- 第2位 Team10 宮地研.exe
+- 第3位 Team08 Abyssec
+
+結果詳細は[こちら](./Images/docs/PWSCup2021_result.pdf)をご覧ください。
+
 ## PWS Cup 2021 セッション
-- [PWS Cup 2021 セッションのご案内](./session.html) ページをご確認ください
+- [PWS Cup 2021 セッションのご案内](./session.html) ページをご確認ください。
 
 ## プライバシーポリシー
 [PWS Cup 2021 プライバシーポリシー](./privacy_policy.html)をご確認ください。
