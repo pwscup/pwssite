@@ -13,6 +13,7 @@
 </div>
 
 ## What' new
+- 2021/10/27（水） 最終結果を[詳細](./Images/docs/PWSCup2021_result.pdf)とともに公開
 - 2021/10/23（土） [PWS Cup 2021 セッションのご案内](./session.html)の公開
 - 2021/09/13（月） [ファイルの共有と提出方法について](./Images/docs/README.pdf)の資料の更新
 - 2021/09/02（木） スケジュールの更新
@@ -117,6 +118,9 @@
 - 第1位 Team09 「なし」
 - 第2位 Team10 宮地研.exe
 - 第3位 Team08 Abyssec
+
+### 優秀発表賞
+- Team05 匿工野郎Aチーム
 
 結果詳細は[こちら](./Images/docs/PWSCup2021_result.pdf)をご覧ください。
 

@@ -13,6 +13,7 @@
 </div>
 
 ## What' new
+- Oct. 27th, 2021: The contest results have been published! ([Detail (Japanese)](./Images/docs/PWSCup2021_result.pdf))
 - Oct. 23th, 2021: Created the [Information for PWS Cup 2021 session](./session_e.html) page.
 - Sep. 13th, 2021: Updated the "[How to share and upload files?](./Images/docs/README.pdf)"
 - Sep. 2nd, 2021: Updated the schedule.
@@ -114,6 +115,9 @@ Check the [Entry](./entry_e.html) page
 - 1st Team09 「なし」
 - 2nd Team10 宮地研.exe
 - 3rd Team08 Abyssec
+
+### The Best Presentation Award
+- Team05 匿工野郎Aチーム
 
 [Result details (Japanese)](./Images/docs/PWSCup2021_result.pdf)
 
