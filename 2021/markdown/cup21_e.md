@@ -13,7 +13,7 @@
 </div>
 
 ## What' new
-- Oct. 27th, 2021: The contest results have been published! ([Detail (Japanese)](./Images/docs/PWSCup2021_result.pdf))
+- Oct. 27th, 2021: The contest results have been published! ([Result details (Japanese)](./Images/docs/PWSCup2021_result.pdf))
 - Oct. 23th, 2021: Created the [Information for PWS Cup 2021 session](./session_e.html) page.
 - Sep. 13th, 2021: Updated the "[How to share and upload files?](./Images/docs/README.pdf)"
 - Sep. 2nd, 2021: Updated the schedule.
