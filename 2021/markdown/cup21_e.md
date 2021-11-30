@@ -13,6 +13,7 @@
 </div>
 
 ## What' new
+- Dec. 1st, 2021: Set download links of poster files of teams that agreed to publish.
 - Oct. 27th, 2021: The contest results have been published! ([Result details (Japanese)](./Images/docs/PWSCup2021_result.pdf))
 - Oct. 23th, 2021: Created the [Information for PWS Cup 2021 session](./session_e.html) page.
 - Sep. 13th, 2021: Updated the "[How to share and upload files?](./Images/docs/README.pdf)"
@@ -123,6 +124,16 @@ Check the [Entry](./entry_e.html) page
 
 ## PWS Cup 2021 session
 - Check the [Information for PWS Cup 2021 session](./session_e.html) page.
+
+### Posters
+From the following links, you can download poster files (in Japanese) of teams that kindly agreed to publish.
+
+- [Team04 麦らわ海賊団](./Images/posters/poster_04.pdf)
+- [Team06 Data Protection Club](./Images/posters/poster_06.pdf)
+- [Team07 めたぼっち](./Images/posters/poster_07.pdf)
+- [Team08 Abyssec](./Images/posters/poster_08.pdf)
+- [Team10 宮地研.exe](./Images/posters/poster_10.pdf)
+- [Team14 大崎KG](./Images/posters/poster_14.pdf)
 
 ## Privacy Policy
 Check [PWS Cup 2021 Privacy Policy](./privacy_policy_e.html).
