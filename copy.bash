@@ -33,6 +33,9 @@ cp ${dir}/2020/markdown/index.md ${dir}/${input}/markdown/
 ## echo "bash ${dir}/${input}/scripts/make.bash" >> ${dir}/make.bash
 ## TODO: ${dir}は展開せずに、${input}は展開して、make.bashに追記したい
 
+## TODO: template/headerを最新化する
+## PWS****.htmlと、cup**.htmlへのリンクを最新化する
+
 ## ビルド
 echo " -- test -- "
 bash ${dir}/make.bash
