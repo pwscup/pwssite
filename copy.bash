@@ -30,7 +30,8 @@ cp ${dir}/2020/scripts/* ${dir}/${input}/scripts/
 cp ${dir}/2020/markdown/index.md ${dir}/${input}/markdown/
 
 ## make.bashに新年度分を追加
-echo "bash ${dir}/${input}/scripts/make.bash" >> ${dir}/make.bash
+## echo "bash ${dir}/${input}/scripts/make.bash" >> ${dir}/make.bash
+## TODO: ${dir}は展開せずに、${input}は展開して、make.bashに追記したい
 
 ## ビルド
 echo " -- test -- "
