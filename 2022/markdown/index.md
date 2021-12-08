@@ -1,4 +1,4 @@
-# [作成中] 第8回プライバシーワークショップ (PWS2022)
+# 作成中 第8回プライバシーワークショップ (PWS2022)
 
 <div style="text-align: center;">
  <font size="2">
