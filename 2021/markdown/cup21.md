@@ -132,7 +132,7 @@
 ### ポスター
 下記のリンクより、公開にご同意いただいたチームのポスター資料をダウンロードできます。
 
-- [Team04 麦らわ海賊団](./Images/posters/poster_04.pdf)
+- [Team04 麦わら海賊団](./Images/posters/poster_04.pdf)
 - [Team06 Data Protection Club](./Images/posters/poster_06.pdf)
 - [Team07 めたぼっち](./Images/posters/poster_07.pdf)
 - [Team08 Abyssec](./Images/posters/poster_08.pdf)
