@@ -1,36 +1,38 @@
 # pwssite 概要
-- Privacy Workshop Webサイト管理用です。
-- 誰でも触れるように、github上でページを作成・編集できるようにしています。
+- Privacy Workshop Webサイト管理用リポジトリです。
+- 誰でも触れるように、**github上でページを作成・編集**できるようにしています。
 - ↓の運用方法をよく読みましょう　難しくありません
+  - [PWS Slack](https://pwscup.slack.com)で質問してください。
 
 - 運用方法
-  - gh-pagesブランチの/202*/markdown にある.mdファイルを、マークダウン形式で編集しましょう。 [このスライド](https://docs.google.com/presentation/d/1VPrXKw8AN9LVo-EXei2zOkcJoQwn1LSfwvPKT-2-5lA/edit)を参考に、github上でやるといいと思います。
-  - commitして少し待つと、[github-pages](https://pwscup.github.io/pwssite)に反映されます。ここで見た目を確認します。
-  - 表示が問題なければ、内容をmaster branchにマージしましょう。自分で承認して構いません。少し待つと、[IWSECサーバ](https://www.iwsec.org/pws/)にデプロイされます。
-  - 詳細が気になる場合は [このスライド](https://docs.google.com/presentation/d/1VPrXKw8AN9LVo-EXei2zOkcJoQwn1LSfwvPKT-2-5lA/edit)を見ましょう
+  - [まずはこのスライド](https://docs.google.com/presentation/d/1VPrXKw8AN9LVo-EXei2zOkcJoQwn1LSfwvPKT-2-5lA/edit)を読みましょう。
+  - gh-pagesブランチの/202*/markdown にある.mdファイルを、マークダウン形式で編集してください。
+    - 新規ページ作成時は、/202*/markdown/hoge.mdを新規作成してください。
+  - commitして少し待つと、[テスト環境：github-pages](https://pwscup.github.io/pwssite)に反映されます。ここで見た目を確認します。
+    - 表示に問題があれば、またgithub上でmarkdownを編集してください。
+  - 表示が問題なければ、gh-pagesブランチの内容をmaster branchにマージしましょう。
+    - 自分で承認して構いません。少し待つと、[本番環境：IWSECサーバ](https://www.iwsec.org/pws/)にデプロイされます。
+  - 詳細が気になる場合は [このスライド](https://docs.google.com/presentation/d/1VPrXKw8AN9LVo-EXei2zOkcJoQwn1LSfwvPKT-2-5lA/edit)をよく見つつ、 Slackで質問してください
   
 # フォルダ構成
 - 2018以前
   - PWS2018以前のサイト gitで管理していませんでした 
 - 2019
-  - PWS2019のサイト htmlファイルを直接編集しています
-- 2020
-  - PWS2020のサイト mdファイルをビルドして作っています
-- 2021
-  - PWS2021のサイト PWS2020と同様です
+  - PWS2019 のサイト htmlファイルを直接編集しています
+- 2020以降
+  - PWS202* のサイト "運用方法"の手順で、mdファイルをgithub上で編集して作っています
 - .circleci
-  - circleciの設定 (詳しくないなら触らない)
+  - circleciの設定 (通常、これを触りたい場面はないと思います CirfleCIの設定ファイルです)
 
 # ブランチ
 - master
   - 本番の[IWSECサーバ](https://www.iwsec.org/pws/)用
-  - masterにcommitされた内容は、circleci で自動的に本番にデプロイされるので注意です
+  - **masterにcommitされた内容は、circleci で自動的に本番にデプロイされるので注意です**
 - gh-pages
   - テスト用
-  - 本番にデプロイする前に、gh-pagesにpushしましょう
   - [github-pages](https://pwscup.github.io/pwssite)で確認できます
 - その他
-  - 自由
+  - 自由に作成してください。
 
 # 裏側で何が動いているか
   - 気になる人は[このスライド](https://docs.google.com/presentation/d/1VPrXKw8AN9LVo-EXei2zOkcJoQwn1LSfwvPKT-2-5lA/edit)を見ましょう
@@ -46,10 +48,13 @@
   - 焦ってすぐにmasterにmergeすると、htmlが生成されずにmasterに含まれてしまうので、注意です　gh-pagesで確認してからmasterにマージしましょう
 
 # 備考
-  - Masterへの直接commit禁止
-    - iwsecサーバで↑の設定をしています   
-  - サイズの大きなデータは、githubには置けないので注意です
+  - スタイルシートとヘッダ・フッタは編集しない想定です。
+    - 見た目で困ることはない気がするので...
+  - Masterへの直接commit禁止です。
+    - iwsecサーバで↑の設定をしています。 Githubでは面倒なので設定していません。  
+  - サイズの大きなデータは、githubには置けません。
     - 2019 は 2019/data/ をgitignoreしています data以下はローカルから直接iwsecサーバにscpしています
+    - google driveの公開ディレクトリのURLを記載する、など
   - はたの向け: ビルド用GCPインスタンスを再起動したら
     - ケチって静的IPアドレスの確保をしていないので、再起動したらIPアドレスが変わる。circleciで設定変更が必要
     - circleci > pwscup の環境変数 TEST_HOST_NAMEに、GCPインスタンスのIPアドレスを指定する
