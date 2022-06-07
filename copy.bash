@@ -5,7 +5,7 @@ dir=$(dirname $0)
 input=$1
 
 
-## 数字かどうかチェック
+## 入力が数字かどうかチェック
 if expr "$input" : "[0-9]*$" >&/dev/null;then
   echo "" >& /dev/null else
 else 
@@ -13,29 +13,29 @@ else
   exit 1
 fi
 
-## 存在チェック
+## 入力年度フォルダの存在チェック
 if [ -e ${dir}/${input} ]; then
   echo "$input directory already exists."
   exit 1
 fi
 
 
-## ディレクトリ構造のコピー
+## ディレクトリ構造をコピー
 rsync -avz --include "*/" --exclude "*" ${dir}/2020/ ${dir}/${input}/
 
 ## 共通ファイルのコピー
-cp ${dir}/2020/style.css ${dir}/${input}/
-cp ${dir}/2020/template/* ${dir}/${input}/template/
-cp ${dir}/2020/scripts/* ${dir}/${input}/scripts/
-cp ${dir}/2020/markdown/index.md ${dir}/${input}/markdown/
+cp ${dir}/2022/style.css ${dir}/${input}/
+cp ${dir}/2022/template/* ${dir}/${input}/template/
+cp ${dir}/2022/scripts/* ${dir}/${input}/scripts/
+cp ${dir}/2022/markdown/index.md ${dir}/${input}/markdown/
 
 ## make.bashに新年度分を追加
 ## echo "bash ${dir}/${input}/scripts/make.bash" >> ${dir}/make.bash
 ## TODO: ${dir}は展開せずに、${input}は展開して、make.bashに追記したい
 
-## TODO: template/headerを最新化する
-## PWS****.htmlと、cup**.htmlへのリンクを最新化する
+## TODO: template/headerを最新化して、cup${input}.htmlを参照するようにする
+## TODO: PWS****.htmlと、cup**.htmlへのリンクを最新化する
 
-## ビルド
+## htmlの生成処理.bashが上手く動くどうかのテスト
 echo " -- test -- "
 bash ${dir}/make.bash
