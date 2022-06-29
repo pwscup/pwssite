@@ -7,7 +7,7 @@
 </div>
 
 ## What's new
-- June 3rd, 2022: Created this page.
+- June 30th, 2022: Opened this page.
 
 ## About PWS (Privacy Workshop)
 ### Overview
