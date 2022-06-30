@@ -27,8 +27,9 @@ For the above purpose, the Computer Security Special Interest Group (CSEC) of th
  <dd>Koji Chida (Gunma University)</dd>
  <dt>Co-Chair</dt>
  <dd>Ryo Nojima (NICT)</dd>
+ <dd>Shoji Mima (Hitachi Consulting)</dd>
  <dt>Members</dt>
- <dd>Taeko Abe (NICT), Hiromi Arai (RIKEN), Makoto Iguchi (Kii), Satoshi Ito (Aichi Gakuin University), Shinsuke Ito (Chuo University), Hiroto Eguchi (Toppan), Hidenobu Oguri (Fujitsu), Hiroaki Kikuchi (Meiji University), Atsushi Kuromasa (Data Society Alliance), Masahiro Sugawa (Niigata University), Yuichi Sei (The Univesity of Electro-Communications), Tsubasa Takahashi (LINE), Takao Takenouchi (LINE), Mutsumi Tamai (SECOM), Masayuki Terada (NTT DOCOMO), Hiroshi Nakagawa (RIKEN), Yuichi Nakamura (SoftBank), Kenshiro Nishiyama (LegalForce), Takuma Hatano (NS Solutions), Koki Hamada (NTT), Chihiro Fujisaki (Toppan), Masahiro Fujita (Mitsubishi Electric), Ryo Furukawa (NEC), Ruiqiang Ma (Meiji University), Wakana Maeda (LINE), Takayuki Miura (NTT), Shoji Mima (Hitachi Consulting), Kazuhiro Minami (The Institute of Statistical Mathematics), Takao Murakami (AIST), Akira Yamada (KDDI Research), Chiemi Watanabe (Tsukuba University of Technology)
+ <dd>Taeko Abe (NICT), Hiromi Arai (RIKEN), Makoto Iguchi (Kii), Satoshi Ito (Aichi Gakuin University), Shinsuke Ito (Chuo University), Hiroto Eguchi (Toppan), Hidenobu Oguri (Fujitsu), Hiroaki Kikuchi (Meiji University), Atsushi Kuromasa (Data Society Alliance), Masahiro Sugawa (Niigata University), Yuichi Sei (The Univesity of Electro-Communications), Tsubasa Takahashi (LINE), Takao Takenouchi (LINE), Mutsumi Tamai (SECOM), Masayuki Terada (NTT DOCOMO), Hiroshi Nakagawa (RIKEN), Yuichi Nakamura (SoftBank), Kenshiro Nishiyama (LegalForce), Takuma Hatano (NS Solutions), Koki Hamada (NTT), Chihiro Fujisaki (Toppan), Masahiro Fujita (Mitsubishi Electric), Ryo Furukawa (NEC), Ruiqiang Ma (Meiji University), Wakana Maeda (LINE), Takayuki Miura (NTT), Kazuhiro Minami (The Institute of Statistical Mathematics), Takao Murakami (AIST), Akira Yamada (KDDI Research), Chiemi Watanabe (Tsukuba University of Technology)
  </dd>
 </dl>
 
