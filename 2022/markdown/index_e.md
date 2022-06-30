@@ -9,6 +9,9 @@
 ## What's new
 - June 30th, 2022: Opened this page.
 
+## Events
+- A PWS session is going to held on **July 20th, 2022** at Security Summer Summit(SSS) 2022. Please refer to [this website(Japanese)](https://www.ipsj.or.jp/kenkyukai/event/csec98spt48.html) for more details.
+
 ## About PWS (Privacy Workshop)
 ### Overview
 

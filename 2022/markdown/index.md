@@ -8,6 +8,8 @@
 
 ## What's new
 - 2022/06/30(木) 本ページを公開
+
+## イベント情報
 - 2022/07/20(水) [第98回CSEC・第48回SPT合同研究発表会](https://www.ipsj.or.jp/kenkyukai/event/csec98spt48.html)にて、PWSの企画セッションがあります。PWS Cup2022企画状況についてもお話しします。詳細はリンク先をご参照ください。
 
 ## PWS(Privacy Workshop)について
