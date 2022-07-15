@@ -6,13 +6,15 @@
 
 ## PWS Cup 2022 Privacy Policy
 
-The PWS Cup 2022 Committee (hereafter referred to as Committee) has established the privacy policy for this event as follows, in addition to the privacy policy established by the Information Processing Society of Japan (hereafter referred to as IPSJ).
-Personal information collected during this event will not be used for purposes other than the event itself.
+The PWS Cup 2022 Committee (hereafter referred to as "the Committee") has established the following privacy policy for this event in addition to the Privacy Policy of the Information Processing Society of Japan (hereafter referred to as "IPSJ"). Personal information collected for this event will not be used for any purpose other than the purpose of holding this event.
 
-To organize the PWS Cup 2022, the Committee will obtain the contact information, names, and affiliations of the event participants (i.e., team members and responsible person).
-This information may be published in academic papers or other publications after the event in a form that allows no specific individuals to be identified. The information will not be provided to any third party who has no involvement in this event.
+To organize the PWS Cup 2022, the Committee will collect the event participants' contact information, names, and affiliation information. This information may be published in academic papers or other publications after the event in a form that does not identify specific individuals. The information will not be provided to third parties not involved in this event.
 
-The committee will strive to protect personal information appropriately in accordance with the IPSJ privacy policy. We will delete your personal information as soon as the purpose of this event is completed.
+The committee will make every effort to protect personal information appropriately in accordance with the IPSJ Privacy Policy. The information will be deleted as soon as the purpose of this event is completed.
+
+Copyrights to all materials (slides, posters, etc.) presented at the PWS Cup sessions belong to the respective teams. Downloading of materials is prohibited during the poster presentation sessions.
+
+After the event, only materials from teams that have given consent for their release will be made available on the PWS website.
 
 [IPSJ Privacy Policy](https://www.ipsj.or.jp/english/privacypolicy_e.html)
 
