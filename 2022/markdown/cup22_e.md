@@ -7,7 +7,9 @@
 </div>
 
 <div align="center">
+ <a href="./Images/poster2022_e_full.png">
   <img src="./Images/poster2022_e.jpg" width=50%>
+ </a>
 </div>
 
 ## What' new
