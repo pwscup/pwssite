@@ -22,6 +22,9 @@ PWS Committee in the Computer Security Special Interest Group of the Information
 ## PWS Cup 2022 Schedule
 TBD
 
+## How to participate in the PWS Cup 2022
+Check [Participation Rules](./entry_e.html) page
+
 ## PWS Cup 2022 session
 TBD
 
