@@ -38,4 +38,4 @@ Check [PWS Cup 2022 Privacy Policy](./privacy_policy_e.html).
 ## Contact
 PWS Cup 2022 Working Group in the PWS Committee
 
-  - pwscup2022-info(at)iwsec.org
+  - Please use [this form](https://docs.google.com/forms/d/e/1FAIpQLSfyTFysiL6LBl4xGSHPV3qdl9mYIL_s_0yMMRQ7Q02gVf43Wg/viewform) to contact us.

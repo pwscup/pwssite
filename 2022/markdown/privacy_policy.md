@@ -27,4 +27,4 @@ PWS Cupセッションで発表される資料（スライド、ポスター）�
 
 PWS組織委員会 PWS Cup 2022 ワーキンググループ
 
-  - pwscup2022-info(at)iwsec.org
+  - [こちらのフォーム](https://docs.google.com/forms/d/e/1FAIpQLSfyTFysiL6LBl4xGSHPV3qdl9mYIL_s_0yMMRQ7Q02gVf43Wg/viewform)よりお問い合わせください。
