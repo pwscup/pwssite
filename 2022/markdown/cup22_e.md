@@ -13,7 +13,7 @@
 </div>
 
 ## What' new
-- July 22th, 2022: Created this page.
+- July 22th, 2022: Created this page. Check [Participation Rules](./entry_e.html) page to participate in the PWS Cup 2022.
 
 ## Organizer
 PWS Committee in the Computer Security Special Interest Group of the Information Processing Society of Japan  
