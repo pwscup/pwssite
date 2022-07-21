@@ -13,7 +13,7 @@
 </div>
 
 ## What' new
-- July 14th, 2022: Created this page.
+- July 22th, 2022: Created this page.
 
 ## Organizer
 PWS Committee in the Computer Security Special Interest Group of the Information Processing Society of Japan  
