@@ -7,6 +7,7 @@
 </div>
 
 ## What's new
+- July 22nd, 2022: PWS Cup 2022 entry started. Please check [PWS Cup 2022 page](./cup22_e.html).
 - June 30th, 2022: Opened this page.
 
 ## Events
