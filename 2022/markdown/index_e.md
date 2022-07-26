@@ -7,11 +7,12 @@
 </div>
 
 ## What's new
+- July 26th, 2022: Updated Registration for Participation, Paper Submission, and Paper Awards sections.
 - July 22nd, 2022: PWS Cup 2022 entry started. Please check [PWS Cup 2022 page](./cup22_e.html).
 - June 30th, 2022: Opened this page.
 
 ## Events
-- A PWS session is going to held on **July 20th, 2022** at Security Summer Summit(SSS) 2022. Please refer to [this website(Japanese)](https://www.ipsj.or.jp/kenkyukai/event/csec98spt48.html) for more details.
+- A PWS session is going to be held on **July 20th, 2022** at Security Summer Summit(SSS) 2022. Please refer to [this website(Japanese)](https://www.ipsj.or.jp/kenkyukai/event/csec98spt48.html) for more details.
 
 ## About PWS (Privacy Workshop)
 ### Overview
@@ -38,16 +39,60 @@ For the above purpose, the Computer Security Special Interest Group (CSEC) of th
 </dl>
 
 ### Registration for Participation
+To register for PWS2022, please visit the registration site of [Computer Security Symposium 2021 (CSS2022)(in Japanese)](https://www.iwsec.org/css/2022/). By registering for CSS2022, you will be able to participate in CSS2022 and the joint sessions.
 
-TBD
+For more information about the registration process, please check the CSS2022 registration site and its registration fee page.
 
 ### Paper Submission
+PWS2022 invites a wide range of papers to be presented on technologies that balance the effective use of data with privacy protection. Topics of interest include but are not limited to:
 
-TBD
+- Privacy protection of location/mobility information
+- Privacy protection of medical/genomic information
+- Healthcare and privacy
+- Surveillance and Privacy
+- Machine Learning and Deep Learning and Privacy
+- Cloud computing and privacy
+- Research connecting privacy to economics, law, and psychology
+- Personal data protection
+- Differential privacy
+- Real-world systems and privacy
+- Social network and privacy
+- Database and privacy
+- Statistics and privacy
+- Anonymization and attack
+- Definition and quantification of anonymity
+- Anonymous communication and attack
+- Forensics and privacy
+- Human factors, usability, and user-centered design of privacy technologies
+- Privacy-enhanced system
+- Cryptographic techniques and protocols for privacy enhancement
+- Policy language and tools for privacy
+- Definition and quantification of privacy
+- Privacy-preserving data mining
+- Blockchain and privacy
+- Profiling and privacy
+- IoT and privacy
+- Web privacy
+
+To submit your paper to PWS2022, submit the paper to CSS2022. Please check [paper writing guidelines](https://www.iwsec.org/css/2022/writing.html) and [Paper submission guidelines](https://www.iwsec.org/css/2022/submission.html) prior to the submission.
+
+The CSS2022 Program Committee will decide a session your paper is to be presented on the basis of the paper's summary and keywords.
+If you wish to present your paper in PWS2022 session, please select "PWSトラック" when you submit your paper.
+Please note that we might not be able to accommodate your request to present your paper in PWS2022 session due to the number of paper submissions.
+In such a case, we might ask you to present your paper in other CSS sessions.
 
 ### Paper Awards
+We will present the following two awards.
 
-TBD
+#### PWS Paper Award
+The program committee of the PWS track will select at most one paper that makes a particular contribution to the development of privacy protection technologies and the proper awareness of privacy risks among all papers presented at the PWS sessions. All authors of the selected paper will be awarded.
+
+Receiving this award does not prevent you from receiving other awards granted in CSS 2022, such as CSS Best Paper Award, CSS Paper Awards, and CSS Student Paper Awards.
+
+#### WS Student Paper Award
+The program committee of the PWS track will select one paper that makes a particular contribution to the development of privacy protection technologies and the proper awareness of privacy risks among all papers presented by students (excluding adult students) at the PWS sessions. All authors of the selected paper will be awarded.
+
+Receiving this award does not prevent you from receiving other awards granted in CSS 2022, such as CSS Best Paper Award, CSS Paper Awards, and CSS Student Paper Awards.
 
 ## Sponsors
 
