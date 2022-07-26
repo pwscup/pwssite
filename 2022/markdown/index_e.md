@@ -39,7 +39,7 @@ For the above purpose, the Computer Security Special Interest Group (CSEC) of th
 </dl>
 
 ### Registration for Participation
-To register for PWS2022, please visit the registration site of [Computer Security Symposium 2021 (CSS2022)(in Japanese)](https://www.iwsec.org/css/2022/). By registering for CSS2022, you will be able to participate in CSS2022 and the joint sessions.
+To register for PWS2022, please visit the registration site for [Computer Security Symposium 2022 (CSS2022)(in Japanese)](https://www.iwsec.org/css/2022/). By registering for CSS2022, you will be able to participate in CSS2022 and the joint sessions.
 
 For more information about the registration process, please check the CSS2022 registration site and its registration fee page.
 
@@ -74,7 +74,7 @@ PWS2022 invites a wide range of papers to be presented on technologies that bala
 - IoT and privacy
 - Web privacy
 
-To submit your paper to PWS2022, submit the paper to CSS2022. Please check [paper writing guidelines](https://www.iwsec.org/css/2022/writing.html) and [Paper submission guidelines](https://www.iwsec.org/css/2022/submission.html) prior to the submission.
+To submit your paper to PWS2022, submit the paper to CSS2022. Please check [paper writing guidelines](https://www.iwsec.org/css/2022/writing.html) and [paper submission guidelines](https://www.iwsec.org/css/2022/submission.html) prior to the submission.
 
 The CSS2022 Program Committee will decide a session your paper is to be presented on the basis of the paper's summary and keywords.
 If you wish to present your paper in PWS2022 session, please select "PWSトラック" when you submit your paper.
