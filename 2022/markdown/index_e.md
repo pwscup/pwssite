@@ -113,3 +113,4 @@ TBD
 
 ## Privacy Policy
 The PWS2022 privacy policy is governed by the [CSS2022 privacy policy (Japanese)](https://www.iwsec.org/css/2022/privacy.html).
+
