@@ -109,3 +109,4 @@ TBD
 
 ## プライバシーポリシー
 PWS2022のプライバシーポリシーは、 [CSS2022のプライバシーポリシー](https://www.iwsec.org/css/2022/privacy.html)に準じます。
+
