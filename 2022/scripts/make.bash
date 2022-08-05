@@ -26,7 +26,10 @@ do
 
     ## 公開する
     cp $dir/../html/${basefilename}.html $dir/../${basefilename}.html
+  else
+    echo "up to date"
   fi
+  echo "========================"
 done
 
 ## 図のコピー
