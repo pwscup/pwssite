@@ -55,4 +55,3 @@ TBD
 PWS組織委員会 PWS Cup 2022 ワーキンググループ
 
   - [こちらのフォーム](https://docs.google.com/forms/d/e/1FAIpQLSfyTFysiL6LBl4xGSHPV3qdl9mYIL_s_0yMMRQ7Q02gVf43Wg/viewform)よりお問い合わせください。
-
