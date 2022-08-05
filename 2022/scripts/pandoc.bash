@@ -17,9 +17,21 @@ pandoc -f markdown-auto_identifiers -t html ${dir}/../markdown/${basefilename}.m
 ## ヘッダの挿入
 ### _eで終わるファイルのヘッダは英語版に
 if test ${basefilename: -2} = '_e'; then
-  cat $dir/../template/header_e.html > $dir/../html/${basefilename}.html
+  if test ${basefilename:0:3} = 'cup'; then
+    ## cup_e用のヘッダ
+    cat $dir/../template/header_cup_e.html > $dir/../html/${basefilename}.html
+  else
+    ## PWS_e用のヘッダ
+    cat $dir/../template/header_e.html > $dir/../html/${basefilename}.html
+  fi
 else
-  cat $dir/../template/header.html > $dir/../html/${basefilename}.html
+  if test ${basefilename:0:3} = 'cup'; then
+    ## cup用のヘッダ
+    cat $dir/../template/header_cup.html > $dir/../html/${basefilename}.html
+  else
+    ## PWS用のヘッダ
+    cat $dir/../template/header.html > $dir/../html/${basefilename}.html
+  fi
 fi
 
 ## コンテンツの挿入
