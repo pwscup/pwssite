@@ -54,12 +54,12 @@ pandoc -f markdown-auto_identifiers -t html ${CONTENTS_MD} > ${CONTENTS_HTML}
 if test ${BASE_FILENAME: -2} = '_e'; then
   ### 英語版
   cat ${HEADER1_E}  > ${OUTPUT}
-  $(create_title)  >> ${OUTPUT}
+  create_title     >> ${OUTPUT}
   cat ${HEADER2_E} >> ${OUTPUT}
 else
   ### 日本語版
   cat ${HEADER1}    > ${OUTPUT}
-  $(create_title)  >> ${OUTPUT}
+  create_title     >> ${OUTPUT}
   cat ${HEADER2}   >> ${OUTPUT}
 fi
 
