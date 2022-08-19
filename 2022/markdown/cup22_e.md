@@ -13,6 +13,9 @@
 </div>
 
 ## What's New
+- Aug. 18th, 2022:
+    - The Preliminary Round (Anonymization phase) has started!
+    - PWS CUP 2022 system is now available.
 - Aug. 10th, 2022:
     - Extended entry period (2022/09/14(Wed)).
     - Updated [PWS Cup 2022 Event Guide](./Images/docs/rule_v2.pdf).
