@@ -13,6 +13,7 @@
 </div>
 
 ## What's New
+- Sep.  2nd, 2022: The Preliminary Round (Attack phase) has started!
 - Aug. 29th, 2022: Released the deadline of Anonymization phase in Preliminary Round.
 - Aug. 18th, 2022:
     - The Preliminary Round (Anonymization phase) has started!
