@@ -13,6 +13,7 @@
 </div>
 
 ## What's New
+- Sep. 12th, 2022: Updated the schedule
 - Sep.  4th, 2022: Updated the schedule
 - Sep.  2nd, 2022: The Preliminary Round (Attack phase) has started!
 - Aug. 29th, 2022: Released the deadline of Anonymization phase in Preliminary Round.
@@ -44,7 +45,8 @@ Please note that the schedule is subject to change without notice.
     - __Submission deadline: September 6th, 2022  23:59:59(JST)__
 - ~~2022/09/02(Fri)~~ 2022/09/07(Wed) - 2022/09/13(Tue) Preliminary Round(Attack phase)
     - __Submission deadline: September 13th, 2022  11:59:59(JST)__
-- 2022/09 (TBD) Preliminary Round Review
+- 2022/09/15(Thu) Preliminary Round Review
+    - 18:00~19:00 (19:00~19:30 interactive session) @Online
 - 2022/09/16(Fri) - 2022/10/03(Mon) Final Round(Anonymization phase)
 - 2022/10/07(Fri) - 2022/10/18(Tue) Final Round(Attack phase)
 - 2022/10/26(Wed) (TBD) Final presentation/Presentation of results
