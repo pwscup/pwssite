@@ -13,10 +13,13 @@
 </div>
 
 ## What's New
+- Sep. 16th, 2022:
+    - The Final Round (Anonymization phase) has started!
+    - Released the deadline of the Anonymization phase in the Final Round.
 - Sep. 12th, 2022: Updated the schedule
 - Sep.  4th, 2022: Updated the schedule
 - Sep.  2nd, 2022: The Preliminary Round (Attack phase) has started!
-- Aug. 29th, 2022: Released the deadline of Anonymization phase in Preliminary Round.
+- Aug. 29th, 2022: Released the deadline of Anonymization phase in the Preliminary Round.
 - Aug. 18th, 2022:
     - The Preliminary Round (Anonymization phase) has started!
     - PWS CUP 2022 system is now available.
@@ -48,6 +51,7 @@ Please note that the schedule is subject to change without notice.
 - 2022/09/15(Thu) Preliminary Round Review
     - 18:00~19:00 (19:00~19:30 interactive session) @Online
 - 2022/09/16(Fri) - 2022/10/03(Mon) Final Round(Anonymization phase)
+    - __Submission deadline: October 3rd, 2022 11:59:59(JST)__
 - 2022/10/07(Fri) - 2022/10/18(Tue) Final Round(Attack phase)
 - 2022/10/26(Wed) (TBD) Final presentation/Presentation of results
 
