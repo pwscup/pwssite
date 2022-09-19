@@ -13,6 +13,7 @@
 </div>
 
 ## What's New
+- Sep. 19th, 2022: Updated [PWS Cup 2022 Event Guide](./Images/docs/rule.pdf) (only in Japanese).
 - Sep. 16th, 2022:
     - The Final Round (Anonymization phase) has started!
     - Released the deadline of the Anonymization phase in the Final Round.
@@ -25,14 +26,14 @@
     - PWS CUP 2022 system is now available.
 - Aug. 10th, 2022:
     - Extended entry period (2022/09/14(Wed)).
-    - Updated [PWS Cup 2022 Event Guide](./Images/docs/rule_v2.pdf).
+    - Updated [PWS Cup 2022 Event Guide](./Images/docs/rule.pdf) (only in Japanese).
 - July 28th, 2022:
-    - Released [PWS Cup 2022 Event Guide](./Images/docs/rule_v2.pdf) (only in Japanese)
+    - Released [PWS Cup 2022 Event Guide](./Images/docs/rule.pdf) (only in Japanese).
     - Released PWS Cup 2022 Schedule
 - July 22nd, 2022: Created this page. Check [Participation Rules](./entry_e.html) page to participate in the PWS Cup 2022.
 
 ## Materials for participants
-- [PWS Cup 2022 Event Guide](./Images/docs/rule_v2.pdf) (only in Japanese) (Released on July 28th. Last update: Aug. 11th.)
+- [PWS Cup 2022 Event Guide](./Images/docs/rule.pdf) (only in Japanese) (Released on July 28th. Last update: Sep. 19th.)
 
 ## Organizer
 PWS Committee in the Computer Security Special Interest Group of the Information Processing Society of Japan  
