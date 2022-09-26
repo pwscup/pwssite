@@ -13,6 +13,7 @@
 </div>
 
 ## What's New
+- 2022/09/26（月） [PWSCUP2022開催案内](./Images/docs/rule.pdf) を更新しました。
 - 2022/09/19（月） [PWSCUP2022開催案内](./Images/docs/rule.pdf) を更新しました。
 - 2022/09/16（金）
     - 本戦（匿名化フェーズ）開始！

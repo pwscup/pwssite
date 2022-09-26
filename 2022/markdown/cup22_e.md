@@ -13,6 +13,7 @@
 </div>
 
 ## What's New
+- Sep. 26th, 2022: Updated [PWS Cup 2022 Event Guide](./Images/docs/rule.pdf) (only in Japanese).
 - Sep. 19th, 2022: Updated [PWS Cup 2022 Event Guide](./Images/docs/rule.pdf) (only in Japanese).
 - Sep. 16th, 2022:
     - The Final Round (Anonymization phase) has started!
