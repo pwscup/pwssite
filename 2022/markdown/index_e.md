@@ -100,7 +100,7 @@ TBD
 
 ## Supporters
 
-TBD
+[Personal Information Protection Commission (PPC)](https://www.ppc.go.jp/en/)
 
 ## Past PWS
 - [PWS2021](https://www.iwsec.org/pws/2021/index_e.html)
