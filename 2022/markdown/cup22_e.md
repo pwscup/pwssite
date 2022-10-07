@@ -13,6 +13,9 @@
 </div>
 
 ## What's New
+- Oct. 7th, 2022:
+    - The Final Round (Attack phase) has started!
+    - Released the deadline of the Attack phase in the Final Round.
 - Sep. 26th, 2022: Updated [PWS Cup 2022 Event Guide](./Images/docs/rule.pdf) (only in Japanese).
 - Sep. 19th, 2022: Updated [PWS Cup 2022 Event Guide](./Images/docs/rule.pdf) (only in Japanese).
 - Sep. 16th, 2022:
@@ -55,6 +58,7 @@ Please note that the schedule is subject to change without notice.
 - 2022/09/16(Fri) - 2022/10/03(Mon) Final Round(Anonymization phase)
     - __Submission deadline: October 3rd, 2022 11:59:59(JST)__
 - 2022/10/07(Fri) - 2022/10/18(Tue) Final Round(Attack phase)
+    - __Submission deadline: October 18th, 2022 11:59:59(JST)__
 - 2022/10/26(Wed) (TBD) Final presentation/Presentation of results
 
 ### Note
