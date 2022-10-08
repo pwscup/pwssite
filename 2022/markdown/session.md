@@ -12,7 +12,7 @@ PWS Cup 2022 セッションのご案内です。
 
 <div align="center">
  <a href="./Images/session/timetable.pdf">
-  <img src="./Images/session/timetable.jpg" width=50%>
+  <img src="./Images/session/timetable.jpg" width=100%>
  </a>
 </div>
 

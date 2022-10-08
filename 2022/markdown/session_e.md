@@ -12,7 +12,7 @@ Information for PWS Cup 2022 Session.
 
 <div align="center">
  <a href="./Images/session/timetable_e.pdf">
-  <img src="./Images/session/timetable_e.jpg" width=50%>
+  <img src="./Images/session/timetable_e.jpg" width=100%>
  </a>
 </div>
 
