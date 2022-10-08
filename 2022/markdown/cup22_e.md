@@ -70,7 +70,7 @@ Please note that the schedule is subject to change without notice.
 Check [Participation Rules](./entry_e.html) page
 
 ## PWS Cup 2022 session
-TBD
+- Check the [Information for PWS Cup 2022 Session](./session_e.html) page.
 
 ## Privacy Policy
 Check [PWS Cup 2022 Privacy Policy](./privacy_policy_e.html).

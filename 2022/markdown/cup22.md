@@ -68,7 +68,7 @@
 [参加規定](./entry.html)のページをご確認ください。
 
 ## PWS Cup 2022 セッション
-TBD
+- [PWS Cup 2022 セッションのご案内](./session.html) ページをご確認ください。
 
 ## プライバシーポリシー
 [PWS Cup 2022 プライバシーポリシー](./privacy_policy.html)をご確認ください。
