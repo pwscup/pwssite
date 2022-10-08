@@ -13,6 +13,8 @@
 </div>
 
 ## What's New
+- Oct. 8th, 2022:
+    - Created [the Information for PWS Cup 2022 session page](./session_e.html).
 - Oct. 7th, 2022:
     - The Final Round (Attack phase) has started!
     - Released the deadline of the Attack phase in the Final Round.
