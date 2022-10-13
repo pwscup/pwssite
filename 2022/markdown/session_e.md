@@ -27,9 +27,9 @@ Information for PWS Cup 2022 Session.
     - Please present using the poster files provided (PDF or original PPT, etc.). You may use additional materials as needed.
 - Grouping
     - Part 1 (10:35-11:25):  
-    チーム初参加、ステテコK&M、NTT DOCOMO LABS、非公開、神馬大、ぷにぷにの星、NYCU ExPeDiTION
+    チーム初参加、ステテコK&M、NTT DOCOMO LABS、非公開、神馬大、ぷにぷにの星、NYCU ExPeDiTION、もももすももも
     - Part 2 (11:30-12:20):  
-    DOG、チーム鋼鉄の錬金術師、ぼっちモン、たけのこ音楽隊、もももすももも、rA8MGuaF、とくめ一課、宮地研.exe
+    DOG、チーム鋼鉄の錬金術師、ぼっちモン、たけのこ音楽隊、rA8MGuaF、とくめ一課、宮地研.exe
 
 ### Slide Presentation
 - Each team should have 5 minutes to present how they fought the Anonymization phase and the Attack phase.
