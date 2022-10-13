@@ -13,6 +13,9 @@
 </div>
 
 ## What's New
+- Oct. 13th, 2022:
+    - Released the presentation guidelines on [the Information for PWS Cup 2022 session page](./session_e.html).
+    - Updated the timetable according to the released information.
 - Oct. 8th, 2022:
     - Created [the Information for PWS Cup 2022 session page](./session_e.html).
 - Oct. 7th, 2022:
