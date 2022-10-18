@@ -7,6 +7,8 @@
 </div>
 
 ## What's new
+- Oct. 19th, 2022: Released the Sponsors list.
+- Oct. 10th, 2022: Released the Supporters list.
 - July 26th, 2022: Updated Registration for Participation, Paper Submission, and Paper Awards sections.
 - July 22nd, 2022: PWS Cup 2022 entry started. Please check [PWS Cup 2022 page](./cup22_e.html).
 - June 30th, 2022: Opened this page.
@@ -96,7 +98,18 @@ Receiving this award does not prevent you from receiving other awards granted in
 
 ## Sponsors
 
-TBD
+<a href="https://www.iij.ad.jp/wizsafe/"><img src="Images/sponsors/iij_logo2.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.nri.com/jp/"><img src="Images/sponsors/nri_logo.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.soliton.co.jp/"><img src="Images/sponsors/Soliton_logo.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.enna.co.jp/"><img src="Images/sponsors/ENNA_logo-2019.jpg" style="width:150px; margin: 10px"></a>
+<a href="https://www.sios.com/"><img src="Images/sponsors/logo-sios.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.trendmicro.com/ja_jp/business.html"><img src="Images/sponsors/trend_micro.png" style="width:150px; margin: 10px"></a>
+<a href="https://nflabs.jp/"><img src="Images/sponsors/nflabs_logo.jpg" style="width:150px; margin: 10px"></a>
+<a href="https://www.hitachi.co.jp/hirt/"><img src="Images/sponsors/hirt_logo.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.qtnet.co.jp/"><img src="Images/sponsors/QTnet_Logo_Color.png" style="width:150px; margin: 10px"></a>
+<a href="https://datasign.jp/"><img src="Images/sponsors/datasign_logo_v2_rc1.png" style="width:150px; margin: 10px"></a>
+<a href="https://legalforce-corp.com/"><img src="Images/sponsors/Lf_logo_new_RGB_yoko_150dpi.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.qunie.com/"><img src="Images/sponsors/Mark_Lage-A.jpg" style="width:150px; margin: 10px"></a>
 
 ## Supporters
 
