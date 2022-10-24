@@ -91,10 +91,18 @@ The program committee of the PWS track will select at most one paper that makes 
 
 Receiving this award does not prevent you from receiving other awards granted in CSS 2022, such as CSS Best Paper Award, CSS Paper Awards, and CSS Student Paper Awards.
 
-#### WS Student Paper Award
+#### PWS Student Paper Award
 The program committee of the PWS track will select one paper that makes a particular contribution to the development of privacy protection technologies and the proper awareness of privacy risks among all papers presented by students (excluding adult students) at the PWS sessions. All authors of the selected paper will be awarded.
 
 Receiving this award does not prevent you from receiving other awards granted in CSS 2022, such as CSS Best Paper Award, CSS Paper Awards, and CSS Student Paper Awards.
+
+#### Award-Winning Paper
+##### PWS Paper Award
+Title: Conduct and Facts of Privacy Impact Assessments Based on the Act on the Protection of Personal Information  
+Authors: Miho Ikeda, Kumiko Kameishi, Takashi Hatashima, Akiko Fujimura, and Yoshinori Orime (NTT Social Informatics Laboratories)
+
+##### PWS Student Paper Award
+N/A
 
 ## Sponsors
 
