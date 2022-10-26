@@ -13,6 +13,7 @@
 </div>
 
 ## What's New
+- 2022/10/26（水） 最終結果公開
 - 2022/10/19（水） [PWS Cup 2022セッションのご案内](./session.html)のタイムテーブルを更新しました。
 - 2022/10/14（金） ポスター発表のグループを更新しました。詳細は[PWS Cup 2022セッションのご案内](./session.html)をご覧ください。
 - 2022/10/13（木） [PWS Cup 2022セッションのご案内](./session.html)へ発表要項を追加し、それに合わせてタイムテーブルを更新しました。
@@ -70,6 +71,46 @@
 
 ## 参加方法
 [参加規定](./entry.html)のページをご確認ください。
+
+## 参加チーム
+
+<table border="1">
+<tr><td>チーム名 </td><td>意気込み</td><td>チーム代表者</td><td>所属</td></tr>
+<tr><td>チーム初参加</td><td>忙しくなったら途中棄権します。そのときはすいません。</td><td>-</td><td>-</td></tr>
+<tr><td>DOG</td><td>がんばります。</td><td>-</td><td>-</td></tr>
+<tr><td>非公開</td><td>-</td><td>-</td><td>-</td></tr>
+<tr><td>神馬大</td><td>参加することに意義がある</td><td>小林雅弥</td><td>神奈川大学</td></tr>
+<tr><td>ステテコK&M</td><td>頑張ります！</td><td>堀込光</td><td>明治大学</td></tr>
+<tr><td>宮地研.exe</td><td>頑張ります</td><td>山月達太</td><td>大坂大学</td></tr>
+<tr><td>もももすももも</td><td>-</td><td>-</td><td>-</td></tr>
+<tr><td>NTT DOCOMO LABS</td><td>-</td><td>-</td><td>株式会社NTTドコモ</td></tr>
+<tr><td>NYCU ExPeDiTION</td><td>夜露死苦 form 台湾</td><td>Tien-Ning Lee</td><td>national yang ming chiao tung university</td></tr>
+<tr><td>ぼっちモン</td><td>刺激がほしいなら、トキメキよりトクメイ。</td><td>井口誠</td><td>Kii株式会社</td></tr>
+<tr><td>ぷにぷにの星</td><td>優勝を目指します</td><td>赤阪夢久</td><td>静岡大学</td></tr>
+<tr><td>rA8MGuaF</td><td>-</td><td>-</td><td>-</td></tr>
+<tr><td>鋼鉄の錬金術師</td><td>鋼の心を手に入れたい</td><td>中田良祐</td><td>日鉄ソリューションズ株式会社</td></tr>
+<tr><td>とくめ一課</td><td>何も出てこない、、</td><td>-</td><td>-</td></tr>
+<tr><td>たけのこ音楽隊</td><td>頑張ります</td><td>-</td><td>-</td></tr>
+</table>
+
+## 最終結果
+### 総合
+- 第1位 神馬大
+- 第2位 もももすももも
+- 第3位 ぷにぷにの星
+
+### 攻撃部門
+- 第1位 神馬大
+- 第2位 もももすももも
+- 第3位 ステテコK&M
+
+### 二刀流部門
+- 第1位 神馬大
+- 第2位 もももすももも
+- 第3位 ステテコK&M
+
+### 優秀発表賞
+- ぷにぷにの星
 
 ## PWS Cup 2022 セッション
 - [PWS Cup 2022 セッションのご案内](./session.html) ページをご確認ください。
