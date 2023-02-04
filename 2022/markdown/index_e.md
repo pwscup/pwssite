@@ -7,6 +7,7 @@
 </div>
 
 ## What's new
+- Feb.  3rd, 2023: Released [PWS Meetup 2023](./meetup.html) page (only in Japanese).
 - Oct. 19th, 2022: Released the Sponsors list.
 - Oct. 10th, 2022: Released the Supporters list.
 - July 26th, 2022: Updated Registration for Participation, Paper Submission, and Paper Awards sections.
