@@ -13,14 +13,15 @@
 </div>
 
 ## What's New
+- Feb.  3rd, 2023: Updated announcements regarding the Final Results (only in [the Japanese site](./cup22.html)).
 - Oct. 26th, 2022: Posted the Final Results.
 - Oct. 19th, 2022: Update the timetable on [the Information for PWS Cup 2022 session page](./session_e.html).
 - Oct. 14th, 2022: Updated the grouping of the poster presentation. See [the Information for PWS Cup 2022 session page](./session_e.html) for more details.
 - Oct. 13th, 2022:
     - Released the presentation guidelines on [the Information for PWS Cup 2022 session page](./session_e.html).
     - Updated the timetable according to the released information.
-- Oct. 8th, 2022: Created [the Information for PWS Cup 2022 session page](./session_e.html).
-- Oct. 7th, 2022:
+- Oct.  8th, 2022: Created [the Information for PWS Cup 2022 session page](./session_e.html).
+- Oct.  7th, 2022:
     - The Final Round (Attack phase) has started!
     - Released the deadline of the Attack phase in the Final Round.
 - Sep. 26th, 2022: Updated [PWS Cup 2022 Event Guide](./Images/docs/rule.pdf) (only in Japanese).
