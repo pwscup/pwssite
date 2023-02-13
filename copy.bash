@@ -21,9 +21,9 @@ fi
 
 
 ## ディレクトリ構造をコピー
-rsync -avz --include "*/" --exclude "*" ${dir}/2020/ ${dir}/${input}/
+rsync -avz --include "*/" --exclude "*" ${dir}/2022/ ${dir}/${input}/
 
-## 共通ファイルのコピー
+## 共通ファイルのコピー+作成
 cp ${dir}/2022/style.css ${dir}/${input}/
 cp ${dir}/2022/template/* ${dir}/${input}/template/
 cp ${dir}/2022/scripts/* ${dir}/${input}/scripts/
