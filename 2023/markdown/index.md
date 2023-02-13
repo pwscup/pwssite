@@ -8,6 +8,8 @@
 
 ## What's new
 - 2023/03/XX(X) 本ページを公開
+- 2023/03/XX(X) [iPWS Cup 2023](./ipwscup2023.html)ページを公開
+
 
 ## イベント情報
 TBD
