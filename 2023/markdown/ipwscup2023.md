@@ -1,7 +1,7 @@
 # iPWS Cup 2023
 
 ## What's New
-TBD
+- Feb. DDrd, 2023: TBD.
 
 ## Materials for participants
 TBD
@@ -13,6 +13,8 @@ TBD
 TBD
 
 ### Note
+TBD
+
 ## How to participate in the iPWS Cup 2023
 TBD
 
