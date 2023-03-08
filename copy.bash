@@ -5,14 +5,6 @@ dir=$(dirname $0)
 input=$1
 
 
-## 入力が数字かどうかチェック
-if expr "$input" : "[0-9]*$" >&/dev/null;then
-  echo "" >& /dev/null else
-else 
-  echo "$input is not a number. Please input number"
-  exit 1
-fi
-
 ## 入力年度フォルダの存在チェック
 if [ -e ${dir}/${input} ]; then
   echo "$input directory already exists."
