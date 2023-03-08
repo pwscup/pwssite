@@ -1,11 +1,5 @@
 # iPWS Cup 2023
 
-<div style="text-align: center;">
- <font size="2">
-  <a href="./cup21.html">[Japanese]</a>
- </font>
-</div>
-
 <div align="center">
  <a href="./Images/poster2021_fullsize.jpg">
   <img src="./Images/poster2021.jpg" width=50%>
@@ -13,26 +7,7 @@
 </div>
 
 ## What' new
-- Dec. 1st, 2021: Set download links of poster files of teams that agreed to publish.
-- Oct. 27th, 2021: The contest results have been published! ([Result details (Japanese)](./Images/docs/PWSCup2021_result.pdf))
-- Oct. 23th, 2021: Created the [Information for PWS Cup 2021 session](./session_e.html) page.
-- Sep. 13th, 2021: Updated the "[How to share and upload files?](./Images/docs/README.pdf)"
-- Sep. 2nd, 2021: Updated the schedule.
-- Aug. 23th, 2021:
-    - Added [The rules of PWS Cup 2021 (video)](https://youtu.be/ccaTI_dE2VQ)
-    - Updated [Documents of the rules / scripts for PWS Cup 2021](https://github.com/kikn88/pwscup2021)
-        -  Updated files are [PWSCup2021-rule.pdf](https://github.com/kikn88/pwscup2021/blob/main/PWSCup2021-rule.pdf), [README.md](https://github.com/kikn88/pwscup2021/blob/main/README.md), and [diabdetes.pdf](https://github.com/kikn88/pwscup2021/blob/main/diabetes.pdf)
-    - Updated [How to share and upload files?](./Images/docs/README.pdf)
-        - Replaced variable names according to the updates of diabetes.pdf.
-- Aug. 19th, 2021: [Documents of the rules / scripts for PWS Cup 2021](https://github.com/kikn88/pwscup2021) have been released.
-- Aug. 18th, 2021:
-    - Added participating teams list.
-    - Added a document describing [how to share and upload files (Japanese)](./Images/docs/README.pdf) and [the contest data set](./Nhanes.html).
-    - Update the schedule (The anonymization phase of preliminary round and the review of the preliminary round)
-- July 31st, 2021: [The introduction movie of PWS Cup 2021](https://www.youtube.com/watch?v=5iItc_uT9hk) has been released.
-- July 22nd, 2021: [The entry form](https://forms.gle/b2gBRWQnkRifPWcC6) has been opened.
-- July 18th, 2021: Added the schedule, the privacy policy, and the entry page.
-- June 28th, 2021: Created this page.
+- March 10th, 2023: Created this page.
 
 ## Documents for participating teams
 - [How to share and upload files?](./Images/docs/README.pdf) (Japanese) (Last update: Sep. 13th)
