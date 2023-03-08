@@ -21,6 +21,9 @@ cp ${dir}/2022/template/* ${dir}/${input}/template/
 cp ${dir}/2022/scripts/* ${dir}/${input}/scripts/
 cp ${dir}/2022/markdown/index.md ${dir}/${input}/markdown/
 
+mkdir ${dir}/${input}/html
+touch ${dir}/${input}/html/tmp.txt
+
 ## make.bashに新年度分を追加
 ## echo "bash ${dir}/${input}/scripts/make.bash" >> ${dir}/make.bash
 ## TODO: ${dir}は展開せずに、${input}は展開して、make.bashに追記したい
