@@ -1,7 +1,7 @@
 # iPWS Cup 2023
 
 ## What' new
-- March 10th, 2023: Created this page.
+- March 9th, 2023: Created this page.
 
 ## Rules (overview)
 ### Story
