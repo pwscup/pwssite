@@ -1,4 +1,5 @@
-# Data Anonymization Competition iPWS Cup 2023
+# Data Anonymization Competition
+# iPWS Cup 2023
 
 ## What' new
 - March 9th, 2023: Created this page.
