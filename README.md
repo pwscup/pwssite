@@ -1,20 +1,26 @@
 # pwssite 概要
 - Privacy Workshop Webサイト管理用リポジトリです。
-- 誰でも触れるように、**github上でページを作成・編集**できるようにしています。
-- ↓の運用方法をよく読みましょう　難しくありません
+- 誰でも触れるように、**GitHub上でもページを作成・編集**できるようにしています。
+  - ローカルで作業していただいても構いません
+- ↓の"利用方法"をよく読みましょう　難しくありません
   - [PWS Slack](https://pwscup.slack.com)で質問してください。
-
-- 運用方法
+  
+- 利用方法(@GitHub)
   - [まずはこのスライド](https://docs.google.com/presentation/d/1VPrXKw8AN9LVo-EXei2zOkcJoQwn1LSfwvPKT-2-5lA/edit)を読みましょう。
-  - gh-pagesブランチの/202*/markdown にある.mdファイルを、マークダウン形式で編集してください。
-    - 新規ページ作成時は、/202*/markdown/hoge.mdを新規作成してください。
+    - 思いと全体構成が書いてあります
+  - 既存ページを更新する際は、gh-pagesブランチの/202*/markdown にある.mdファイルを、マークダウン形式で編集してください。
+    - 新規ページを作成する際は、/202*/markdown/hoge.mdを新規作成してください。
   - commitして少し待つと、[テスト環境：github-pages](https://pwscup.github.io/pwssite)の/202*/hoge.mdに反映されます。ここで見た目を確認します。
-    - 表示に問題があれば、再度github上でmarkdownを編集してcommitしてください。
+    - 表示に問題があれば、再度GitHub上でmarkdownを編集してcommitしてください。
   - 表示が問題なければ、本番環境に反映しましょう。gh-pagesブランチの内容をmaster branchにマージするだけです。
     - 自分で承認して構いません。少し待つと、[本番環境：IWSECサーバ](https://www.iwsec.org/pws/)にデプロイされます。
-  - 詳細が気になる場合は [このスライド](https://docs.google.com/presentation/d/1VPrXKw8AN9LVo-EXei2zOkcJoQwn1LSfwvPKT-2-5lA/edit)を確認して、PWS Slackで質問してください。誰かが答えてくれます。
-  
-# フォルダ構成
+  - 詳細が気になる場合は [PWS Slack](https://pwscup.slack.com)で質問してください。誰かが答えてくれます。
+    - 招待済みでない場合は、他の適当な手段で運営委員のどなたかにコンタクトをとってください。担当者にスローされます。
+
+- 利用方法(@ローカル)
+  - いい感じにお願いします
+
+# フォルダ・ファイル構成
 - 2018以前
   - PWS2018以前のサイト gitで管理していませんでした 
 - 2019
