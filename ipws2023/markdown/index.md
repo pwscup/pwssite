@@ -1,7 +1,11 @@
 # Data Anonymization Competition
 # iPWS Cup 2023
 
-[teaser.jpg](Images/teaser.jpg)
+<div align="center">
+ <a href="./Images/teaser.jpg">
+  <img src="./Images/teaser.jpg" width=50%>
+ </a>
+</div>
 
 ## What' new!
 
