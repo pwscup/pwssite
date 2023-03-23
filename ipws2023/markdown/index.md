@@ -1,7 +1,10 @@
 # Data Anonymization Competition
 # iPWS Cup 2023
 
-## What' new
+[teaser.jpg](Images/teaser.jpg)
+
+## What' new!
+
 - March 9th, 2023: Created this page.
 
 ## Rules (overview)
