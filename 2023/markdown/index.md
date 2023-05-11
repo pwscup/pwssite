@@ -7,11 +7,8 @@
 </div>
 
 ## What's new
+- 2023/03/09(木) [iPWS Cup 2023](https://www.iwsec.org/pws/ipws2023/index.html)ページを公開
 - 2023/02/13(月) 本ページを公開
-- 2023/03/09(木) [iPWS Cup 2023](../ipws2023/index.html)ページを公開
-
-## イベント情報
-TBD
 
 ## PWS(Privacy Workshop)について
 ### 概要
