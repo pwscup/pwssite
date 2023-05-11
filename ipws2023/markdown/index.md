@@ -2,14 +2,11 @@
 # iPWS Cup 2023
 
 <div align="center">
- <a href="./Images/teaser.jpg">
-  <img src="./Images/teaser.jpg" width=50%>
- </a>
+<img src="./Images/teaser.jpg" width=50%>
 </div>
 
-## What' new!
-
-- March 9th, 2023: Created this page.
+## What's new!
+- Mar.  9th, 2023: Opened this page.
 
 ## Rules (overview)
 ### Story
@@ -51,10 +48,11 @@ The winner of the iPWS Cup 2023 will be a team that generated the most secure an
 - Winner's talk, August 29th - 31st, 2023
 
 ## How to participate in the iPWS Cup 2023
-TBD
+Please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSe-Qyit8td6EmbRXJv_mmcsA_BGuL1XDBXHUzP0zSxHML4v2g/viewform) with the required information.
 
 ## Privacy Policy
 TBD
 
 ## Contact
-TBD
+iPWS Cup Committee  
+secretary-ipwscup2023(at)iwsec.org (replace (at) with @)
