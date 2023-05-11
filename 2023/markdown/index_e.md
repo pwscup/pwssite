@@ -7,7 +7,7 @@
 </div>
 
 ## What's new
-- Mar.  9th, 2023: Released [iPWS Cup 2023](../ipws2023/index.html) page.
+- Mar.  9th, 2023: Released [iPWS Cup 2023](https://www.iwsec.org/pws/ipws2023/index.html) page.
 - Feb. 13th, 2023: Opened this page.
 
 ## About PWS (Privacy Workshop)
