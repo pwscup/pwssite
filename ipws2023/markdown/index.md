@@ -39,8 +39,8 @@ In the story of iPWS Cup 2023, we intend to provide health data that contain dia
 </dl>
 
 ## iPWS Cup 2023 Schedule
-| Date | Events |
-| :--- | :----- |
+| Date | Event |
+| :--- | :---- |
 | May  10 - June  2, 2023. | Team registration |
 | June  5 - June 19, 2023. | Preliminary round 1 Anonymization (2 weeks) |
 | June 26 - July 10, 2023. | Preliminary round 2 Attack (2 weeks) |
