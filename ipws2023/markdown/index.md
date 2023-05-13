@@ -42,10 +42,14 @@ The winner of the iPWS Cup 2023 will be a team that generated the most secure an
 </dl>
 
 ## iPWS Cup 2023 Schedule
-- Call for Participation, April - May, 2023
-- Preliminary Round, June, 2023
-- Final Round, July, 2023
-- Winner's talk, August 29th - 31st, 2023
+| Date | Events |
+| :--- | :----- |
+| May  10 - June  2, 2023. | Team registration |
+| June  5 - June 19, 2023. | Preliminary round 1 Anonymization (2 weeks) |
+| June 26 - July 10, 2023. | Preliminary round 2 Attack (2 weeks) |
+| July 24 - Aug.  7, 2023. | Final round 1 Anonymization (2 weeks) |
+| Aug. 14 - Aug. 21, 2023. | Final round 2 Attack (2 weeks) |
+| Aug. 29, 2023. | Final presentation in Yokohama.  |
 
 ## How to participate in the iPWS Cup 2023
 Please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSe-Qyit8td6EmbRXJv_mmcsA_BGuL1XDBXHUzP0zSxHML4v2g/viewform) with the required information.
