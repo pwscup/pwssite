@@ -52,7 +52,20 @@ The winner of the iPWS Cup 2023 will be a team that generated the most secure an
 | Aug. 29, 2023. | Final presentation in Yokohama.  |
 
 ## How to participate in the iPWS Cup 2023
-Please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSe-Qyit8td6EmbRXJv_mmcsA_BGuL1XDBXHUzP0zSxHML4v2g/viewform) with the required information.
+### Team requirement
+- A team consists of several members. There is no limitation on the number of members per team. A team with only one member is acceptable.
+- Members may be from different affiliations.
+- A person cannot belong to more than one team. This rule is set to avoid any collusion among teams.
+- The affiliation and member names will be hidden during the competition; only team names will be displayed.
+- **At least one person per team needs full registration** to IWSEC 2023 (main conference).
+    - The contact person does not always make the registration but one person in the team needs to join the main conference. Other members may join the competition for free of charge.
+- We plan to discount the admission fee for participants only for the competition.
+- Please contact secretary-ipwscup2023(at)iwsec.org (replace (at) with @) for more information.
+
+### How to apply for the competition
+1. Sign up on [CodaLab](https://codalab.lisn.upsaclay.fr/) since we are planning to run our competition on this open-source platform. **Each team needs to create one account**.\[[Quick guidance on how to sign-up](https://docs.google.com/document/d/15gq90xjbmNKMTcgf9qZA6ri0bS6QKWaNw8BkIeG3EUw/edit#)\]
+1. Fill in the \[[team registration form](https://docs.google.com/forms/d/e/1FAIpQLSe-Qyit8td6EmbRXJv_mmcsA_BGuL1XDBXHUzP0zSxHML4v2g/viewform)\].
+1. Wait for the competition to be ready. Once ready, we will announce it to you with further instructions on how to participate in the competition.
 
 ## Privacy Policy
 TBD
