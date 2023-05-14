@@ -41,12 +41,12 @@ In the story of iPWS Cup 2023, we intend to provide health data that contain dia
 ## iPWS Cup 2023 Schedule
 | Date | Event |
 | :--- | :---- |
-| May  14 - June  2, 2023. | Team registration |
-| June  5 - June 19, 2023. | Preliminary round 1 Anonymization (2 weeks) |
-| June 26 - July 10, 2023. | Preliminary round 2 Attack (2 weeks) |
-| July 24 - Aug.  7, 2023. | Final round 1 Anonymization (2 weeks) |
-| Aug. 14 - Aug. 21, 2023. | Final round 2 Attack (2 weeks) |
-| Aug. 29, 2023. | Final presentation in Yokohama.  |
+| May  14th - June  2nd, 2023. | Team registration |
+| June  5th - June 19th, 2023. | Preliminary round 1 Anonymization (2 weeks) |
+| June 26th - July 10th, 2023. | Preliminary round 2 Attack (2 weeks) |
+| July 24th - Aug.  7th, 2023. | Final round 1 Anonymization (2 weeks) |
+| Aug. 14th - Aug. 21st, 2023. | Final round 2 Attack (2 weeks) |
+| Aug. 29th, 2023. | Final presentation in Yokohama.  |
 
 ## How to participate in the iPWS Cup 2023
 ### Team requirement
