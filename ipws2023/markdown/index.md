@@ -6,6 +6,7 @@
 </div>
 
 ## What's New (JST)
+- May  27th, 2023: Corrected dates of the Final Round.
 - May  14th, 2023: Registration period has started!
 - Mar.  9th, 2023: Opened this page.
 
@@ -44,8 +45,8 @@ In the story of iPWS Cup 2023, we intend to provide health data that contain dia
 | May  14th - June  2nd, 2023. | Team registration |
 | June  5th - June 19th, 2023. | Preliminary round 1 Anonymization (2 weeks) |
 | June 26th - July 10th, 2023. | Preliminary round 2 Attack (2 weeks) |
-| July 24th - Aug.  7th, 2023. | Final round 1 Anonymization (2 weeks) |
-| Aug. 14th - Aug. 21st, 2023. | Final round 2 Attack (2 weeks) |
+| July 17th - July 31st, 2023. | Final round 1 Anonymization (2 weeks) |
+| Aug.  7th - Aug. 21st, 2023. | Final round 2 Attack (2 weeks) |
 | Aug. 29th, 2023. | Final presentation in Yokohama.  |
 
 ## How to participate in the iPWS Cup 2023
