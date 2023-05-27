@@ -5,7 +5,7 @@
 <img src="./Images/teaser.jpg" width=50%>
 </div>
 
-## What's New (JST)
+## What's New
 - May  27th, 2023: Corrected dates of the Final Round.
 - May  14th, 2023: Registration period has started!
 - Mar.  9th, 2023: Opened this page.
@@ -40,7 +40,7 @@ In the story of iPWS Cup 2023, we intend to provide health data that contain dia
 </dl>
 
 ## iPWS Cup 2023 Schedule
-| Date (JST) | Event |
+| Date | Event |
 | :--- | :---- |
 | May  14th - June  2nd, 2023. | Team registration |
 | June  5th - June 19th, 2023. | Preliminary round 1 Anonymization (2 weeks) |
