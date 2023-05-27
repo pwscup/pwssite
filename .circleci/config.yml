@@ -17,15 +17,15 @@ jobs:
             - "81:a1:ee:97:71:d9:ea:53:50:82:fc:e4:b0:a3:a7:f3"
  
       - run:
-          name: Start deploy
+          name: Deploy
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then  
-                ssh -o StrictHostKeyChecking=no $USER_NAME@$HOST_NAME "cd /var/www/html/pws/; git pull origin master"
+                ssh -o StrictHostKeyChecking=no $USER_NAME@$HOST_NAME -o UserKnownHostsFile=/dev/null "cd /var/www/html/pws/; git pull origin master"
             fi  
 
       - run:
-          name: Make html file
+          name: Build and Test
           command: |
             if [ "${CIRCLE_BRANCH}" == "gh-pages" ]; then  
-                ssh -o StrictHostKeyChecking=no $TEST_USER_NAME@$TEST_HOST_NAME "cd /tmp/pwssite; git pull origin gh-pages; git checkout gh-pages; bash ./make.bash; git add -A; git commit -m 'make.bash'; git push origin gh-pages"
+                ssh -o StrictHostKeyChecking=no $TEST_USER_NAME@$TEST_HOST_NAME -o UserKnownHostsFile=/dev/null "cd /tmp/pwssite; git pull origin gh-pages; git checkout gh-pages; bash ./make.bash; git add -A; git commit -m 'make.bash'; git push origin gh-pages"
             fi  
