@@ -5,7 +5,14 @@
 <img src="./Images/teaser.jpg" width=50%>
 </div>
 
+<div align="center">
+ <a href="./Images/poster2023_full.png">
+  <img src="./Images/poster2023.jpg" width=50%>
+ </a>
+</div>
+
 ## What's New
+- June  1st, 2023: Upload the [Call For Participation (CFP)](./Images/docs/CFP2023.pdf).
 - May  27th, 2023: Corrected dates of the Final Round.
 - May  14th, 2023: Registration period has started!
 - Mar.  9th, 2023: Opened this page.
@@ -48,6 +55,12 @@ In the story of iPWS Cup 2023, we intend to provide health data that contain dia
 | July 17th - July 31st, 2023. | Final round 1 Anonymization (2 weeks) |
 | Aug.  7th - Aug. 21st, 2023. | Final round 2 Attack (2 weeks) |
 | Aug. 29th, 2023. | Final presentation in Yokohama.  |
+
+## Prizes
+- 1st prize: 50,000 JPY on VISA Gift Card and no charge for participation (up to 1 person)
+- 2nd prize: 30,000 JPY on VISA Gift Card and no charge for participation (up to 1 person)
+- 3rd prize: 10,000 JPY on VISA Gift Card and no charge for participation (up to 1 person)
+- Best Attack Award: 10,000 JPY on VISA Gift Card
 
 ## How to participate in the iPWS Cup 2023
 ### Team requirement
