@@ -12,7 +12,7 @@
 </div>
 
 ## What's New
-- June  1st, 2023: Upload the [Call For Participation (CFP)](./Images/docs/CFP2023.pdf).
+- June  1st, 2023: Upload the [Call For Participation (CFP)](./Images/docs/CFP2023.pdf). **The registration deadline has been extended!**
 - May  27th, 2023: Corrected dates of the Final Round.
 - May  14th, 2023: Registration period has started!
 - Mar.  9th, 2023: Opened this page.
@@ -49,9 +49,9 @@ In the story of iPWS Cup 2023, we intend to provide health data that contain dia
 ## iPWS Cup 2023 Schedule
 | Date | Event |
 | :--- | :---- |
-| May  14th - June  2nd, 2023. | Team registration |
-| June  5th - June 19th, 2023. | Preliminary round 1 Anonymization (2 weeks) |
-| June 26th - July 10th, 2023. | Preliminary round 2 Attack (2 weeks) |
+| May  14th - June  **7th**, 2023. | Team registration(**Extended**) |
+| June **12th** - June **21st**, 2023. | Preliminary round 1 Anonymization (**10 days**) |
+| June **28th** - July  **7th**, 2023. | Preliminary round 2 Attack (**10 days**) |
 | July 17th - July 31st, 2023. | Final round 1 Anonymization (2 weeks) |
 | Aug.  7th - Aug. 21st, 2023. | Final round 2 Attack (2 weeks) |
 | Aug. 29th, 2023. | Final presentation in Yokohama.  |
