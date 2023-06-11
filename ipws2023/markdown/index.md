@@ -12,18 +12,16 @@
 </div>
 
 ## What's new
-- June 12th, 2023:
-    - Released the [competition platform](https://codalab.lisn.upsaclay.fr/competitions/13907), [competition manual](https://docs.google.com/document/d/1eF8P3X60fmc0yuC14ixtLq81ORSkIe5HCy3T9I25Ha8/edit), and [iPWS Cup 2023 GitHub repository](https://github.com/kikn88/ipwscup2023) for participants.
-    - Released a list of participating teams.
+- June 12th, 2023: Preliminary round started.
 - June  1st, 2023: Upload the [Call For Participation (CFP)](./Images/docs/CFP2023.pdf). **The registration deadline has been extended!**
 - May  27th, 2023: Corrected dates of the Final Round.
 - May  14th, 2023: Registration period has started!
 - Mar.  9th, 2023: Opened this page.
 
-## Websites for participants
-- [Competition platform](https://codalab.lisn.upsaclay.fr/competitions/13907) (CodaLab)
-- [Competition manual](https://docs.google.com/document/d/1eF8P3X60fmc0yuC14ixtLq81ORSkIe5HCy3T9I25Ha8/edit)
-- [iPWS Cup 2023 GitHub repository](https://github.com/kikn88/ipwscup2023)
+## Useful links for competitions
+- [CodaLab competition platform](https://codalab.lisn.upsaclay.fr/competitions/13907)
+- [iPWS Cup instruction manual](https://docs.google.com/document/d/1eF8P3X60fmc0yuC14ixtLq81ORSkIe5HCy3T9I25Ha8/edit)
+- [GitHub repository for reference source codes and the definitions of metrics](https://github.com/kikn88/ipwscup2023)
 
 ## Rules (overview)
 ### Story
@@ -86,10 +84,15 @@ In the story of iPWS Cup 2023, we intend to provide health data that contain dia
 1. Fill in the \[[team registration form](https://docs.google.com/forms/d/e/1FAIpQLSe-Qyit8td6EmbRXJv_mmcsA_BGuL1XDBXHUzP0zSxHML4v2g/viewform)\].
 1. Wait for the competition to be ready. Once ready, we will announce it to you with further instructions on how to participate in the competition.
 
+## How to play the anonymization phase (preliminary round)
+1. Your set of 10 healthcare data will be sent to the email address specified at the registration.
+1. Log-in the competition platform, CodaLab, with using your team’s CodaLab account that you have already signed in and submitted from the registration. This site will serve as your primary platform for accessing competition guidelines and submitting your work.
+1. Follow the steps [the instruction manual](https://docs.google.com/document/d/1eF8P3X60fmc0yuC14ixtLq81ORSkIe5HCy3T9I25Ha8/edit) (Applying to the competition, Setting your team names, and Anonymization phase instructions). It assists you in navigating the competition.
+
 ## Participating teams
 <table border="1">
 <tr><td> Team ID </td><td> Team name </td><td> Message to competitors </td></tr>
-<tr><td> 01 </td><td> KUdics </td><td> Yesterday's friend is today's enemy. </td></tr>
+<tr><td> 01 </td><td> KUdisc </td><td> Yesterday's friend is today's enemy. </td></tr>
 <tr><td> 02 </td><td> nssol-alchemist </td><td> Let's gooooo </td></tr>
 <tr><td> 03 </td><td> NYCU Questers </td><td> 一緒に頑張りましょう！ (Translated: Best of luck for all of us!) </td></tr>
 <tr><td> 04 </td><td> Gunmataro116luxury </td><td>-</td></tr>
@@ -101,7 +104,6 @@ In the story of iPWS Cup 2023, we intend to provide health data that contain dia
 <tr><td> 10 </td><td> Seven Team </td><td>-</td></tr>
 </table>
 
-You can see the latest information on [the CodaLab page](https://codalab.lisn.upsaclay.fr/competitions/13907#learn_the_details-teams).
 
 ## Contact
 iPWS Cup Committee  
