@@ -11,10 +11,10 @@
  </a>
 </div>
 
-## What's New
+## What's new
 - June 12th, 2023:
-   - Released [Competition platform](https://codalab.lisn.upsaclay.fr/competitions/13907), [Manual providing instructions on how to make use of the platform](https://docs.google.com/document/d/1eF8P3X60fmc0yuC14ixtLq81ORSkIe5HCy3T9I25Ha8/edit), and [iPWS Cup 2023 GitHub repository](https://github.com/kikn88/ipwscup2023) for participants.
-   - Released a list of participating teams.
+    - Released [Competition platform](https://codalab.lisn.upsaclay.fr/competitions/13907), [Manual providing instructions on how to make use of the platform](https://docs.google.com/document/d/1eF8P3X60fmc0yuC14ixtLq81ORSkIe5HCy3T9I25Ha8/edit), and [iPWS Cup 2023 GitHub repository](https://github.com/kikn88/ipwscup2023) for participants.
+    - Released a list of participating teams.
 - June  1st, 2023: Upload the [Call For Participation (CFP)](./Images/docs/CFP2023.pdf). **The registration deadline has been extended!**
 - May  27th, 2023: Corrected dates of the Final Round.
 - May  14th, 2023: Registration period has started!
