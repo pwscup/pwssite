@@ -11,18 +11,18 @@
  </a>
 </div>
 
-## What's New
+## What's new
 - June 12th, 2023:
-   - Released [Competition platform](https://codalab.lisn.upsaclay.fr/competitions/13907), [Manual providing instructions on how to make use of the platform](https://docs.google.com/document/d/1eF8P3X60fmc0yuC14ixtLq81ORSkIe5HCy3T9I25Ha8/edit), and [iPWS Cup 2023 GitHub repository](https://github.com/kikn88/ipwscup2023) for participants.
-   - Released a list of participating teams.
+    - Released the [competition platform](https://codalab.lisn.upsaclay.fr/competitions/13907), [competition manual](https://docs.google.com/document/d/1eF8P3X60fmc0yuC14ixtLq81ORSkIe5HCy3T9I25Ha8/edit), and [iPWS Cup 2023 GitHub repository](https://github.com/kikn88/ipwscup2023) for participants.
+    - Released a list of participating teams.
 - June  1st, 2023: Upload the [Call For Participation (CFP)](./Images/docs/CFP2023.pdf). **The registration deadline has been extended!**
 - May  27th, 2023: Corrected dates of the Final Round.
 - May  14th, 2023: Registration period has started!
 - Mar.  9th, 2023: Opened this page.
 
-## Documents for participants
-- [Competition platform](https://codalab.lisn.upsaclay.fr/competitions/13907)
-- [Manual providing instructions on how to make use of the platform](https://docs.google.com/document/d/1eF8P3X60fmc0yuC14ixtLq81ORSkIe5HCy3T9I25Ha8/edit)
+## Websites for participants
+- [Competition platform](https://codalab.lisn.upsaclay.fr/competitions/13907) (CodaLab)
+- [Competition manual](https://docs.google.com/document/d/1eF8P3X60fmc0yuC14ixtLq81ORSkIe5HCy3T9I25Ha8/edit)
 - [iPWS Cup 2023 GitHub repository](https://github.com/kikn88/ipwscup2023)
 
 ## Rules (overview)
@@ -87,18 +87,19 @@ In the story of iPWS Cup 2023, we intend to provide health data that contain dia
 1. Wait for the competition to be ready. Once ready, we will announce it to you with further instructions on how to participate in the competition.
 
 ## Participating teams
-| Team ID | Team name | Message to competitors |
-| :------ | :-------- | :--------------------- |
-| 01 | KUdics | Yesterday's friend is today's enemy. |
-| 02 | nssol-alchemist | Let's gooooo |
-| 03 | NYCU Questers | 一緒に頑張りましょう！ (Translated: Best of luck for all of us!) |
-| 04 | Gunmataro116luxury | |
-| 05 | Take No Consensus | Victory!!! |
-| 06 | DOG | I'll do my best |
-| 07 | LIFAnonymous | |
-| 08 | THREE | |
-| 09 | imutG | Open our arms & embrace the world |
-| 10 | Seven Team | |
+<table border="1">
+<tr><td> Team ID </td><td> Team name </td><td> Message to competitors </td></tr>
+<tr><td> 01 </td><td> KUdics </td><td> Yesterday's friend is today's enemy. </td></tr>
+<tr><td> 02 </td><td> nssol-alchemist </td><td> Let's gooooo </td></tr>
+<tr><td> 03 </td><td> NYCU Questers </td><td> 一緒に頑張りましょう！ (Translated: Best of luck for all of us!) </td></tr>
+<tr><td> 04 </td><td> Gunmataro116luxury </td><td>-</td></tr>
+<tr><td> 05 </td><td> Take No Consensus </td><td> Victory!!! </td></tr>
+<tr><td> 06 </td><td> DOG </td><td> I'll do my best </td></tr>
+<tr><td> 07 </td><td> LIFAnonymous </td><td>-</td></tr>
+<tr><td> 08 </td><td> THREE </td><td>-</td></tr>
+<tr><td> 09 </td><td> imutG </td><td> Open our arms & embrace the world </td></tr>
+<tr><td> 10 </td><td> Seven Team </td><td>-</td></tr>
+</table>
 
 You can see the latest information on [the CodaLab page](https://codalab.lisn.upsaclay.fr/competitions/13907#learn_the_details-teams).
 
