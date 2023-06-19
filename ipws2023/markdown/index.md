@@ -12,8 +12,9 @@
 </div>
 
 ## What's new
+- June 19th, 2023: Added [FAQ](https://codalab.lisn.upsaclay.fr/competitions/13907#learn_the_details-instruction) to the link list.
 - June 12th, 2023: Preliminary round started.
-- June  1st, 2023: Upload the [Call For Participation (CFP)](./Images/docs/CFP2023.pdf). **The registration deadline has been extended!**
+- June  1st, 2023: Uploaded the [Call For Participation (CFP)](./Images/docs/CFP2023.pdf). **The registration deadline has been extended!**
 - May  27th, 2023: Corrected dates of the Final Round.
 - May  14th, 2023: Registration period has started!
 - Mar.  9th, 2023: Opened this page.
@@ -22,6 +23,7 @@
 - [CodaLab competition platform](https://codalab.lisn.upsaclay.fr/competitions/13907)
 - [iPWS Cup instruction manual](https://docs.google.com/document/d/1eF8P3X60fmc0yuC14ixtLq81ORSkIe5HCy3T9I25Ha8/edit)
 - [GitHub repository for reference source codes and the definitions of metrics](https://github.com/kikn88/ipwscup2023)
+- [FAQ](https://codalab.lisn.upsaclay.fr/competitions/13907#learn_the_details-instruction)
 
 ## Rules (overview)
 ### Story
