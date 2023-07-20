@@ -16,9 +16,6 @@
 
 ## What's New
 - July 20th, 2023: Created this page.
-<!--
-Check [Participation Rules](./entry_e.html) page to participate in the PWS Cup 2023.
--->
 
 ## Materials for participants
 TBD
@@ -27,7 +24,7 @@ TBD
 PWS Committee in the Computer Security Special Interest Group of the Information Processing Society of Japan  
 (PWS Cup 2023 is a co-located workshop with the Computer Security Symposium 2023.)
 
-## PWS Cup 2022 Schedule (JST)
+## PWS Cup 2023 Schedule (JST)
 Please note that the schedule is subject to change without notice.
 
 - 2023/08/17(Thu) - 2023/08/25(Fri) Entry
