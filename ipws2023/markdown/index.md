@@ -41,7 +41,7 @@ In the story of iPWS Cup 2023, we intend to provide health data that contain dia
 <tr><td> June <strong>28th</strong> - July  <strong>7th</strong>, 2023. </td><td> Preliminary round 2 Attack (<strong>10 days</strong>) </td></tr>
 <tr><td> July 17th - July 31st, 2023. </td><td> Final round 1 Anonymization (2 weeks) </td></tr>
 <tr><td> Aug.  7th - Aug. 21st, 2023. </td><td> Final round 2 Attack (2 weeks) </td></tr>
-<tr><td> Aug. <del>29th</del> <strong>28th 15:00-18:00(JST)</strong> 2023. </td><td> Final presentation in Yokohama (<strong>Day 0</strong>). </td></tr>
+<tr><td> Aug. <del>29th</del> <strong>28th 15:00-18:00(JST)</strong> 2023.&nbsp;&nbsp; </td><td> Final presentation in Yokohama (<strong>Day 0</strong>). </td></tr>
 </table>
 
 Please also refer to the [IWSEC 2023 Program page](https://www.iwsec.org/2023/program.html).
