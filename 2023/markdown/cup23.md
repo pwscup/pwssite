@@ -15,6 +15,7 @@
 -->
 
 ## What's New
+- 2023/08/01（火） お問い合わせ先の追記。
 - 2023/07/20（木） 本ページを作成。
 
 ## 参加者向け資料
@@ -47,3 +48,7 @@ TBD
 ## 公式Twitter
 [PWSCUP公式Twitter](https://twitter.com/pwscup_admin)で最新情報をお知らせしています。
 
+## お問い合わせ先
+PWS組織委員会 PWS Cup 2023 ワーキンググループ
+
+  - pwscup2023-info(at)iwsec.org

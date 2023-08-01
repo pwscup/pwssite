@@ -15,6 +15,7 @@
 -->
 
 ## What's New
+- Aug.  1st, 2023: Added contact information.
 - July 20th, 2023: Created this page.
 
 ## Materials for participants
@@ -45,3 +46,7 @@ TBD
 ## Twitter
 [PWS Cup Official Twitter](https://twitter.com/pwscup_admin)
 
+## Contact
+PWS Cup 2023 Working Group in the PWS Committee
+
+  - pwscup2023-info(at)iwsec.org
