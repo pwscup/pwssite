@@ -15,6 +15,7 @@
 -->
 
 ## What's New
+- Aug.  1st, 2023: Added contact information.
 - July 20th, 2023: Created this page.
 
 ## Materials for participants
