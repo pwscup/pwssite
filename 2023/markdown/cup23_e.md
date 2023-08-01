@@ -45,3 +45,7 @@ TBD
 ## Twitter
 [PWS Cup Official Twitter](https://twitter.com/pwscup_admin)
 
+## Contact
+PWS Cup 2023 Working Group in the PWS Committee
+
+  - pwscup2023-info(at)iwsec.org

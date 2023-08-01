@@ -47,3 +47,7 @@ TBD
 ## 公式Twitter
 [PWSCUP公式Twitter](https://twitter.com/pwscup_admin)で最新情報をお知らせしています。
 
+## お問い合わせ先
+PWS組織委員会 PWS Cup 2023 ワーキンググループ
+
+  - pwscup2023-info(at)iwsec.org
