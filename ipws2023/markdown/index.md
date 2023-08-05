@@ -48,7 +48,7 @@ In the story of iPWS Cup 2023, we intend to provide health data that contain dia
 Please also refer to the [IWSEC 2023 Program page](https://www.iwsec.org/2023/program.html).
 
 **NOTICE**  
-We will hold a reception as an iPWS Cup social gathering for the participants on Aug. 28th at 19:00(JST).  
+We will hold a reception as a social gathering of iPWS Cup participants on Aug. 28th at 19:00(JST).  
 If you wish to attend, please contact secretary-ipwscup2023(at)iwsec.org (replace (at) with @) by Aug. 21st. We will reply with more information.
 
 ## Prizes
