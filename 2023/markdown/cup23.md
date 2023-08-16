@@ -1,11 +1,5 @@
 # PWS Cup 2023
 
-<div style="text-align: center;">
- <font size="2">
-  <a href="./cup23_e.html">[English]</a>
- </font>
-</div>
-
 <!--
 <div align="center">
  <a href="./Images/poster2023_full.png">
