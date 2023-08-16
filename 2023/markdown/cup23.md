@@ -1,12 +1,10 @@
 # PWS Cup 2023
 
-<!--
 <div align="center">
  <a href="./Images/poster2023_full.png">
-  <img src="./Images/poster2023.jpg" width=50%>
+  <img src="./Images/poster2023.jpg">
  </a>
 </div>
--->
 
 ## What's New
 - 2023/08/17（木） 参加方法の追記。詳しくは[参加規定](./entry.html)のページをご確認ください。
