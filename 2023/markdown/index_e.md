@@ -7,9 +7,9 @@
 </div>
 
 ## What's new
-- Aug. 17th, 2023: PWS Cup 2023 entry started. Please check [the Entry page (Japanese)](./entry.html).
-- July 27th, 2023: Updated Registration for Participation,
-- July 20th, 2023: Opened [PWS Cup 2023 page (Japanese)](./cup23.html).
+- Aug. 17th, 2023: PWS Cup 2023 entry started. Please check [the Entry page (in Japanese)](./entry.html).
+- July 27th, 2023: Updated Registration for Participation, Paper Submission, and Paper Awards sections.
+- July 20th, 2023: Opened [PWS Cup 2023 page (in Japanese)](./cup23.html).
 - Mar.  9th, 2023: Released [iPWS Cup 2023](https://www.iwsec.org/pws/ipws2023/index.html) page.
 - Feb. 13th, 2023: Opened this page.
 
