@@ -7,6 +7,7 @@
 </div>
 
 ## What's new
+- 2023/08/17(木) PWS Cup 2023のエントリー受付を開始。詳しくは[こちら](./cup23.html)をご確認ください。
 - 2023/07/20(木) [PWS Cup 2023ページを公開](./cup23.html)
 - 2023/03/09(木) [iPWS Cup 2023](https://www.iwsec.org/pws/ipws2023/index.html)ページを公開
 - 2023/02/13(月) 本ページを公開
