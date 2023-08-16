@@ -1,4 +1,4 @@
-## PWS Cup 2023 プライバシーポリシー
+# PWS Cup 2023 プライバシーポリシー
 
 <div align="center">
 PWS 2023 実行委員会
