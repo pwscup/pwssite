@@ -107,6 +107,4 @@ TBD
 - [PWS2015](https://www.iwsec.org/pws/2015/)
 
 ## プライバシーポリシー
-TBD
-
-
+PWS2023のプライバシーポリシーは、 [CSS2023のプライバシーポリシー](https://www.iwsec.org/css/2023/privacy.html)に準じます。
