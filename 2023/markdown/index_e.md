@@ -110,4 +110,4 @@ TBD
 - [PWS2015](https://www.iwsec.org/pws/2015/) (in Japanese)
 
 ## Privacy Policy
-TBD
+The PWS2023 privacy policy is governed by the [CSS2023 privacy policy (in Japanese)](https://www.iwsec.org/css/2023/privacy.html).
