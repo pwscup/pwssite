@@ -56,7 +56,7 @@ Please also refer to the [IWSEC 2023 Program page](https://www.iwsec.org/2023/pr
 
 <a id="program"></a>
 
-#### Final Presentation Program (draft)
+#### Final Presentation Program
 1.  Opening
     1.  Welcome address Hiroaki Kikuchi 15:00
     2.  Summary and Result Makoto Iguchi 15:10
