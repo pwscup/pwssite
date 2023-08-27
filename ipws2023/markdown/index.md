@@ -12,6 +12,7 @@
 </div>
 
 ## What's new
+- Aug.  28th, 2023: Added a [Final Presentation Program](#program). 
 - Aug.  6th, 2023: Added a notice about a reception.
 - July 27th, 2023:
     - Updated the iPWS Cup 2023 schedule (Final presentation).
@@ -51,7 +52,26 @@ Please also refer to the [IWSEC 2023 Program page](https://www.iwsec.org/2023/pr
 - Date: Aug. **28th(Day 0)**, 15:00-18:00(JST)
 - Venue: [IISEC](https://www.iwsec.org/2023/venue.html)
 - Registration desk: The 3rd floor of the venue
-- Program: TBA
+- Program: (updated at 2023/08/28)
+
+<a id="program"></a>
+
+#### Final Presentation Program (draft)
+1.  Opening
+    1.  Welcome address Hiroaki Kikuchi 15:00
+    2.  Summary and Result Makoto Iguchi 15:10
+2.  Talks by excellent teams(The order will be arranged at the session. Each talk is assigned for 10 minutes.)
+    1.  KUdisc
+    2.  Gunmataro116luxury
+    3.  Take No Consensus
+    4.  LIFAnonymous
+    5.  THREE
+    6.  Seven Team
+    7.  (and more)
+3.  Award ceremony
+    1.  Group photo
+4.  Closing
+    1.  Hiroaki Kikuchi, and Koji Chida
 
 **NOTICE**  
 We will hold a reception as a social gathering of iPWS Cup participants on Aug. 28th at 19:00(JST).  
