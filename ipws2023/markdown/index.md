@@ -12,7 +12,7 @@
 </div>
 
 ## What's new
-- Aug.  28th, 2023: Added a [Final Presentation Program](./#hoge). 
+- Aug.  28th, 2023: Added a [Final Presentation Program](#program). 
 - Aug.  6th, 2023: Added a notice about a reception.
 - July 27th, 2023:
     - Updated the iPWS Cup 2023 schedule (Final presentation).
@@ -54,6 +54,7 @@ Please also refer to the [IWSEC 2023 Program page](https://www.iwsec.org/2023/pr
 - Registration desk: The 3rd floor of the venue
 - Program: (updated at 2023/08/28)
 
+<a id="program"></a>
 #### Final Presentation Program (draft)
 1.  Opening
     1.  Welcome address Hiroaki Kikuchi 15:00
