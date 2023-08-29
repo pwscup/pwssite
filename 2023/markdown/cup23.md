@@ -7,6 +7,7 @@
 </div>
 
 ## What's New
+- 2023/08/29（火） 参加者向けに[PWS Cup 2023 競技参加の手引き、コンテストシステム、配布スクリプト](#manuals)を公開
 - 2023/08/19（土） 参加者向けに[PWS Cup 2023 コンテストイメージ](./Images/docs/cup23-overview.pdf)を公開。
 - 2023/08/17（木） 参加方法の追記。詳しくは[参加規定](./entry.html)のページをご確認ください。
 - 2023/08/01（火） お問い合わせ先の追記。
@@ -42,8 +43,14 @@
 コンテスト期間中に加工段階、攻撃段階、評価の一連の流れを2回実施します。  
 1回目を予備戦、2回目を本戦と呼び、予備戦と本戦での評価結果を総合して本コンテストの勝者を決定します。
 
+
+<a id="manuals"></a>
+
 ## 参加者向け資料
 - [PWS Cup 2023 コンテストイメージ](./Images/docs/cup23-overview.pdf) （2023/08/19公開）
+- [PWS Cup 2023 競技参加の手引き](./Images/docs/cup23-manual-0829-02.pdf) (2023/08/29公開)
+- [コンテストシステム@CodaLab](https://codalab.lisn.upsaclay.fr/competitions/15334) (2023/08/29公開)
+- [配布スクリプト@GitHub](https://github.com/hamadakoki/pwscup2023/tree/master/scripts) (2023/08/29公開)
 
 ## 主催
 情報処理学会 コンピュータセキュリティ研究会 PWS組織委員会  
