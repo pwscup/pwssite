@@ -44,7 +44,7 @@
 
 ## 参加者向け資料
 - [PWS Cup 2023 コンテストイメージ](./Images/docs/cup23-overview.pdf) （2023/08/19公開）
-- [PWS Cup 2023 競技参加の手引き](./Images/cup23-manual.pdf) (2023/08/29公開)
+- [PWS Cup 2023 競技参加の手引き](./Images/docs/cup23-manual.pdf) (2023/08/29公開)
 
 ## 主催
 情報処理学会 コンピュータセキュリティ研究会 PWS組織委員会  
