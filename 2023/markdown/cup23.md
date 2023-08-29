@@ -7,6 +7,8 @@
 </div>
 
 ## What's New
+- 2023/08/29（火） 参加者向けに[PWS Cup 2023 競技参加の手引き](./Images/docs/cup23-manual.pdf) を公開
+- 2023/08/29（火） 参加者向けに、[コンテストシステム@CodaLab](https://codalab.lisn.upsaclay.fr/competitions/15334) と [配布スクリプト@GitHub](https://github.com/hamadakoki/pwscup2023/tree/master/scripts)を公開
 - 2023/08/19（土） 参加者向けに[PWS Cup 2023 コンテストイメージ](./Images/docs/cup23-overview.pdf)を公開。
 - 2023/08/17（木） 参加方法の追記。詳しくは[参加規定](./entry.html)のページをご確認ください。
 - 2023/08/01（火） お問い合わせ先の追記。
@@ -45,6 +47,8 @@
 ## 参加者向け資料
 - [PWS Cup 2023 コンテストイメージ](./Images/docs/cup23-overview.pdf) （2023/08/19公開）
 - [PWS Cup 2023 競技参加の手引き](./Images/docs/cup23-manual.pdf) (2023/08/29公開)
+- [コンテストシステム@CodaLab](https://codalab.lisn.upsaclay.fr/competitions/15334)
+- [配布スクリプト@GitHub](https://github.com/hamadakoki/pwscup2023/tree/master/scripts)
 
 ## 主催
 情報処理学会 コンピュータセキュリティ研究会 PWS組織委員会  
