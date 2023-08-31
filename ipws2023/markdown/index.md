@@ -12,7 +12,8 @@
 </div>
 
 ## What's new
-- Aug.  28th, 2023: Added a [Final Presentation Program](#program). 
+- Aug. 31st, 2023: Added [the final result](#result) and [group photos](#photo).
+- Aug. 28th, 2023: Added a [Final Presentation Program](#program).
 - Aug.  6th, 2023: Added a notice about a reception.
 - July 27th, 2023:
     - Updated the iPWS Cup 2023 schedule (Final presentation).
@@ -77,6 +78,11 @@ Please also refer to the [IWSEC 2023 Program page](https://www.iwsec.org/2023/pr
 We will hold a reception as a social gathering of iPWS Cup participants on Aug. 28th at 19:00(JST).  
 If you wish to attend, please contact secretary-ipwscup2023(at)iwsec.org (replace (at) with @) by Aug. 21st. We will reply with more information.
 
+<a id="photo"></a>
+
+#### Gtoup photos
+[01](./Images/photo/01.jpg), [02](./Images/photo/02.jpg)
+
 ## Prizes
 - 1st prize: 50,000 JPY on VISA Gift Card and no charge for participation (up to 1 person)
 - 2nd prize: 30,000 JPY on VISA Gift Card and no charge for participation (up to 1 person)
@@ -118,6 +124,17 @@ If you wish to attend, please contact secretary-ipwscup2023(at)iwsec.org (replac
 <tr><td> 09 </td><td> imutG </td><td> Open our arms & embrace the world </td></tr>
 <tr><td> 10 </td><td> Seven Team </td><td>-</td></tr>
 </table>
+
+<a id="result"></a>
+
+## Final Result
+### Overall
+- 1st Team 04 Gunmataro116luxury
+- 2nd Team 08 THREE
+- 3rd Team 05 Take No Consensus
+
+### Attack
+- Best attacker Team 08 THREE
 
 ## Committee
 <dl>
