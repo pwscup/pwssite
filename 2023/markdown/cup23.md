@@ -7,6 +7,7 @@
 </div>
 
 ## What's New
+- 2023/09/06（水） [参加者向け資料](#manuals)に[Q&A](https://github.com/hamadakoki/pwscup2023/blob/master/docs/QA.md)を公開
 - 2023/08/30（水） [スケジュール](#schedule)に開始・終了時刻を追記、[スケジュール](#schedule)に追加受け入れの説明を追記
 - 2023/08/29（火） 参加者向けに[PWS Cup 2023 競技参加の手引き、コンテストシステム、配布スクリプト](#manuals)を公開
 - 2023/08/19（土） 参加者向けに[PWS Cup 2023 コンテストイメージ](#manuals)を公開。
@@ -37,6 +38,7 @@
 - [PWS Cup 2023 競技参加の手引き](./Images/docs/cup23-manual-0829-02.pdf) (2023/08/29公開)
 - [コンテストシステム@CodaLab](https://codalab.lisn.upsaclay.fr/competitions/15334) (2023/08/29公開)
 - [配布スクリプト@GitHub](https://github.com/hamadakoki/pwscup2023/tree/master/scripts) (2023/08/29公開)
+- [Q&A](https://github.com/hamadakoki/pwscup2023/blob/master/docs/QA.md) (2023/09/06公開)
 
 ## 主催
 情報処理学会 コンピュータセキュリティ研究会 PWS組織委員会  
@@ -58,8 +60,22 @@
 
 ## 参加チーム
 <table border="1">
-<tr><td>チーム名</td><td>意気込み</td><td>チーム代表者</td><td>所属</td></tr>
-<tr><td>堅あげポテト</td><td>頑張ります</td><td>-</td><td>-</td></tr><tr><td>神馬大 νττ</td><td>参加するだけでは意義がないww</td><td>小林雅弥</td><td>神奈川大学</td></tr><tr><td>ぼっちくんち</td><td>10/23-24開催の「博多おくんち」に負けない勢いで頑張ります！</td><td>井口誠</td><td>Kii株式会社</td></tr><tr><td>宮地研.exe</td><td>頑張ります！</td><td>山月達太</td><td>大阪大学</td></tr><tr><td>F.SE</td><td>頑張ります！！</td><td>-</td><td>-</td></tr><tr><td>GOUTAI</td><td>-</td><td>伊藤聡志</td><td>-</td></tr><tr><td>Guardians of Privacy vol.23</td><td>We are Groot.</td><td>小嶋柊偉</td><td>静岡大学</td></tr><tr><td>ミズホノデシ</td><td>学んできたことを活かして頑張ります</td><td>-</td><td>静岡大学</td></tr><tr><td>みずほに恩返し</td><td>丸裸にしてさしあげますわ</td><td>-</td><td>静岡大学</td></tr><tr><td>ステテコ清水</td><td>Vamos 匿名加工</td><td>清水正浩</td><td>明治大学　総合数理学部　先端メディアサイエンス　菊池研究室</td></tr><tr><td>NYCU Quester</td><td>Fighting </td><td>-</td><td>-</td></tr><tr><td>タケタケ</td><td>体を壊さない程度に頑張ります</td><td>-</td><td>-</td></tr><tr><td>TCFSH</td><td>-</td><td>Chen Bo Hsuan</td><td>-</td></tr><tr><td>Enthusiasm</td><td>-</td><td>-</td><td>-</td></tr><tr><td>鋼鉄の錬金術師</td><td>全力を尽くします</td><td>中田良祐</td><td>日鉄ソリューションズ</td></tr>
+<tr><th>チームID</th><th>チーム名</th><th>意気込み</th><th>チーム代表者</th><th>所属</th></tr>
+<tr><td>01</td><td>堅あげポテト</td><td>頑張ります</td><td>-</td><td>-</td></tr>
+<tr><td>02</td><td>神馬大 νττ</td><td>参加するだけでは意義がないww</td><td>小林雅弥</td><td>神奈川大学</td></tr>
+<tr><td>03</td><td>ぼっちくんち</td><td>10/23-24開催の「博多おくんち」に負けない勢いで頑張ります！</td><td>井口誠</td><td>Kii株式会社</td></tr>
+<tr><td>04</td><td>宮地研.exe</td><td>頑張ります！</td><td>山月達太</td><td>大阪大学</td></tr>
+<tr><td>05</td><td>F.SE</td><td>頑張ります！！</td><td>-</td><td>-</td></tr>
+<tr><td>06</td><td>GOUTAI</td><td>-</td><td>伊藤聡志</td><td>-</td></tr>
+<tr><td>07</td><td>Guardians of Privacy vol.23</td><td>We are Groot.</td><td>小嶋柊偉</td><td>静岡大学</td></tr>
+<tr><td>08</td><td>ミズホノデシ</td><td>学んできたことを活かして頑張ります</td><td>-</td><td>静岡大学</td></tr>
+<tr><td>09</td><td>みずほに恩返し</td><td>丸裸にしてさしあげますわ</td><td>-</td><td>静岡大学</td></tr>
+<tr><td>10</td><td>ステテコ清水</td><td>Vamos 匿名加工</td><td>清水正浩</td><td>明治大学　総合数理学部　先端メディアサイエンス　菊池研究室</td></tr>
+<tr><td>11</td><td>NYCU Quester</td><td>Fighting </td><td>-</td><td>-</td></tr>
+<tr><td>12</td><td>タケタケ</td><td>体を壊さない程度に頑張ります</td><td>-</td><td>-</td></tr>
+<tr><td>13</td><td>TCFSH</td><td>-</td><td>Chen Bo Hsuan</td><td>-</td></tr>
+<tr><td>14</td><td>Enthusiasm</td><td>-</td><td>-</td><td>-</td></tr>
+<tr><td>15</td><td>鋼鉄の錬金術師</td><td>全力を尽くします</td><td>中田良祐</td><td>日鉄ソリューションズ</td></tr>
 </table>
 
 ## PWS Cup 2023 セッション
