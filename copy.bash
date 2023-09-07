@@ -33,4 +33,4 @@ touch ${dir}/${input}/html/tmp.txt
 
 ## htmlの生成処理.bashが上手く動くどうかのテスト
 echo " -- test -- "
-bash ${dir}/make.bash
+bash ${dir}/${input}/scripts/make.bash
