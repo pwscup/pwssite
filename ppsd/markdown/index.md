@@ -22,3 +22,7 @@
 - [コンピュータセキュリティシンポジウム2023（CSS2023）](https://www.iwsec.org/css/2023/)
 - [（一社）情報処理学会 コンピュータセキュリティ研究会](https://www.iwsec.org/csec/)
 - [（一社）情報処理学会](https://www.ipsj.or.jp/)
+
+<div id="footer">
+ <p id="copyright">Copyright 2023 (一社)情報処理学会 コンピュータセキュリティ研究会 PWS組織委員会 データ合成技術評価委員会 All rights reserved</p>
+</div>
