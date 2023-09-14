@@ -7,6 +7,7 @@
 </div>
 
 ## What's New
+- 2023/09/14（木） [参加者向け資料](#manuals)に[「PWS Cup 2023 競技参加の手引き」の補足・訂正](https://github.com/hamadakoki/pwscup2023/blob/master/docs/supplement.md)を公開
 - 2023/09/06（水） [参加者向け資料](#manuals)に[Q&A](https://github.com/hamadakoki/pwscup2023/blob/master/docs/QA.md)を公開
 - 2023/08/30（水） [スケジュール](#schedule)に開始・終了時刻を追記、[スケジュール](#schedule)に追加受け入れの説明を追記
 - 2023/08/29（火） 参加者向けに[PWS Cup 2023 競技参加の手引き、コンテストシステム、配布スクリプト](#manuals)を公開
@@ -36,6 +37,7 @@
 ## 参加者向け資料
 - [PWS Cup 2023 コンテストイメージ](./Images/docs/cup23-overview.pdf) （2023/08/19公開）
 - [PWS Cup 2023 競技参加の手引き](./Images/docs/cup23-manual-0829-02.pdf) (2023/08/29公開)
+    - [「PWS Cup 2023 競技参加の手引き」の補足・訂正](https://github.com/hamadakoki/pwscup2023/blob/master/docs/supplement.md) (2023/9/14公開) もあわせてお読みください
 - [コンテストシステム@CodaLab](https://codalab.lisn.upsaclay.fr/competitions/15334) (2023/08/29公開)
 - [配布スクリプト@GitHub](https://github.com/hamadakoki/pwscup2023/tree/master/scripts) (2023/08/29公開)
 - [Q&A](https://github.com/hamadakoki/pwscup2023/blob/master/docs/QA.md) (2023/09/06公開)
