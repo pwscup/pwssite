@@ -7,6 +7,8 @@
 </div>
 
 ## What's New
+- 2023/09/27（水） [PWS Cup セッション](#onsite)を更新。[参加者向け資料](#manuals)に PWS Cup セッション実施要領を公開。[スケジュール](#schedule)に PWS Cup セッションを追加
+- 2023/09/27（水） [参加者向け資料](#manuals)内の PWS Cup 2023 競技参加の手引きを更新。**本戦での変更点を追記**していますので、**参加者の方は必ずご確認**ください
 - 2023/09/14（木） [参加者向け資料](#manuals)に[「PWS Cup 2023 競技参加の手引き」の補足・訂正](https://github.com/hamadakoki/pwscup2023/blob/master/docs/supplement.md)を公開
 - 2023/09/06（水） [参加者向け資料](#manuals)に[Q&A](https://github.com/hamadakoki/pwscup2023/blob/master/docs/QA.md)を公開
 - 2023/08/30（水） [スケジュール](#schedule)に開始・終了時刻を追記、[スケジュール](#schedule)に追加受け入れの説明を追記
@@ -36,11 +38,12 @@
 
 ## 参加者向け資料
 - [PWS Cup 2023 コンテストイメージ](./Images/docs/cup23-overview.pdf) （2023/08/19公開）
-- [PWS Cup 2023 競技参加の手引き](./Images/docs/cup23-manual-0829-02.pdf) (2023/08/29公開)
+- [PWS Cup 2023 競技参加の手引き](./Images/docs/cup23-manual.pdf) (2023/08/29公開、2023/9/27更新) (2023/9/27追記: 本戦での変更点が1.7.2節に記載されていますので、**参加者の方は必ずご確認**ください)
     - [「PWS Cup 2023 競技参加の手引き」の補足・訂正](https://github.com/hamadakoki/pwscup2023/blob/master/docs/supplement.md) (2023/9/14公開) もあわせてお読みください
 - [コンテストシステム@CodaLab](https://codalab.lisn.upsaclay.fr/competitions/15334) (2023/08/29公開)
 - [配布スクリプト@GitHub](https://github.com/hamadakoki/pwscup2023/tree/master/scripts) (2023/08/29公開)
 - [Q&A](https://github.com/hamadakoki/pwscup2023/blob/master/docs/QA.md) (2023/09/06公開)
+- [PWS Cup セッション実施要領](./Images/docs/cup23-session.pdf) (2023/9/27公開)
 
 ## 主催
 情報処理学会 コンピュータセキュリティ研究会 PWS組織委員会  
@@ -56,6 +59,7 @@
 - 2023/09/15（金）14:00 JST 〜 2023/09/21（木）13:59 JST 予備戦（攻撃段階）
 - 2023/09/28（木）14:00 JST 〜 2023/10/10（火）13:59 JST 本戦（加工段階）
 - 2022/10/17（火）14:00 JST 〜 2023/10/24（火）13:59 JST 本戦（攻撃段階）
+- 2023/11/1 (水) [PWS Cup セッション](#onsite)
 
 ### 備考
 - 今回のコンテストシステムでは、しばしばレスポンスが悪いことが報告されています。**締め切り後のデータの提出や差し替えは原則受け付けません**ので、**時間に余裕をもってデータの提出とリーダーボードへの登録を行う**ことを強くおすすめします。(2023/9/8)
@@ -83,8 +87,13 @@
 <tr><td>15</td><td>鋼鉄の錬金術師</td><td>全力を尽くします</td><td>中田良祐</td><td>日鉄ソリューションズ</td></tr>
 </table>
 
-## PWS Cup 2023 セッション
-TBD
+<a id="onsite"></a>
+
+## PWS Cup セッション
+参加チームの皆様には、コンテストで使った手法について、
+[CSS 2023](https://www.iwsec.org/css/2023/index.html) 内で実施される PWS Cup セッションでご発表いただきます。
+PWS Cup セッションの詳細は[参加者向け資料](#manuals)内の PWS Cup セッション実施要領をご覧ください。
+なお、PWS Cup セッションは**現地で実施**し、**オンライン配信の予定はありません**のでご注意ください。
 
 ## プライバシーポリシー
 [PWS Cup 2023 プライバシーポリシー](./privacy_policy.html)をご確認ください。
