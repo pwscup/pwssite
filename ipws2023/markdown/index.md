@@ -12,6 +12,7 @@
 </div>
 
 ## What's new
+- Oct.  4th, 2023: Added [other photos](#photo).
 - Aug. 31st, 2023: Added [the final result](#result) and [group photos](#photo).
 - Aug. 28th, 2023: Added a [Final Presentation Program](#program).
 - Aug.  6th, 2023: Added a notice about a reception.
