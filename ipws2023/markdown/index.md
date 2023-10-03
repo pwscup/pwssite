@@ -80,8 +80,11 @@ If you wish to attend, please contact secretary-ipwscup2023(at)iwsec.org (replac
 
 <a id="photo"></a>
 
-#### Gtoup photos
+#### Group photos
 [01](./Images/photo/01.jpg), [02](./Images/photo/02.jpg)
+
+#### Other photos
+[03](./Images/photo/03.jpg), [04](./Images/photo/04.jpg), [05](./Images/photo/05.jpg), [06](./Images/photo/06.jpg)
 
 ## Prizes
 - 1st prize: 50,000 JPY on VISA Gift Card and no charge for participation (up to 1 person)
