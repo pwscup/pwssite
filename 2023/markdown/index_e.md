@@ -7,6 +7,7 @@
 </div>
 
 ## What's new
+- Oct. 04th, 2023: Released the Supporters list.
 - Aug. 17th, 2023: PWS Cup 2023 entry started. Please check [the Entry page (in Japanese)](./entry.html).
 - July 27th, 2023: Updated Registration for Participation, Paper Submission, and Paper Awards sections.
 - July 20th, 2023: Opened [PWS Cup 2023 page (in Japanese)](./cup23.html).
@@ -97,7 +98,7 @@ Receiving this award does not prevent you from receiving other awards granted in
 TBD
 
 ## Supporters
-TBD
+[Personal Information Protection Commission (PPC)](https://www.ppc.go.jp/en/)
 
 ## Past PWS
 - [PWS2022](https://www.iwsec.org/pws/2022/index_e.html)
