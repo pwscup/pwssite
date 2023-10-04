@@ -94,7 +94,8 @@ CSS最優秀論文賞/優秀論文賞/学生論文賞など、CSS2023におい�
 TBD
 
 ## 後援組織
-TBD
+[個人情報保護委員会](https://www.ppc.go.jp/)
+
 
 ## 過去のPWS
 - [PWS2022](https://www.iwsec.org/pws/2022/)
