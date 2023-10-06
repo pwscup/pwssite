@@ -7,6 +7,7 @@
 </div>
 
 ## What's new
+- 2023/10/06(金) 協賛組織の追加
 - 2023/10/04(水) 後援組織の追加
 - 2023/08/17(木) PWS Cup 2023のエントリー受付を開始。詳しくは[エントリーページ](./entry.html)をご確認ください。
 - 2023/07/27(木) 参加登録、論文投稿 (発表申し込み)、論文賞の情報を更新
@@ -92,7 +93,19 @@ CSS最優秀論文賞/優秀論文賞/学生論文賞など、CSS2023におい�
 
 
 ## 協賛組織
-TBD
+<a href="http://www.deloitte.com/jp/cyber"><img src="Images/sponsors/DEL_g_PRI_CMYK.jpg" style="width:150px; margin: 10px"></a>
+<a href="https://datasign.jp/"><img src="Images/sponsors/datasign_logo_v2_rc1.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.iij.ad.jp/wizsafe/"><img src="Images/sponsors/iij_logo2.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.nri.com/jp/"><img src="Images/sponsors/nri_logo.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.soliton.co.jp/"><img src="Images/sponsors/Soliton_logo.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.sios.com/"><img src="Images/sponsors/logo-sios.svg" style="width:150px; margin: 10px"></a>
+<a href="https://www.mitsubishielectric.co.jp/"><img src="Images/sponsors/05-CorporateLogoCfB-color.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.qunie.com/"><img src="Images/sponsors/Mark_Lage-A.jpg" style="width:150px; margin: 10px"></a>
+<a href="https://www.qtnet.co.jp/"><img src="Images/sponsors/QTnet_Logo_Color.png" style="width:150px; margin: 10px"></a>
+<a href="https://nflabs.jp/"><img src="Images/sponsors/nflabs_logo.jpg" style="width:150px; margin: 10px"></a>
+<a href="https://www.hitachi.co.jp/hirt/"><img src="Images/sponsors/hirtlogo_m3.svg" style="width:150px; margin: 10px"></a>
+<a href="https://www.trendmicro.com/ja_jp/business.html"><img src="Images/sponsors/trendmicro-ogsocial.jpg" style="width:150px; margin: 10px"></a>
+<a href="https://www.jri.co.jp/"><img src="Images/sponsors/Logo_JRI_J.svg" style="width:150px; margin: 10px"></a>
 
 ## 後援組織
 [個人情報保護委員会](https://www.ppc.go.jp/)

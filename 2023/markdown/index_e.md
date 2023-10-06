@@ -7,6 +7,7 @@
 </div>
 
 ## What's new
+- Oct. 06th, 2023: Released the Sponsors list.
 - Oct. 04th, 2023: Released the Supporters list.
 - Aug. 17th, 2023: PWS Cup 2023 entry started. Please check [the Entry page (in Japanese)](./entry.html).
 - July 27th, 2023: Updated Registration for Participation, Paper Submission, and Paper Awards sections.
@@ -95,7 +96,19 @@ Receiving this award does not prevent you from receiving other awards granted in
 
 
 ## Sponsors
-TBD
+<a href="http://www.deloitte.com/jp/cyber"><img src="Images/sponsors/DEL_g_PRI_CMYK.jpg" style="width:150px; margin: 10px"></a>
+<a href="https://datasign.jp/"><img src="Images/sponsors/datasign_logo_v2_rc1.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.iij.ad.jp/wizsafe/"><img src="Images/sponsors/iij_logo2.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.nri.com/jp/"><img src="Images/sponsors/nri_logo.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.soliton.co.jp/"><img src="Images/sponsors/Soliton_logo.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.sios.com/"><img src="Images/sponsors/logo-sios.svg" style="width:150px; margin: 10px"></a>
+<a href="https://www.mitsubishielectric.co.jp/"><img src="Images/sponsors/05-CorporateLogoCfB-color.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.qunie.com/"><img src="Images/sponsors/Mark_Lage-A.jpg" style="width:150px; margin: 10px"></a>
+<a href="https://www.qtnet.co.jp/"><img src="Images/sponsors/QTnet_Logo_Color.png" style="width:150px; margin: 10px"></a>
+<a href="https://nflabs.jp/"><img src="Images/sponsors/nflabs_logo.jpg" style="width:150px; margin: 10px"></a>
+<a href="https://www.hitachi.co.jp/hirt/"><img src="Images/sponsors/hirtlogo_m3.svg" style="width:150px; margin: 10px"></a>
+<a href="https://www.trendmicro.com/ja_jp/business.html"><img src="Images/sponsors/trendmicro-ogsocial.jpg" style="width:150px; margin: 10px"></a>
+<a href="https://www.jri.co.jp/"><img src="Images/sponsors/Logo_JRI_J.svg" style="width:150px; margin: 10px"></a>
 
 ## Supporters
 [Personal Information Protection Commission (PPC)](https://www.ppc.go.jp/en/)
