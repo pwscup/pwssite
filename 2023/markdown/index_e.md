@@ -7,6 +7,7 @@
 </div>
 
 ## What's new
+- Oct. 06th, 2023: Released the Sponsors list.
 - Oct. 04th, 2023: Released the Supporters list.
 - Aug. 17th, 2023: PWS Cup 2023 entry started. Please check [the Entry page (in Japanese)](./entry.html).
 - July 27th, 2023: Updated Registration for Participation, Paper Submission, and Paper Awards sections.
