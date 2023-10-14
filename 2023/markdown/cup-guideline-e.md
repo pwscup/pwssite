@@ -1,26 +1,26 @@
 # PWS Cup Session Guidelines Ver.2
-PWS 2023 Organizing Committee &ensp;&ensp;&ensp; Published on September 27, 2023, Updated on **October 13, 2023**
-*The contents of this document are subject to change as they are currently in the draft stage or based on assumptions and undecided items, and will be updated progressively.*
+PWS 2023 Organizing Committee  &ensp;&ensp;&ensp; Published on September 27, 2023, Updated on **October 13, 2023**  
+※The contents of this document are subject to change as they are currently in the draft stage or based on assumptions and undecided items, and will be updated progressively.
 
 ## 1. Overview of PWS Cup Session
-**Date** &ensp; November 1, 2023 (Wednesday) 9:25 AM (Current plan, subject to change, but expected to start no earlier than 9:00 AM)
+**Date**&ensp;&ensp;&ensp;&ensp;&ensp; November 1, 2023 (Wednesday) 9:25 AM (Current plan, subject to change, but expected to start no earlier than 9:00 AM)
 
 **Location** &ensp; Across Fukuoka 7F CSS 2023 C Venue and C Venue Outdoor Foyer (Poster Presentations)  
-&ensp; &ensp; &ensp; &ensp; **※ It is planned to be conducted only on-site. There is no plan for online broadcasting.**
+&ensp;&ensp;&ensp; &ensp; &ensp; &ensp; &ensp; ※ It is planned to be conducted only on-site. There is no plan for online broadcasting.
 
-**Agenda** &ensp; Contest review, result announcement, participant presentations, poster presentations, group photo  
+**Agenda** &ensp;&ensp; Contest review, result announcement, participant presentations, poster presentations, group photo  
 
 **Tentative Schedule**
 
-  &ensp; 09:25 AM – 09:55 AM &ensp;&ensp; Introduction (Opening remarks, explanation of the competition, result announcement, session procedures)
-  &ensp; 09:55 AM – 11:10 AM &ensp;&ensp; Presentation (1 team, 5 minutes including transition, for 15 teams)
-  &ensp; 11:10 AM – 11:30 AM &ensp;&ensp; Break
-  &ensp; 11:30 AM – 12:20 PM &ensp;&ensp; Poster presentations (first half)
-  &ensp; 12:20 PM – 01:40 PM &ensp;&ensp; Lunch break
-  &ensp; 01:40 PM – 02:30 PM &ensp;&ensp; Poster presentations (second half)
-  &ensp; 02:30 PM – 02:40 PM &ensp;&ensp; Evaluation (Judges vote, organizers count and announce. Participants have a break or continue with poster viewing)
-  &ensp; 02:40 PM – 03:10 PM &ensp;&ensp; Closing (Announcement of presentation awards, comments from the chief judge, group photo, closing remarks)
-  &ensp; 03:10 PM – 03:20 PM &ensp;&ensp; Backup
+  &ensp; 09:25 AM – 09:55 AM &ensp;&ensp; Introduction (Opening remarks, explanation of the competition, result announcement, session procedures)  
+  &ensp; 09:55 AM – 11:10 AM &ensp;&ensp; Presentation (1 team, 5 minutes including transition, for 15 teams)  
+  &ensp; 11:10 AM – 11:30 AM &ensp;&ensp; Break  
+  &ensp; 11:30 AM – 12:20 PM &ensp;&ensp; Poster presentations (first half)  
+  &ensp; 12:20 PM – 01:40 PM &ensp;&ensp; Lunch break  
+  &ensp; 01:40 PM – 02:30 PM &ensp;&ensp; Poster presentations (second half)  
+  &ensp; 02:30 PM – 02:40 PM &ensp;&ensp; Evaluation (Judges vote, organizers count and announce. Participants have a break or continue with poster viewing)  
+  &ensp; 02:40 PM – 03:10 PM &ensp;&ensp; Closing (Announcement of presentation awards, comments from the chief judge, group photo, closing remarks)  
+  &ensp; 03:10 PM – 03:20 PM &ensp;&ensp; Backup  
 
 ### Important Notes
 - PWS Cup Session will be held within the Computer Security Symposium 2023 (CSS 2023). Therefore, participation (presentation and attendance) in the PWS Cup Session requires registration for CSS 2023.
