@@ -7,6 +7,7 @@
 </div>
 
 ## What's New
+- **2023/10/14（土）** [参加者向け資料](#manuals)内のPWS Cup セッション実施要領を更新
 - 2023/09/27（水） [予備戦の結果](#pre-results)を公開。[参加者向け資料](#manuals)に予備戦の提出データを公開
 - 2023/09/27（水） [PWS Cup セッション](#onsite)を更新。[参加者向け資料](#manuals)に PWS Cup セッション実施要領を公開。[スケジュール](#schedule)に PWS Cup セッションを追加
 - 2023/09/27（水） [参加者向け資料](#manuals)内の PWS Cup 2023 競技参加の手引きを更新。**本戦での変更点を追記**していますので、**参加者の方は必ずご確認**ください
@@ -44,7 +45,7 @@
 - [コンテストシステム@CodaLab](https://codalab.lisn.upsaclay.fr/competitions/15334) (2023/08/29公開)
 - [配布スクリプト@GitHub](https://github.com/hamadakoki/pwscup2023/tree/master/scripts) (2023/08/29公開)
 - [Q&A](https://github.com/hamadakoki/pwscup2023/blob/master/docs/QA.md) (2023/09/06公開)
-- [PWS Cup セッション実施要領](./Images/docs/cup23-session.pdf) (2023/9/27公開)
+- [PWS Cup セッション実施要領](./Images/docs/cup23-session.pdf) (2023/9/27公開、2023/10/14更新)
 - 予備戦の提出データ([加工段階](https://drive.google.com/file/d/1hGWfF-fnz780JzrHHLSjBOULKRlARdOV/view?usp=sharing)、[攻撃段階](https://drive.google.com/file/d/1KP1qormMNiL2pUpPeYbtIWuaaAivbvvB/view?usp=sharing)) (2023/09/27公開)
     - 加工段階の提出データには、**シード**も含まれています。**本戦では予備戦とは別のシードを使う**ようにしてください
 
