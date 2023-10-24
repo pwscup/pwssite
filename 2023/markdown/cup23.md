@@ -7,7 +7,8 @@
 </div>
 
 ## What's New
-- **2023/10/14（土）** [参加者向け資料](#manuals)内のPWS Cup セッション実施要領を更新。**参加者の方は必ずご確認**ください。またブラウザで手軽に翻訳できるようHTML化しました。 **For non-native speaker of Japanese, we converted [PWS Cup セッション実施要領](./cup-guideline.html) to HTML to translate easily using your browser.**
+- **2023/10/24（火）** [参加者向け資料](#manuals)内のPWS Cup セッション実施要領を更新。
+- 2023/10/14（土） [参加者向け資料](#manuals)内のPWS Cup セッション実施要領を更新。**参加者の方は必ずご確認**ください。またブラウザで手軽に翻訳できるようHTML化しました。 **For non-native speaker of Japanese, we converted [PWS Cup セッション実施要領](./cup-guideline.html) to HTML to translate easily using your browser.**
 - 2023/09/27（水） [予備戦の結果](#pre-results)を公開。[参加者向け資料](#manuals)に予備戦の提出データを公開
 - 2023/09/27（水） [PWS Cup セッション](#onsite)を更新。[参加者向け資料](#manuals)に PWS Cup セッション実施要領を公開。[スケジュール](#schedule)に PWS Cup セッションを追加
 - 2023/09/27（水） [参加者向け資料](#manuals)内の PWS Cup 2023 競技参加の手引きを更新。**本戦での変更点を追記**していますので、**参加者の方は必ずご確認**ください
