@@ -7,7 +7,8 @@
 </div>
 
 ## What's New
-- **2023/10/24（火）** [参加者向け資料](#manuals)内のPWS Cup セッション実施要領を更新。
+- **2023/11/20（月）** [最終結果](#result)を追加。
+- 2023/10/24（火） [参加者向け資料](#manuals)内のPWS Cup セッション実施要領を更新。
 - 2023/10/14（土） [参加者向け資料](#manuals)内のPWS Cup セッション実施要領を更新。**参加者の方は必ずご確認**ください。またブラウザで手軽に翻訳できるようHTML化しました。 **For non-native speaker of Japanese, we converted [PWS Cup セッション実施要領](./cup-guideline.html) to HTML to translate easily using your browser.**
 - 2023/09/27（水） [予備戦の結果](#pre-results)を公開。[参加者向け資料](#manuals)に予備戦の提出データを公開
 - 2023/09/27（水） [PWS Cup セッション](#onsite)を更新。[参加者向け資料](#manuals)に PWS Cup セッション実施要領を公開。[スケジュール](#schedule)に PWS Cup セッションを追加
@@ -140,6 +141,32 @@
 <tr><td>15</td><td>0.00000</td><td>0.00000</td><td>0.00000</td><td>0.00000</td><td>0.00000</td><td>0.00000</td><td>1.00000</td><td>0.00000</td><td>0.00000</td><td>0.00000</td><td>0.00000</td><td>0.00000</td><td>1.00000</td><td>0.00000</td><td>0.00000</td><td>0.14286</td><td>14</td></tr>
 </table>
 
+<a id="result"></a>
+
+## 最終結果
+**お知らせ**
+賞状の発送時期: TBD
+
+**総合**
+- 優勝 　宮地研.exe　　(チームID: 04)
+- 第2位　F.SE　　　　　(チームID: 05)
+- 第3位　神馬大 νττ　　(チームID: 02)
+
+**加工部門**
+- 優勝 　堅あげポテト　(チームID: 01)
+- 第2位　宮地研.exe　　(チームID: 04)
+- 第3位　F.SE　　　　　(チームID: 05)
+
+**攻撃部門**
+- 優勝 　神馬大 νττ　　(チームID: 02)
+- 第2位　F.SE　　　　　(チームID: 05)
+- 第3位　宮地研.exe　　(チームID: 04)
+
+**優秀発表賞**
+- 堅あげポテト　(チームID: 01)
+
+**資料**
+- [投影資料](./Images/docs/2023-11-01-cup-session-talk.pdf)
 
 <a id="onsite"></a>
 
