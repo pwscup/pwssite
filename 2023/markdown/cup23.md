@@ -7,7 +7,7 @@
 </div>
 
 ## What's New
-- **2023/11/20（月）** [最終結果](#result)を追加。
+- **2023/11/24（金）** [最終結果](#result)を追加。
 - 2023/10/24（火） [参加者向け資料](#manuals)内のPWS Cup セッション実施要領を更新。
 - 2023/10/14（土） [参加者向け資料](#manuals)内のPWS Cup セッション実施要領を更新。**参加者の方は必ずご確認**ください。またブラウザで手軽に翻訳できるようHTML化しました。 **For non-native speaker of Japanese, we converted [PWS Cup セッション実施要領](./cup-guideline.html) to HTML to translate easily using your browser.**
 - 2023/09/27（水） [予備戦の結果](#pre-results)を公開。[参加者向け資料](#manuals)に予備戦の提出データを公開
@@ -205,7 +205,7 @@
 </table>
 
 ### 資料
-- [本戦投稿データと結果](https://drive.google.com/drive/folders/1XOGAZnqfMesIutUgcSA2lN_V3icOaf5)
+- [本戦投稿データと結果](https://drive.google.com/drive/folders/1XOGAZnqfMesIutUgcSA2lN_V3icOaf5_)
 
 <a id="onsite"></a>
 
