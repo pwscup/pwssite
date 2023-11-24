@@ -50,7 +50,7 @@
 - [PWS Cup セッション実施要領](./cup-guideline.html) (2023/9/27公開、2023/10/14内容更新とHTML化)
 - 予備戦の提出データ([加工段階](https://drive.google.com/file/d/1hGWfF-fnz780JzrHHLSjBOULKRlARdOV/view?usp=sharing)、[攻撃段階](https://drive.google.com/file/d/1KP1qormMNiL2pUpPeYbtIWuaaAivbvvB/view?usp=sharing)) (2023/09/27公開)
     - 加工段階の提出データには、**シード**も含まれています。**本戦では予備戦とは別のシードを使う**ようにしてください
-- 本戦の提出データ([加工段階](https://drive.google.com/file/d/1X42WiGKtcpdBWWHlpvJJRZ4XGZfq2b2g/view?usp=sharing)、[攻撃段階](https://drive.google.com/file/d/15bCzByd-F_qH_M5VdmIWLcEVmCcmxvx0/view?usp=sharing)) (2023/11/24)
+- 本戦の提出データ([加工段階](https://drive.google.com/file/d/1X42WiGKtcpdBWWHlpvJJRZ4XGZfq2b2g/view?usp=sharing)、[攻撃段階](https://drive.google.com/file/d/15bCzByd-F_qH_M5VdmIWLcEVmCcmxvx0/view?usp=sharing)) (2023/11/24公開)
 
 ## 主催
 情報処理学会 コンピュータセキュリティ研究会 PWS組織委員会  
