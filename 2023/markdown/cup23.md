@@ -77,7 +77,7 @@
 ## 参加チーム
 <table border="1">
 <tr><th>チームID</th><th>チーム名</th><th>意気込み</th><th>チーム代表者</th><th>所属</th></tr>
-<tr><td>01</td><td>堅あげポテト</td><td>頑張ります</td><td>-</td><td>-</td></tr>
+<tr><td>01</td><td>堅あげポテト</td><td>頑張ります</td><td>-</td><td>NECソリューションイノベータ</td></tr>
 <tr><td>02</td><td>神馬大 νττ</td><td>参加するだけでは意義がないww</td><td>小林雅弥</td><td>神奈川大学</td></tr>
 <tr><td>03</td><td>ぼっちくんち</td><td>10/23-24開催の「博多おくんち」に負けない勢いで頑張ります！</td><td>井口誠</td><td>Kii株式会社</td></tr>
 <tr><td>04</td><td>宮地研.exe</td><td>頑張ります！</td><td>山月達太</td><td>大阪大学</td></tr>
