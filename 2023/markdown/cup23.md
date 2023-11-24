@@ -7,7 +7,7 @@
 </div>
 
 ## What's New
-- **2023/11/24（金）** [最終結果](#result)を追加。
+- **2023/11/24（金）** [最終結果](#result)を追加。[参加者向け資料](#manuals)に本戦の提出データを公開。
 - 2023/10/24（火） [参加者向け資料](#manuals)内のPWS Cup セッション実施要領を更新。
 - 2023/10/14（土） [参加者向け資料](#manuals)内のPWS Cup セッション実施要領を更新。**参加者の方は必ずご確認**ください。またブラウザで手軽に翻訳できるようHTML化しました。 **For non-native speaker of Japanese, we converted [PWS Cup セッション実施要領](./cup-guideline.html) to HTML to translate easily using your browser.**
 - 2023/09/27（水） [予備戦の結果](#pre-results)を公開。[参加者向け資料](#manuals)に予備戦の提出データを公開
@@ -50,6 +50,7 @@
 - [PWS Cup セッション実施要領](./cup-guideline.html) (2023/9/27公開、2023/10/14内容更新とHTML化)
 - 予備戦の提出データ([加工段階](https://drive.google.com/file/d/1hGWfF-fnz780JzrHHLSjBOULKRlARdOV/view?usp=sharing)、[攻撃段階](https://drive.google.com/file/d/1KP1qormMNiL2pUpPeYbtIWuaaAivbvvB/view?usp=sharing)) (2023/09/27公開)
     - 加工段階の提出データには、**シード**も含まれています。**本戦では予備戦とは別のシードを使う**ようにしてください
+- 本戦の提出データ([加工段階](https://drive.google.com/file/d/1X42WiGKtcpdBWWHlpvJJRZ4XGZfq2b2g/view?usp=sharing)、[攻撃段階](https://drive.google.com/file/d/15bCzByd-F_qH_M5VdmIWLcEVmCcmxvx0/view?usp=sharing)) (2023/11/24公開)
 
 ## 主催
 情報処理学会 コンピュータセキュリティ研究会 PWS組織委員会  
@@ -143,7 +144,7 @@
 
 <a id="result"></a>
 
-## 最終順位
+## 最終結果
 ### 総合
 - 優勝 　宮地研.exe
 - 第2位　F.SE
@@ -203,9 +204,6 @@
 <tr><td>14</td><td>0.09982</td><td>0.09961</td><td>0.10086</td><td>0.0998</td><td>0.10013</td><td>0.10006</td><td>0.09989</td><td>0.10027</td><td>0.10055</td><td>0.10002</td><td>0.09981</td><td>0.09991</td><td>0.1003</td><td>0</td><td>0.09993</td><td>0.10007</td><td>12</td></tr>
 <tr><td>15</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>15</td></tr>
 </table>
-
-### 資料
-- [本戦投稿データと結果](https://drive.google.com/drive/folders/1XOGAZnqfMesIutUgcSA2lN_V3icOaf5_)
 
 <a id="onsite"></a>
 
