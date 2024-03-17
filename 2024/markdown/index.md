@@ -1,14 +1,8 @@
 # (作成中)第10回プライバシーワークショップ (PWS2024)
 
-<div style="text-align: center;">
- <font size="2">
-  <a href="./index_e.html">[English]</a>
- </font>
-</div>
-
 ## What's new
 - TODO
-- 
+
 ## イベント情報
 - TODO
 
@@ -31,7 +25,11 @@
 </dl>
 
 ### 参加登録
+- TODO
+
 ### 論文投稿 (発表申し込み)
+- TODO
+
 ## 過去のPWS
 - [PWS2023](https://www.iwsec.org/pws/2023/)
 - [PWS2022](https://www.iwsec.org/pws/2022/)
