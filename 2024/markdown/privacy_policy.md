@@ -3,7 +3,7 @@
 <div align="center">
 PWS 2024 実行委員会
 <br>
-2023年6月10日
+2024年6月10日
 </div>
 
 PWS Cup 2024 実行委員会（以下、当委員会）では、[情報処理学会のプライバシーポリシー](https://www.ipsj.or.jp/privacypolicy.html)に加えて、以下のように本イベントのプライバシーポリシーを定めます。
