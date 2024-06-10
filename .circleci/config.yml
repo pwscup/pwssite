@@ -21,7 +21,7 @@ jobs:
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then  
                 #ssh -o StrictHostKeyChecking=no $USER_NAME@$HOST_NAME -o UserKnownHostsFile=/dev/null "cd /var/www/html/pws/; git pull origin master"
-                ssh -o StrictHostKeyChecking=no $USER_NAME@$HOST_NAME -o UserKnownHostsFile=/dev/null "cd /var/www/html/pws/; chown -R 775 /var/www/html/pws/2023"
+                ssh -o StrictHostKeyChecking=no $USER_NAME@$HOST_NAME -o UserKnownHostsFile=/dev/null "cd /var/www/html/pws/; id"
             fi  
 
       - run:
