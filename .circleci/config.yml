@@ -20,8 +20,7 @@ jobs:
           name: Deploy
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then  
-                #ssh -o StrictHostKeyChecking=no $USER_NAME@$HOST_NAME -o UserKnownHostsFile=/dev/null "cd /var/www/html/pws/; git pull origin master"
-                ssh -o StrictHostKeyChecking=no $USER_NAME@$HOST_NAME -o UserKnownHostsFile=/dev/null "cd /var/www/html/pws/; chown pws2021 index_e.html"
+                ssh -o StrictHostKeyChecking=no $USER_NAME@$HOST_NAME -o UserKnownHostsFile=/dev/null "cd /var/www/html/pws/; git pull origin master"
             fi  
 
       - run:
