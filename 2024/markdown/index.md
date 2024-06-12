@@ -34,10 +34,10 @@ PWS2024への参加登録は、[コンピュータセキュリティシンポジ
 - TBD
 
 ## 協賛組織
-TBD
+- TBD
 
 ## 後援組織
-TBD
+- TBD
 
 ## 過去のPWS
 - [PWS2023](https://www.iwsec.org/pws/2023/)
