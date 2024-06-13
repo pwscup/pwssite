@@ -22,11 +22,11 @@ For the above purpose, the Computer Security Special Interest Group (CSEC) of th
   <dd>
    Hiromi Arai (RIKEN), Satoshi Ito (Aichi Gakuin University), Shinsuke Ito (Chuo University), Makoto Iguchi (Kii), Akie Ushida (Fujitsu), 
     Hajime Ono (NICT), Hiroaki Kikuchi (Meiji University), Atsushi Kuromasa (Data Society Alliance), Yuichi Sei (The University of Electro-Communications), 
-    Osamu Takagi (Gunma University), Tsubasa Takahashi (LINE Yahoo), Takao Takenouchi (LINE Yahoo), Mutsumi Tamai (SECOM), Masayuki Terada (NTT DOCOMO), 
+    Osamu Takagi (Gunma University), Tsubasa Takahashi (LY Corporation), Takao Takenouchi (LY Corporation), Mutsumi Tamai (SECOM), Masayuki Terada (NTT DOCOMO), 
     Hiroshi Nakagawa (RIKEN), Yuichi Nakamura (SoftBank), Kenshiro Nishiyama (HIRATA Corporation), Ryo Nojima (Ritsumeikan University), 
     Takanori Higashi (TOPPAN Digital), Ryo Furukawa (NEC), Takuma Hatano (NS Solutions), 
-    Koki Hamada (NTT Social Information Research Institute), Chihiro Fujisaki (Privacy by Design Lab), Masahiro Fujita (Mitsubishi Electric), 
-    Wakana Maeda (LINE Yahoo), Takayuki Miura (NTT Social Information Research Institute), Kazuhiro Minami (The Institute of Statistical Mathematics), 
+    Koki Hamada (NTT), Chihiro Fujisaki (Privacy by Design Lab), Masahiro Fujita (Mitsubishi Electric), 
+    Wakana Maeda (LY Corporation), Takayuki Miura (NTT), Kazuhiro Minami (The Institute of Statistical Mathematics), 
     Masashi Mima (Hitachi Consulting), Takao Murakami (The Institute of Statistical Mathematics), Takeshi Mori (The Japan Research Institute), 
     Akira Yamada (Kobe University)
   </dd>
