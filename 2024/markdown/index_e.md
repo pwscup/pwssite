@@ -1,4 +1,9 @@
 # The 10th Privacy Workshop (PWS2024)
+<div style="text-align: center;">
+ <font size="2">
+  <a href="./index.html">[Japanese]</a>
+ </font>
+</div>
 
 ## What's new
 - June 10th, 2024: This page was released.
@@ -16,24 +21,21 @@ For the above purpose, the Computer Security Special Interest Group (CSEC) of th
 <dl>
  <dt>Chair</dt>
   <dd>Koji Chida (Gunma University)</dd>
- <dt>Vice Chair</dt>
-  <dd>Norihiro Sugawa (Niigata University)</dd>
- <dt>Committee Members</dt>
+ <dt>Co-Chair</dt>
+  <dd>Masahiro Sugawa (Niigata University)</dd>
+ <dt>Members</dt>
   <dd>
-   Hiromi Arai (RIKEN), Satoshi Ito (Aichi Gakuin University), Shinsuke Ito (Chuo University), Makoto Iguchi (Kii), Akie Ushida (Fujitsu), 
-    Hajime Ono (NICT), Hiroaki Kikuchi (Meiji University), Atsushi Kuromasa (Data Society Alliance), Yuichi Sei (The University of Electro-Communications), 
-    Osamu Takagi (Gunma University), Tsubasa Takahashi (LY Corporation), Takao Takenouchi (LY Corporation), Mutsumi Tamai (SECOM), Masayuki Terada (NTT DOCOMO), 
-    Hiroshi Nakagawa (RIKEN), Yuichi Nakamura (SoftBank), Kenshiro Nishiyama (HIRATA Corporation), Ryo Nojima (Ritsumeikan University), 
+   Hiromi Arai (RIKEN), Satoshi Ito (Aichi Gakuin University), Shinsuke Ito (Chuo University), Makoto Iguchi (Kii), Mebae Ushida (Fujitsu), Hajime Ono (NICT), Hiroaki Kikuchi (Meiji University), Atsushi Kuromasa (Data Society Alliance), Yuichi Sei (The University of Electro-Communications), Osamu Takagi (Gunma University), Tsubasa Takahashi (LY Corporation), Takao Takenouchi (LY Corporation), Mutsumi Tamai (SECOM), Masayuki Terada (NTT DOCOMO), Hiroshi Nakagawa (RIKEN), Yuichi Nakamura (SoftBank), Kenshiro Nishiyama (Hirata Corporation), Ryo Nojima (Ritsumeikan University), 
     Takanori Higashi (TOPPAN Digital), Ryo Furukawa (NEC), Takuma Hatano (NS Solutions), 
     Koki Hamada (NTT), Chihiro Fujisaki (Privacy by Design Lab), Masahiro Fujita (Mitsubishi Electric), 
     Wakana Maeda (LY Corporation), Takayuki Miura (NTT), Kazuhiro Minami (The Institute of Statistical Mathematics), 
-    Masashi Mima (Hitachi Consulting), Takao Murakami (The Institute of Statistical Mathematics), Takeshi Mori (The Japan Research Institute), 
-    Akira Yamada (Kobe University)
+    Shoji Mima (Hitachi Consulting), Takao Murakami (The Institute of Statistical Mathematics), Takeshi Mori (The Japan Research Institute, Limited.), Akira Yamada (Kobe University)
   </dd>
 </dl>
 
 ### Participation Registration
-Participation in PWS2024 is included with registration for the [Computer Security Symposium 2024 (CSS2024)](https://www.iwsec.org/css/2024/) (registration allows participation in CSS2024 and other co-hosted workshops).
+To register for PWS2024, please visit the registration site for [Computer Security Symposium 2024 (CSS2024)(in Japanese)](https://www.iwsec.org/css/2024/). By registering for CSS2024, you will be able to participate in CSS2024 and the joint sessions.  
+For more information about the registration process, please check the CSS2024 registration site and its registration fee page.
 
 ### Paper Submission
 - TBD
