@@ -1,4 +1,9 @@
 # 第10回プライバシーワークショップ (PWS2024)
+<div style="text-align: center;">
+ <font size="2">
+  <a href="./index_e.html">[Japanese]</a>
+ </font>
+</div>
 
 ## What's new
 - 2024/06/10(月) 本ページを公開しました。
