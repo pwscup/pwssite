@@ -2,7 +2,7 @@
 
 <div align="center">
  <a href="https://www.lancers.jp/work/detail/5009799?ref=mypage_card">
-  <img src="./Images/poster2024.jpg" width=50%>
+  <img src="../Images/poster2024.jpg" width=50%>
  </a>
 </div>
 
