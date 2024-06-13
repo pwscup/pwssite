@@ -1,4 +1,9 @@
 # The 10th Privacy Workshop (PWS2024)
+<div style="text-align: center;">
+ <font size="2">
+  <a href="./index.html">[Japanese]</a>
+ </font>
+</div>
 
 ## What's new
 - June 10th, 2024: This page was released.
