@@ -1,7 +1,7 @@
 # 第10回プライバシーワークショップ (PWS2024)
 <div style="text-align: center;">
  <font size="2">
-  <a href="./index_e.html">[Japanese]</a>
+  <a href="./index_e.html">[English]</a>
  </font>
 </div>
 
