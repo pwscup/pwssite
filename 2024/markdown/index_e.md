@@ -50,15 +50,15 @@ For more information about the registration process, please check the CSS2024 re
 - TBD
 
 ## Past PWS Events
-- [PWS2023](https://www.iwsec.org/pws/2023/)
-- [PWS2022](https://www.iwsec.org/pws/2022/)
-- [PWS2021](https://www.iwsec.org/pws/2021/)
-- [PWS2020](https://www.iwsec.org/pws/2020/)
-- [PWS2019](https://www.iwsec.org/pws/2019/)
-- [PWS2018](https://www.iwsec.org/pws/2018/)
-- [PWS2017](https://www.iwsec.org/pws/2017/)
-- [PWS2016](https://www.iwsec.org/pws/2016/)
-- [PWS2015](https://www.iwsec.org/pws/2015/)
+- [PWS2023](https://www.iwsec.org/pws/2023/index_e.html)
+- [PWS2022](https://www.iwsec.org/pws/2022/index_e.html)
+- [PWS2021](https://www.iwsec.org/pws/2021/index_e.html)
+- [PWS2020](https://www.iwsec.org/pws/2020/index_e.html)
+- [PWS2019](https://www.iwsec.org/pws/2019/index_e.html)
+- [PWS2018](https://www.iwsec.org/pws/2018/) (in Japanese)
+- [PWS2017](https://www.iwsec.org/pws/2017/) (in Japanese)
+- [PWS2016](https://www.iwsec.org/pws/2016/) (in Japanese)
+- [PWS2015](https://www.iwsec.org/pws/2015/) (in Japanese)
 
 ## Privacy Policy
 - TBD
