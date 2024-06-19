@@ -12,7 +12,11 @@
 - TODO
 
 ## iPWS Cup 2024 schedule
-- TODO
+<table border="0">
+<tr><td> <strong>Date</strong> </td><td> <strong>Event</strong> </td></tr>
+<tr><td> TODO</td> <td> TODO </td></tr>
+</td></tr>
+</table>
 
 ## Committee
 <dl>
