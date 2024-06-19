@@ -5,7 +5,7 @@
 - June 20th, 2024: Opened this page.
 
 ## Useful links for competitions
-- TBA
+- [IWSEC 2024](https://www.iwsec.org/2024/)
 
 ## About iPWS Cup 2024
 ### Story
@@ -42,7 +42,24 @@ After these have been performed in turn, the results of each team's anonymizatio
 - <strong>At least one person per team needs full registration</strong> to IWSEC 2024 (main conference).
 - The contact person does not always make the registration but one person in the team needs to join the main conference. Other members may join the competition for free of charge.
 
-## How to apply for the competition
+### How to apply for the competition
+- TBA
+
+## How to play the anonymization phase
+- TBA
+
+## How to play the attack phase
+- TBA
+
+## Participating teams
+- TBA
+
+## Final result
+
+### Overall
+- TBA
+
+### Attack
 - TBA
 
 ## Committee
