@@ -9,7 +9,6 @@
 
 ## About iPWS Cup 2024
 ### Story
-- TODO
 Company A wants to develop a movie recommendation system using customer data and decides to anonymize customer data for a competition to develop a recommendation system and make it available to the participants of the competition. However, even with the intention of anonymizing the data, there have been cases of personal identification and privacy breaches due to matching with external data. More recently, there has also been the problem of "database reconstruction attacks", where even anonymized data and can be combined with supposedly secure statistical data to reconstruct the original data. Can Company A create highly useful anonymized data while preventing personal identification attacks and database reconstruction attacks?
 
 ### Competition Overview
@@ -19,7 +18,9 @@ Each participating team takes on the roles of both anonymizer and attacker, comp
 The competition consists of two phases.
 
 <strong>Anonymization Phase:</strong> Each team will produce a set of anonymized data from fictitious data on movie ratings (each anonymized data will be processed from original multi-attribute data, from which only the attributes necessary for analysis will be extracted). The anonymized data must be processed in a way that makes it difficult for others to identify the original information, with as little loss of utility as possible.
-Attack Phase: Each team restores the values of the original data, some of which have been redacted by the other team, using anonymized data (database reconstruction attack). They also try to identify individuals by linking the original data, from which names etc. have been removed, to their names etc. using anonymized data.
+
+<strong>Attack Phase:</strong> Each team restores the values of the original data, some of which have been redacted by the other team, using anonymized data (database reconstruction attack). They also try to identify individuals by linking the original data, from which names etc. have been removed, to their names etc. using anonymized data.
+
 After these have been performed in turn, the results of each team's anonymization and attacks will be evaluated by the organizer. The anonymization is evaluated in terms of the closeness of the analysis results obtained from the anonymized and original data (the closer, the better) and the difficulty of correctly guessing the secret data of the other team (the more difficult, the better), while the attack is evaluated in terms of the accuracy of the guesses made by the other team on the anonymized data (the more accurate, the better).
 
 ## iPWS Cup 2024 schedule (tentative)
