@@ -28,4 +28,5 @@
 
 ## Contact
 iPWS Cup Inquiry
+
 ipwscup2024-inquiry(at)csec.ipsj.or.jp (replace (at) with @)
