@@ -1,5 +1,6 @@
 # Data Anonymization Competition
-# iPWS Cup 2024 (an event held in conjunction with [IWSEC 2024](https://www.iwsec.org/2024/))
+# iPWS Cup 2024
+# (held in conjunction with [IWSEC 2024](https://www.iwsec.org/2024/))
 
 ## What's new
 - June 20th, 2024: Opened this page.
