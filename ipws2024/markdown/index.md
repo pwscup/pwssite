@@ -1,5 +1,5 @@
 # Data Anonymization Competition
-# iPWS Cup 2024
+# iPWS Cup 2024 (an event held in conjunction with [IWSEC 2024](https://www.iwsec.org/2024/))
 
 ## What's new
 - June 20th, 2024: Opened this page.
@@ -32,6 +32,18 @@ After these have been performed in turn, the results of each team's anonymizatio
 <tr><td> September 20th(Fri), 2024</td> <td> Final presentation in Kyoto, Japan</td></tr>
 </td></tr>
 </table>
+
+## How to participate in the iPWS Cup 2024
+### Team requirement
+- A team consists of several members. There is no limitation on the number of members per team. A team with only one member is acceptable.
+- Members may be from different affiliations.
+- A person cannot belong to more than one team. This rule is set to avoid any collusion among teams.
+- The affiliation and member names will be hidden during the competition; only team names will be displayed.
+- <strong>At least one person per team needs full registration</strong> to IWSEC 2024 (main conference).
+- The contact person does not always make the registration but one person in the team needs to join the main conference. Other members may join the competition for free of charge.
+
+## How to apply for the competition
+- TBA
 
 ## Committee
 <dl>
