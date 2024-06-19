@@ -5,7 +5,7 @@
 - June.  20th, 2024: Opened this page.
 
 ## Useful links for competitions
-- TODO
+- TBA
 
 ## Rules (overview)
 ### Story
