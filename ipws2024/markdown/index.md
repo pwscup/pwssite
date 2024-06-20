@@ -74,6 +74,7 @@ After these have been performed in turn, the results of each team's anonymizatio
  <dd>Ruiqiang Ma, Inner Mongolia University of Technology, China</dd>
  <dd>Takayuki Miura, NTT, Japan</dd>
  <dd>Yuichi Nakamura, Softbank, Japan</dd>
+ <dd>Takuma Hatano, NS Solutions Corporation, Japan</dd>
 </dl> 
 
 ## Contact
