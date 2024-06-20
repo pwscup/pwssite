@@ -29,8 +29,8 @@ After these have been performed in turn, the results of each team's anonymizatio
 <tr><td> <strong>Date</strong> </td><td> <strong>Event</strong> </td></tr>
 <tr><td> July 12th(Fri) - 24th(Wed), 2024</td> <td> Team registration </td></tr>
 <tr><td> July 26th(Fri) - August 16th(Fri), 2024</td> <td> Anonymization phase</td></tr>
-<tr><td> August 20th(Tue) - September 10th(Tue), 2024</td> <td> Attack phase</td></tr>
-<tr><td> September 20th(Fri), 2024</td> <td> Final presentation in Kyoto, Japan</td></tr>
+<tr><td> August 20th(Tue) - Sept. 10th(Tue), 2024</td> <td> Attack phase</td></tr>
+<tr><td> Sept. 20th(Fri), 2024</td> <td> Final presentation in Kyoto, Japan (on-site event)</td></tr>
 </td></tr>
 </table>
 
@@ -41,7 +41,7 @@ After these have been performed in turn, the results of each team's anonymizatio
 - A person cannot belong to more than one team. This rule is set to avoid any collusion among teams.
 - The affiliation and member names will be hidden during the competition; only team names will be displayed.
 - <strong>At least one person per team needs full registration</strong> to IWSEC 2024 (main conference).
-- The contact person does not always make the registration but one person in the team needs to join the main conference. Other members may join the competition for free of charge.
+- The contact person does not always make the registration but one person in the team must attend the main conference. Other members ot the team can attend the competition for free of charge. Note that the other members attending the on-site event on 20 September will have to pay the participation fee for the iPWS Cup 2024. Registrations should be made via the [IWSEC 2024 website](https://www.iwsec.org/2024/).
 
 ### How to apply for the competition
 - TBA
