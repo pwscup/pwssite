@@ -63,5 +63,5 @@ TBD
 <a id="contact"></a>
 
 ## お問い合わせ先
-PWS組織委員会 PWS Cup 2024 ワーキンググループ
+PWS組織委員会 PWS Cup 2024 ワーキンググループ  
 - pwscup2024-info(at)csec.ipsj.or.jp（"(at)"をアットマーク"@"に置換ください）
