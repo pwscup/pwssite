@@ -7,6 +7,7 @@
 </div>
 
 ## What's New
+- 2024/06/22(土) [PWSCup2024＆iPWSCup2024説明会の参加登録URL](https://docs.google.com/forms/d/e/1FAIpQLScY3xI5OZ3x-ry0f8vFMXfPg_MtxvCpgMyljJrbd1lpjFK6Cw/viewform)を公開
 - 2024/06/14(金) 本ページを作成
 
 ## PWS Cup 2024 概要
