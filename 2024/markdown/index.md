@@ -6,6 +6,8 @@
 </div>
 
 ## What's new
+- 2024/06/20(木) [iPWS Cup 2024](https://www.iwsec.org/pws/ipws2024/index.html)ページを公開
+- 2024/06/14(金) [PWS Cup 2024ページを公開](./cup24.html)
 - 2024/06/10(月) 本ページを公開しました。
 
 ## PWS(Privacy Workshop)について
