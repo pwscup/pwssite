@@ -1,7 +1,7 @@
 # PWS Cup 2024
 
 <div align="center">
- <a href="https://www.lancers.jp/work/detail/5009799?ref=mypage_card">
+ <a href="./Images/poster2024.jpg">
   <img src="./Images/poster2024.jpg" width=50%>
  </a>
 </div>
