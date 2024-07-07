@@ -61,7 +61,7 @@
 TBD
 
 ## プライバシーポリシー
-TBD
+[プライバシーポリシー](./privacy_policy.html)をご確認ください。
 
 ## 公式X(旧Twitter)
 [PWSCUP公式X](https://twitter.com/pwscup_admin)で最新情報をお知らせしています。
