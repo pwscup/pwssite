@@ -19,6 +19,8 @@ PWS 2024 実行委員会
 - 少なくともチームから1名、CSS2024に参加登録し、PWS Cupセッションにて現地で発表（ポスターおよびプレゼンテーション）を行う必要があります
     - 許可をいただいた方について、コンテスト参加者に発表資料を共有する予定です
 
+
+
 ## 【諸注意】
 - システムの準備やメンテナンス等の都合により、スケジュールは予告なく変更する場合があります
 - コンテストで提出されたデータは、後日公開します。公開するデータや時期は以下を予定していますが、予告なく変更する場合があります
@@ -28,7 +30,16 @@ PWS 2024 実行委員会
 - 個人情報の取り扱いについては、[PWS Cup 2024 プライバシーポリシー](./privacy_policy.html)をご参照ください
 
 ## 参加申し込み方法
-- TBA
+
+
+### コンテストシステム(CodaBench) アカウント作成・コンテスト参加方法
+1. [CodaBench](https://www.codabench.org/) のページ にアクセスし、ページ右上のSign-upからユーザ登録を行う
+1. 登録したメールアドレス宛に確認メールが届くので、メールに記載のリンクをクリックしてユーザ登録を完了させる
+1. CodaBench の [PWS Cup 2024](https://www.codabench.org/competitions/3262/) のページ にアクセスする
+1. “My Submissions” タブを選択する
+1. PWS Cup 2024 の[参加規定](https://www.iwsec.org/pws/2024/entry.html)と[プライバシーポリシー](https://www.iwsec.org/pws/2024/privacy_policy.html)をよく読み、同意する場合は "I accept the terms and conditions of the competition." をチェックし、“Register” ボタ ンを押す
+1. [PWS Cup 2024 エントリーフォーム](https://forms.gle/9GWq6WkB3Vf6camJ7) より、ステップ 2で登録した CodaBench のアカウント名を記入する
+1. 運営側が確認完了すると、CodaBench から参加許可の通知が届き、参加登録完了（PWS Cup 2024 システム（CodaBench）が使えるようになります）
 
 ## お問い合わせ先
 PWS Cup 2024 問い合わせメールアドレス
