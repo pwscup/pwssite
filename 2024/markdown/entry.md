@@ -30,16 +30,15 @@ PWS 2024 実行委員会
 ## 参加申し込み方法
 以下の手順にて、「コンテストシステム(CodaBench)へのアカウント作成」と「PWS Cup 2024への登録」の2つを実施いただきます
 
-- 1： [CodaBench](https://www.codabench.org/) のページにアクセスし、ページ右上のSign-upからユーザ登録を行う
-- 2： 登録したメールアドレス宛に確認メールが届くので、メールに記載のリンクをクリックしてユーザ登録を完了させる
-- 3： CodaBenchの[PWS Cup 2024](https://www.codabench.org/competitions/3262/) のページにアクセスする
-- 4： “My Submissions” タブを選択する
-- 5：  PWS Cup 2024の[参加規定](https://www.iwsec.org/pws/2024/entry.html)と[プライバシーポリシー](https://www.iwsec.org/pws/2024/privacy_policy.html)をよく読み、同意する場合は "I accept the terms and conditions of the competition." をチェックし、“Register” ボタンを押す
-- 6： [PWS Cup 2024 エントリーフォーム](https://forms.gle/9GWq6WkB3Vf6camJ7) より、手順2で登録した CodaBenchのアカウント名を記入する
-- 7： 運営側が確認完了すると、CodaBenchから参加許可の通知が届きます。これでPWS Cup 2024への参加申し込みは完了です。PWS Cup 2024 システム（CodaBench）が使えるようになります。
+1. [CodaBench](https://www.codabench.org/) のページにアクセスし、ページ右上のSign-upからユーザ登録を行う
+1. 登録したメールアドレス宛に確認メールが届くので、メールに記載のリンクをクリックしてユーザ登録を完了させる
+1. CodaBenchの[PWS Cup 2024](https://www.codabench.org/competitions/3262/) のページにアクセスする
+1. “My Submissions” タブを選択する
+1.  PWS Cup 2024の[参加規定](https://www.iwsec.org/pws/2024/entry.html)と[プライバシーポリシー](https://www.iwsec.org/pws/2024/privacy_policy.html)をよく読み、同意する場合は "I accept the terms and conditions of the competition." をチェックし、“Register” ボタンを押す
+1. [PWS Cup 2024 エントリーフォーム](https://forms.gle/9GWq6WkB3Vf6camJ7) より、手順2で登録した CodaBenchのアカウント名を記入する
+1. 運営側が確認完了すると、CodaBenchから参加許可の通知が届きます。これでPWS Cup 2024への参加申し込みは完了です。PWS Cup 2024 システム（CodaBench）が使えるようになります。
 
-1. test
-1. テスト
+
 
 ## お問い合わせ先
 PWS Cup 2024 問い合わせメールアドレス
