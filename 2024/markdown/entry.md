@@ -1,4 +1,4 @@
-# PWS Cup 2023 Entry
+# PWS Cup 2024 Entry
 
 <div align="center">
 PWS 2024 実行委員会
