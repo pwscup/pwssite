@@ -7,6 +7,7 @@
 </div>
 
 ## What's New
+- 2024/07/12(金) [エントリー方法](./entry.html)を公開
 - 2024/06/22(土) [PWSCup2024＆iPWSCup2024説明会の参加登録URL](https://docs.google.com/forms/d/e/1FAIpQLScY3xI5OZ3x-ry0f8vFMXfPg_MtxvCpgMyljJrbd1lpjFK6Cw/viewform)を公開
 - 2024/06/14(金) 本ページを作成
 
@@ -32,6 +33,10 @@
 <a id="manuals"></a>
 
 ## 参加者向け資料
+### エントリー方法
+- [エントリー方法のページ](./entry.html)をご参照ください
+
+### ルール詳細・結果・他
 - TBD
 
 ## 主催
@@ -54,13 +59,13 @@
 </table>
 
 ## 参加方法
-TBD
+- [エントリー方法のページ](./entry.html)をご参照ください
 
 ## 参加チーム
 TBD
 
 ## プライバシーポリシー
-TBD
+- [プライバシーポリシーのページ](./privacy_policy.html)をご参照ください
 
 ## 公式X(旧Twitter)
 [PWSCUP公式X](https://twitter.com/pwscup_admin)で最新情報をお知らせしています。
