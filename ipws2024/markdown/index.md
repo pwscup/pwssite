@@ -9,7 +9,8 @@
 </div>
 
 ## What's new
-- July 12th, 2024: Add poster.
+- July 11st, 2024: Add [entry](./entry.html) page.
+- July 12nd, 2024: Add poster.
 - June 20th, 2024: Opened this page.
 
 ## Useful links for competitions
