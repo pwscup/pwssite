@@ -2,7 +2,14 @@
 # iPWS Cup 2024
 # (held in conjunction with [IWSEC 2024](https://www.iwsec.org/2024/))
 
+<div align="center">
+ <a href="./Images/poster2024_ipws.jpg">
+  <img src="./Images/poster2024_ipws.jpg" width=50%>
+ </a>
+</div>
+
 ## What's new
+- July 12th, 2024: Add poster.
 - June 20th, 2024: Opened this page.
 
 ## Useful links for competitions

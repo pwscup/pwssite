@@ -28,10 +28,8 @@ PWS 2023 実行委員会
 - 個人情報の取り扱いについては、[PWS Cup 2023 プライバシーポリシー](./privacy_policy.html)をご参照ください
 
 ## 参加申し込み方法
-- [こちらのフォーム](https://docs.google.com/forms/d/e/1FAIpQLSezX_zCd_pCke-bSbOHCN5aIj3zNOVeycfMsWlS_wW4c9tVBw/viewform?usp=sf_link) に必要な情報を入力してください
-    - 後日、頂いた情報をもとに、コンテスト参加に必要な情報を送付します
+- TBA
 
 ## お問い合わせ先
-PWS組織委員会 PWS Cup 2023 ワーキンググループ
-
+PWS Cup 2023 問い合わせメールアドレス
 - pwscup2023-info(at)iwsec.org（"(at)"をアットマーク"@"に置換ください）
