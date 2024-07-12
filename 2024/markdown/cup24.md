@@ -33,11 +33,6 @@
 <a id="manuals"></a>
 
 ## 参加者向け資料
-### エントリー方法
-- [エントリー方法のページ](./entry.html)をご参照ください
-
-### ルール詳細・結果・他
-- TBD
 
 ## 主催
 情報処理学会 コンピュータセキュリティ研究会 PWS組織委員会  
@@ -51,7 +46,7 @@
 
 <table border="0">
 <tr><td> <strong>日付</strong> </td><td> <strong>イベント</strong> </td></tr>
-<tr><td> 2024/07/12(金) 16:00~17:00 </td> <td> PWS Cup 2024＆[iPWS Cup 2024](https://www.iwsec.org/pws/ipws2024/index.html)説明会 （参加登録は[こちら](https://docs.google.com/forms/d/e/1FAIpQLScY3xI5OZ3x-ry0f8vFMXfPg_MtxvCpgMyljJrbd1lpjFK6Cw/viewform)） </td></tr>
+<tr><td> 2024/07/12(金) 16:00~17:00 </td> <td> PWS Cup 2024＆<a href="https://www.iwsec.org/pws/ipws2024/index.html"> iPWS Cup 2024</a>説明会 （参加登録は<a href="https://docs.google.com/forms/d/e/1FAIpQLScY3xI5OZ3x-ry0f8vFMXfPg_MtxvCpgMyljJrbd1lpjFK6Cw/viewform">こちら</a>)</td></tr>
 <tr><td> 2024/07/12(金) ~ 2024/07/24(水) </td> <td> エントリー受付期間 </td></tr>
 <tr><td> 2024/07/26(金) ~ 2024/09/02(月) </td> <td> 予備戦 </td></tr>
 <tr><td> 2024/09/10(火) ~ 2024/10/15(火) </td> <td> 本戦 </td></tr>
@@ -59,13 +54,13 @@
 </table>
 
 ## 参加方法
-- [エントリー方法のページ](./entry.html)をご参照ください
+- [エントリー方法のページ](./entry.html)をご参照ください。
 
 ## 参加チーム
 TBD
 
 ## プライバシーポリシー
-- [プライバシーポリシーのページ](./privacy_policy.html)をご参照ください
+- [プライバシーポリシーのページ](./privacy_policy.html)をご参照ください。
 
 ## 公式X(旧Twitter)
 [PWSCUP公式X](https://twitter.com/pwscup_admin)で最新情報をお知らせしています。

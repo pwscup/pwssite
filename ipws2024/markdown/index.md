@@ -9,7 +9,8 @@
 </div>
 
 ## What's new
-- July 12th, 2024: Add poster.
+- July 11st, 2024: Add [entry](./entry.html) page.
+- July 12nd, 2024: Add poster.
 - June 20th, 2024: Opened this page.
 
 ## Useful links for competitions
@@ -51,7 +52,7 @@ After these have been performed in turn, the results of each team's anonymizatio
 - The contact person does not always make the registration but one person in the team must attend the main conference. Other members ot the team can attend the competition for free of charge. Note that the other members attending the on-site event on 20 September will have to pay the participation fee for the iPWS Cup 2024. Registrations should be made via the [IWSEC 2024 registration site](https://www.iwsec.org/2024/registration.html).
 
 ### How to apply for the competition
-- TBA
+- Please check the [entry](./entry.html) page.
 
 ## How to play the anonymization phase
 - TBA
