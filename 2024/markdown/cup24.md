@@ -46,7 +46,7 @@
 
 <table border="0">
 <tr><td> <strong>日付</strong> </td><td> <strong>イベント</strong> </td></tr>
-<tr><td> 2024/07/12(金) 16:00~17:00 </td> <td> PWS Cup 2024＆[iPWS Cup 2024](https://www.iwsec.org/pws/ipws2024/index.html)説明会 （参加登録は[こちら](https://docs.google.com/forms/d/e/1FAIpQLScY3xI5OZ3x-ry0f8vFMXfPg_MtxvCpgMyljJrbd1lpjFK6Cw/viewform)） </td></tr>
+<tr><td> 2024/07/12(金) 16:00~17:00 </td> <td> PWS Cup 2024＆<a href="https://www.iwsec.org/pws/ipws2024/index.html"> iPWS Cup 2024</a>説明会 （参加登録は<a href="https://docs.google.com/forms/d/e/1FAIpQLScY3xI5OZ3x-ry0f8vFMXfPg_MtxvCpgMyljJrbd1lpjFK6Cw/viewform">こちら</a></td></tr>
 <tr><td> 2024/07/12(金) ~ 2024/07/24(水) </td> <td> エントリー受付期間 </td></tr>
 <tr><td> 2024/07/26(金) ~ 2024/09/02(月) </td> <td> 予備戦 </td></tr>
 <tr><td> 2024/09/10(火) ~ 2024/10/15(火) </td> <td> 本戦 </td></tr>
