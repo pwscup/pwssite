@@ -31,7 +31,7 @@ Please follow these steps to complete both "Creating an account on the contest s
 
 1. Access the [CodaBench](https://www.codabench.org/) website and register as a user by clicking on "Sign-up" in the upper right corner of the page.
 2. A confirmation email will be sent to your registered email address. Click on the link provided in the email to complete your user registration.
-3. <span style="color: red; "> Access the [PWS Cup 2024(TODO ~2024/07/12)](https://www.codabench.org/competitions/****/) page on CodaBench.</span>
+3. Access the [iPWS Cup 2024](https://www.codabench.org/competitions/3260/) page on CodaBench.
 4. Select the "My Submissions" tab.
 5. Carefully read the [participation rules](https://www.iwsec.org/ipws2024/entry.html) and [privacy policy](https://www.iwsec.org/ipws2024/privacy_policy.html) for iPWS Cup 2024. If you agree, check the box that says "I accept the terms and conditions of the competition" and click the "Register" button.
 6. Fill out and submit the [iPWS Cup 2024 Entry Form](https://forms.gle/C4Rf1ZWkqvF5LeV67) (you will need to enter the CodaBench account name you registered in Step 2).
@@ -39,4 +39,5 @@ Please follow these steps to complete both "Creating an account on the contest s
 
 ## Contact Information
 iPWS Cup 2024 Inquiry Email Address
+
 - ipwscup2024-inquiry(at)csec.ipsj.or.jp (Please replace "(at)" with "@")
