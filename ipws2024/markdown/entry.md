@@ -39,4 +39,5 @@ Please follow these steps to complete both "Creating an account on the contest s
 
 ## Contact Information
 iPWS Cup 2024 Inquiry Email Address
+
 - ipwscup2024-inquiry(at)csec.ipsj.or.jp (Please replace "(at)" with "@")
