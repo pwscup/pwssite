@@ -35,7 +35,7 @@
 
 ## 参加者向け資料
 - [PWSCup2024＆iPWSCup2024説明会の動画](https://youtu.be/uEHFeoOJ4Hg)
-- [PWSCup2024＆iPWSCup2024説明会の資料(PDF)](./Images/docs/20240712_PWSCUP2024_iPWSCUP2024.pdf)
+- [PWSCup2024＆iPWSCup2024説明会の資料(PDF)](./Images/20240712_PWSCUP2024_iPWSCUP2024.pdf)
 
 ## 主催
 情報処理学会 コンピュータセキュリティ研究会 PWS組織委員会  
