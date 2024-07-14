@@ -9,8 +9,9 @@
 </div>
 
 ## What's new
-- July 11st, 2024: Add [entry](./entry.html) page.
-- July 12nd, 2024: Add poster.
+- July 14th, 2024: Added [Rules explanation slides](./Images/20240714_iPWSCUP2024.pdf).
+- July 11st, 2024: Added [entry](./entry.html) page.
+- July 12nd, 2024: Added poster.
 - June 20th, 2024: Opened this page.
 
 ## Useful links for competitions
@@ -32,7 +33,7 @@ The competition consists of two phases.
 
 After these have been performed in turn, the results of each team's anonymization and attacks will be evaluated by the organizer. The anonymization is evaluated in terms of the closeness of the analysis results obtained from the anonymized and original data (the closer, the better) and the difficulty of correctly guessing the secret data of the other team (the more difficult, the better), while the attack is evaluated in terms of the accuracy of the guesses made by the other team on the anonymized data (the more accurate, the better).
 
-## iPWS Cup 2024 schedule (tentative)
+## iPWS Cup 2024 schedule
 <table border="0">
 <tr><td> <strong>Date</strong> </td><td> <strong>Event</strong> </td></tr>
 <tr><td> July 12th (Fri) - 24th (Wed), 2024</td> <td> Team registration </td></tr>
@@ -41,6 +42,9 @@ After these have been performed in turn, the results of each team's anonymizatio
 <tr><td> September 20th (Fri), 2024</td> <td> Final presentation in Kyoto, Japan (on-site event)</td></tr>
 </td></tr>
 </table>
+
+## Documents
+- [Rules explanation slides](./Images/20240714_iPWSCUP2024.pdf)
 
 ## How to participate in the iPWS Cup 2024
 ### Team requirement
