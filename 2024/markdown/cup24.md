@@ -7,6 +7,7 @@
 </div>
 
 ## What's New
+- 2024/07/14(日) PWSCup2024＆iPWSCup2024説明会の動画と資料をアップ
 - 2024/07/12(金) [エントリー方法](./entry.html)を公開
 - 2024/06/22(土) [PWSCup2024＆iPWSCup2024説明会の参加登録URL](https://docs.google.com/forms/d/e/1FAIpQLScY3xI5OZ3x-ry0f8vFMXfPg_MtxvCpgMyljJrbd1lpjFK6Cw/viewform)を公開
 - 2024/06/14(金) 本ページを作成
@@ -33,6 +34,8 @@
 <a id="manuals"></a>
 
 ## 参加者向け資料
+- [PWSCup2024＆iPWSCup2024説明会の動画](https://youtu.be/uEHFeoOJ4Hg)
+- [PWSCup2024＆iPWSCup2024説明会の資料(PDF)](./Images/20240712_PWSCUP2024_iPWSCUP2024.pdf)
 
 ## 主催
 情報処理学会 コンピュータセキュリティ研究会 PWS組織委員会  
