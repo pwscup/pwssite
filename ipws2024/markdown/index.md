@@ -9,6 +9,7 @@
 </div>
 
 ## What's new
+- July 16th, 2024: Added [Sample scripts](https://github.com/pwscup/pwscup2024-scripts).
 - July 14th, 2024: Added [Rules explanation slides](./Images/20240714_iPWSCUP2024.pdf).
 - July 11st, 2024: Added [entry](./entry.html) page.
 - July 12nd, 2024: Added poster.
@@ -43,8 +44,9 @@ After these have been performed in turn, the results of each team's anonymizatio
 </td></tr>
 </table>
 
-## Documents
+## Documents/Resources
 - [Rules explanation slides](./Images/20240714_iPWSCUP2024.pdf)
+- [Sample scripts](https://github.com/pwscup/pwscup2024-scripts).
 
 ## How to participate in the iPWS Cup 2024
 ### Team requirement
