@@ -1,54 +1,31 @@
-name: Branch Specific Actions
-
-on:
-  push:
-    branches:
-      - master
-      - gh-pages
-
+# Environment variables
+# - HOST_NAME
+# - USER_NAME
+ 
+version: 2
 jobs:
-  run-on-master:
-    if: github.ref == 'refs/heads/master'
-    runs-on: ubuntu-latest
-
+  build:
+    docker:
+      - image: circleci/php:7.1-browsers
     steps:
-    - name: チェックアウトリポジトリ
-      uses: actions/checkout@v3
+      - checkout
+ 
+      - add_ssh_keys:
+          fingerprints:
+            - "ac:f8:02:1c:ce:ed:fb:94:5a:60:62:9d:ac:c3:7f:cf"
+            - "e1:1a:fe:aa:51:14:86:92:ac:87:bc:73:b1:dc:26:a8"
+            - "81:a1:ee:97:71:d9:ea:53:50:82:fc:e4:b0:a3:a7:f3"
+ 
+      - run:
+          name: Deploy
+          command: |
+            if [ "${CIRCLE_BRANCH}" == "master" ]; then  
+                ssh -o StrictHostKeyChecking=no $USER_NAME@$HOST_NAME -o UserKnownHostsFile=/dev/null "cd /var/www/html/pws/; git pull origin master"
+            fi  
 
-    - name: SSHキーの設定
-      run: |
-        mkdir -p ~/.ssh
-        echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
-        chmod 600 ~/.ssh/id_rsa
-        ssh-keyscan -H ${{ secrets.HOST_NAME }} >> ~/.ssh/known_hosts
-
-    - name: 外部サーバーにSSH接続してコマンド実行
-      run: |
-        ssh -o StrictHostKeyChecking=no ${{ secrets.USER_NAME }}@${{ secrets.HOST_NAME }} -o UserKnownHostsFile=/dev/null "cd /var/www/html/pws/; git pull origin master"
-
-  run-on-gh-pages:
-    if: github.ref == 'refs/heads/gh-pages'
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: チェックアウトリポジトリ
-      uses: actions/checkout@v3
-
-    - name: 必要なパッケージのインストール
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y tidy pandoc
-
-    - name: make.bashの実行
-      run: bash make.bash
-      continue-on-error: true
-
-    - name: 変更をコミット
-      run: |
-        git config --global user.name 'github-actions[bot]'
-        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add .
-        git commit -m 'Run make.bash and commit changes'
-        git push
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run:
+          name: Build and Test
+          command: |
+            if [ "${CIRCLE_BRANCH}" == "gh-pages" ]; then  
+                ssh -o StrictHostKeyChecking=no $TEST_USER_NAME@$TEST_HOST_NAME -o UserKnownHostsFile=/dev/null "cd /tmp/pwssite; git pull origin gh-pages; git checkout gh-pages; bash ./make.bash; git add -A; git commit -m 'make.bash'; git push origin gh-pages"
+            fi  
