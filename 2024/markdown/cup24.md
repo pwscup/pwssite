@@ -1,10 +1,6 @@
 # PWS Cup 2024
 
-<div align="center">
- <a href="./Images/poster2024.jpg">
-  <img src="./Images/poster2024.jpg" width=50%>
- </a>
-</div>
+![](./Images/poster2024.jpg){.center}
 
 ## What's New
 - 2024/07/16(火) PWS Cup 2024用の[GitHubリポジトリ](https://github.com/pwscup/pwscup2024-scripts)にて、加工・評価・チェックスクリプトの開発版を配置(順次更新予定) 

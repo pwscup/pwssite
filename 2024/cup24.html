@@ -1,195 +1,152 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-
+<!DOCTYPE html>
 <html lang="ja" dir="ltr">
 <head>
   <meta name="generator" content=
-  "HTML Tidy for Linux (vers 25 March 2009), see www.w3.org">
+  "HTML Tidy for HTML5 for Linux version 5.6.0">
   <meta http-equiv="Content-Type" content=
   "text/html; charset=utf-8">
-  <script src="jquery.min.js" type="text/javascript">
-</script>
-
+  <script src="jquery.min.js" type="text/javascript"></script>
   <title>PWS Cup 2024</title>
-  <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
-
 <body style="margin-top:40px">
+  <link rel="stylesheet" type="text/css" href="./style.css">
   <div id="menu-wrap" class="fixed">
     <ul id="menu">
-      <li><a href="./index.html">Top</a></li>
-
-      <li><a href="./index.html">About PWS</a></li>
-
-      <li><a href="./cup24.html">PWSCUP2024</a></li>
-
-      <li><a href="https://www.iwsec.org/pws">Past PWS</a></li>
+      <li>
+        <a href="./index.html">Top</a>
+      </li>
+      <li>
+        <a href="./index.html">About PWS</a>
+      </li>
+      <li>
+        <a href="./cup24.html">PWSCUP2024</a>
+      </li>
+      <li>
+        <a href="https://www.iwsec.org/pws">Past PWS</a>
+      </li>
     </ul>
   </div>
-
   <div id="page">
     <!-- contents start -->
-
     <h1>PWS Cup 2024</h1>
-
-    <div align="center">
-      <p><a href="./Images/poster2024.jpg"><img src=
-      "./Images/poster2024.jpg" width="50%"></a></p>
-    </div>
-
-    <h2>What's New</h2>
-
+    <p><img src="./Images/poster2024.jpg" class="center"></p>
+    <h2>What’s New</h2>
     <ul>
       <li>2024/07/16(火) PWS Cup 2024用の<a href=
-      "https://github.com/pwscup/pwscup2024-scripts">GitHubリポジトリ</a>にて、加工・評価・チェックスクリプトの開発版を配置(順次更新予定)</li>
-
+      "https://github.com/pwscup/pwscup2024-scripts">GitHubリポジトリ</a>にて、加工・評価・チェックスクリプトの開発版を配置(順次更新予定)
+      </li>
       <li>2024/07/14(日) PWSCup2024＆iPWSCup2024説明会の動画と資料をアップ</li>
-
-      <li>2024/07/12(金) <a href="./entry.html">エントリー方法</a>を公開</li>
-
+      <li>2024/07/12(金) <a href="./entry.html">エントリー方法</a>を公開
+      </li>
       <li>2024/06/22(土) <a href=
       "https://docs.google.com/forms/d/e/1FAIpQLScY3xI5OZ3x-ry0f8vFMXfPg_MtxvCpgMyljJrbd1lpjFK6Cw/viewform">
-      PWSCup2024＆iPWSCup2024説明会の参加登録URL</a>を公開</li>
-
+        PWSCup2024＆iPWSCup2024説明会の参加登録URL</a>を公開
+      </li>
       <li>2024/06/14(金) 本ページを作成</li>
     </ul>
-
     <h2>PWS Cup 2024 概要</h2>
-
     <h3>コンテストストーリー</h3>
-
     <p>
     企業Aは顧客データを利用して映画の推薦システムを作りたいと思い、推薦システム開発のコンペのために顧客データを匿名化してコンペ参加者に提供することとした。しかし匿名化したつもりでも、外部のデータと突き合わせるなどして個人特定されたりプライバシーが侵害されたりした事例がある。さらに最近では、安全とおもわれる匿名化データや統計データでも複数組み合わせると元のデータが復元されてしまう「データベース再構築攻撃」も問題となっている。企業Aは、個人特定攻撃やデータベース再構築攻撃を防ぎつつ、有用性の高い匿名化データを作成できるだろうか？</p>
-
     <h3>コンテスト概要</h3>
-
     <p>
     コンテスト参加者は、加工者と攻撃者の双方の立場となって、データの加工と、加工されたデータへの攻撃技術を競います。データの加工では、参加者は顧客データを公開したい企業を想定した加工者となり、与えられたデータを加工してデータに含まれる人のプライバシーを保護することを目指します。加工されたデータへの攻撃では、参加者はデータの中身を暴こうとする人を想定した攻撃者となり、他の参加者が加工したデータに含まれる人の秘密の情報をより多く暴くことを目指します。</p>
-
     <h3>コンテストの流れ</h3>
-
     <p>コンテストは、以下の2つのフェーズからなります。</p>
-
-    <ol style="list-style-type: decimal">
-      <li>加工フェーズ:</li>
+    <ol type="1">
+      <li>加工フェーズ:
+        <ul>
+          <li>
+          各チームは、映画の評価に関する架空のデータから、複数の匿名化データを作成する（各匿名化データは、多属性の元データから、分析用途に応じて必要な属性のみ抽出したデータを加工したものとする）。</li>
+          <li>匿名化データは、有用性をなるべく損ねることなく、他人が元の情報を特定しづらいように加工すること。</li>
+        </ul>
+      </li>
+      <li>攻撃フェーズ:
+        <ul>
+          <li>
+          各チームは、出題者によっていくつか黒塗りされた元データの値を、匿名化データを用いて推定する（データベース再構築攻撃）。</li>
+          <li>
+          また、氏名等が切り離された元データを、匿名化データを用いて氏名等とつなぎ合わせて個人特定を試みる。</li>
+        </ul>
+      </li>
     </ol>
-
-    <ul>
-      <li>
-      各チームは、映画の評価に関する架空のデータから、複数の匿名化データを作成する（各匿名化データは、多属性の元データから、分析用途に応じて必要な属性のみ抽出したデータを加工したものとする）。</li>
-
-      <li>匿名化データは、有用性をなるべく損ねることなく、他人が元の情報を特定しづらいように加工すること。</li>
-    </ul>
-
-    <ol start="2" style="list-style-type: decimal">
-      <li>攻撃フェーズ:</li>
-    </ol>
-
-    <ul>
-      <li>
-      各チームは、出題者によっていくつか黒塗りされた元データの値を、匿名化データを用いて推定する（データベース再構築攻撃）。</li>
-
-      <li>また、氏名等が切り離された元データを、匿名化データを用いて氏名等とつなぎ合わせて個人特定を試みる。</li>
-    </ul>
-
     <p>
     これらを順に実施した後、出題者により各チームの加工と攻撃の結果が評価されます。加工の評価は加工データと元データからそれぞれ得られる分析結果の近さ（近いほどよい）と秘密データの他のチームからの正しい推測の困難さ（困難であるほどよい）の観点から、攻撃の評価は他のチームの加工データに対する推測の正確さ（正確であるほどよい）の観点から、それぞれ行います。コンテスト期間中に加工フェーズ、攻撃フェーズ、評価の一連の流れを2回実施します。1回目を予備戦、2回目を本戦と呼び、予備戦と本戦での評価結果を総合して本コンテストの勝者を決定します。</p>
-
-    <p><a id="manuals" name="manuals"></a></p>
-
+    <p><a id="manuals"></a></p>
     <h2>参加者向け資料</h2>
-
     <ul>
-      <li><a href=
-      "https://youtu.be/uEHFeoOJ4Hg">PWSCup2024＆iPWSCup2024説明会の動画</a></li>
-
-      <li><a href=
-      "./Images/20240712_PWSCUP2024_iPWSCUP2024.pdf">PWSCup2024＆iPWSCup2024説明会の資料(PDF)</a></li>
+      <li>
+        <a href=
+        "https://youtu.be/uEHFeoOJ4Hg">PWSCup2024＆iPWSCup2024説明会の動画</a>
+      </li>
+      <li>
+        <a href=
+        "./Images/20240712_PWSCUP2024_iPWSCUP2024.pdf">PWSCup2024＆iPWSCup2024説明会の資料(PDF)</a>
+      </li>
     </ul>
-
     <h2>主催</h2>
-
     <p>情報処理学会 コンピュータセキュリティ研究会 PWS組織委員会<br>
     （コンピュータセキュリティシンポジウム2024に併催）</p>
-
-    <p><a id="schedule" name="schedule"></a></p>
-
+    <p><a id="schedule"></a></p>
     <h2>PWS Cup 2024 スケジュール</h2>
-
     <p>スケジュールは予告なく変更することがあります。あらかじめご了承ください。
     本ページに記載の日時は特に断りのない限り日本標準時(JST)です。システムに記載の日時は協定世界時(UTC)ですので、ご注意ください。</p>
-
     <table border="0">
       <tr>
         <td><strong>日付</strong></td>
-
         <td><strong>イベント</strong></td>
       </tr>
-
       <tr>
         <td>2024/07/12(金) 16:00~17:00</td>
-
-        <td>PWS Cup 2024＆ <a href=
-        "https://www.iwsec.org/pws/ipws2024/index.html">iPWS Cup
-        2024</a>説明会 （参加登録は<a href=
-        "https://docs.google.com/forms/d/e/1FAIpQLScY3xI5OZ3x-ry0f8vFMXfPg_MtxvCpgMyljJrbd1lpjFK6Cw/viewform">こちら</a>)</td>
+        <td>
+          PWS Cup 2024＆ <a href=
+          "https://www.iwsec.org/pws/ipws2024/index.html">iPWS Cup
+          2024</a>説明会 （参加登録は<a href=
+          "https://docs.google.com/forms/d/e/1FAIpQLScY3xI5OZ3x-ry0f8vFMXfPg_MtxvCpgMyljJrbd1lpjFK6Cw/viewform">こちら</a>)
+        </td>
       </tr>
-
       <tr>
         <td>2024/07/12(金) ~ 2024/07/24(水)</td>
-
         <td>エントリー受付期間</td>
       </tr>
-
       <tr>
         <td>2024/07/26(金) ~ 2024/09/02(月)</td>
-
         <td>予備戦</td>
       </tr>
-
       <tr>
         <td>2024/09/10(火) ~ 2024/10/15(火)</td>
-
         <td>本戦</td>
       </tr>
-
       <tr>
         <td>2024/10/22(火)~25(金)のいずれか1日</td>
-
         <td>発表・表彰式</td>
       </tr>
     </table>
-
     <h2>参加方法</h2>
-
     <ul>
-      <li><a href="./entry.html">エントリー方法のページ</a>をご参照ください。</li>
+      <li>
+        <a href="./entry.html">エントリー方法のページ</a>をご参照ください。
+      </li>
     </ul>
-
     <h2>参加チーム</h2>
-
     <p>TBD</p>
-
     <h2>プライバシーポリシー</h2>
-
     <ul>
-      <li><a href=
-      "./privacy_policy.html">プライバシーポリシーのページ</a>をご参照ください。</li>
+      <li>
+        <a href="./privacy_policy.html">プライバシーポリシーのページ</a>をご参照ください。
+      </li>
     </ul>
-
     <h2>公式X(旧Twitter)</h2>
-
     <p><a href=
     "https://twitter.com/pwscup_admin">PWSCUP公式X</a>で最新情報をお知らせしています。</p>
-
-    <p><a id="contact" name="contact"></a></p>
-
+    <p><a id="contact"></a></p>
     <h2>お問い合わせ先</h2>
-
     <p>PWS組織委員会 PWS Cup 2024 ワーキンググループ<br>
     -
-    pwscup2024-info(at)csec.ipsj.or.jp（"(at)"をアットマーク"@"に置換ください）</p><!-- contents end -->
-  </div><script type="text/javascript">
-      $(function(){
+    pwscup2024-info(at)csec.ipsj.or.jp（“(at)”をアットマーク“@”に置換ください）</p><!-- contents end -->
+  </div>
+  <script type="text/javascript">
+        $(function(){
           var box    = $("#menu-wrap");
           var boxTop = box.offset().top;
           $(window).scroll(function () {
