@@ -22,18 +22,18 @@
   - いい感じにお願いします
 
 # フォルダ・ファイル構成
-- 2018以前
+- (管理対象外)2018以前
   - PWS2018以前のサイト gitで管理していませんでした 
-- 2019
+- (管理対象外)2019
   - PWS2019 のサイト htmlファイルを直接編集しています
-- 2020以降
+- (管理対象)2020以降
   - PWS202* のサイト "運用方法"の手順で、mdファイルをgithub上で編集して作っています
-- .github/workflows
+- (管理対象) .github/workflows
   - GitHub Actionsの設定 (通常、これを触りたい場面はないと思います 管理者向けです)
 # ブランチ
 - master
   - 本番の[IWSECサーバ](https://www.iwsec.org/pws/)用
-  - **masterにcommitされた内容は、circleci で自動的に本番にデプロイされるので注意です**
+  - **masterにcommitされた内容は、Actionsで自動的に本番にデプロイされるので注意です**
 - gh-pages
   - テスト用
   - [github-pages](https://pwscup.github.io/pwssite)で確認できます
