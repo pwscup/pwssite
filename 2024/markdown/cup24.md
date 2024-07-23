@@ -3,6 +3,7 @@
 ![](./Images/poster2024.jpg){.center}
 
 ## What's New
+- 2024/07/23(火) PWSCup2024＆iPWSCup2024 ルール説明資料Ver1.1を公開
 - 2024/07/16(火) PWS Cup 2024用の[GitHubリポジトリ](https://github.com/pwscup/pwscup2024-scripts)にて、加工・評価・チェックスクリプトの開発版を配置(順次更新予定) 
 - 2024/07/14(日) PWSCup2024＆iPWSCup2024説明会の動画と資料をアップ
 - 2024/07/12(金) [エントリー方法](./entry.html)を公開
@@ -31,6 +32,7 @@
 <a id="manuals"></a>
 
 ## 参加者向け資料
+- [PWSCup2024＆iPWSCup2024 ルール説明資料Ver1.1(PDF)](./Images/20240723_PWSCUP2024_iPWSCUP2024.pdf)
 - [PWSCup2024＆iPWSCup2024説明会の動画](https://youtu.be/uEHFeoOJ4Hg)
 - [PWSCup2024＆iPWSCup2024説明会の資料(PDF)](./Images/20240712_PWSCUP2024_iPWSCUP2024.pdf)
 
