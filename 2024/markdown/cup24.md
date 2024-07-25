@@ -59,7 +59,55 @@
 - [エントリー方法のページ](./entry.html)をご参照ください。
 
 ## 参加チーム
-TBD
+<table border="1">
+<tr><th>チームID</th><th>チーム名</th><th>意気込み</th><th>チーム代表者</th><th>所属</th></tr>
+<tr><td>01</td><td>宮地研.exe</td><td>頑張ります！</td><td>柳下 智史</td><td>大阪大学　宮地研究室</td></tr>
+<tr><td>02</td><td>私達日本語本当下手</td><td>張り切って行こう！！</td><td>-</td><td>-</td></tr>
+<tr><td>03</td><td>ポップコーン</td><td>がんばります。</td><td>-</td><td>-</td></tr>
+<tr><td>04</td><td>Hots</td><td>-</td><td>郭 亚楠</td><td>Inner Mongolia University of Technology</td></tr>
+<tr><td>05</td><td>SHA-NES</td><td>今年は総合優勝！</td><td>-</td><td>NECソリューションイノベータ</td></tr>
+<tr><td>06</td><td>神ぼ大νττ</td><td>馬が逃げ，ぼっちがきた</td><td>小林 雅弥</td><td>神奈川大学</td></tr>
+<tr><td>07</td><td>たけのこ映画守り隊</td><td>-</td><td>-</td><td>-</td></tr>
+<tr><td>08</td><td>0xA</td><td>面白そうだとなと思い、参加しました。</td><td>-</td><td>-</td></tr>
+<tr><td>09</td><td>ステテコ泥棒</td><td>神戸リベンジャーズ・雪辱・ステテコ実力不足</td><td>-</td><td>明治大学</td></tr>
+<tr><td>10</td><td>動的計画法</td><td>-</td><td>-</td><td>-</td></tr>
+<tr><td>11</td><td>Gunmataro117</td><td>PWS CUP 2024に参加することになり、<br>大変光栄です。この大会を通じて、<br>最高のパフォーマンスを発揮し、<br>自分自身の限界に挑戦することを<br>楽しみにしています。努力と準備を<br>重ねてきましたので、<br>自信を持って競技に臨み、<br>素晴らしい成果を収めたいと思います。<br>皆さんの応援に感謝し、全力で頑張ります</td><td>岡嶋 佳歩</td><td>群馬大学</td></tr>
+<tr><td>12</td><td>HAL</td><td>頑張ります</td><td>-</td><td>-</td></tr>
+<tr><td>13</td><td>無量匿名処</td><td>『勝つさ』</td><td>原田 竜之介</td><td>静岡大学</td></tr>
+<tr><td>14</td><td>privocy</td><td>推して参る</td><td>-</td><td>静岡大学</td></tr>
+<tr><td>15</td><td>ES5</td><td>頑張ります</td><td>-</td><td>-</td></tr>
+<tr><td>16</td><td>佐古研究室</td><td>-</td><td>渡邉 健</td><td>早稲田大学</td></tr>
+<tr><td>17</td><td>こそっとアタック、しれっとブロック</td><td>プライバシーを守るのは簡単さ、攻撃かわしてデータを探査</td><td>岡野 真空</td><td>静岡大学</td></tr>
+<tr><td>18</td><td>匿名アノニマス</td><td>-</td><td>-</td><td>-</td></tr>
+<tr><td>19</td><td>RITCHEY</td><td>はじめての参加です！</td><td>-</td><td>-</td></tr>
+<tr><td>20</td><td>KAT-TUNE</td><td>共同チームで力を合わせます！</td><td>-</td><td>-</td></tr>
+<tr><td>21</td><td>PR.AVATECT</td><td>-</td><td>-</td><td>-</td></tr>
+</table>
+
+<table border="1">
+<tr><th>チームID</th><th>アカウント</th><th>予備戦配布データ</th><th>予備戦採用データ</th><th>本戦配布データ</th><th>本戦採用データ</th></tr>
+<tr><td>01</td><td>myjlabexe</td><td>10, 20, 30</td><td></td><td></td><td></td></tr>
+<tr><td>02</td><td>zelret</td><td>24, 40, 87</td><td></td><td></td><td></td></tr>
+<tr><td>03</td><td>jbstkf</td><td>55, 66, 77</td><td></td><td></td><td></td></tr>
+<tr><td>04</td><td>rq1543179</td><td>08, 09, 12</td><td></td><td></td><td></td></tr>
+<tr><td>05</td><td>shioriabe</td><td>02, 14, 28</td><td></td><td></td><td></td></tr>
+<tr><td>06</td><td>masaya</td><td>58, 15, 05</td><td></td><td></td><td></td></tr>
+<tr><td>07</td><td>takenoko</td><td>13, 16, 17</td><td></td><td></td><td></td></tr>
+<tr><td>08</td><td>yanomichi</td><td>07, 42, 88</td><td></td><td></td><td></td></tr>
+<tr><td>09</td><td>autefu</td><td>21, 86, 91</td><td></td><td></td><td></td></tr>
+<tr><td>10</td><td>pwscup2024</td><td>18, 19, 25</td><td></td><td></td><td></td></tr>
+<tr><td>11</td><td>kabutookajima</td><td>26, 27, 29</td><td></td><td></td><td></td></tr>
+<tr><td>12</td><td>grape1977</td><td>03, 50, 54</td><td></td><td></td><td></td></tr>
+<tr><td>13</td><td>harada</td><td>11, 23, 69</td><td></td><td></td><td></td></tr>
+<tr><td>14</td><td>shibata</td><td>22, 33, 44</td><td></td><td></td><td></td></tr>
+<tr><td>15</td><td>pwscup2024kobe</td><td>90, 80, 70</td><td></td><td></td><td></td></tr>
+<tr><td>16</td><td>mgoto</td><td>31, 32, 34</td><td></td><td></td><td></td></tr>
+<tr><td>17</td><td>okano</td><td>43, 57, 99</td><td></td><td></td><td></td></tr>
+<tr><td>18</td><td>hajime</td><td>35, 36, 37</td><td></td><td></td><td></td></tr>
+<tr><td>19</td><td>ritz2024</td><td>01, 04, 06</td><td></td><td></td><td></td></tr>
+<tr><td>20</td><td>kattune</td><td>38, 39, 41</td><td></td><td></td><td></td></tr>
+<tr><td>21</td><td>takanori</td><td>00, 79, 89</td><td></td><td></td><td></td></tr>
+</table>
 
 ## プライバシーポリシー
 - [プライバシーポリシーのページ](./privacy_policy.html)をご参照ください。
