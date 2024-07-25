@@ -73,7 +73,7 @@ After these have been performed in turn, the results of each team's anonymizatio
 <table border="1">
 <tr><th>Team ID</th><th>Team Name</th><th>Message</th><th>Representative</th><th>Affiliation</th></tr>
 <tr><td>01</td><td>Strive-Legends</td><td>-</td><td>-</td><td>-</td></tr>
-<tr><td>02</td><td>KU_b$\nu\tau\tau$</td><td>Both the horse and Botchi escaped.</td><td>Masaya Kobayashi</td><td>Kanagawa University</td></tr>
+<tr><td>02</td><td>KU$\nu\tau\tau$</td><td>Both the horse and Botchi escaped.</td><td>Masaya Kobayashi</td><td>Kanagawa University</td></tr>
 <tr><td>03</td><td>Takenoko Movie Guardians</td><td>Victory!!</td><td>-</td><td>-</td></tr>
 <tr><td>04</td><td>Kamo</td><td>-</td><td>-</td><td>-</td></tr>
 <tr><td>05</td><td>brian</td><td>Yay!</td><td>-</td><td>Virginia Tech</td></tr>
