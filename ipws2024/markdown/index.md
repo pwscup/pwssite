@@ -9,6 +9,7 @@
 </div>
 
 ## What's new
+- July 25th, 2024: Rulebook updated to [Ver 1.1](./Images/20240725_iPWSCUP2024.pdf).
 - July 16th, 2024: Added [Sample scripts](https://github.com/pwscup/pwscup2024-scripts).
 - July 14th, 2024: Added [Rules explanation slides](./Images/20240714_iPWSCUP2024.pdf).
 - July 11st, 2024: Added [entry](./entry.html) page.
@@ -45,7 +46,8 @@ After these have been performed in turn, the results of each team's anonymizatio
 </table>
 
 ## Documents/Resources
-- [Rules explanation slides](./Images/20240714_iPWSCUP2024.pdf)
+- [Rulebook Ver 1.1](./Images/20240725_iPWSCUP2024.pdf)
+- [Rulesbook Ver 1.0](./Images/20240714_iPWSCUP2024.pdf)
 - [Sample scripts](https://github.com/pwscup/pwscup2024-scripts).
 
 ## How to participate in the iPWS Cup 2024
