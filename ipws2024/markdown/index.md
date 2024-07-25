@@ -47,7 +47,7 @@ After these have been performed in turn, the results of each team's anonymizatio
 
 ## Documents/Resources
 - [Rulebook Ver 1.1](./Images/20240725_iPWSCUP2024.pdf)
-- [Rulesbook Ver 1.0](./Images/20240714_iPWSCUP2024.pdf)
+- [Rulebook Ver 1.0](./Images/20240714_iPWSCUP2024.pdf)
 - [Sample scripts](https://github.com/pwscup/pwscup2024-scripts).
 
 ## How to participate in the iPWS Cup 2024
