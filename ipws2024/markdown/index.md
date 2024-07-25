@@ -69,7 +69,35 @@ After these have been performed in turn, the results of each team's anonymizatio
 - TBA
 
 ## Participating teams
-- TBA
+
+<table border="1">
+<tr><th>Team ID</th><th>Team Name</th><th>Message</th><th>Representative</th><th>Affiliation</th></tr>
+<tr><td>01</td><td>Strive-Legends</td><td>-</td><td>-</td><td>-</td></tr>
+<tr><td>02</td><td>KU_b$\nu\tau\tau$</td><td>Both the horse and Botchi escaped.</td><td>Masaya Kobayashi</td><td>Kanagawa University</td></tr>
+<tr><td>03</td><td>Takenoko Movie Guardians</td><td>Victory!!</td><td>-</td><td>-</td></tr>
+<tr><td>04</td><td>Kamo</td><td>-</td><td>-</td><td>-</td></tr>
+<tr><td>05</td><td>brian</td><td>Yay!</td><td>-</td><td>Virginia Tech</td></tr>
+<tr><td>06</td><td>Thieves Sttk</td><td>No more movie thief</td><td>Taisei Tashiro</td><td>-</td></tr>
+<tr><td>07</td><td>Diamond</td><td>-</td><td>-</td><td>-</td></tr>
+<tr><td>08</td><td>TokumeiAnonymous</td><td>^^</td><td>-</td><td>-</td></tr>
+<tr><td>09</td><td>AnoNICSmous</td><td>Let's preserve privacy!</td><td>Pablo Sanchez-Serrano</td><td>NICS Lab, University of Malaga</td></tr>
+<tr><td>10</td><td>re:Botchi</td><td>All your reviews are belong to us</td><td>Makoto Iguchi</td><td>Kii Corporation</td></tr>
+</table>
+
+<table border="1">
+<tr><th>Team ID</th><th>Account</th><th>Disribution Data</th><th>Selected Data</th></tr>
+<tr><td>01</td><td>rq1543179</td><td>00, 04, 05</td><td></td></tr>
+<tr><td>02</td><td>mkoba</td><td>35, 42, 47</td><td></td></tr>
+<tr><td>03</td><td>takenoko</td><td>51, 52, 53</td><td></td></tr>
+<tr><td>04</td><td>user1234</td><td>06, 07, 08</td><td></td></tr>
+<tr><td>05</td><td>brian</td><td>25, 60, 89</td><td></td></tr>
+<tr><td>06</td><td>tashiro</td><td>37, 43, 59</td><td></td></tr>
+<tr><td>07</td><td>diamond2024</td><td>01, 02, 03</td><td></td></tr>
+<tr><td>08</td><td>tokumei</td><td>32, 48, 87</td><td></td></tr>
+<tr><td>09</td><td>pablosanserr</td><td>09, 10, 11</td><td></td></tr>
+<tr><td>10</td><td>igucci</td><td>33, 55, 77</td><td></td></tr>
+</table>
+
 
 ## Final result
 
