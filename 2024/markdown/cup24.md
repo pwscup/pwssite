@@ -92,20 +92,20 @@
 <tr><td>04</td><td>rq1543179</td><td>08, 09, 12</td><td></td><td></td><td></td></tr>
 <tr><td>05</td><td>shioriabe</td><td>02, 14, 28</td><td></td><td></td><td></td></tr>
 <tr><td>06</td><td>masaya</td><td>58, 15, 05</td><td></td><td></td><td></td></tr>
-<tr><td>07</td><td>takenoko</td><td>13, 16, 17</td><td></td><td></td><td></td></tr>
+<tr><td>07</td><td>takenoko</td><td>51, 52, 53</td><td></td><td></td><td></td></tr>
 <tr><td>08</td><td>yanomichi</td><td>07, 42, 88</td><td></td><td></td><td></td></tr>
 <tr><td>09</td><td>autefu</td><td>21, 86, 91</td><td></td><td></td><td></td></tr>
-<tr><td>10</td><td>pwscup2024</td><td>18, 19, 25</td><td></td><td></td><td></td></tr>
-<tr><td>11</td><td>kabutookajima</td><td>26, 27, 29</td><td></td><td></td><td></td></tr>
+<tr><td>10</td><td>pwscup2024</td><td>13, 16, 17</td><td></td><td></td><td></td></tr>
+<tr><td>11</td><td>kabutookajima</td><td>18, 19, 25</td><td></td><td></td><td></td></tr>
 <tr><td>12</td><td>grape1977</td><td>03, 50, 54</td><td></td><td></td><td></td></tr>
 <tr><td>13</td><td>harada</td><td>11, 23, 69</td><td></td><td></td><td></td></tr>
 <tr><td>14</td><td>shibata</td><td>22, 33, 44</td><td></td><td></td><td></td></tr>
 <tr><td>15</td><td>pwscup2024kobe</td><td>90, 80, 70</td><td></td><td></td><td></td></tr>
-<tr><td>16</td><td>mgoto</td><td>31, 32, 34</td><td></td><td></td><td></td></tr>
+<tr><td>16</td><td>mgoto</td><td>26, 27, 29</td><td></td><td></td><td></td></tr>
 <tr><td>17</td><td>okano</td><td>43, 57, 99</td><td></td><td></td><td></td></tr>
-<tr><td>18</td><td>hajime</td><td>35, 36, 37</td><td></td><td></td><td></td></tr>
+<tr><td>18</td><td>hajime</td><td>31, 32, 34</td><td></td><td></td><td></td></tr>
 <tr><td>19</td><td>ritz2024</td><td>01, 04, 06</td><td></td><td></td><td></td></tr>
-<tr><td>20</td><td>kattune</td><td>38, 39, 41</td><td></td><td></td><td></td></tr>
+<tr><td>20</td><td>kattune</td><td>35, 36, 37</td><td></td><td></td><td></td></tr>
 <tr><td>21</td><td>takanori</td><td>00, 79, 89</td><td></td><td></td><td></td></tr>
 </table>
 
