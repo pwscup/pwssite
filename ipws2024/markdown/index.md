@@ -87,15 +87,15 @@ After these have been performed in turn, the results of each team's anonymizatio
 <table border="1">
 <tr><th>Team ID</th><th>Account</th><th>Disribution Data</th><th>Selected Data</th></tr>
 <tr><td>01</td><td>rq1543179</td><td>~~00, 04, 05~~ 12, 16, 17</td><td></td></tr>
-<tr><td>02</td><td>mkoba</td><td>35, 42, 47</td><td></td></tr>
-<tr><td>03</td><td>takenoko</td><td>51, 52, 53</td><td></td></tr>
-<tr><td>04</td><td>user1234</td><td>06, 07, 08</td><td></td></tr>
-<tr><td>05</td><td>brian</td><td>25, 60, 89</td><td></td></tr>
-<tr><td>06</td><td>tashiro</td><td>37, 43, 59</td><td></td></tr>
-<tr><td>07</td><td>diamond2024</td><td>01, 02, 03</td><td></td></tr>
-<tr><td>08</td><td>tokumei</td><td>32, 48, 87</td><td></td></tr>
-<tr><td>09</td><td>pablosanserr</td><td>09, 10, 11</td><td></td></tr>
-<tr><td>10</td><td>igucci</td><td>33, 55, 77</td><td></td></tr>
+<tr><td>02</td><td>mkoba</td><td>~~35, 42, 47~~ 38, 44, 49</td><td></td></tr>
+<tr><td>03</td><td>takenoko</td><td>~~51, 52, 53~~ 54, 56, 57</td><td></td></tr>
+<tr><td>04</td><td>user1234</td><td>~~06, 07, 08~~ 18, 19, 20</td><td></td></tr>
+<tr><td>05</td><td>brian</td><td>~~25, 60, 89~~ 26, 62, 90</td><td></td></tr>
+<tr><td>06</td><td>tashiro</td><td>~~37, 43, 59~~ 39, 45, 61</td><td></td></tr>
+<tr><td>07</td><td>diamond2024</td><td>~~01, 02, 03~~ 13, 14, 15</td><td></td></tr>
+<tr><td>08</td><td>tokumei</td><td>~~32, 48, 87~~ 34, 50, 88</td><td></td></tr>
+<tr><td>09</td><td>pablosanserr</td><td>~~09, 10, 11~~ 21, 22, 23</td><td></td></tr>
+<tr><td>10</td><td>igucci</td><td>~~33, 55, 77~~ 36, 58, 78</td><td></td></tr>
 </table>
 
 
