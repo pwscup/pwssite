@@ -9,6 +9,7 @@
 </div>
 
 ## What's new
+- July 26th, 2024: Added participating teams.
 - July 25th, 2024: Rulebook updated to [Ver 1.1](./Images/20240725_iPWSCUP2024.pdf).
 - July 16th, 2024: Added [Sample scripts](https://github.com/pwscup/pwscup2024-scripts).
 - July 14th, 2024: Added [Rules explanation slides](./Images/20240714_iPWSCUP2024.pdf).
