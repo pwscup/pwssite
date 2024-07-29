@@ -83,6 +83,7 @@
 <tr><td>19</td><td>RITCHEY</td><td>はじめての参加です！</td><td>-</td><td>-</td></tr>
 <tr><td>20</td><td>KAT-TUNE</td><td>共同チームで力を合わせます！</td><td>-</td><td>-</td></tr>
 <tr><td>21</td><td>PR.AVATECT</td><td>-</td><td>-</td><td>-</td></tr>
+<tr><td>22</td><td>春日防衛隊（かすかべ防衛隊）</td><td>-</td><td>CHEN, YI-HSUAN</td><td>National Yang Ming Chiao Tung University</td></tr>
 </table>
 
 <table border="1">
@@ -108,6 +109,7 @@
 <tr><td>19</td><td>ritz2024</td><td>01, 04, 06</td><td></td><td></td><td></td></tr>
 <tr><td>20</td><td>kattune</td><td>35, 36, 37</td><td></td><td></td><td></td></tr>
 <tr><td>21</td><td>takanori</td><td>00, 79, 89</td><td></td><td></td><td></td></tr>
+<tr><td>22</td><td>crbfwd</td><td>38, 39, 41</td><td></td><td></td><td></td></tr>
 </table>
 
 ## プライバシーポリシー
