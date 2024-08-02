@@ -76,7 +76,7 @@
 <tr><td>10</td><td>動的計画法</td><td>-</td><td>-</td><td>-</td></tr>
 <tr><td>11</td><td>Gunmataro117</td><td>PWS CUP 2024に参加することになり、<br>大変光栄です。この大会を通じて、<br>最高のパフォーマンスを発揮し、<br>自分自身の限界に挑戦することを<br>楽しみにしています。努力と準備を<br>重ねてきましたので、<br>自信を持って競技に臨み、<br>素晴らしい成果を収めたいと思います。<br>皆さんの応援に感謝し、全力で頑張ります</td><td>岡嶋 佳歩</td><td>群馬大学</td></tr>
 <tr><td>12</td><td>HAL</td><td>頑張ります</td><td>-</td><td>-</td></tr>
-<tr><td>13</td><td>無量匿名処</td><td>『勝つさ』</td><td>原田 竜之介</td><td>静岡大学</td></tr>
+<tr><td>13</td><td>（出場取消）~~無量匿名処~~</td><td>~~『勝つさ』~~</td><td>-</td><td>-</td></tr>
 <tr><td>14</td><td>privocy</td><td>推して参る</td><td>-</td><td>静岡大学</td></tr>
 <tr><td>15</td><td>ES5</td><td>頑張ります</td><td>-</td><td>-</td></tr>
 <tr><td>16</td><td>佐古研究室</td><td>-</td><td>渡邉 健</td><td>早稲田大学</td></tr>
@@ -102,7 +102,7 @@
 <tr><td>10</td><td>pwscup2024</td><td>13, 16, 17</td><td></td><td></td><td></td></tr>
 <tr><td>11</td><td>kabutookajima</td><td>18, 19, 25</td><td></td><td></td><td></td></tr>
 <tr><td>12</td><td>grape1977</td><td>03, 50, 54</td><td></td><td></td><td></td></tr>
-<tr><td>13</td><td>harada</td><td>11, 23, 69</td><td></td><td></td><td></td></tr>
+<tr><td>13</td><td>harada</td><td>（出場取消）~~11, 23, 69~~</td><td></td><td></td><td></td></tr>
 <tr><td>14</td><td>shibata</td><td>22, 33, 44</td><td></td><td></td><td></td></tr>
 <tr><td>15</td><td>pwscup2024kobe</td><td>90, 80, 70</td><td></td><td></td><td></td></tr>
 <tr><td>16</td><td>mgoto</td><td>26, 27, 29</td><td></td><td></td><td></td></tr>
