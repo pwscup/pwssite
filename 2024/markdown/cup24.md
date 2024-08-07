@@ -100,7 +100,7 @@
 <tr><td>08</td><td>yanomichi</td><td>07, 42, 88</td><td></td><td></td><td></td></tr>
 <tr><td>09</td><td>autefu</td><td>21, 86, 91</td><td></td><td></td><td></td></tr>
 <tr><td>10</td><td>pwscup2024</td><td>13, 16, 17</td><td></td><td></td><td></td></tr>
-<tr><td>11</td><td>kabutookajima</td><td>18, 19, 25</td><td></td><td></td><td></td></tr>
+<tr><td>11</td><td>kabutookajima</td><td>18, 19, 25</td><td>25</td><td></td><td></td></tr>
 <tr><td>12</td><td>grape1977</td><td>03, 50, 54</td><td></td><td></td><td></td></tr>
 <tr><td>13</td><td>harada</td><td>（出場取消）~~11, 23, 69~~</td><td></td><td></td><td></td></tr>
 <tr><td>14</td><td>shibata</td><td>22, 33, 44</td><td></td><td></td><td></td></tr>
