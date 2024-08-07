@@ -90,7 +90,7 @@ After these have been performed in turn, the results of each team's anonymizatio
 <table border="1">
 <tr><th>Team ID</th><th>Account</th><th>Disribution Data</th><th>Selected Data</th></tr>
 <tr><td>01</td><td>rq1543179</td><td>~~00, 04, 05~~ 12, 16, 17</td><td></td></tr>
-<tr><td>02</td><td>mkoba</td><td>~~35, 42, 47~~ 38, 44, 49</td><td></td></tr>
+<tr><td>02</td><td>mkoba</td><td>~~35, 42, 47~~ 38, 44, 49</td><td>38</td></tr>
 <tr><td>03</td><td>takenoko</td><td>~~51, 52, 53~~ 54, 56, 57</td><td></td></tr>
 <tr><td>04</td><td>user1234</td><td>~~06, 07, 08~~ 18, 19, 20</td><td></td></tr>
 <tr><td>05</td><td>brian</td><td>~~25, 60, 89~~ 26, 62, 90</td><td></td></tr>
