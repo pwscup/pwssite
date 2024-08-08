@@ -40,10 +40,10 @@ To register for PWS2024, please visit the registration site for [Computer Securi
 For more information about the registration process, please check the CSS2024 registration site and its registration fee page.
 
 ### Paper Submission
-- TBD
+To submit your paper to PWS2024, submit the paper to CSS2024. Please check [paper writing guidelines and paper submission guidelines](https://www.iwsec.org/css/2024/writing.html) prior to the submission. 
 
 ### Paper Awards
-- TBD
+The PWS Paper Award and the PWS Student Paper Award have been merged into the CSS Paper Awards. Please read [About the PWS Paper Awards](https://www.iwsec.org/css/2024/award.html#css) for more information.
 
 ## Supporting Organizations
 - TBD
