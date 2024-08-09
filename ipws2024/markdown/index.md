@@ -2,11 +2,7 @@
 # iPWS Cup 2024
 # (held in conjunction with [IWSEC 2024](https://www.iwsec.org/2024/))
 
-<div align="center">
- <a href="./Images/poster2024_ipws.jpg">
-  <img src="./Images/poster2024_ipws.jpg" width=50%>
- </a>
-</div>
+![](./Images/poster2024_ipws.jpg){.center}
 
 ## What's new
 - July 31st, 2024: Rulebook updated to [Ver 1.2](./Images/20240731_iPWSCUP2024.pdf) (Some minor changes to the scoring rules on page 14.).
