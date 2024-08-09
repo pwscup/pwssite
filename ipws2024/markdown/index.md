@@ -98,7 +98,7 @@ After these have been performed in turn, the results of each team's anonymizatio
 <tr><td>07</td><td>diamond2024</td><td>~~01, 02, 03~~ 13, 14, 15</td><td></td></tr>
 <tr><td>08</td><td>tokumei</td><td>~~32, 48, 87~~ 34, 50, 88</td><td></td></tr>
 <tr><td>09</td><td>pablosanserr</td><td>~~09, 10, 11~~ 21, 22, 23</td><td></td></tr>
-<tr><td>10</td><td>igucci</td><td>~~33, 55, 77~~ 36, 58, 78</td><td></td></tr>
+<tr><td>10</td><td>igucci</td><td>~~33, 55, 77~~ 36, 58, 78</td><td>36</td></tr>
 </table>
 
 
