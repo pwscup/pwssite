@@ -90,7 +90,7 @@
 
 <table border="1">
 <tr><th>チームID</th><th>アカウント</th><th>予備戦配布データ</th><th>予備戦採用データ</th><th>本戦配布データ</th><th>本戦採用データ</th></tr>
-<tr><td>01</td><td>myjlabexe</td><td>10, 20, 30</td><td></td><td></td><td></td></tr>
+<tr><td>01</td><td>myjlabexe</td><td>10, 20, 30</td><td>30</td><td></td><td></td></tr>
 <tr><td>02</td><td>zelret</td><td>24, 40, 87</td><td></td><td></td><td></td></tr>
 <tr><td>03</td><td>jbstkf</td><td>55, 66, 77</td><td>77</td><td></td><td></td></tr>
 <tr><td>04</td><td>rq1543179</td><td>08, 09, 12</td><td></td><td></td><td></td></tr>
