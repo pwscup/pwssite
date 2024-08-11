@@ -41,7 +41,7 @@ After these have been performed in turn, the results of each team's anonymizatio
 <table border="0">
 <tr><td> <strong>Date</strong> </td><td> <strong>Event</strong> </td></tr>
 <tr><td> July 12th (Fri) - 24th (Wed), 2024</td> <td> Team registration </td></tr>
-<tr><td> July 26th (Fri) - August 16th (Fri), 2024</td> <td> Anonymization phase</td></tr>
+<tr><td> July 26th (Fri) - ~~August 16th (Fri)~~ August 19th (Mon), 2024</td> <td> Anonymization phase</td></tr>
 <tr><td> August 20th (Tue) - September 10th (Tue), 2024</td> <td> Attack phase</td></tr>
 <tr><td> September 20th (Fri), 2024</td> <td> Final presentation in Kyoto, Japan (on-site event)</td></tr>
 </td></tr>
