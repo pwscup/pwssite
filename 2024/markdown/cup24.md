@@ -105,7 +105,7 @@
 <tr><td>13</td><td>harada</td><td>（出場取消）~~11, 23, 69~~</td><td></td><td></td><td></td></tr>
 <tr><td>14</td><td>shibata</td><td>22, 33, 44</td><td>33</td><td></td><td></td></tr>
 <tr><td>15</td><td>pwscup2024kobe</td><td>90, 80, 70</td><td>80</td><td></td><td></td></tr>
-<tr><td>16</td><td>mgoto</td><td>26, 27, 29</td><td></td><td></td><td></td></tr>
+<tr><td>16</td><td>mgoto</td><td>26, 27, 29</td><td>26</td><td></td><td></td></tr>
 <tr><td>17</td><td>okano</td><td>43, 57, 99</td><td></td><td></td><td></td></tr>
 <tr><td>18</td><td>hajime</td><td>31, 32, 34</td><td>31</td><td></td><td></td></tr>
 <tr><td>19</td><td>ritz2024</td><td>01, 04, 06</td><td></td><td></td><td></td></tr>
