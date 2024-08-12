@@ -111,7 +111,7 @@
 <tr><td>19</td><td>ritz2024</td><td>01, 04, 06</td><td></td><td></td><td></td></tr>
 <tr><td>20</td><td>kattune</td><td>35, 36, 37</td><td>35</td><td></td><td></td></tr>
 <tr><td>21</td><td>takanori</td><td>00, 79, 89</td><td>00</td><td></td><td></td></tr>
-<tr><td>22</td><td>crbfwd</td><td>38, 39, 41</td><td></td><td></td><td></td></tr>
+<tr><td>22</td><td>crbfwd</td><td>38, 39, 41</td><td>38</td><td></td><td></td></tr>
 </table>
 
 ## プライバシーポリシー
