@@ -3,6 +3,7 @@
 ![](./Images/poster2024.jpg){.center}
 
 ## What's New
+- 2024/08/16(金) [予備選加工フェーズの結果](./Images/preAnonymizationPhaseScore.csv)を公開
 - 2024/07/31(水) PWSCup2024＆iPWSCup2024 ルール説明資料Ver1.2を公開（P.17に記載の得点ルールを一部変更）
 - 2024/07/26(金) 参加チームを公開
 - 2024/07/23(火) PWSCup2024＆iPWSCup2024 ルール説明資料Ver1.1を公開
@@ -67,6 +68,7 @@
 <a id="manuals"></a>
 
 ## 参加者向け資料
+- [予備選加工フェーズの結果(csv)](./Images/preAnonymizationPhaseScore.csv)
 - [PWSCup2024＆iPWSCup2024 ルール説明資料Ver1.2(PDF)](./Images/20240731_PWSCUP2024_iPWSCUP2024.pdf)
 - [PWSCup2024＆iPWSCup2024 ルール説明資料Ver1.1(PDF)](./Images/20240723_PWSCUP2024_iPWSCUP2024.pdf)
 - [PWSCup2024＆iPWSCup2024説明会の動画](https://youtu.be/uEHFeoOJ4Hg)
