@@ -3,6 +3,7 @@
 ![](./Images/poster2024.jpg){.center}
 
 ## What's New
+- 2024/08/16(金) [予備選攻撃フェーズの攻撃用データ](./Images/preAttackData2.zip)を公開
 - 2024/08/16(金) [予備選加工フェーズの結果](./Images/preAnonymizationPhaseScore.csv)を公開
 - 2024/07/31(水) PWSCup2024＆iPWSCup2024 ルール説明資料Ver1.2を公開（P.17に記載の得点ルールを一部変更）
 - 2024/07/26(金) 参加チームを公開
