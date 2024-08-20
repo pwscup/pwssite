@@ -9,8 +9,8 @@
 </div> 
 
 ## What's new
-- August 20th, 2024: Published data for the attack phase.
-- August 20th, 2024: Published the result of anonymization phase.
+- August 20th, 2024: Published [data for the attack phase](./Images/ipwscup2024AttackData.zip).
+- August 20th, 2024: Published [the result of anonymization phase](./Images/AnonymizationPhaseScore.csv).
 - July 31st, 2024: Rulebook updated to [Ver 1.2](./Images/20240731_iPWSCUP2024.pdf) (Some minor changes to the scoring rules on page 14.).
 - July 26th, 2024: Added participating teams.
 - July 25th, 2024: Rulebook updated to [Ver 1.1](./Images/20240725_iPWSCUP2024.pdf).
