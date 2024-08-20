@@ -69,7 +69,7 @@ After these have been performed in turn, the results of each team's anonymizatio
 - See the [codabench page](https://www.codabench.org/competitions/3260/#/pages-tab).
 
 ## How to play the attack phase
-- TBA
+- See the [codabench page](https://www.codabench.org/competitions/3260/#/pages-tab).
 
 ## Participating teams
 
