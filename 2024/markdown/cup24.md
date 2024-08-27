@@ -121,7 +121,7 @@
 <tr><td>19</td><td>RITCHEY</td><td>はじめての参加です！</td><td>-</td><td>-</td></tr>
 <tr><td>20</td><td>KAT-TUNE</td><td>共同チームで力を合わせます！</td><td>-</td><td>-</td></tr>
 <tr><td>21</td><td>PR.AVATECT</td><td>-</td><td>-</td><td>-</td></tr>
-<tr><td>22</td><td>春日防衛隊（かすかべ防衛隊）</td><td>-</td><td>CHEN, YI-HSUAN</td><td>National Yang Ming Chiao Tung University</td></tr>
+<tr><td>22</td><td>春日部防衛隊（かすかべ防衛隊）</td><td>-</td><td>CHEN, YI-HSUAN</td><td>National Yang Ming Chiao Tung University</td></tr>
 </table>
 
 <table border="1">
