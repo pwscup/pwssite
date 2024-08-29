@@ -9,6 +9,7 @@
 </div> 
 
 ## What's new
+- August 29th, 2024: Added the information for the final presentation on 20 September, 2024.
 - August 20th, 2024: Published [data for the attack phase](./Images/ipwscup2024AttackData.zip).
 - August 20th, 2024: Published [the result of anonymization phase](./Images/AnonymizationPhaseScore.csv).
 - July 31st, 2024: Rulebook updated to [Ver 1.2](./Images/20240731_iPWSCUP2024.pdf) (Some minor changes to the scoring rules on page 14.).
@@ -48,6 +49,33 @@ After these have been performed in turn, the results of each team's anonymizatio
 <tr><td> September 20th (Fri), 2024</td> <td> Final presentation in Kyoto, Japan (on-site event)</td></tr>
 </td></tr>
 </table>
+
+### Final presentation
+- Date: September **20th**, 10:00-14:00(JST)
+- Venue: [Kyoto International Conference Center, Room 510](https://www.iwsec.org/2024/venue.html)
+- Registration desk: [Room 510](https://www.icckyoto.or.jp/en/facility-overview-2/hall_and_room/room_501_509_510/), the 5th floor of the venue
+- Program:
+
+<a id="program"></a>
+
+#### Final Presentation Program
+1.  9:30- , Reception starts
+2.  10:00-10:10 , Opening
+3.  10:10-12:00 , Talks by excellent teams(The order will be arranged at the session. Each talk is assigned for 10 minutes.)
+4.  12:00-12:30 , Award ceremony & Closing
+    1.  Group photo
+5.  12:30-14:00 , Lunch & Open discussion
+
+**NOTICE**  
+There will be a reception for iPWS Cup participants on 19 September at 18:00(JST).  
+If you would like to attend, please contact ipwscup2024-inquiry(at)csec.ipsj.or.jp (replace (at) with @) by 11 September.
+We will respond with more information.
+
+## Prizes
+- 1st prize: 50,000 JPY on VISA Gift Card
+- 2nd prize: 30,000 JPY on VISA Gift Card
+- 3rd prize: 10,000 JPY on VISA Gift Card
+- Best Attack Award: 10,000 JPY on VISA Gift Card
 
 ## Documents/Resources
 - [Rulebook Ver 1.2](./Images/20240731_iPWSCUP2024.pdf)
