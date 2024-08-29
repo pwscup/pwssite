@@ -2,7 +2,7 @@
 # iPWS Cup 2024
 # (held in conjunction with [IWSEC 2024](https://www.iwsec.org/2024/))
 
-<div align="center">
+<div style="text-align:center;">
  <a href="./Images/poster2024_ipws.jpg">
   <img src="./Images/poster2024_ipws.jpg" width=50%>
  </a>
