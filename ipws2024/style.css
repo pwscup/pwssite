@@ -159,3 +159,7 @@ clear: left;
 em{
   font-weight: bold;
 }
+
+[data-align="center"] {
+  text-align: center;
+}
