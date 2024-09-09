@@ -3,9 +3,10 @@
 ![](./Images/poster2024.jpg){.center}
 
 ## What's New
+- 2024/09/09(月) 予備戦の結果と各チームのデータを公開
 - 2024/09/09(月) PWSCup2024中間説明会の動画と資料をアップ
-- 2024/08/16(金) [予備選攻撃フェーズの攻撃用データ](./Images/preAttackData2.zip)を公開
-- 2024/08/16(金) [予備選加工フェーズの結果](./Images/preAnonymizationPhaseScore.csv)を公開
+- 2024/08/16(金) [予備戦攻撃フェーズの攻撃用データ](./Images/preAttackData2.zip)を公開
+- 2024/08/16(金) [予備戦加工フェーズの結果](./Images/preAnonymizationPhaseScore.csv)を公開
 - 2024/07/31(水) PWSCup2024＆iPWSCup2024 ルール説明資料Ver1.2を公開（P.17に記載の得点ルールを一部変更）
 - 2024/07/26(金) 参加チームを公開
 - 2024/07/23(火) PWSCup2024＆iPWSCup2024 ルール説明資料Ver1.1を公開
@@ -70,6 +71,7 @@
 <a id="manuals"></a>
 
 ## 参加者向け資料
+- [予備戦の結果と各チームのデータ(zip)](./Images/pre.zip)
 - [PWSCup2024中間説明会の動画](https://youtu.be/bvbgCIdS5Js)
 - [PWSCup2024中間説明会の資料(PDF)](./Images/20240909_PWSCUP2024_middle.pdf)
 - [予備選加工フェーズの結果(csv)](./Images/preAnonymizationPhaseScore.csv)
