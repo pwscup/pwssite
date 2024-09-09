@@ -71,7 +71,7 @@
 <a id="manuals"></a>
 
 ## 参加者向け資料
-- [予備戦の結果と各チームのデータ(zip)](./Images/pre.zip)
+- [予備戦の結果と各チームのデータ(zip(7.3MB))](./Images/pre.zip)
 - [PWSCup2024中間説明会の動画](https://youtu.be/bvbgCIdS5Js)
 - [PWSCup2024中間説明会の資料(PDF)](./Images/20240909_PWSCUP2024_middle.pdf)
 - [予備選加工フェーズの結果(csv)](./Images/preAnonymizationPhaseScore.csv)
