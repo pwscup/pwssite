@@ -131,28 +131,28 @@
 
 <table border="1">
 <tr><th>チームID</th><th>アカウント</th><th>予備戦配布データ</th><th>予備戦採用データ</th><th>本戦配布データ</th><th>本戦採用データ</th></tr>
-<tr><td>01</td><td>myjlabexe</td><td>10, 20, 30</td><td>30</td><td></td><td></td></tr>
-<tr><td>02</td><td>zelret</td><td>24, 40, 87</td><td>40</td><td></td><td></td></tr>
-<tr><td>03</td><td>jbstkf</td><td>55, 66, 77</td><td>77</td><td></td><td></td></tr>
-<tr><td>04</td><td>rq1543179</td><td>08, 09, 12</td><td>08</td><td></td><td></td></tr>
-<tr><td>05</td><td>shioriabe</td><td>02, 14, 28</td><td>14</td><td></td><td></td></tr>
-<tr><td>06</td><td>masaya</td><td>58, 15, 05</td><td>58</td><td></td><td></td></tr>
-<tr><td>07</td><td>takenoko</td><td>51, 52, 53</td><td>51</td><td></td><td></td></tr>
-<tr><td>08</td><td>yanomichi</td><td>07, 42, 88</td><td></td><td></td><td></td></tr>
-<tr><td>09</td><td>autefu</td><td>21, 86, 91</td><td>21</td><td></td><td></td></tr>
-<tr><td>10</td><td>pwscup2024</td><td>13, 16, 17</td><td>16</td><td></td><td></td></tr>
-<tr><td>11</td><td>kabutookajima</td><td>18, 19, 25</td><td>25</td><td></td><td></td></tr>
-<tr><td>12</td><td>grape1977</td><td>03, 50, 54</td><td>54</td><td></td><td></td></tr>
+<tr><td>01</td><td>myjlabexe</td><td>10, 20, 30</td><td>30</td><td>10, 20, 30</td><td></td></tr>
+<tr><td>02</td><td>zelret</td><td>24, 40, 87</td><td>40</td><td>51, 55, 56</td><td></td></tr>
+<tr><td>03</td><td>jbstkf</td><td>55, 66, 77</td><td>77</td><td>05, 06, 07</td><td></td></tr>
+<tr><td>04</td><td>rq1543179</td><td>08, 09, 12</td><td>08</td><td>12, 15, 16</td><td></td></tr>
+<tr><td>05</td><td>shioriabe</td><td>02, 14, 28</td><td>14</td><td>04, 14, 28</td><td></td></tr>
+<tr><td>06</td><td>masaya</td><td>58, 15, 05</td><td>58</td><td>09, 34, 49</td><td></td></tr>
+<tr><td>07</td><td>takenoko</td><td>51, 52, 53</td><td>51</td><td>01, 02, 03</td><td></td></tr>
+<tr><td>08</td><td>yanomichi</td><td>07, 42, 88</td><td></td><td>18, 22, 23</td><td></td></tr>
+<tr><td>09</td><td>autefu</td><td>21, 86, 91</td><td>21</td><td>00, 13, 53</td><td></td></tr>
+<tr><td>10</td><td>pwscup2024</td><td>13, 16, 17</td><td>16</td><td>24, 25, 26</td><td></td></tr>
+<tr><td>11</td><td>kabutookajima</td><td>18, 19, 25</td><td>25</td><td>27, 29, 31</td><td></td></tr>
+<tr><td>12</td><td>grape1977</td><td>03, 50, 54</td><td>54</td><td>11, 41, 58</td><td></td></tr>
 <tr><td>13</td><td>harada</td><td>（出場取消）~~11, 23, 69~~</td><td></td><td></td><td></td></tr>
-<tr><td>14</td><td>shibata</td><td>22, 33, 44</td><td>33</td><td></td><td></td></tr>
-<tr><td>15</td><td>pwscup2024kobe</td><td>90, 80, 70</td><td>80</td><td></td><td></td></tr>
-<tr><td>16</td><td>mgoto</td><td>26, 27, 29</td><td>26</td><td></td><td></td></tr>
-<tr><td>17</td><td>okano</td><td>43, 57, 99</td><td>43</td><td></td><td></td></tr>
-<tr><td>18</td><td>hajime</td><td>31, 32, 34</td><td>31</td><td></td><td></td></tr>
-<tr><td>19</td><td>ritz2024</td><td>01, 04, 06</td><td></td><td></td><td></td></tr>
-<tr><td>20</td><td>kattune</td><td>35, 36, 37</td><td>35</td><td></td><td></td></tr>
-<tr><td>21</td><td>takanori</td><td>00, 79, 89</td><td>00</td><td></td><td></td></tr>
-<tr><td>22</td><td>crbfwd</td><td>38, 39, 41</td><td>38</td><td></td><td></td></tr>
+<tr><td>14</td><td>shibata</td><td>22, 33, 44</td><td>33</td><td>32, 33, 35</td><td></td></tr>
+<tr><td>15</td><td>pwscup2024kobe</td><td>90, 80, 70</td><td>80</td><td>64, 65, 66</td><td></td></tr>
+<tr><td>16</td><td>mgoto</td><td>26, 27, 29</td><td>26</td><td>36, 37, 38</td><td></td></tr>
+<tr><td>17</td><td>okano</td><td>43, 57, 99</td><td>43</td><td>39, 40, 42</td><td></td></tr>
+<tr><td>18</td><td>hajime</td><td>31, 32, 34</td><td>31</td><td>17, 19, 54</td><td></td></tr>
+<tr><td>19</td><td>ritz2024</td><td>01, 04, 06</td><td></td><td>67, 68, 69</td><td></td></tr>
+<tr><td>20</td><td>kattune</td><td>35, 36, 37</td><td>35</td><td>43, 44, 45</td><td></td></tr>
+<tr><td>21</td><td>takanori</td><td>00, 79, 89</td><td>00</td><td>08, 21, 59</td><td></td></tr>
+<tr><td>22</td><td>crbfwd</td><td>38, 39, 41</td><td>38</td><td>46, 47, 48</td><td></td></tr>
 </table>
 
 ## プライバシーポリシー
