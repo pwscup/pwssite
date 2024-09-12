@@ -139,7 +139,7 @@
 <tr><td>06</td><td>masaya</td><td>58, 15, 05</td><td>58</td><td>09, 34, 49</td><td></td></tr>
 <tr><td>07</td><td>takenoko</td><td>51, 52, 53</td><td>51</td><td>01, 02, 03</td><td></td></tr>
 <tr><td>08</td><td>yanomichi</td><td>07, 42, 88</td><td></td><td>18, 22, 23</td><td></td></tr>
-<tr><td>09</td><td>autefu</td><td>21, 86, 91</td><td>21</td><td>00, 13, 53</td><td></td></tr>
+<tr><td>09</td><td>autefu</td><td>21, 86, 91</td><td>21</td><td>00, 13, 53</td><td>13</td></tr>
 <tr><td>10</td><td>pwscup2024</td><td>13, 16, 17</td><td>16</td><td>24, 25, 26</td><td></td></tr>
 <tr><td>11</td><td>kabutookajima</td><td>18, 19, 25</td><td>25</td><td>27, 29, 31</td><td></td></tr>
 <tr><td>12</td><td>grape1977</td><td>03, 50, 54</td><td>54</td><td>11, 41, 58</td><td></td></tr>
