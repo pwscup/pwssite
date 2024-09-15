@@ -9,6 +9,7 @@
 </div> 
 
 ## What's new
+- September 15th, 2024: Published winners and final program.
 - August 29th, 2024: Added the information for the final presentation on 20 September, 2024.
 - August 20th, 2024: Published [data for the attack phase](./Images/ipwscup2024AttackData.zip).
 - August 20th, 2024: Published [the result of anonymization phase](./Images/AnonymizationPhaseScore.csv).
@@ -54,17 +55,18 @@ After these have been performed in turn, the results of each team's anonymizatio
 - Date: September **20th**, 10:00-14:00(JST)
 - Venue: [Kyoto International Conference Center, Room 510](https://www.iwsec.org/2024/venue.html)
 - Registration desk: [Room 510](https://www.icckyoto.or.jp/en/facility-overview-2/hall_and_room/room_501_509_510/), the 5th floor of the venue
-- Program:
 
 <a id="program"></a>
 
 #### Final Presentation Program
-1.  9:30- , Reception starts
-2.  10:00-10:10 , Opening
-3.  10:10-12:00 , Talks by excellent teams(The order will be arranged at the session. Each talk is assigned for 10 minutes.)
-4.  12:00-12:30 , Award ceremony & Closing
+1.  9:30- Reception
+2.  10:00-10:10 Opening Ceremony
+3.  10:10-11:00 Presentation of Team 01-05 (10 minutes each)
+4.  11:00-11:20 Break
+5.  11:20-12:10 Presentation of Team 06-10 (10 minutes each)
+6.  12:10-12:30 Awards and Closing Ceremony
     1.  Group photo
-5.  12:30-14:00 , Lunch & Open discussion
+7.  12:30-14:00 Lunch & Open discussion
 
 **NOTICE**  
 There will be a reception for iPWS Cup participants on 19 September at 18:00(JST).  
@@ -133,11 +135,21 @@ We will respond with more information.
 
 
 ## Final result
+- [Excel ver.](./Images/result.xlsx)
+- [PDF ver.](./Images/result.pdf)
 
 ### Overall
+- 1st Prize : Kamo (Team 04)
+- 2nd Prize : brian (Team 05)
+- 3th Prize : re:Botchi (Team 10)
+
+### Best Attack
+- Kamo (Team 04)
+
+### Best Presentation
 - TBA
 
-### Attack
+### Best Data Scientist
 - TBA
 
 ## Committee
