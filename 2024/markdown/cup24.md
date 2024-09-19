@@ -148,7 +148,7 @@
 <tr><td>15</td><td>pwscup2024kobe</td><td>90, 80, 70</td><td>80</td><td>64, 65, 66</td><td></td></tr>
 <tr><td>16</td><td>mgoto</td><td>26, 27, 29</td><td>26</td><td>36, 37, 38</td><td></td></tr>
 <tr><td>17</td><td>okano</td><td>43, 57, 99</td><td>43</td><td>39, 40, 42</td><td></td></tr>
-<tr><td>18</td><td>hajime</td><td>31, 32, 34</td><td>31</td><td>17, 19, 54</td><td></td></tr>
+<tr><td>18</td><td>hajime</td><td>31, 32, 34</td><td>31</td><td>17, 19, 54</td><td>17</td></tr>
 <tr><td>19</td><td>ritz2024</td><td>01, 04, 06</td><td></td><td>67, 68, 69</td><td></td></tr>
 <tr><td>20</td><td>kattune</td><td>35, 36, 37</td><td>35</td><td>43, 44, 45</td><td></td></tr>
 <tr><td>21</td><td>takanori</td><td>00, 79, 89</td><td>00</td><td>08, 21, 59</td><td>59</td></tr>
