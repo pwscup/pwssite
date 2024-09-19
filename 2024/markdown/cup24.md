@@ -142,7 +142,7 @@
 <tr><td>09</td><td>autefu</td><td>21, 86, 91</td><td>21</td><td>00, 13, 53</td><td>13</td></tr>
 <tr><td>10</td><td>pwscup2024</td><td>13, 16, 17</td><td>16</td><td>24, 25, 26</td><td></td></tr>
 <tr><td>11</td><td>kabutookajima</td><td>18, 19, 25</td><td>25</td><td>27, 29, 31</td><td>29</td></tr>
-<tr><td>12</td><td>grape1977</td><td>03, 50, 54</td><td>54</td><td>11, 41, 58</td><td></td></tr>
+<tr><td>12</td><td>grape1977</td><td>03, 50, 54</td><td>54</td><td>11, 41, 58</td><td>58</td></tr>
 <tr><td>13</td><td>harada</td><td>（出場取消）~~11, 23, 69~~</td><td></td><td></td><td></td></tr>
 <tr><td>14</td><td>shibata</td><td>22, 33, 44</td><td>33</td><td>32, 33, 35</td><td>35</td></tr>
 <tr><td>15</td><td>pwscup2024kobe</td><td>90, 80, 70</td><td>80</td><td>64, 65, 66</td><td></td></tr>
@@ -152,7 +152,7 @@
 <tr><td>19</td><td>ritz2024</td><td>01, 04, 06</td><td></td><td>67, 68, 69</td><td>68</td></tr>
 <tr><td>20</td><td>kattune</td><td>35, 36, 37</td><td>35</td><td>43, 44, 45</td><td></td></tr>
 <tr><td>21</td><td>takanori</td><td>00, 79, 89</td><td>00</td><td>08, 21, 59</td><td>59</td></tr>
-<tr><td>22</td><td>crbfwd</td><td>38, 39, 41</td><td>38</td><td>46, 47, 48</td><td></td></tr>
+<tr><td>22</td><td>crbfwd</td><td>38, 39, 41</td><td>38</td><td>46, 47, 48</td><td>46</td></tr>
 </table>
 
 ## プライバシーポリシー
