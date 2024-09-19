@@ -41,7 +41,17 @@ PWS2024への論文投稿受付は、[コンピュータセキュリティシン
 PWS優秀論文賞とPWS学生論文賞はCSS論文賞に統合されました。詳しくは[CSS論文賞について](https://www.iwsec.org/css/2024/award.html#css) をご覧ください。
 
 ## 協賛組織
-- TBD
+<a href="http://www.deloitte.com/jp/cyber"><img src="Images/sponsors/DEL_g_PRI_RGB.jpg" style="width:150px; margin: 10px"></a>
+<a href="https://www.mitsubishielectric.co.jp/"><img src="Images/sponsors/05-CorporateLogoCfB-color.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.soliton.co.jp/"><img src="Images/sponsors/Soliton_logo.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.hitachi.co.jp/rd/"><img src="Images/sponsors/Hitachi_cs_01_01.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.enna.co.jp/"><img src="Images/sponsors/ENNA_logo.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.global.toshiba/jp/top.html"><img src="Images/sponsors/Toshiba_Logo_Red_RGB.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.sios.com/"><img src="Images/sponsors/logo-sios.svg" style="width:150px; margin: 10px"></a>
+<a href="https://www.iij.ad.jp/wizsafe/"><img src="Images/sponsors/iij_logo2.png" style="width:150px; margin: 10px"></a>
+<a href="https://nflabs.jp/"><img src="Images/sponsors/nflabs_logo.jpg" style="width:150px; margin: 10px"></a>
+<a href="https://www.qunie.com/"><img src="Images/sponsors/Mark_Lage-A.jpg" style="width:150px; margin: 10px"></a>
+<a href="https://www.jri.co.jp/"><img src="Images/sponsors/Logo_JRI_J.svg" style="width:150px; margin: 10px"></a>
 
 ## 後援組織
 - TBD
