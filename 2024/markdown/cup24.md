@@ -136,7 +136,7 @@
 <tr><td>03</td><td>jbstkf</td><td>55, 66, 77</td><td>77</td><td>05, 06, 07</td><td></td></tr>
 <tr><td>04</td><td>rq1543179</td><td>08, 09, 12</td><td>08</td><td>12, 15, 16</td><td>16</td></tr>
 <tr><td>05</td><td>shioriabe</td><td>02, 14, 28</td><td>14</td><td>04, 14, 28</td><td>14</td></tr>
-<tr><td>06</td><td>masaya</td><td>58, 15, 05</td><td>58</td><td>09, 34, 49</td><td></td></tr>
+<tr><td>06</td><td>masaya</td><td>58, 15, 05</td><td>58</td><td>09, 34, 49</td><td>34</td></tr>
 <tr><td>07</td><td>takenoko</td><td>51, 52, 53</td><td>51</td><td>01, 02, 03</td><td></td></tr>
 <tr><td>08</td><td>yanomichi</td><td>07, 42, 88</td><td></td><td>18, 22, 23</td><td></td></tr>
 <tr><td>09</td><td>autefu</td><td>21, 86, 91</td><td>21</td><td>00, 13, 53</td><td>13</td></tr>
