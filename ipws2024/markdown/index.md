@@ -147,10 +147,10 @@ We will respond with more information.
 - Kamo (Team 04)
 
 ### Best Presentation
-- TBA
+- re:Botchi (Team 10)
 
 ### Best Data Scientist
-- TBA
+- Takenoko Movie Guardians (Team 03)
 
 ## Committee
 <dl>
