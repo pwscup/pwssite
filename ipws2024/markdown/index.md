@@ -9,7 +9,7 @@
 </div> 
 
 ## What's new
-- Septermber 21st, 2024: Published the final results.
+- September 21st, 2024: Published the final results.
 - September 15th, 2024: Published winners and final program.
 - August 29th, 2024: Added the information for the final presentation on 20 September, 2024.
 - August 20th, 2024: Published [data for the attack phase](./Images/ipwscup2024AttackData.zip).
