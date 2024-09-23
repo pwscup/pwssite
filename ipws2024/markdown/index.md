@@ -111,7 +111,7 @@ We will respond with more information.
 <tr><td>02</td><td>KU$\nu\tau\tau$</td><td>Both the horse and Botchi escaped.</td><td>Masaya Kobayashi</td><td>Kanagawa University</td></tr>
 <tr><td>03</td><td>Takenoko Movie Guardians</td><td>Victory!!</td><td>-</td><td>-</td></tr>
 <tr><td>04</td><td>Kamo</td><td>-</td><td>-</td><td>-</td></tr>
-<tr><td>05</td><td>brian</td><td>Yay!</td><td>-</td><td>Virginia Tech</td></tr>
+<tr><td>05</td><td>brian</td><td>Yay!</td><td>Kabuto Okajima</td><td>Virginia Tech / Gunma University</td></tr>
 <tr><td>06</td><td>Thieves Sttk</td><td>No more movie thief</td><td>Taisei Tashiro</td><td>-</td></tr>
 <tr><td>07</td><td>Diamond</td><td>-</td><td>-</td><td>-</td></tr>
 <tr><td>08</td><td>TokumeiAnonymous</td><td>^^</td><td>-</td><td>-</td></tr>
