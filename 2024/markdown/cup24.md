@@ -3,6 +3,7 @@
 ![](./Images/poster2024.jpg){.center}
 
 ## What's New
+- 2024/10/01(火) [本戦攻撃フェーズの攻撃用データ](./Images/mainAttackData.zip)を公開
 - 2024/09/09(月) 予備戦の結果と各チームのデータを公開
 - 2024/09/09(月) PWSCup2024中間説明会の動画と資料をアップ
 - 2024/08/16(金) [予備戦攻撃フェーズの攻撃用データ](./Images/preAttackData2.zip)を公開
