@@ -107,7 +107,7 @@
 <table border="1">
 <tr><th>チームID</th><th>チーム名</th><th>意気込み</th><th>チーム代表者</th><th>所属</th></tr>
 <tr><td>01</td><td>宮地研.exe</td><td>頑張ります！</td><td>柳下 智史</td><td>大阪大学　宮地研究室</td></tr>
-<tr><td>02</td><td>私達日本語本当下手</td><td>張り切って行こう！！</td><td>-</td><td>-</td></tr>
+<tr><td>02</td><td>私達日本語本当下手</td><td>張り切って行こう！！</td><td>陳 柏瑄</td><td>陽明交通大学</td></tr>
 <tr><td>03</td><td>ポップコーン</td><td>がんばります。</td><td>-</td><td>-</td></tr>
 <tr><td>04</td><td>Hots</td><td>-</td><td>郭 亚楠</td><td>Inner Mongolia University of Technology</td></tr>
 <tr><td>05</td><td>SHA-NES</td><td>今年は総合優勝！</td><td>-</td><td>NECソリューションイノベータ</td></tr>

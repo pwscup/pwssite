@@ -75,9 +75,9 @@ If you would like to attend, please contact ipwscup2024-inquiry(at)csec.ipsj.or.
 We will respond with more information.
 
 ## Prizes
-- 1st prize: 50,000 JPY on VISA Gift Card
-- 2nd prize: 30,000 JPY on VISA Gift Card
-- 3rd prize: 10,000 JPY on VISA Gift Card
+- 1st Place: 50,000 JPY on VISA Gift Card
+- 2nd Place: 30,000 JPY on VISA Gift Card
+- 3rd Place: 10,000 JPY on VISA Gift Card
 - Best Attack Award: 10,000 JPY on VISA Gift Card
 
 ## Documents/Resources
@@ -140,9 +140,9 @@ We will respond with more information.
 - [PDF ver.](./Images/result.pdf)
 
 ### Overall
-- 1st Prize : Kamo (Team 04)
-- 2nd Prize : brian (Team 05)
-- 3th Prize : re:Botchi (Team 10)
+- 1st Place : Kamo (Team 04)
+- 2nd Place : brian (Team 05)
+- 3rd Place : re:Botchi (Team 10)
 
 ### Best Attack
 - Kamo (Team 04)
