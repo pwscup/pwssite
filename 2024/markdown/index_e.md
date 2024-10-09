@@ -27,11 +27,26 @@ For the above purpose, the Computer Security Special Interest Group (CSEC) of th
   <dd>Masahiro Sugawa (Niigata University)</dd>
  <dt>Members</dt>
   <dd>
-   Hiromi Arai (RIKEN), Satoshi Ito (Aichi Gakuin University), Shinsuke Ito (Chuo University), Makoto Iguchi (Kii), Mebae Ushida (Fujitsu), Hajime Ono (NICT), Hiroaki Kikuchi (Meiji University), Atsushi Kuromasa (Data Society Alliance), Yuichi Sei (The University of Electro-Communications), Osamu Takagi (Gunma University), Tsubasa Takahashi (LY Corporation), Takao Takenouchi (Acompany), Mutsumi Tamai (SECOM), Masayuki Terada (NTT DOCOMO), Hiroshi Nakagawa (RIKEN), Yuichi Nakamura (SoftBank), Kenshiro Nishiyama (Hirata Corporation), Ryo Nojima (Ritsumeikan University), 
-    Takanori Higashi (TOPPAN Digital), Ryo Furukawa (NEC), Takuma Hatano (NS Solutions), 
-    Koki Hamada (NTT), Chihiro Fujisaki (Privacy by Design Lab), Masahiro Fujita (Mitsubishi Electric), 
-    Wakana Maeda (LY Corporation), Takayuki Miura (NTT), Kazuhiro Minami (The Institute of Statistical Mathematics), 
-    Shoji Mima (Hitachi Consulting), Takao Murakami (The Institute of Statistical Mathematics), Takeshi Mori (The Japan Research Institute, Limited.), Akira Yamada (Kobe University)
+   Hiromi Arai (RIKEN), Satoshi Ito (Aichi Gakuin University), Shinsuke Ito (Chuo University), Makoto Iguchi (Kii), 
+   Mebae Ushida (Fujitsu), Hajime Ono (NICT), Hiroaki Kikuchi (Meiji University), Atsushi Kuromasa (Data Society Alliance), 
+   Yuichi Sei (The University of Electro-Communications), Osamu Takagi (Gunma University), Tsubasa Takahashi (LY Corporation), Takao Takenouchi (Acompany), 
+   Mutsumi Tamai (SECOM), Masayuki Terada (NTT DOCOMO), Hiroshi Nakagawa (RIKEN), Yuichi Nakamura (SoftBank), 
+   Kenshiro Nishiyama (Hirata Corporation), Ryo Nojima (Ritsumeikan University), Takanori Higashi (TOPPAN Digital), Ryo Furukawa (NEC), 
+   Takuma Hatano (NS Solutions), Koki Hamada (NTT), Chihiro Fujisaki (Privacy by Design Lab), Masahiro Fujita (Mitsubishi Electric), 
+   Wakana Maeda (LY Corporation), Takayuki Miura (NTT), Kazuhiro Minami (The Institute of Statistical Mathematics), Shoji Mima (Hitachi Consulting), 
+   Takao Murakami (The Institute of Statistical Mathematics), Takeshi Mori (The Japan Research Institute, Limited.), Akira Yamada (Kobe University)
+  </dd>
+ <dt>Program Chair</dt>
+  <dd>Tsubasa Takahashi (LY Corporation)</dd>
+ <dt>Program Co-Chair</dt>
+  <dd>Makoto Iguchi (Kii)</dd>
+ <dt>Program Members</dt>
+  <dd>
+   Hiromi Arai (RIKEN), 
+   Yuichi Sei (The University of Electro-Communications),
+   Takao Takenouchi (Acompany), 
+   Takayuki Miura (NTT), 
+   Takao Murakami (The Institute of Statistical Mathematics)
   </dd>
 </dl>
 
