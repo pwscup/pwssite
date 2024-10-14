@@ -117,7 +117,7 @@
 <tr><td>09</td><td>ステテコ泥棒</td><td>神戸リベンジャーズ・雪辱・ステテコ実力不足</td><td>-</td><td>明治大学</td></tr>
 <tr><td>10</td><td>動的計画法</td><td>-</td><td>-</td><td>-</td></tr>
 <tr><td>11</td><td>Gunmataro117</td><td>PWS CUP 2024に参加することになり、<br>大変光栄です。この大会を通じて、<br>最高のパフォーマンスを発揮し、<br>自分自身の限界に挑戦することを<br>楽しみにしています。努力と準備を<br>重ねてきましたので、<br>自信を持って競技に臨み、<br>素晴らしい成果を収めたいと思います。<br>皆さんの応援に感謝し、全力で頑張ります</td><td>岡嶋 佳歩</td><td>群馬大学</td></tr>
-<tr><td>12</td><td>HAL</td><td>頑張ります</td><td>-</td><td>-</td></tr>
+<tr><td>12</td><td>HAL</td><td>頑張ります</td><td>松本 知優</td><td>大阪大学</td></tr>
 <tr><td>13</td><td>（出場取消）~~無量匿名処~~</td><td>~~『勝つさ』~~</td><td>-</td><td>-</td></tr>
 <tr><td>14</td><td>privocy</td><td>推して参る</td><td>-</td><td>静岡大学</td></tr>
 <tr><td>15</td><td>ES5</td><td>頑張ります</td><td>-</td><td>-</td></tr>
