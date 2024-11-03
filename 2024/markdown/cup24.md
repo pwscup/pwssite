@@ -164,7 +164,7 @@
 <tr><td>17</td><td>こそっとアタック、しれっとブロック</td><td>プライバシーを守るのは簡単さ、攻撃かわしてデータを探査</td><td>岡野 真空</td><td>静岡大学</td><td>-</td></tr>
 <tr><td>18</td><td>匿名アノニマス</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
 <tr><td>19</td><td>RITCHEY</td><td>はじめての参加です！</td><td>-</td><td>-</td><td>-</td></tr>
-<tr><td>20</td><td>KAT-TUNE</td><td>共同チームで力を合わせます！</td><td>-</td><td>KDDI総合研究所 / ARISE analytics / トヨタ自動車</td><td>-</td></tr>
+<tr><td>20</td><td>KAT-TUNE</td><td>共同チームで力を合わせます！</td><td>-</td><td>KDDI総合研究所 / ARISE analytics / トヨタ自動車</td><td>[Team20](./Images/pwscup2024_poster_team20.pdf)</td></tr>
 <tr><td>21</td><td>PR.AVATECT</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
 <tr><td>22</td><td>春日部防衛隊（かすかべ防衛隊）</td><td>-</td><td>CHEN, YI-HSUAN</td><td>National Yang Ming Chiao Tung University</td><td>-</td></tr>
 </table>
