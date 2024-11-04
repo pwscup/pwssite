@@ -5,6 +5,8 @@
 ## PWS Cup 2024 は終了しました。ご参加頂いたみなさま、ありがとうございました。
 
 ## What's New
+- 2024/11/04(月) PWS Cup 2024 [発表会資料](./Images/20241024_PWSCUP2024.pdf)を公開
+- 2024/11/04(月) [本戦＆総合の結果](./Images/result_main_and_overall.xlsx)と[本戦結果詳細](./Images/result_main_detail.xlsx)を公開
 - 2024/11/04(月) ポスターを一部公開
 - 2024/10/21(月) 審査員を公開
 - 2024/10/15(火) 10/24(木)のPWS Cup 2024タイムテーブルを公開
@@ -77,6 +79,9 @@
 <a id="manuals"></a>
 
 ## 参加者向け資料
+- [本戦＆総合の結果](./Images/result_main_and_overall.xlsx)
+- [本戦結果詳細](./Images/result_main_detail.xlsx)（2行目の"XXi"はTeamXXの個人特定攻撃の成功数、"XXd"はTeamXXのDB再構築攻撃の成功数）
+- [10/24発表会資料](./Images/20241024_PWSCUP2024.pdf)
 - [予備戦の結果と各チームのデータ(zip(7.3MB))](./Images/pre.zip)
 - [PWSCup2024中間説明会の動画](https://youtu.be/bvbgCIdS5Js)
 - [PWSCup2024中間説明会の資料(PDF)](./Images/20240909_PWSCUP2024_middle.pdf)
