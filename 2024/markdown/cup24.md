@@ -200,6 +200,20 @@
 <tr><td>22</td><td>crbfwd</td><td>38, 39, 41</td><td>38</td><td>46, 47, 48</td><td>46</td></tr>
 </table>
 
+## 最終結果
+### 総合
+- 優勝　Team04 : Hots
+- 第2位　Team21 : PR.AVATECT 
+- 第3位　Team10 : 動的計画法 
+- 第4位　Team11 : Gunmataro117
+- 第5位　Team09 : ステテコ泥棒
+### ベストアタック賞
+- Team20 : KAT-TUNE
+### ベストプレゼン賞
+- Team16 : 佐古研究室
+### ベストデータサイエンティスト賞
+- Team12 : HAL
+
 ## プライバシーポリシー
 - [プライバシーポリシーのページ](./privacy_policy.html)をご参照ください。
 
