@@ -15,7 +15,7 @@ do
     ## md -> html変換
     bash $dir/pandoc.bash $basefilename
     ## htmlファイルのインデントを整形する
-    tidy -i -utf8 $dir/../html/${basefilename}.html > $dir/../html/${basefilename}.tmp.html
+    tidy -i -q -utf8 $dir/../html/${basefilename}.html > $dir/../html/${basefilename}.tmp.html
     
     ## ファイルをhtml配置用のフォルダに配置する
     mv $dir/../html/${basefilename}.tmp.html $dir/../html/${basefilename}.html
