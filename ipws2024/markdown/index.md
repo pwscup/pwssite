@@ -4,7 +4,7 @@
 
 <div data-align="center">
  <a href="./Images/poster2024_ipws.jpg">
-  <img src="./Images/poster2024_ipws.jpg" width=51%>
+  <img src="./Images/poster2024_ipws.jpg" width=50%>
  </a>
 </div> 
 
