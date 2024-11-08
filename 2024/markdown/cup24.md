@@ -158,7 +158,7 @@
 <tr><td>06</td><td>神ぼ大νττ</td><td>馬が逃げ，ぼっちがきた</td><td>小林 雅弥</td><td>神奈川大学</td><td>-</td></tr>
 <tr><td>07</td><td>たけのこ映画守り隊</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
 <tr><td>08</td><td>0xA</td><td>面白そうだとなと思い、参加しました。</td><td>-</td><td>-</td><td>-</td></tr>
-<tr><td>09</td><td>ステテコ泥棒</td><td>神戸リベンジャーズ・雪辱・ステテコ実力不足</td><td>-</td><td>明治大学 / 三菱電機</td><td>[Team20](./Images/pwscup2024_poster_team09.pdf)</td></tr>
+<tr><td>09</td><td>ステテコ泥棒</td><td>神戸リベンジャーズ・雪辱・ステテコ実力不足</td><td>-</td><td>明治大学 / 三菱電機</td><td>[Team09](./Images/pwscup2024_poster_team09.pdf)</td></tr>
 <tr><td>10</td><td>動的計画法</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
 <tr><td>11</td><td>Gunmataro117</td><td>PWS CUP 2024に参加することになり、<br>大変光栄です。この大会を通じて、<br>最高のパフォーマンスを発揮し、<br>自分自身の限界に挑戦することを<br>楽しみにしています。努力と準備を<br>重ねてきましたので、<br>自信を持って競技に臨み、<br>素晴らしい成果を収めたいと思います。<br>皆さんの応援に感謝し、全力で頑張ります</td><td>岡嶋 佳歩</td><td>群馬大学</td><td>[Team11](./Images/pwscup2024_poster_team11.pdf)</td></tr>
 <tr><td>12</td><td>HAL</td><td>頑張ります</td><td>松本 知優</td><td>大阪大学</td><td>-</td></tr>
