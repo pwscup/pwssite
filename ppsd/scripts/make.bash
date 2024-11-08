@@ -10,7 +10,9 @@ do
   echo "basefilename: "$basefilename
   
   ## 更新か新規作成があれば、処理する
-  if [ "$line" -nt "$dir/../html/${basefilename}.html" ]; then
+  ## if [ "$line" -nt "$dir/../html/${basefilename}.html" ]; then
+  ## なぜかファイル更新が検知されないので、一旦全ファイルを更新するようにする
+  if true; then
     echo "created or updated"
     ## md -> html変換
     bash $dir/pandoc.bash $basefilename
