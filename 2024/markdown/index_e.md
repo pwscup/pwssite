@@ -6,6 +6,7 @@
 </div>
 
 ## What's new
+- February 6th, 2025: Announcement of PWS MeetUp 2025
 - June 20th, 2024: Released [iPWS Cup 2024](https://www.iwsec.org/pws/ipws2024/index.html) page.
 - June 14th, 2024: Released [PWS Cup 2024 page (in Japanese)](./cup24.html).
 - June 10th, 2024: This page was released.
