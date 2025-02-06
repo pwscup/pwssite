@@ -6,7 +6,7 @@
 </div>
 
 ## What's new
-- February 6th, 2025: Announcement of PWS MeetUp 2025
+- February 6th, 2025: Announcement of [PWS MeetUp 2025 page (in Japanese)](./MeetUp2025.html).
 - June 20th, 2024: Released [iPWS Cup 2024](https://www.iwsec.org/pws/ipws2024/index.html) page.
 - June 14th, 2024: Released [PWS Cup 2024 page (in Japanese)](./cup24.html).
 - June 10th, 2024: This page was released.
@@ -75,9 +75,6 @@ The PWS Paper Award and the PWS Student Paper Award have been merged into the CS
 <a href="https://www.qunie.com/"><img src="Images/sponsors/Mark_Lage-A.jpg" alt="Logo" style="width:150px; margin: 10px"></a>
 <a href="https://www.jri.co.jp/"><img src="Images/sponsors/Logo_JRI_J.svg" alt="Logo" style="width:150px; margin: 10px"></a>
 
-## Endorsing Organizations
-- TBD
-
 ## Past PWS Events
 - [PWS2023](https://www.iwsec.org/pws/2023/index_e.html)
 - [PWS2022](https://www.iwsec.org/pws/2022/index_e.html)
@@ -90,4 +87,4 @@ The PWS Paper Award and the PWS Student Paper Award have been merged into the CS
 - [PWS2015](https://www.iwsec.org/pws/2015/) (in Japanese)
 
 ## Privacy Policy
-- TBD
+- The PWS2024 privacy policy is governed by the [CSS2024 privacy policy (in Japanese)](https://www.iwsec.org/css/2024/privacy.html).
