@@ -5,7 +5,7 @@
 - ↓の"利用方法"をよく読みましょう　難しくありません
   - [PWS Slack](https://pwscup.slack.com)で質問してください。
   
-- 利用方法(@GitHub)
+- ページの追加・更新方法(@GitHub)
   - [まずはこのスライド](https://docs.google.com/presentation/d/1VPrXKw8AN9LVo-EXei2zOkcJoQwn1LSfwvPKT-2-5lA/edit)を読みましょう。
     - 思いと全体構成が書いてあります
   - 既存ページを更新する際は、gh-pagesブランチの/202*/markdown 等にある.mdファイルを、マークダウン形式で編集してください。
@@ -18,8 +18,18 @@
   - 詳細が気になる場合は [PWS Slack](https://pwscup.slack.com)で質問してください。誰かが答えてくれます。
     - 招待済みでない場合は、他の適当な手段で運営委員のどなたかにコンタクトをとってください。担当者にスローされます。
 
-- 利用方法(@ローカル)
+- ページの追加・更新方法(@ローカル)
   - いい感じにお願いします
+
+- ルートへの新規フォルダ追加方法(@ローカル)
+  - 新年度や、新規プロジェクト立ち上げの際を想定
+  - copy.bash (プロジェクト名)としてください。空のディレクトリが作られます
+  - 次に、/(プロジェクト名)/markdown/index.mdを編集してください
+  - 次に、templateファイルのfooterに書かれた年度等を直してください
+  - 次に、/(プロジェクト名)/scripts/make.bashを実行すると、htmlが更新されます
+  - 次に、/make.bashを参照して、(プロジェクト名)/scripts/make.bashを追記してください
+    - これにより、githubにcommit内容が反映された際に、make.bashが実行されます
+  - 次に、/index.htmlに、/(新規プロジェクト名/index.html)へのリンクを追加してください
 
 # フォルダ・ファイル構成
 - (管理対象外)2018以前
@@ -30,6 +40,9 @@
   - PWS202* のサイト "運用方法"の手順で、mdファイルをgithub上で編集して作っています
 - (管理対象) .github/workflows
   - GitHub Actionsの設定 (通常、これを触りたい場面はないと思います 管理者向けです)
+  - gh-pagesにコミット：mdファイルをhtmlに変換して、github pagesにて公開します
+  - masterにコミット：iwsecサーバでpullすることで、githubの内容を本番環境で公開します
+
 # ブランチ
 - master
   - 本番の[IWSECサーバ](https://www.iwsec.org/pws/)用
@@ -58,7 +71,6 @@
 
 # 備考
   - スタイルシートとフッタは編集しない想定です。
-    - 見た目で困ることはない気がするので...
   - ヘッダは title タグだけ、 mdファイルの文字列の影響を受けます。
   - Masterへの直接commit禁止です。
     - iwsecサーバで↑の設定をしています。 Githubでは、...どうやるんだ？誰か教えてください
