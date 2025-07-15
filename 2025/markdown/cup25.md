@@ -45,7 +45,6 @@
    
 <a id="schedule"></a>
 
-
 ## PWS Cup 2025 スケジュール
 スケジュールは予告なく変更することがあります。あらかじめご了承ください。
 本ページに記載の日時は特に断りのない限り日本標準時(JST)です。
@@ -63,7 +62,7 @@
 - [プライバシーポリシーのページ](./privacy_policy.html)をご参照ください。
 
 ## 公式X(旧Twitter)
-- [PWSCUP公式X](https://twitter.com/pwscup_admin)で最新情報をお知らせしています。
+- [PWSCUP公式X](https://twitter.com/pwscup_admin)にて最新情報をお知らせしています。
 
 <a id="contact"></a>
 
