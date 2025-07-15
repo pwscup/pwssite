@@ -63,7 +63,7 @@
 - [プライバシーポリシーのページ](./privacy_policy.html)をご参照ください。
 
 ## 公式X(旧Twitter)
-[PWSCUP公式X](https://twitter.com/pwscup_admin)で最新情報をお知らせしています。
+- [PWSCUP公式X](https://twitter.com/pwscup_admin)で最新情報をお知らせしています。
 
 <a id="contact"></a>
 
