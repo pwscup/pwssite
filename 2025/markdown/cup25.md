@@ -53,7 +53,6 @@
   /* ===== テーブル共通 ===== */
   table.schedule {
     border-collapse: collapse;
-    width: 100%;                  /* 任意。横幅を超えたら横スクロール */
   }
   table.schedule th,
   table.schedule td {
