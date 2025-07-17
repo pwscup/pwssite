@@ -90,7 +90,7 @@
     <tr>
       <td>2025/08/06(水) 18:00&nbsp;~&nbsp;19:00</td>
       <td>PWS&nbsp;Cup&nbsp;2025&nbsp;説明会</td>
-      <td>Zoom 開催。参加希望の方は [PWS Cup 2025 説明会 参加登録ページ](https://forms.gle/akXvGdyZ8gRBkxKu7) からお申し込みください（申し込み後、ZoomログインURLがメール送信されます）。お申込みされた方には、説明会の録画のURLを後日お送りする予定です。</td>
+      <td>Zoom 開催。参加希望の方はPWS Cup 2025 説明会 参加登録ページ(https://forms.gle/akXvGdyZ8gRBkxKu7) からお申し込みください（申し込み後、ZoomログインURLがメール送信されます）。お申込みされた方には、説明会の録画のURLを後日お送りする予定です。</td>
     </tr>
 
     <tr>
