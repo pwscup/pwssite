@@ -2,6 +2,7 @@
 
 ## What's New
 - 2025/07/14(月) 本ページを作成しました。
+- 2025/07/18(金) 説明会参加のご案内をスケジュール欄に追加しました（→[スケジュール](#schedule)）
 
 ## PWS Cup 2025 概要
 ### コンテストストーリー
@@ -44,33 +45,35 @@
   </dd>
 </dl>
    
-<a id="schedule"></a>
-
-## PWS Cup 2025 スケジュール
+## <a id="schedule"></a>PWS Cup 2025 スケジュール
 スケジュールは予告なく変更することがあります。あらかじめご了承ください。
 本ページに記載の日時は特に断りのない限り日本標準時(JST)です。
+
 <style>
   /* ===== テーブル共通 ===== */
   table.schedule {
     border-collapse: collapse;
-    width: 100%;                  /* 任意。横幅を超えたら横スクロール */
+    width: 100%;
   }
+
   table.schedule th,
   table.schedule td {
     border: 1px solid #ccc;
     padding: 4px 8px;
     vertical-align: top;
+    text-align: left;
   }
 
-  /* ===== 列ごとの指定 ===== */
-  table.schedule col:nth-child(1) {           /* 日付列 */
-    white-space: nowrap;      /* 自動改行を禁止                     */
-    word-break: keep-all;     /* 全角文字でも行内で折り返さない       */
-    overflow-wrap: normal;    /* ブラウザの強制折りを抑止             */
-    width: 270px;             /* 最長の文字列＋α で調整               */
+  /* ===== 列幅指定 ===== */
+  table.schedule col:nth-child(1) {
+    white-space: nowrap;
+    word-break: keep-all;
+    overflow-wrap: normal;
+    width: 280px; /* 幅を拡大 */
   }
-  table.schedule col:nth-child(3) {           /* 備考列 */
-    width: 300px;             /* 任意。不要なら削除                   */
+
+  table.schedule col:nth-child(3) {
+    width: 300px;
   }
 </style>
 
@@ -86,39 +89,43 @@
       <th>備考</th>
     </tr>
   </thead>
-
   <tbody>
     <tr>
-      <td>2025/08/06(水) 18:00&nbsp;~&nbsp;19:00</td>
-      <td>PWS&nbsp;Cup&nbsp;2025&nbsp;説明会</td>
-      <td>Zoom 開催。詳細は追ってご連絡します</td>
+      <td>2025/08/06(水) 18:00 ~ 19:00</td>
+      <td>PWS Cup 2025 説明会</td>
+      <td>
+        Zoom 開催。参加希望の方は
+        <a href="https://forms.gle/akXvGdyZ8gRBkxKu7" target="_blank">
+          PWS Cup 2025 説明会 参加登録ページ
+        </a>
+        からお申し込みください。<br>
+        （申し込み後、ZoomログインURLがメール送信されます。<br>
+        お申込みされた方には、説明会の録画のURLを後日お送りする予定です。）
+      </td>
     </tr>
-
     <tr>
-      <td>2025/08/06(水)&nbsp;~&nbsp;2025/09/15(月)</td>
+      <td>2025/08/06(水) ~ 2025/09/15(月)</td>
       <td>エントリー受付期間</td>
       <td>2025/08/20(水) 以降のエントリーは本戦のみの参加になる場合があります</td>
     </tr>
-
     <tr>
-      <td>2025/08/20(水) 09:00&nbsp;~&nbsp;2025/09/15(月) 09:00</td>
+      <td>2025/08/20(水) 09:00 ~ 2025/09/15(月) 09:00</td>
       <td>予備戦</td>
       <td></td>
     </tr>
-
     <tr>
-      <td>2025/09/19(金) 09:00&nbsp;~&nbsp;2025/10/21(火) 09:00</td>
+      <td>2025/09/19(金) 09:00 ~ 2025/10/21(火) 09:00</td>
       <td>本戦</td>
       <td></td>
     </tr>
-
     <tr>
-      <td>2025/10/27(月)&nbsp;~&nbsp;2025/10/31(金) の何れか</td>
+      <td>2025/10/27(月) ~ 2025/10/31(金) の何れか</td>
       <td>発表・表彰式</td>
       <td>CSS2025 開催期間中</td>
     </tr>
   </tbody>
 </table>
+
 
 
 ## プライバシーポリシー

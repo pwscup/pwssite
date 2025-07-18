@@ -33,12 +33,19 @@ jobs:
     steps:
     - name: チェックアウトリポジトリ
       uses: actions/checkout@v3
-
+      
+    - name: (追加)更新したファイルの確認
+      run: |
+        echo "event  SHA: $GITHUB_SHA"
+        echo "actual SHA: $(git rev-parse HEAD)"
+        echo "branch     : $(git rev-parse --abbrev-ref HEAD)"
+        git --no-pager log -1 --stat
+        
     - name: 必要なパッケージのインストール
       run: |
         sudo apt-get update
         sudo apt-get install -y tidy pandoc
-
+        
     - name: make.bashの実行
       run: bash make.bash
       continue-on-error: true

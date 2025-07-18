@@ -15,24 +15,27 @@
 /* ===== テーブル共通 ===== */
   table.schedule {
     border-collapse: collapse;
-    width: 100%;                  /* 任意。横幅を超えたら横スクロール */
+    width: 100%;
   }
+
   table.schedule th,
   table.schedule td {
     border: 1px solid #ccc;
     padding: 4px 8px;
     vertical-align: top;
+    text-align: left;
   }
 
-  /* ===== 列ごとの指定 ===== */
-  table.schedule col:nth-child(1) {           /* 日付列 */
-    white-space: nowrap;      /* 自動改行を禁止                     */
-    word-break: keep-all;     /* 全角文字でも行内で折り返さない       */
-    overflow-wrap: normal;    /* ブラウザの強制折りを抑止             */
-    width: 270px;             /* 最長の文字列＋α で調整               */
+  /* ===== 列幅指定 ===== */
+  table.schedule col:nth-child(1) {
+    white-space: nowrap;
+    word-break: keep-all;
+    overflow-wrap: normal;
+    width: 280px; /* 幅を拡大 */
   }
-  table.schedule col:nth-child(3) {           /* 備考列 */
-    width: 300px;             /* 任意。不要なら削除                   */
+
+  table.schedule col:nth-child(3) {
+    width: 300px;
   }
   </style>
 </head>
@@ -59,6 +62,9 @@
 
     <ul>
       <li>2025/07/14(月) 本ページを作成しました。</li>
+
+      <li>2025/07/18(金) 説明会参加のご案内をスケジュール欄に追加しました（→<a href=
+      "#schedule">スケジュール</a>）</li>
     </ul>
 
     <h2>PWS Cup 2025 概要</h2>
@@ -146,11 +152,11 @@
       隆夫（統計数理研究所）, 森 毅（日本総合研究所）, 山田 明（神戸大学）</dd>
     </dl>
 
-    <p><a id="schedule" name="schedule"></a></p>
+    <h2><a id="schedule" name="schedule"></a>PWS Cup 2025
+    スケジュール</h2>
 
-    <h2>PWS Cup 2025
-    スケジュール</h2>スケジュールは予告なく変更することがあります。あらかじめご了承ください。
-    本ページに記載の日時は特に断りのない限り日本標準時(JST)です。
+    <p>スケジュールは予告なく変更することがあります。あらかじめご了承ください。
+    本ページに記載の日時は特に断りのない限り日本標準時(JST)です。</p>
 
     <table class="schedule">
       <colgroup>
@@ -171,15 +177,19 @@
 
       <tbody>
         <tr>
-          <td>2025/08/06(水) 18:00&nbsp;~&nbsp;19:00</td>
+          <td>2025/08/06(水) 18:00 ~ 19:00</td>
 
-          <td>PWS&nbsp;Cup&nbsp;2025&nbsp;説明会</td>
+          <td>PWS Cup 2025 説明会</td>
 
-          <td>Zoom 開催。詳細は追ってご連絡します</td>
+          <td>Zoom 開催。参加希望の方は <a href=
+          "https://forms.gle/akXvGdyZ8gRBkxKu7" target="_blank">PWS
+          Cup 2025 説明会 参加登録ページ</a> からお申し込みください。<br>
+          （申し込み後、ZoomログインURLがメール送信されます。<br>
+          お申込みされた方には、説明会の録画のURLを後日お送りする予定です。）</td>
         </tr>
 
         <tr>
-          <td>2025/08/06(水)&nbsp;~&nbsp;2025/09/15(月)</td>
+          <td>2025/08/06(水) ~ 2025/09/15(月)</td>
 
           <td>エントリー受付期間</td>
 
@@ -187,8 +197,7 @@
         </tr>
 
         <tr>
-          <td>2025/08/20(水) 09:00&nbsp;~&nbsp;2025/09/15(月)
-          09:00</td>
+          <td>2025/08/20(水) 09:00 ~ 2025/09/15(月) 09:00</td>
 
           <td>予備戦</td>
 
@@ -196,8 +205,7 @@
         </tr>
 
         <tr>
-          <td>2025/09/19(金) 09:00&nbsp;~&nbsp;2025/10/21(火)
-          09:00</td>
+          <td>2025/09/19(金) 09:00 ~ 2025/10/21(火) 09:00</td>
 
           <td>本戦</td>
 
@@ -205,7 +213,7 @@
         </tr>
 
         <tr>
-          <td>2025/10/27(月)&nbsp;~&nbsp;2025/10/31(金) の何れか</td>
+          <td>2025/10/27(月) ~ 2025/10/31(金) の何れか</td>
 
           <td>発表・表彰式</td>
 
