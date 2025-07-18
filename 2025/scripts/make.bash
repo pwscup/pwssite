@@ -1,37 +1,51 @@
-dir=$(dirname $0)
+#!/usr/bin/env bash
+set -euo pipefail
 
+script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+md_dir="${script_dir}/../markdown"
+html_dir="${script_dir}/../html"
+public_dir="${script_dir}/.."
 
-## markdownの更新/新規作成があれば, pandocで md -> html変換する、という処理
-ls $dir/../markdown/*.md | while read line
-do
-  echo "line: "$line
-  ## 拡張子なしファイル名の取得
-  basefilename=$(echo $line | xargs basename | sed "s/.md$//")
-  echo "basefilename: "$basefilename
-  
-  ## 更新か新規作成があれば、処理する
-  if [ "$line" -nt "$dir/../html/${basefilename}.html" ]; then
-    echo "created or updated"
-    ## md -> html変換
-    bash $dir/pandoc.bash $basefilename
-    ## htmlファイルのインデントを整形する
-    tidy -i -utf8 $dir/../html/${basefilename}.html > $dir/../html/${basefilename}.tmp.html
-    
-    ## ファイルをhtml配置用のフォルダに配置する
-    mv $dir/../html/${basefilename}.tmp.html $dir/../html/${basefilename}.html
-    
-    ## 権限を制御する
-    chmod 770 $dir/../html/*.html
-    chmod 770 $dir/../Images
+# 1) pull 前のコミット ID を退避
+before="$(git -C "$md_dir" rev-parse HEAD)"
 
-    ## 公開する
-    cp $dir/../html/${basefilename}.html $dir/../${basefilename}.html
-  else
-    echo "up to date"
-  fi
-  echo "========================"
+# 2) git pull（fast‑forward だけにしたい場合は --ff-only を付ける）
+git -C "$md_dir" pull --ff-only
+
+# 3) pull 後のコミット ID
+after="$(git -C "$md_dir" rev-parse HEAD)"
+
+# 4) 差分に含まれる Markdown を取得
+mapfile -t changed_md < <(
+  git -C "$md_dir" diff --name-only "${before}" "${after}" -- '*.md'
+)
+
+if [[ ${#changed_md[@]} -eq 0 ]]; then
+  echo "No markdown files changed by the latest pull."
+  exit 0
+fi
+
+echo "Changed markdown files:"
+printf '  %s\n' "${changed_md[@]}"
+echo "----------------------------------------"
+
+# 5) 差分ファイルだけビルド
+for rel in "${changed_md[@]}"; do
+  md="${md_dir}/${rel}"
+  base="$(basename "${md%.md}")"
+  html="${html_dir}/${base}.html"
+
+  echo "[BUILD] ${base}.md → ${base}.html"
+  "${script_dir}/pandoc.bash" "$base"
+  tidy -quiet -indent -utf8 -m "$html"
+  chmod 660 "$html"
+  cp -p "$html" "${public_dir}/${base}.html"
 done
 
-## 図のコピー
-cp -r $dir/../markdown/Images $dir/../
+# 6) 画像の差分コピー（Markdown 側で Images/ 配下を使っている想定）
+rsync -rt --delete \
+      --chmod=Du=rwx,Dg=rwx,Fu=rw,Fg=rw \
+      "${md_dir}/Images/" "${html_dir}/Images/"
+
+echo "Done."
 
