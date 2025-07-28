@@ -1,11 +1,5 @@
 # 第11回プライバシーワークショップ (PWS2025)
 
-<div style="text-align: center;">
- <font size="2">
-  <a href="./index_e.html">[English]</a>
- </font>
-</div>
-
 ## What's new
 - 2025/07/14(月) [PWS Cup 2025のページを作成](./cup25.html)
 
@@ -49,4 +43,4 @@ PWS優秀論文賞とPWS学生論文賞はCSS論文賞に統合されました�
 - [PWS2015](https://www.iwsec.org/pws/2015/)
 
 ## プライバシーポリシー
-TODO
+- [こちら](privacy_policy.html)をご参照ください
