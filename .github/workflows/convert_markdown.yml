@@ -6,56 +6,85 @@ on:
       - master
       - gh-pages
 
+# Pages デプロイで必要
+permissions:
+  contents: write        # gh-pages のコミット用
+  pages: write           # actions/deploy-pages 用
+  id-token: write        # actions/deploy-pages 用
+
 jobs:
-  run-on-master:
+# ------------------------------------------------------------------
+# 1) master ブランチ = 本番環境へ反映
+# ------------------------------------------------------------------
+  prod-deploy:
     if: github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
 
     steps:
-    - name: チェックアウトリポジトリ
-      uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-    - name: SSHキーの設定
-      run: |
-        mkdir -p ~/.ssh
-        echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
-        chmod 600 ~/.ssh/id_rsa
-        ssh-keyscan -H ${{ secrets.HOST_NAME }} >> ~/.ssh/known_hosts
+      - name: Setup SSH key
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -H ${{ secrets.HOST_NAME }} >> ~/.ssh/known_hosts
 
-    - name: 外部サーバーにSSH接続してコマンド実行
-      run: |
-        ssh -o StrictHostKeyChecking=no ${{ secrets.USER_NAME }}@${{ secrets.HOST_NAME }} -o UserKnownHostsFile=/dev/null "cd /var/www/html/pws/; git pull origin master"
+      - name: Deploy to production server
+        run: |
+          ssh -o StrictHostKeyChecking=no \
+              ${{ secrets.USER_NAME }}@${{ secrets.HOST_NAME }} \
+              -o UserKnownHostsFile=/dev/null \
+              "cd /var/www/html/pws/ && git pull origin master"
 
-  run-on-gh-pages:
+# ------------------------------------------------------------------
+# 2) gh-pages ブランチ = GitHub Pages 用
+# ------------------------------------------------------------------
+  build-pages:
     if: github.ref == 'refs/heads/gh-pages'
     runs-on: ubuntu-latest
 
     steps:
-    - name: チェックアウトリポジトリ
-      uses: actions/checkout@v3
-      
-    - name: (追加)更新したファイルの確認
-      run: |
-        echo "event  SHA: $GITHUB_SHA"
-        echo "actual SHA: $(git rev-parse HEAD)"
-        echo "branch     : $(git rev-parse --abbrev-ref HEAD)"
-        git --no-pager log -1 --stat
-        
-    - name: 必要なパッケージのインストール
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y tidy pandoc
-        
-    - name: make.bashの実行
-      run: bash make.bash
-      continue-on-error: true
+      - uses: actions/checkout@v3
 
-    - name: 変更をコミット
-      run: |
-        git config --global user.name 'github-actions[bot]'
-        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add .
-        git commit -m 'Run make.bash and commit changes'
-        git push
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # （任意）更新差分の確認
+      - name: Show last commit
+        run: git --no-pager log -1 --stat
+
+      - name: Install dependencies
+        run: sudo apt-get update && sudo apt-get install -y tidy pandoc
+
+      - name: Build HTML by make.bash
+        run: bash make.bash
+
+      # HTML を gh-pages ブランチにコミット（必要なら）
+      - name: Commit & push built files
+        run: |
+          if ! git diff --quiet; then
+            git config --global user.name 'github-actions[bot]'
+            git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+            git add .
+            git commit -m 'Generate HTML [skip ci]'
+            git push origin gh-pages
+          fi
+
+      # GitHub Pages へ渡すアーティファクトをアップロード
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # make.bash の出力先に合わせて変更
+          path: ./ # 例：./public や ./docs など
+
+  deploy-pages:
+    needs: build-pages
+    # gh-pages ブランチのみ実行
+    if: github.ref == 'refs/heads/gh-pages'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
