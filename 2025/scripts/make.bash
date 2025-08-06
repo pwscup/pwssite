@@ -1,51 +1,70 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# ディレクトリ定義
 script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 md_dir="${script_dir}/../markdown"
 html_dir="${script_dir}/../html"
-public_dir="${script_dir}/.."
+# 公開ルートは markdown の親（scripts 位置に依存しない）
+public_dir="$(cd "$md_dir/.." && pwd)"
 
-# 1) pull 前のコミット ID を退避
-before="$(git -C "$md_dir" rev-parse HEAD)"
+mkdir -p "$html_dir"
 
-# 2) git pull（fast‑forward だけにしたい場合は --ff-only を付ける）
-git -C "$md_dir" pull --ff-only
+# markdown 配下の .md を収集（再帰）
+rel_md_list=()
+while IFS= read -r -d '' rel; do
+  rel="${rel#./}"           # 先頭の ./ を除去
+  rel_md_list+=("$rel")
+done < <(cd "$md_dir" && find . -type f -name '*.md' -print0)
 
-# 3) pull 後のコミット ID
-after="$(git -C "$md_dir" rev-parse HEAD)"
+# 更新が必要なターゲットを抽出（html が無い or md が新しい）
+targets=()
+for rel in "${rel_md_list[@]}"; do
+  base="$(basename "${rel%.md}")"
+  md="$md_dir/$rel"
+  html="$html_dir/${base}.html"
+  if [[ ! -e "$html" || "$md" -nt "$html" ]]; then
+    targets+=("$base")
+  fi
+done
 
-# 4) 差分に含まれる Markdown を取得
-mapfile -t changed_md < <(
-  git -C "$md_dir" diff --name-only "${before}" "${after}" -- '*.md'
-)
-
-if [[ ${#changed_md[@]} -eq 0 ]]; then
-  echo "No markdown files changed by the latest pull."
+if [[ ${#targets[@]} -eq 0 ]]; then
+  echo "No markdown newer than existing HTML."
   exit 0
 fi
 
-echo "Changed markdown files:"
-printf '  %s\n' "${changed_md[@]}"
+echo "Build targets:"
+for base in "${targets[@]}"; do
+  echo "  ${base}.md"
+done
 echo "----------------------------------------"
 
-# 5) 差分ファイルだけビルド
-for rel in "${changed_md[@]}"; do
-  md="${md_dir}/${rel}"
-  base="$(basename "${md%.md}")"
+# ビルド → 整形（tidyのエラーは無視）→ 権限 → 公開ルートへコピー
+for base in "${targets[@]}"; do
+  md="${md_dir}/${base}.md"
   html="${html_dir}/${base}.html"
 
   echo "[BUILD] ${base}.md → ${base}.html"
   "${script_dir}/pandoc.bash" "$base"
-  tidy -quiet -indent -utf8 -m "$html"
+
+  # ① tidy が警告で非0終了しても続行する
+  if ! tidy -quiet -indent -utf8 -m "$html"; then
+    echo "[WARN] tidy reported issues; continuing"
+  fi
+
   chmod 660 "$html"
+
+  # 配置先を明示出力（配置階層の確認用）
+  echo "[COPY] ${html} -> ${public_dir}/${base}.html"
   cp -p "$html" "${public_dir}/${base}.html"
 done
 
-# 6) 画像の差分コピー（Markdown 側で Images/ 配下を使っている想定）
-rsync -rt --delete \
-      --chmod=Du=rwx,Dg=rwx,Fu=rw,Fg=rw \
-      "${md_dir}/Images/" "${html_dir}/Images/"
+# 画像の同期（存在する場合のみ）
+if [[ -d "${md_dir}/Images" ]]; then
+  rsync -rt --delete \
+        --chmod=Du=rwx,Dg=rwx,Fu=rw,Fg=rw \
+        "${md_dir}/Images/" "${html_dir}/Images/"
+fi
 
 echo "Done."
 
