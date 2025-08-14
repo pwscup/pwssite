@@ -1,1 +1,34 @@
-
+# `LM_asthma.py` : 喘息リスク因子のロジスティック回帰
+- CSV 形式の医療データを入力として、二値目的変数（既定：`asthma_flag`）に対してロジスティック回帰を適用し、係数や信頼区間由来の指標を0〜1に正規化して出力。多重共線性の強さを示す VIF を正規化した値も出力。出力行の個数・順序を入力データに依存させず一定に保つため、実際にモデルに入らなかった項目も値をNaNとして出力。
+- 使い方の例
+  - `python3 LM_asthma.py HI10K.csv`
+  - `python3 LM_asthma.py HI10K.csv --ensure-terms "ETHNICITY_hispanic,GENDER_M,RACE_black"` # 必ず載せたい term を追加
+- 想定する入出力
+  - 入力： ヘッダー付き CSV ファイル。デフォルトの目的変数は 0/1 の asthma_flag（--target で変更可）。
+  - 出力（標準出力）：
+    1. AUC（holdout）：ホールドアウト検証での AUC
+    1. 単一テーブル：`term, coef, p_value, OR_norm, CI_low_norm, CI_high_norm, VIF_norm`
+      - `term`：説明変数名（const は除外）
+      - `coef`：ロジスティック回帰の回帰係数
+      - `p_value`：係数の有意性
+      - `OR_norm`：オッズ比 OR を OR/(1+OR) に変換した 0〜1 値
+      - `CI_low_norm`：95%信頼区間の下限値 CI_low を CI_low/(1+CI_low) に変換した 0～1 値
+      - `CI_high_norm`：95%信頼区間の上限値 CI_high を CI_high/(1+CI_high) に変換した 0～1 値
+      - `VIF_norm`：1 - 1/max(VIF,1) により 0〜1 化（1 に近いほど多重共線性が強い）。
+- 処理の流れ
+  1. 読み込み・検査：CSV を文字列優先で読み込み、target 列が厳密な 0/1 であることを検証
+  1. 前処理：
+    - 数値列とカテゴリ列で分離
+    - カテゴリ列は get_dummies(drop_first=True) でダミー変数化（多重共線性を抑制）
+    - 無限値/全欠損列を除去し、中央値補完、ゼロ分散列の削除
+    - 列名の昇順で並べ、以降の表出力の順序を固定
+  1. 学習・評価：
+    - 学習/検証に分割（層化、既定 80/20）
+    - statsmodels の GLM（Binomial）でロジスティック回帰を学習し、検証で AUC を算出
+  1. 統計量の作成：
+    - 係数・p 値・信頼区間から OR_norm / CI_low_norm / CI_high_norm を計算（いずれも 0〜1）
+    - 説明変数間の多重共線性評価として VIF を算出し、VIF_norm のみを出力
+  1. 固定スキーマ出力：
+    - 実際に学習で使われた列（=基底スキーマ）に、--ensure-terms で指定した列名群を和集合で追加
+    - 最終的な term 一覧を辞書順で固定し、存在しない列は NaN で占位して表を生成
+      - これにより、行数と並びが常に一定となる 
