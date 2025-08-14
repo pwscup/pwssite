@@ -15,9 +15,8 @@
 - 使い方の例
   - `python3 LR_asthma.py HI10K.csv`
   - `python3 LR_asthma.py HI10K.csv --ensure-terms "ETHNICITY_hispanic,GENDER_M,RACE_black"` # 必ず載せたい term を追加
-- 想定する入出力
-  - 入力： ヘッダー付き CSV ファイル。デフォルトの目的変数は 0/1 の asthma_flag（--target で変更可）
-  - 出力（標準出力）：
+- 入力： ヘッダー付き CSV ファイル。デフォルトの目的変数は 0/1 の asthma_flag（--target で変更可）
+- 出力（標準出力）：
     1. AUC（holdout）：ホールドアウト検証での AUC
     2. 単一テーブル：`term, coef, p_value, OR_norm, CI_low_norm, CI_high_norm, VIF_norm`
         - `term`：説明変数名（const は除外）
@@ -43,4 +42,46 @@
   5. 固定スキーマ出力：
       - 実際に学習で使われた列（=基底スキーマ）に、--ensure-terms で指定した列名群を和集合で追加
       - 最終的な term 一覧を辞書順で固定し、存在しない列は NaN で占位して表を生成
-          - これにより、行数と並びが常に一定となる 
+          - これにより、行数と並びが常に一定となる
+
+# `KW_IND.py` : 年齢層における各医療指標の分布差のKruskal-Wallis検定
+- CSV形式の医療データを入力として、年齢を臨床的なカスタム区切り（ビン）で群分けし、各医療指標（例：`encounter_count`, `num_medications` など）についてKruskal–Wallis検定を行い、統計量を入力スケールに依存しない 0〜1 指標へ整形して出力。大規模データや極端なp値でも値が飽和しにくいよう、数値安定化と滑らかな正規化を行っている。
+- 使い方の例
+  - `python3 KW_IND.py HI10K.csv`
+  - `python3 KW_IND.py HI10K.csv --p-norm arctan --p-scale 30` # より緩やかな飽和（有意が多いときの分離改善）
+  - `python3 KW_IND.py HI10K.csv --custom-bins "0,18,65,200"` # ビンを変更（小児・成人・高齢の3群）
+- 目的と特徴
+  - ノンパラメトリック検定（Kruskal–Wallis）で、年齢群間の分布差を評価
+  - 統計量は 0〜1 の指標を提示（コンテストの都合上）：
+      - H_norm（H の規格化指標）
+      - minus_log10_p_norm（p 値から導いた強さを滑らかに 0〜1 化）
+      - 効果量：epsilon2, eta2_kw, rank_eta2, さらに群間ペアの優越確率に基づく A_pair_avg と差の非対称性 A_pair_sym
+      - 数値安定化（chi2_logp_safe）により、かなり小さい p 値でも NaN を回避
+- 入力： ヘッダー付き CSV ファイル。デフォルトの目的変数は 0/1 の asthma_flag（--target で変更可）
+- 出力（標準出力）：
+    1. AUC（holdout）：ホールドアウト検証での AUC
+    2. 単一テーブル：`term, coef, p_value, OR_norm, CI_low_norm, CI_high_norm, VIF_norm`
+        - `term`：説明変数名（const は除外）
+        - `coef`：ロジスティック回帰の回帰係数
+        - `p_value`：係数の有意性
+        - `OR_norm`：オッズ比 OR を OR/(1+OR) に変換した 0〜1 値
+        - `CI_low_norm`：95%信頼区間の下限値 CI_low を CI_low/(1+CI_low) に変換した 0～1 値
+        - `CI_high_norm`：95%信頼区間の上限値 CI_high を CI_high/(1+CI_high) に変換した 0～1 値
+        - `VIF_norm`：1 - 1/max(VIF,1) により 0〜1 化（1 に近いほど多重共線性が強い）
+- 処理の流れ
+  1. 読み込み・検査：CSV を文字列優先で読み込み、target 列が厳密な 0/1 であることを検証
+  2. 前処理：
+      - 数値列とカテゴリ列で分離
+      - カテゴリ列は get_dummies(drop_first=True) でダミー変数化（多重共線性を抑制）
+      - 無限値/全欠損列を除去し、中央値補完、ゼロ分散列の削除
+      - 列名の昇順で並べ、以降の表出力の順序を固定
+  3. 学習・評価：
+      - 学習/検証に分割（層化、既定 80/20）
+      - statsmodels の GLM（Binomial）でロジスティック回帰を学習し、検証で AUC を算出
+  4. 統計量の作成：
+      - 係数・p 値・信頼区間から OR_norm / CI_low_norm / CI_high_norm を計算（いずれも 0〜1）
+      - 説明変数間の多重共線性評価として VIF を算出し、VIF_norm のみを出力
+  5. 固定スキーマ出力：
+      - 実際に学習で使われた列（=基底スキーマ）に、--ensure-terms で指定した列名群を和集合で追加
+      - 最終的な term 一覧を辞書順で固定し、存在しない列は NaN で占位して表を生成
+          - これにより、行数と並びが常に一定となる
