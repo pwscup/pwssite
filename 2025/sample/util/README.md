@@ -1,4 +1,4 @@
-- unified_synthea.py : Synthea が作成した18個のcsvファイルを入力として、データ Ai を作成する。欠損値があるので rev_csv.py を実行する。
+- 'unified_synthea.py' Synthea が作成した18個のcsvファイルを入力として、データ Ai を作成する。欠損値があるので rev_csv.py を実行する。
   - usage: python3 unified_synthea.py <output.csv>
 - rev_csv.py : データ Ai の欠損値対応。num_* の列の欠損値は0を埋める。その他の列で欠損値があるレコードはレコードごと削除する（したがってレコード数が減る場合がある）。
   - usage : python3 rev_csv.py <input.csv> -o <output.csv> 
