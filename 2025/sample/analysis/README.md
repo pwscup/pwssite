@@ -8,13 +8,13 @@
   - 出力（標準出力）：
     1. AUC（holdout）：ホールドアウト検証での AUC
     2. 単一テーブル：`term, coef, p_value, OR_norm, CI_low_norm, CI_high_norm, VIF_norm`
-      - `term`：説明変数名（const は除外）
-      - `coef`：ロジスティック回帰の回帰係数
-      - `p_value`：係数の有意性
-      - `OR_norm`：オッズ比 OR を OR/(1+OR) に変換した 0〜1 値
-      - `CI_low_norm`：95%信頼区間の下限値 CI_low を CI_low/(1+CI_low) に変換した 0～1 値
-      - `CI_high_norm`：95%信頼区間の上限値 CI_high を CI_high/(1+CI_high) に変換した 0～1 値
-      - `VIF_norm`：1 - 1/max(VIF,1) により 0〜1 化（1 に近いほど多重共線性が強い）。
+        - `term`：説明変数名（const は除外）
+        - `coef`：ロジスティック回帰の回帰係数
+        - `p_value`：係数の有意性
+        - `OR_norm`：オッズ比 OR を OR/(1+OR) に変換した 0〜1 値
+        - `CI_low_norm`：95%信頼区間の下限値 CI_low を CI_low/(1+CI_low) に変換した 0～1 値
+        - `CI_high_norm`：95%信頼区間の上限値 CI_high を CI_high/(1+CI_high) に変換した 0～1 値
+        - `VIF_norm`：1 - 1/max(VIF,1) により 0〜1 化（1 に近いほど多重共線性が強い）。
 - 処理の流れ
   1. 読み込み・検査：CSV を文字列優先で読み込み、target 列が厳密な 0/1 であることを検証
   2. 前処理：
