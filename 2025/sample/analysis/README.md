@@ -2,12 +2,14 @@
 - CSV 形式の医療データを入力として、単一変数および二変数間の各種要約統計量を出力。
 - 使い方の例
   - `python3 stats.py HI10K.csv`
-- 出力：標準出力に以下を順に表示
+- 入力：ヘッダー付き CSV ファイル
+    - 実行：`python3 stats.py <input.csv>` 
+- 出力（標準出力）：
   1. 数値列の統計（min–max 正規化後）：平均、標準偏差、四分位数
-  3. 数値×数値の相関行列（Pearson）
-  4. 各カテゴリ列の集計値の比率（ratio）
-  5. カテゴリ×数値の要約統計（min–max 正規化後）：カテゴリの値毎の数値列の平均、標準偏差、四分位数（Group By）
-  6. カテゴリ×カテゴリのクロス集計の値の比率（ratio）
+  2. 数値×数値の相関行列（Pearson）
+  3. 各カテゴリ列の集計値の比率（ratio）
+  4. カテゴリ×数値の要約統計（min–max 正規化後）：カテゴリの値毎の数値列の平均、標準偏差、四分位数（Group By）
+  5. カテゴリ×カテゴリのクロス集計の値の比率（ratio）
 - `AGE` を `\[0–17, 18–44, 45–64, 65–74, 75+\]` の固定ビンで再生成してカテゴリ列 `AGE_GROUP` を新たに作成
 
 # `LR_asthma.py` : 喘息リスク因子のロジスティック回帰
@@ -16,6 +18,7 @@
   - `python3 LR_asthma.py HI10K.csv`
   - `python3 LR_asthma.py HI10K.csv --ensure-terms "ETHNICITY_hispanic,GENDER_M,RACE_black"` # 必ず載せたい term を追加
 - 入力： ヘッダー付き CSV ファイル。デフォルトの目的変数は 0/1 の asthma_flag（--target で変更可）
+    - 実行：`python3 LR_asthma.py <input.csv> \[--target TARGET\] \[--test-size TEST_SIZE\] \[--random-state RANDOM_STATE\] \[--ensure-terms ENSURE_TERMS\]` 
 - 出力（標準出力）：
     1. AUC（holdout）：ホールドアウト検証での AUC
     2. 単一テーブル：`term, coef, p_value, OR_norm, CI_low_norm, CI_high_norm, VIF_norm`
@@ -26,7 +29,7 @@
         - `CI_low_norm`：95%信頼区間の下限値 CI_low を CI_low/(1+CI_low) に変換した 0～1 値
         - `CI_high_norm`：95%信頼区間の上限値 CI_high を CI_high/(1+CI_high) に変換した 0～1 値
         - `VIF_norm`：1 - 1/max(VIF,1) により 0〜1 化（1 に近いほど多重共線性が強い）
-- 処理の流れ
+- 解析の流れ
   1. 読み込み・検査：CSV を文字列優先で読み込み、target 列が厳密な 0/1 であることを検証
   2. 前処理：
       - 数値列とカテゴリ列で分離
@@ -44,7 +47,7 @@
       - 最終的な term 一覧を辞書順で固定し、存在しない列は NaN で占位して表を生成
           - これにより、行数と並びが常に一定となる
 
-# `KW_IND.py` : 年齢層における各医療指標の分布差のKruskal-Wallis検定
+# `KW_IND.py` : 年齢群間における各医療指標の分布差のKruskal-Wallis検定
 - CSV形式の医療データを入力として、年齢を臨床的なカスタム区切り（ビン）で群分けし、各医療指標（例：`encounter_count`, `num_medications` など）についてKruskal–Wallis検定を行い、統計量を入力スケールに依存しない 0〜1 指標へ整形して出力。大規模データや極端なp値でも値が飽和しにくいよう、数値安定化と滑らかな正規化を行っている。
 - 使い方の例
   - `python3 KW_IND.py HI10K.csv`
@@ -53,35 +56,38 @@
 - 目的と特徴
   - ノンパラメトリック検定（Kruskal–Wallis）で、年齢群間の分布差を評価
   - 統計量は 0〜1 の指標を提示（コンテストの都合上）：
-      - H_norm（H の規格化指標）
+      - H_norm（Kruskal-Wallis検定の統計量 H の規格化指標）
       - minus_log10_p_norm（p 値から導いた強さを滑らかに 0〜1 化）
       - 効果量：epsilon2, eta2_kw, rank_eta2, さらに群間ペアの優越確率に基づく A_pair_avg と差の非対称性 A_pair_sym
       - 数値安定化（chi2_logp_safe）により、かなり小さい p 値でも NaN を回避
-- 入力： ヘッダー付き CSV ファイル。デフォルトの目的変数は 0/1 の asthma_flag（--target で変更可）
+- 入力： ヘッダー付き CSV ファイル
+    - 実行：`python3 KW_IND.py <input.csv> \[--age-col AGE_COL\] \[--metrics METRICS\] \[--custom-bins CUSTOM_BINS\] \[--min-per-group MIN_PER_GROUP\] \[--p-norm {arctan,exp,log1p}\] \[--p-scale P_SCALE\] \[--p-cap P_CAP\]`
+        - `--age-col`（既定 AGE）：年齢列名
+        - `--metrics`：解析する数値列（カンマ区切り、既定は代表的 5 指標）
+        - `--custom-bins`：年齢の区切り（例 0,18,45,65,75,200）。未指定は既定ビン
+        - `--min-per-group`：各群の最小サンプル数（既定 2、満たさない群は除外）
+        - `--p-norm`：p 由来指標の正規化方法（arctan/exp/log1p、既定 arctan）
+        - `--p-scale, --p-cap`：正規化の形状調整用パラメータ
 - 出力（標準出力）：
-    1. AUC（holdout）：ホールドアウト検証での AUC
-    2. 単一テーブル：`term, coef, p_value, OR_norm, CI_low_norm, CI_high_norm, VIF_norm`
-        - `term`：説明変数名（const は除外）
-        - `coef`：ロジスティック回帰の回帰係数
-        - `p_value`：係数の有意性
-        - `OR_norm`：オッズ比 OR を OR/(1+OR) に変換した 0〜1 値
-        - `CI_low_norm`：95%信頼区間の下限値 CI_low を CI_low/(1+CI_low) に変換した 0～1 値
-        - `CI_high_norm`：95%信頼区間の上限値 CI_high を CI_high/(1+CI_high) に変換した 0～1 値
-        - `VIF_norm`：1 - 1/max(VIF,1) により 0〜1 化（1 に近いほど多重共線性が強い）
-- 処理の流れ
-  1. 読み込み・検査：CSV を文字列優先で読み込み、target 列が厳密な 0/1 であることを検証
-  2. 前処理：
-      - 数値列とカテゴリ列で分離
-      - カテゴリ列は get_dummies(drop_first=True) でダミー変数化（多重共線性を抑制）
-      - 無限値/全欠損列を除去し、中央値補完、ゼロ分散列の削除
-      - 列名の昇順で並べ、以降の表出力の順序を固定
-  3. 学習・評価：
-      - 学習/検証に分割（層化、既定 80/20）
-      - statsmodels の GLM（Binomial）でロジスティック回帰を学習し、検証で AUC を算出
-  4. 統計量の作成：
-      - 係数・p 値・信頼区間から OR_norm / CI_low_norm / CI_high_norm を計算（いずれも 0〜1）
-      - 説明変数間の多重共線性評価として VIF を算出し、VIF_norm のみを出力
-  5. 固定スキーマ出力：
-      - 実際に学習で使われた列（=基底スキーマ）に、--ensure-terms で指定した列名群を和集合で追加
-      - 最終的な term 一覧を辞書順で固定し、存在しない列は NaN で占位して表を生成
-          - これにより、行数と並びが常に一定となる
+    1. `metric`：指標名
+    2. `group_sizes`：利用群のサイズ
+    3. `H_norm`：0〜1
+    4. `minus_log10_p_norm`：0〜1
+    5. `epsilon2`：0〜1
+    6. `eta2_kw`：0〜1
+    7. `rank_eta2`：0〜1
+    8. `A_pair_avg`：0〜1（0.5 中立）
+    9. `A_pair_sym`：0〜1（群間差の左右非対称性）
+- 解析の流れ
+  1. 年齢のビニング：`--custom-bins` で与えた左閉右開区間に年齢を割当て。未指定時は既定の臨床区切りを使用
+  2. 前処理：各メトリクス列を数値化し、`min_per_group` 未満の群は解析から外す
+  3. Kruskal–Wallis 検定：利用可能な群で H を計算
+  4. p 値の数値安定化：H と自由度から `logsf` を基本に、Wilson–Hilferty 近似や正規漸近で**安定な `-log10(p)`**を得る
+  5. 正規化：
+      - `H_norm`：理論最大 H（完全分離・同点なし）で割って 0〜1 化
+      - `minus_log10_p_norm`：`arctan/exp/log1p` の滑らかな飽和関数で 0〜1 に写像
+  6. 効果量：
+      - `epsilon2`：H の補正に基づく 0〜1 指標
+      - `eta2_kw`：Kruskal-Wallis検定に対応した η² 近似
+      - `rank_eta2`：全体順位化 → 一元 ANOVA の η²（SSB/SST）
+      - `A_pair_avg`/`A_pair_sym`：全 i<j ペアの Vargha–Delaney A をサイズ重みで要約
