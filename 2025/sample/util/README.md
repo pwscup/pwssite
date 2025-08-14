@@ -9,3 +9,7 @@
     - 出力ファイル名省略時は、入力ファイル名の拡張子をjsonとしたファイル名で出力
 - `check_csv.py` : csvファイル（Aiを想定）と各列の値域を記したjsonファイル（columns_range_json.pyの出力ファイルを想定）を入力として、入力のcsvファイルの各値がjsonファイルに記された値域にしたがっているかチェックする。
   - usage : `python3 check_csv.py <input.csv> <input.json>`
+- `random_sampling.py` : csvファイル（Aiを想定）を入力として、引数で指定したN個のレコードをランダムに抽出したcsvファイルを出力する。
+  - usage : `python3 random_sampling.py \[-n N\] \[--seed SEED\] <input.csv> <output.csv>`
+    - \[-n N\]を省略した場合はデフォルト値のN=10000が適用される。
+    - \[--seed SEED\]はSEEDの値を固定すれば同じ番号のレコードが出力される。
