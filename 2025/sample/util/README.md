@@ -1,9 +1,11 @@
-- `unified_synthea.py` : Synthea が作成した18個のcsvファイルを入力として、データ Ai を作成する。欠損値があるので rev_csv.py を実行する。
+- `unified_synthea.py` : Syntheaが作成した18個のcsvファイルを入力として、データAiを作成する。欠損値があるので、続けてrev_csv.pyを実行すること。
   - usage: `python3 unified_synthea.py <output.csv>`
-- `rev_csv.py` : データ Ai の欠損値対応。num_* の列の欠損値は0を埋める。その他の列で欠損値があるレコードはレコードごと削除する（したがってレコード数が減る場合がある）。
+- `rev_csv.py` : データAiの欠損値対応。num_* の列の欠損値は0を埋める。その他の列で欠損値があるレコードはレコードごと削除する（したがってレコード数が減る場合がある）。
   - usage : `python3 rev_csv.py <input.csv> -o <output.csv>` 
-- `check_duplicates.py` : csvファイル（Ai を想定）を入力として、重複レコードがないかチェックする。重複レコードがあるとメンバーシップ推定攻撃のルールが複雑になるため、Ai に重複レコードがあった場合は Ai を作り直す。
+- `check_duplicates.py` : csvファイル（Aiを想定）を入力として、重複レコードがないかチェックする。重複レコードがあるとメンバーシップ推定攻撃のルールが複雑になるため、Aiに重複レコードがあった場合は Aiを作り直す。
   - usage : `python3 check_duplicates.py <input.csv>`
 - `columns_range_json.py` : csvファイルを入力として、各列の値域を求めてjsonファイルとして出力する。
-  - usage : `python3 columns_range_json.py <input.csv> \[-o output.json\]
-    - 出力ファイル名省略時は、入力ファイル名の拡張子をjsonとしたファイル名で出力   
+  - usage : `python3 columns_range_json.py <input.csv> \[-o output.json\]`
+    - 出力ファイル名省略時は、入力ファイル名の拡張子をjsonとしたファイル名で出力
+- `check_csv.py` : csvファイル（Aiを想定）と各列の値域を記したjsonファイル（columns_range_json.pyの出力ファイルを想定）を入力として、入力のcsvファイルの各値がjsonファイルに記された値域にしたがっているかチェックする。
+  - usage : `python3 check_csv.py <input.csv> <input.json>`
