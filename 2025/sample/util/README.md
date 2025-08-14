@@ -2,3 +2,5 @@
   - usage: `python3 unified_synthea.py <output.csv>`
 - `rev_csv.py` : データ Ai の欠損値対応。num_* の列の欠損値は0を埋める。その他の列で欠損値があるレコードはレコードごと削除する（したがってレコード数が減る場合がある）。
   - usage : `python3 rev_csv.py <input.csv> -o <output.csv>` 
+- `check_duplicates.py` : csvファイル（Ai を想定）を入力として、重複レコードがないかチェックする。重複レコードがあるとメンバーシップ推定攻撃のルールが複雑になるため、Ai に重複レコードがあった場合は Ai を作り直す。
+  - usage : `python3 check_duplicates.py <input.csv>` 
