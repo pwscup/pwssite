@@ -1,8 +1,8 @@
-# `LM_asthma.py` : 喘息リスク因子のロジスティック回帰
+# `LR_asthma.py` : 喘息リスク因子のロジスティック回帰
 - CSV 形式の医療データを入力として、二値目的変数（既定：`asthma_flag`）に対してロジスティック回帰を適用し、係数や信頼区間由来の指標を0〜1に正規化して出力。多重共線性の強さを示す VIF を正規化した値も出力。出力行の個数・順序を入力データに依存させず一定に保つため、実際にモデルに入らなかった項目も値をNaNとして出力。
 - 使い方の例
-  - `python3 LM_asthma.py HI10K.csv`
-  - `python3 LM_asthma.py HI10K.csv --ensure-terms "ETHNICITY_hispanic,GENDER_M,RACE_black"` # 必ず載せたい term を追加
+  - `python3 LR_asthma.py HI10K.csv`
+  - `python3 LR_asthma.py HI10K.csv --ensure-terms "ETHNICITY_hispanic,GENDER_M,RACE_black"` # 必ず載せたい term を追加
 - 想定する入出力
   - 入力： ヘッダー付き CSV ファイル。デフォルトの目的変数は 0/1 の asthma_flag（--target で変更可）
   - 出力（標準出力）：
