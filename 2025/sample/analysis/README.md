@@ -1,7 +1,7 @@
 # `stats.py` : 要約統計量
 - CSV 形式の医療データを入力として、単一変数および二変数間の各種要約統計量を出力。
 - 使い方の例
-  - `python3 stats.py HI10K.csv`
+  - `python3 stats.py HI_10K.csv`
 - 入力：ヘッダー付き CSV ファイル
     - 実行：`python3 stats.py <input.csv>` 
 - 出力（標準出力）：
@@ -15,8 +15,8 @@
 # `LR_asthma.py` : 喘息リスク因子のロジスティック回帰
 - CSV 形式の医療データを入力として、二値目的変数（既定：`asthma_flag`）に対してロジスティック回帰を適用し、係数や信頼区間由来の指標を0〜1に正規化して出力。多重共線性の強さを示す VIF を正規化した値も出力。出力行の個数・順序を入力データに依存させず一定に保つため、実際にモデルに入らなかった項目も値をNaNとして出力。
 - 使い方の例
-  - `python3 LR_asthma.py HI10K.csv`
-  - `python3 LR_asthma.py HI10K.csv --ensure-terms "ETHNICITY_hispanic,GENDER_M,RACE_black"` # 必ず載せたい term を追加
+  - `python3 LR_asthma.py HI_10K.csv`
+  - `python3 LR_asthma.py HI_10K.csv --ensure-terms "ETHNICITY_hispanic,GENDER_M,RACE_black"` # 必ず載せたい term を追加
 - 入力： ヘッダー付き CSV ファイル。デフォルトの目的変数は 0/1 の asthma_flag（--target で変更可）
     - 実行：`python3 LR_asthma.py <input.csv> \[--target TARGET\] \[--test-size TEST_SIZE\] \[--random-state RANDOM_STATE\] \[--ensure-terms ENSURE_TERMS\]` 
 - 出力（標準出力）：
@@ -50,9 +50,9 @@
 # `KW_IND.py` : 年齢群間における各医療指標の分布差のKruskal-Wallis検定
 - CSV形式の医療データを入力として、年齢を臨床的なカスタム区切り（ビン）で群分けし、各医療指標（例：`encounter_count`, `num_medications` など）についてKruskal–Wallis検定を行い、統計量を入力スケールに依存しない 0〜1 指標へ整形して出力。大規模データや極端なp値でも値が飽和しにくいよう、数値安定化と滑らかな正規化を行っている。
 - 使い方の例
-  - `python3 KW_IND.py HI10K.csv`
-  - `python3 KW_IND.py HI10K.csv --p-norm arctan --p-scale 30` # より緩やかな飽和（有意が多いときの分離改善）
-  - `python3 KW_IND.py HI10K.csv --custom-bins "0,18,65,200"` # ビンを変更（小児・成人・高齢の3群）
+  - `python3 KW_IND.py HI_10K.csv`
+  - `python3 KW_IND.py HI_10K.csv --p-norm arctan --p-scale 30` # より緩やかな飽和（有意が多いときの分離改善）
+  - `python3 KW_IND.py HI_10K.csv --custom-bins "0,18,65,200"` # ビンを変更（小児・成人・高齢の3群）
 - 目的と特徴
   - ノンパラメトリック検定（Kruskal–Wallis）で、年齢群間の分布差を評価
   - 統計量は 0〜1 の指標を提示（コンテストの都合上）：
@@ -91,3 +91,42 @@
       - `eta2_kw`：Kruskal-Wallis検定に対応した η² 近似
       - `rank_eta2`：全体順位化 → 一元 ANOVA の η²（SSB/SST）
       - `A_pair_avg`/`A_pair_sym`：全 i<j ペアの Vargha–Delaney A をサイズ重みで要約
+
+# `xgbt_train.py` : XGBoostで二値目的変数を学習
+- CSV形式の医療データを入力として、説明変数を自動整形してから XGBoost（分類）で二値目的変数を学習し、学習済みモデルをJSONファイルとして保存。
+- 使い方の例
+  - `python3 xgbt_train.py HI_10K.csv --model-json model.json`
+  - `python3 xgbt_train.py HI_10K.csv --model-json model.json --target obesity_flag --seed 123 --n-estimators 600 --max-depth 5 --learning-rate 0.06 --subsample 0.8 --colsample-bytree 0.8 --early-stopping-rounds 40` # 目的変数やハイパーパラメータを変更
+- 入力： ヘッダー付き CSV ファイル
+    - 実行：`python3 xgbt_train.py <input.csv> --model-json <output.json> \[--target TARGET\] \[--seed SEED\] \[--test-size TEST-SIZE\] \[--n-estimators N-EST\] \[--max-depth MAX-DEPTH\] \[--learning-rate LEARNING-RATE\] \[--subsample SUBSAMPLE\] \[--colsample-bytree COLS-BYTREE\] \[--early-stopping-rounds EARLY-STOPPING-ROUNDS\]
+        - `--target`：目的変数（既定 stroke_flag、0/1 必須）
+        - `--seed`：乱数シード
+        - `--test-size`：検証データ比率（既定値 0.1）
+        - `--n-estimators`：学習ハイパーパラメータ（既定値 600）
+        - `--max-depth`：学習ハイパーパラメータ（既定値 6）
+        - `--learning-rate`：学習ハイパーパラメータ（既定値 0.05）
+        - `--subsample`：学習ハイパーパラメータ（既定値 0.9）
+        - `--colsample_bytree`：学習ハイパーパラメータ（既定値 0.9）
+        - `--early-stopping-rounds`：学習ハイパーパラメータ（既定値 50）
+- 前処理
+    1. 読み込み：`input.csv` を文字列として読み込み、`--traget`（既定：`stroke_flag`）が0/1の二値になっているかチェック
+    2. 目的変数を除外し、説明変数を抽出
+    3. 各列を `pd.to_numeric(..., errors="coerce")` で数値化できるかチェックし、数値化できたものを数値列として採用
+    4. 残りはカテゴリ列とみなし、`get_dummies(drop_first=True)` でOne-Hot化
+    5. ゼロ分散列の除外（全値が同じなど、学習に寄与しない列を削除）
+    6. 列名を照準に固定し、`float32` 化 
+- データ分割と学習
+    - `train_test_split`（層化 `stratify=y`）で 学習/検証 = 90/10（既定）
+    - モデルは `xgb.XGBClassifier`：
+        - `objective="binary:logistic"`（確率出力）
+        - `eval_metric="logloss"`
+        - `tree_method="hist"`
+        - 主要なハイパーパラメータは引数で変更可能（既定：`n_estimators=600`, `max_depth=6`, `learning_rate=0.05`, `subsample=0.9`, `colsample_bytree=0.9`）
+    - 早期終了はコンストラクタで `early_stopping_rounds=50` を指定し、`fit` の `eval_set=\[(X_val, y_val)\] を監視
+        - 改善が止まると停止
+- 学習後の評価と出力（ファイル保存）：
+    - 検証セットで `predict_proba` を 0.5 で二値化し、Validation Accuracy を標準出力
+    - `model.get_booster()` の結果を JSON で保存（--model-json）
+    - attributes にメタ情報を埋め込み：
+        - `feature_names`：学習に使った列名リスト（JSON 文字列）
+        - `target`：目的変数名
