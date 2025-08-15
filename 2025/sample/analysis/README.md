@@ -134,10 +134,13 @@
     - 共通
         - 文字コード：UTF-8
         - 形式：1つのJSONオブジェクト（末尾カンマ不可）
-        - トップレベル必須キー：`learner`, `attributes`
-jsonc**
-{
-  "learner": { ... },
-  "attributes": { ... }
-}
-**  
+        - トップレベルキー：`learner`, `attributes`
+    - `attributes`
+        - `feature_names`：JSON文字列
+            - 例：`"\[\"AGE\",\"GENDER_M\",\"num_medications\"\]"`
+            - `json.loads()` で配列に復元可能であること
+            - 復元配列 `F` は以下を満たす：
+                - 長さ ≥ 1、要素は文字列のみ、重複なし、空文字なし
+                - 学習時の特徴量列順と完全一致（`xgbt_train.py` 既定は 列名の昇順 `sorted()`）
+            - `target`：文字列（例：`"stroke_flag"`、0/1の二値目的変数名）
+            - `xgboost_version`：文字列（例：`"1.7.6"`）  
