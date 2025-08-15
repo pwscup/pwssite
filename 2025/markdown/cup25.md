@@ -1,7 +1,7 @@
 # PWS Cup 2025
 
 ## What's New
-- 2025/08/14(木) [サンプルデータとサンプルコードを公開しました](https://github.com/pwscup/pwssite/tree/gh-pages/2025/sample)（随時追加予定）
+- 2025/08/14(木) [サンプルデータとサンプルコードを公開しました](https://github.com/pwscup/pwscup2025-scripts)（随時追加予定）
 - 2025/08/14(木) [説明会資料を更新しました](./Images/20250813_PWSCUP2025説明資料v2.pdf)
 - 2025/08/06(水) [説明会資料をアップしました](./Images/20250806_PWSCUP2025説明資料.pdf)
 - 2025/08/06(水) [参加申込ページをオープンしました!](https://forms.gle/DAB4XDepKvDb1irt8)
