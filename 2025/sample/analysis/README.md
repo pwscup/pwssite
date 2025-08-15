@@ -130,17 +130,26 @@
     - attributes にメタ情報を埋め込み：
         - `feature_names`：学習に使った列名リスト（JSON 文字列）
         - `target`：目的変数名
-- JSONファイル仕様
+- JSONファイル仕様（最小構成のサンプルファイル `sample_minimum_model.json` 参照）
     - 共通
         - 文字コード：UTF-8
         - 形式：1つのJSONオブジェクト（末尾カンマ不可）
-        - トップレベルキー：`learner`, `attributes`
+        - トップレベルキー：`version`, `learner`, `attributes`
+    - `version`
+        - XGBoostのモデル形式バージョン。`save_model` が自動付与 
     - `attributes`
-        - `feature_names`：JSON文字列
-            - 例：`"\[\"AGE\",\"GENDER_M\",\"num_medications\"\]"`
-            - `json.loads()` で配列に復元可能であること
-            - 復元配列 `F` は以下を満たす：
-                - 長さ ≥ 1、要素は文字列のみ、重複なし、空文字なし
-                - 学習時の特徴量列順と完全一致（`xgbt_train.py` 既定は 列名の昇順 `sorted()`）
-            - `target`：文字列（例：`"stroke_flag"`、0/1の二値目的変数名）
-            - `xgboost_version`：文字列（例：`"1.7.6"`）  
+        - `feature_names`：学習に用いた列名のJSON文字列
+            - 例：`"\[\"AGE\",\"GENDER_M\",\"num_medications\", ...\]"`
+            - 配列に復元すると 長さ ≥ 1 / 文字列のみ / 重複なし / 列名昇順（sorted）
+        - `target`: 目的変数名（例：`"stroke_flag"`、0/1 二値）
+        - `xgboost_version`: 学習時の xgboost バージョン（例：`"2.0.3"`
+    - `learner`
+        - `learner.objective.name == "binary:logistic"`
+        - `learner.gradient_booster.name == "gbtree"`
+        - `learner.gradient_booster.model.trees`: 配列長 ≥ 1
+        - `learner.learner_model_param.num_feature`: **数値（文字列可）**で、`len(attributes.feature_names を復元した配列)` と一致
+    - 一貫性チェック（`validate_model_json.py` でチェック可能）
+        1. `attributes.feature_names` を `json.loads()` で配列に復元できる
+        2. 復元配列の長さと `learner.learner_model_param.num_feature` が一致
+        3. `attributes.target` は非空文字列
+        4. `version` は存在し、`xgbt_pred.py` 実行中の xgboost と比較可能（実行時チェックでモデル側が新しければエラー） 
