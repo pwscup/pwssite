@@ -136,7 +136,7 @@
   <thead>
     <tr>
       <th scope="col">Team ID</th>
-      <th scope="col">CodaLabアカウント</th>
+      <th scope="col">Codabenchアカウント</th>
       <th scope="col">チーム名</th>
       <th scope="col">意気込み</th>
       <th scope="col">代表者</th>
@@ -262,8 +262,8 @@
       <td></td>
       <td>Gunmataro118</td>
       <td>今年もがんばります</td>
-      <td>（非公開）</td>
-      <td>（非公開）</td>
+      <td>中島崚杜</td>
+      <td>群馬大学</td>
       <td>千田浩司</td>
       <td>群馬大学</td>
       <td></td>
@@ -310,6 +310,17 @@
       <td>静岡大学</td>
       <td>大木哲史</td>
       <td>静岡大学</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>05</td>
+      <td></td>
+      <td>ドクターX〜外科医・大門ステテ子〜</td>
+      <td>私、失敗しないので。</td>
+      <td>小泉海斗</td>
+      <td>明治大学</td>
+      <td>菊池浩明</td>
+      <td>明治大学</td>
       <td></td>
     </tr>
   </tbody>
