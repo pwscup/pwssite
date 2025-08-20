@@ -165,8 +165,8 @@
       <td></td>
       <td>（非公開）</td>
       <td>NECソリューションイノベータ</td>
-      <td>無</td>
-      <td>無</td>
+      <td></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -176,8 +176,8 @@
       <td>試験的に参加しています。途中辞退する可能性があります。</td>
       <td>（非公開）</td>
       <td>（非公開）</td>
-      <td>無</td>
-      <td>無</td>
+      <td></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -187,8 +187,8 @@
       <td>がんばります。</td>
       <td>（非公開）</td>
       <td>（非公開）</td>
-      <td>無</td>
-      <td>無</td>
+      <td></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -209,8 +209,8 @@
       <td>頑張ります</td>
       <td>（非公開）</td>
       <td>（非公開）</td>
-      <td>無</td>
-      <td>無</td>
+      <td></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -220,8 +220,8 @@
       <td>In a world of 0s and 1s, seeking wireless possibilities.</td>
       <td>孙赛格</td>
       <td>Inner Mongolia University of Technology</td>
-      <td>马瑞强</td>
-      <td>（非公開）</td>
+      <td></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -253,8 +253,8 @@
       <td></td>
       <td>（非公開）</td>
       <td>群馬大学</td>
-      <td>無</td>
-      <td>無</td>
+      <td></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -275,8 +275,8 @@
       <td>頑張ります</td>
       <td>（非公開）</td>
       <td>（非公開）</td>
-      <td>無</td>
-      <td>無</td>
+      <td></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -286,8 +286,8 @@
       <td>頑張ります</td>
       <td>（非公開）</td>
       <td>（非公開）</td>
-      <td>無</td>
-      <td>無</td>
+      <td></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -343,6 +343,28 @@
       <td>神奈川大学</td>
       <td>藤岡淳</td>
       <td>神奈川大学</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td></td>
+      <td>Sukurypt</td>
+      <td></td>
+      <td>（非公開）</td>
+      <td>（非公開）</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td></td>
+      <td>Electric</td>
+      <td></td>
+      <td>（非公開）</td>
+      <td>（非公開）</td>
+      <td></td>
+      <td></td>
       <td></td>
     </tr>
   </tbody>
