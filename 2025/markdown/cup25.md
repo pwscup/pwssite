@@ -132,7 +132,7 @@
 
 ## <a id="team"></a>参加チーム
 
-<table>
+<table class="schedule">
   <thead>
     <tr>
       <th scope="col">Team ID</th>
