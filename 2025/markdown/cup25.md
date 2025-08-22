@@ -149,7 +149,7 @@
   <tbody>
     <tr>
       <td>01</td>
-      <td></td>
+      <td>myjlabexe</td>
       <td>宮地研.exe</td>
       <td>頑張ります！</td>
       <td>柳下智史</td>
@@ -160,7 +160,7 @@
     </tr>
     <tr>
       <td>02</td>
-      <td></td>
+      <td>shioriabe</td>
       <td>SHA-NES</td>
       <td></td>
       <td>（非公開）</td>
@@ -182,7 +182,7 @@
     </tr>
     <tr>
       <td>04</td>
-      <td></td>
+      <td>tailwind</td>
       <td>RIDJI</td>
       <td>がんばります。</td>
       <td>（非公開）</td>
@@ -226,7 +226,7 @@
     </tr>
     <tr>
       <td>08</td>
-      <td></td>
+      <td>kinsuguru</td>
       <td>Asakatsu2025</td>
       <td>活動はアクティブ，なんですよね．</td>
       <td>金杰</td>
@@ -237,7 +237,7 @@
     </tr>
     <tr>
       <td>09</td>
-      <td></td>
+      <td>takabayashi</td>
       <td>PRI柱 匿名門炭治郎</td>
       <td>俺は長男だから匿名化できたけど次男だったら匿名化できなかった</td>
       <td>髙林和希</td>
@@ -248,7 +248,7 @@
     </tr>
     <tr>
       <td>10</td>
-      <td></td>
+      <td>4ustin</td>
       <td>touseki</td>
       <td></td>
       <td>（非公開）</td>
@@ -259,7 +259,7 @@
     </tr>
     <tr>
       <td>11</td>
-      <td></td>
+      <td>haruto_nakajima</td>
       <td>Gunmataro118</td>
       <td>今年もがんばります</td>
       <td>中島崚杜</td>
@@ -281,7 +281,7 @@
     </tr>
     <tr>
       <td>13</td>
-      <td></td>
+      <td>flagofadipose</td>
       <td>肥満フラグ管理局《Flag of Adipose》</td>
       <td>頑張ります</td>
       <td>（非公開）</td>
@@ -303,7 +303,7 @@
     </tr>
     <tr>
       <td>15</td>
-      <td></td>
+      <td>ascendia</td>
       <td>新進気鋭</td>
       <td>新しく分野を学びながら、リーダーの先輩と一緒に優勝目指して頑張ります</td>
       <td>笹天駿</td>
@@ -325,7 +325,7 @@
     </tr>
     <tr>
       <td>17</td>
-      <td></td>
+      <td>k4k40</td>
       <td>コルンバ</td>
       <td>全員初参加ですが、自分たちの持つ力を発揮できるように頑張ります！</td>
       <td>東政澄</td>
@@ -336,7 +336,7 @@
     </tr>
     <tr>
       <td>18</td>
-      <td></td>
+      <td>yokoyama</td>
       <td>神ぼ大 sponsored by νττ</td>
       <td>ぼっちと繋いだ手は離さない</td>
       <td>横山彩更</td>
@@ -358,9 +358,20 @@
     </tr>
     <tr>
       <td>20</td>
-      <td></td>
+      <td>horigome</td>
       <td>Electric</td>
       <td></td>
+      <td>（非公開）</td>
+      <td>（非公開）</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td></td>
+      <td>Ritz2</td>
+      <td>がんばります！</td>
       <td>（非公開）</td>
       <td>（非公開）</td>
       <td></td>
