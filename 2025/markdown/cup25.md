@@ -160,7 +160,7 @@
     </tr>
     <tr>
       <td>02</td>
-      <td></td>
+      <td>shioriabe</td>
       <td>SHA-NES</td>
       <td></td>
       <td>（非公開）</td>
@@ -182,7 +182,7 @@
     </tr>
     <tr>
       <td>04</td>
-      <td></td>
+      <td>tailwind</td>
       <td>RIDJI</td>
       <td>がんばります。</td>
       <td>（非公開）</td>
@@ -248,7 +248,7 @@
     </tr>
     <tr>
       <td>10</td>
-      <td></td>
+      <td>4ustin</td>
       <td>touseki</td>
       <td></td>
       <td>（非公開）</td>
@@ -281,7 +281,7 @@
     </tr>
     <tr>
       <td>13</td>
-      <td></td>
+      <td>flagofadipose</td>
       <td>肥満フラグ管理局《Flag of Adipose》</td>
       <td>頑張ります</td>
       <td>（非公開）</td>
@@ -303,7 +303,7 @@
     </tr>
     <tr>
       <td>15</td>
-      <td></td>
+      <td>ascendia</td>
       <td>新進気鋭</td>
       <td>新しく分野を学びながら、リーダーの先輩と一緒に優勝目指して頑張ります</td>
       <td>笹天駿</td>
@@ -358,9 +358,20 @@
     </tr>
     <tr>
       <td>20</td>
-      <td></td>
+      <td>horigome</td>
       <td>Electric</td>
       <td></td>
+      <td>（非公開）</td>
+      <td>（非公開）</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td></td>
+      <td>Ritz2</td>
+      <td>がんばります！</td>
       <td>（非公開）</td>
       <td>（非公開）</td>
       <td></td>
