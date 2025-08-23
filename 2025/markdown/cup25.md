@@ -193,7 +193,7 @@
     </tr>
     <tr>
       <td>05</td>
-      <td></td>
+      <td>ryusei339</td>
       <td>シン・ステテコ</td>
       <td>ジャイアント・キリングを目指します</td>
       <td>寳木隆正</td>
@@ -215,7 +215,7 @@
     </tr>
     <tr>
       <td>07</td>
-      <td></td>
+      <td>rq1543179</td>
       <td>Hell（OwO）rld</td>
       <td>In a world of 0s and 1s, seeking wireless possibilities.</td>
       <td>孙赛格</td>
@@ -314,7 +314,7 @@
     </tr>
     <tr>
       <td>16</td>
-      <td></td>
+      <td>tabati1s</td>
       <td>ドクターX〜外科医・大門ステテ子〜</td>
       <td>私、失敗しないので。</td>
       <td>小泉海斗</td>
