@@ -136,258 +136,212 @@
   <thead>
     <tr>
       <th scope="col">Team ID</th>
-      <th scope="col">CodaBenchアカウント</th>
       <th scope="col">チーム名</th>
       <th scope="col">意気込み</th>
       <th scope="col">代表者</th>
       <th scope="col">代表者所属</th>
       <th scope="col">責任者</th>
       <th scope="col">責任者所属</th>
-      <th scope="col">ポスター</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>01</td>
-      <td>myjlabexe</td>
       <td>宮地研.exe</td>
       <td>頑張ります！</td>
       <td>柳下智史</td>
       <td>大阪大学 / 宮地研究室</td>
       <td>宮地充子</td>
       <td>大阪大学 / 宮地研究室</td>
-      <td></td>
     </tr>
     <tr>
       <td>02</td>
-      <td>shioriabe</td>
       <td>SHA-NES</td>
       <td></td>
       <td>（非公開）</td>
       <td>NECソリューションイノベータ</td>
       <td></td>
       <td></td>
-      <td></td>
     </tr>
     <tr>
       <td>03</td>
-      <td></td>
       <td>bot035</td>
       <td>試験的に参加しています。途中辞退する可能性があります。</td>
       <td>（非公開）</td>
       <td>（非公開）</td>
       <td></td>
       <td></td>
-      <td></td>
     </tr>
     <tr>
       <td>04</td>
-      <td>tailwind</td>
       <td>RIDJI</td>
       <td>がんばります。</td>
       <td>（非公開）</td>
       <td>（非公開）</td>
       <td></td>
       <td></td>
-      <td></td>
     </tr>
     <tr>
       <td>05</td>
-      <td>ryusei339</td>
       <td>シン・ステテコ</td>
       <td>ジャイアント・キリングを目指します</td>
       <td>寳木隆正</td>
       <td>明治大学</td>
       <td>菊池浩明</td>
       <td>明治大学</td>
-      <td></td>
     </tr>
     <tr>
       <td>06</td>
-      <td></td>
       <td>(・▴・) / cdot</td>
       <td>頑張ります</td>
       <td>（非公開）</td>
       <td>（非公開）</td>
       <td></td>
       <td></td>
-      <td></td>
     </tr>
     <tr>
       <td>07</td>
-      <td>rq1543179</td>
       <td>Hell（OwO）rld</td>
       <td>In a world of 0s and 1s, seeking wireless possibilities.</td>
       <td>孙赛格</td>
       <td>Inner Mongolia University of Technology</td>
       <td></td>
       <td></td>
-      <td></td>
     </tr>
     <tr>
       <td>08</td>
-      <td>kinsuguru</td>
       <td>Asakatsu2025</td>
       <td>活動はアクティブ，なんですよね．</td>
       <td>金杰</td>
       <td>静岡大学創造科学技術大学院</td>
       <td>大木哲史</td>
       <td>静岡大学</td>
-      <td></td>
     </tr>
     <tr>
       <td>09</td>
-      <td>takabayashi</td>
       <td>PRI柱 匿名門炭治郎</td>
       <td>俺は長男だから匿名化できたけど次男だったら匿名化できなかった</td>
       <td>髙林和希</td>
       <td>静岡大学</td>
       <td>西垣正勝</td>
       <td>静岡大学</td>
-      <td></td>
     </tr>
     <tr>
       <td>10</td>
-      <td>4ustin</td>
       <td>touseki</td>
       <td></td>
       <td>（非公開）</td>
       <td>群馬大学</td>
       <td></td>
       <td></td>
-      <td></td>
     </tr>
     <tr>
       <td>11</td>
-      <td>haruto_nakajima</td>
       <td>Gunmataro118</td>
       <td>今年もがんばります</td>
       <td>中島崚杜</td>
       <td>群馬大学</td>
       <td>千田浩司</td>
       <td>群馬大学</td>
-      <td></td>
     </tr>
     <tr>
       <td>12</td>
-      <td></td>
       <td>たけのこ半島2025</td>
       <td>頑張ります</td>
       <td>（非公開）</td>
       <td>（非公開）</td>
       <td></td>
       <td></td>
-      <td></td>
     </tr>
     <tr>
       <td>13</td>
-      <td>flagofadipose</td>
       <td>肥満フラグ管理局《Flag of Adipose》</td>
       <td>頑張ります</td>
       <td>（非公開）</td>
       <td>（非公開）</td>
       <td></td>
       <td></td>
-      <td></td>
     </tr>
     <tr>
       <td>14</td>
-      <td></td>
       <td>UNFROZEN</td>
       <td></td>
       <td>（非公開）</td>
       <td>筑波技術大学</td>
       <td>渡辺知恵美</td>
       <td>筑波技術大学</td>
-      <td></td>
     </tr>
     <tr>
       <td>15</td>
-      <td>ascendia</td>
       <td>新進気鋭</td>
       <td>新しく分野を学びながら、リーダーの先輩と一緒に優勝目指して頑張ります</td>
       <td>笹天駿</td>
       <td>静岡大学</td>
       <td>大木哲史</td>
       <td>静岡大学</td>
-      <td></td>
     </tr>
     <tr>
       <td>16</td>
-      <td>tabati1s</td>
       <td>ドクターX〜外科医・大門ステテ子〜</td>
       <td>私、失敗しないので。</td>
       <td>小泉海斗</td>
       <td>明治大学</td>
       <td>菊池浩明</td>
       <td>明治大学</td>
-      <td></td>
     </tr>
     <tr>
       <td>17</td>
-      <td>k4k40</td>
       <td>コルンバ</td>
       <td>全員初参加ですが、自分たちの持つ力を発揮できるように頑張ります！</td>
       <td>東政澄</td>
       <td>名古屋工業大学</td>
       <td>掛井将平</td>
       <td>名古屋工業大学</td>
-      <td></td>
     </tr>
     <tr>
       <td>18</td>
-      <td>yokoyama</td>
       <td>神ぼ大 sponsored by νττ</td>
       <td>ぼっちと繋いだ手は離さない</td>
       <td>横山彩更</td>
       <td>神奈川大学</td>
       <td>藤岡淳</td>
       <td>神奈川大学</td>
-      <td></td>
     </tr>
     <tr>
       <td>19</td>
-      <td></td>
       <td>Sukurypt</td>
       <td></td>
       <td>（非公開）</td>
       <td>（非公開）</td>
       <td></td>
       <td></td>
-      <td></td>
     </tr>
     <tr>
       <td>20</td>
-      <td>horigome</td>
       <td>Electric</td>
       <td></td>
       <td>（非公開）</td>
       <td>（非公開）</td>
       <td></td>
       <td></td>
-      <td></td>
     </tr>
     <tr>
       <td>21</td>
-      <td></td>
       <td>Ritz2</td>
       <td>がんばります！</td>
       <td>（非公開）</td>
       <td>（非公開）</td>
       <td></td>
       <td></td>
-      <td></td>
     </tr>
     <tr>
       <td>22</td>
-      <td></td>
       <td>HAPPY</td>
       <td>タ＊ピー、データを復元して中の人を調べる道具、出して</td>
       <td>菊池陽</td>
       <td>中央大学／データサイエンス共同利用基盤施設</td>
       <td>南和宏</td>
       <td>統計数理研究所／データサイエンス共同利用基盤施設</td>
-      <td></td>
     </tr>
   </tbody>
 </table>
