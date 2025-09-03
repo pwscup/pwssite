@@ -348,9 +348,10 @@
 </table>
 
 ## <a id="pre-attack-data"></a>予備戦の攻撃用データ
-- [Team01-07](./Images/PWSCUP2025_Pre_Data_for_Attack_01-07.zip)
-- [Team08-14](./Images/PWSCUP2025_Pre_Data_for_Attack_08-14.zip)
-- [Team15-22](./Images/PWSCUP2025_Pre_Data_for_Attack_15-22.zip)
+- [Team01-05](./Images/PWSCUP2025_Pre_Data_for_Attack_01-05.zip)
+- [Team06-10](./Images/PWSCUP2025_Pre_Data_for_Attack_06-10.zip)
+- [Team11-15](./Images/PWSCUP2025_Pre_Data_for_Attack_11-15.zip)
+- [Team16-22](./Images/PWSCUP2025_Pre_Data_for_Attack_16-22.zip)
 - ※ Team14のC14.csvはレコード数が不足しているため、匿名性の得点は0点としますが、攻撃対象には含めます。
 
 ## プライバシーポリシー
