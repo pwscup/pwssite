@@ -1,6 +1,7 @@
 # PWS Cup 2025
 
 ## What's New
+- 2025/09/04(木) [予備戦の攻撃用データを公開しました](#pre-attack-data)
 - 2025/08/14(木) [サンプルデータとサンプルコードを公開しました](https://github.com/pwscup/pwscup2025-scripts)（随時追加予定）
 - 2025/08/14(木) [説明会資料を更新しました](./Images/20250813_PWSCUP2025説明資料v2.pdf)
 - 2025/08/06(水) [説明会資料をアップしました](./Images/20250806_PWSCUP2025説明資料.pdf)
@@ -345,6 +346,13 @@
     </tr>
   </tbody>
 </table>
+
+## <a id="pre-attack-data"></a>予備戦の攻撃用データ
+- [Team01-05](./Images/PWSCUP2025_Pre_Data_for_Attack_01-05.zip)
+- [Team06-10](./Images/PWSCUP2025_Pre_Data_for_Attack_06-10.zip)
+- [Team11-15](./Images/PWSCUP2025_Pre_Data_for_Attack_11-15.zip)
+- [Team16-22](./Images/PWSCUP2025_Pre_Data_for_Attack_16-22.zip)
+- ※ Team14のC14.csvはレコード数が不足しているため、匿名性の得点は0点としますが、攻撃対象には含めます。
 
 ## プライバシーポリシー
 - [プライバシーポリシーのページ](./privacy_policy.html)をご参照ください。
