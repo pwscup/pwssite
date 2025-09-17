@@ -1,6 +1,7 @@
 # PWS Cup 2025
 
 ## What's New
+- 2025/09/17(水) [予備戦の正解ファイルを公開しました](#pre-answer)
 - 2025/09/15(月) [予備戦の結果を公開しました](#pre-result)
 - 2025/09/04(木) [予備戦の攻撃用データを公開しました](#pre-attack-data)
 - 2025/08/14(木) [サンプルデータとサンプルコードを公開しました](https://github.com/pwscup/pwscup2025-scripts)（随時追加予定）
@@ -348,14 +349,15 @@
   </tbody>
 </table>
 
-## <a id="pre-attack-data"></a>予備戦の攻撃用データ
+## 予備戦
+### <a id="pre-attack-data"></a>攻撃用データ
 - [Team01-05](./Images/PWSCUP2025_Pre_Data_for_Attack_01-05.zip)
 - [Team06-10](./Images/PWSCUP2025_Pre_Data_for_Attack_06-10.zip)
 - [Team11-15](./Images/PWSCUP2025_Pre_Data_for_Attack_11-15.zip)
 - [Team16-22](./Images/PWSCUP2025_Pre_Data_for_Attack_16-22.zip)
 - ※ Team14のC14.csvはレコード数が不足しているため、匿名性の得点は0点としますが、攻撃対象には含めます。
 
-## <a id="pre-result"></a>予備戦の結果
+### <a id="pre-result"></a>結果
 - 予備戦総合1位：Team 18 神ぼ大 sponsored by νττ
 - 予備戦総合2位：Team 20 Electric
 - 予備戦総合3位：Team 04 RIDJI
@@ -363,6 +365,9 @@
 - 予備戦総合5位：Team 13 肥満フラグ管理局《Flag of Adipose》
 - 予備戦ベストアタック：Team 20 Electric
 - 結果詳細は[こちら](./Images/PWSCUP2025_pre_result.xlsx)
+
+### <a id="pre-answer"></a>正解ファイル
+- [正解ファイル](./Images/Z.csv)
 
 ## プライバシーポリシー
 - [プライバシーポリシーのページ](./privacy_policy.html)をご参照ください。
