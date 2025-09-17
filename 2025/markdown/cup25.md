@@ -366,7 +366,7 @@
 - 予備戦ベストアタック：Team 20 Electric
 - 結果詳細は[こちら](./Images/PWSCUP2025_pre_result.xlsx)
 
-### <a id="pre-result"></a>正解ファイル
+### <a id="pre-answer"></a>正解ファイル
 - [正解ファイル](./Images/Z.csv)
 
 ## プライバシーポリシー
