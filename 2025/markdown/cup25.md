@@ -1,6 +1,8 @@
 # PWS Cup 2025
 
 ## What's New
+- 2025/09/23(火) [PWS Cup 2025 本戦ガイドブックを1.1版に更新](./Images/PWSCUP2025本戦ガイドブックv1.1.pdf)しました
+- 2025/09/22(月) [PWS Cup 2025 本戦ガイドブック](./Images/PWSCUP2025本戦ガイドブックv1.pdf)を作成しました
 - 2025/09/18(木) [PWS Cup 2025 初心者向けガイド](https://github.com/pwscup/pwscup2025-scripts/blob/master/GUIDE_FOR_BEGINNERS.md)を作成しました
 - 2025/09/17(水) [予備戦の正解ファイル](#pre-answer)を公開しました
 - 2025/09/15(月) [予備戦の結果](#pre-result)を公開しました
