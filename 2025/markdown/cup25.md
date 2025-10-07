@@ -1,6 +1,7 @@
 # PWS Cup 2025
 
 ## What's New
+- 2025/10/08(水) [本戦の攻撃用データ](#main-attack-data)を公開しました
 - 2025/09/29(月) [PWS Cup 2025 本戦ガイドブックを1.2版に更新](./Images/PWSCUP2025本戦ガイドブックv1.2.pdf)しました
 - 2025/09/23(火) [PWS Cup 2025 本戦ガイドブックを1.1版に更新](./Images/PWSCUP2025本戦ガイドブックv1.1.pdf)しました
 - 2025/09/22(月) [PWS Cup 2025 本戦ガイドブック](./Images/PWSCUP2025本戦ガイドブックv1.pdf)を作成しました
@@ -388,8 +389,16 @@
 - 予備戦ベストアタック：Team 20 Electric
 - 結果詳細は[こちら](./Images/PWSCUP2025_pre_result.xlsx)
 
-### <a id="pre-answer"></a>正解ファイル
+### <a id="pre-answer"></a>予備戦正解ファイル
 - [正解ファイル](./Images/Z.csv)
+
+## 本戦
+### <a id="main-attack-data"></a>攻撃用データ
+- [Team01](./Images/PWSCUP2025_Main_Data_for_Attack_01.zip)
+- [Team02-06](./Images/PWSCUP2025_Main_Data_for_Attack_02-06.zip)
+- [Team07-12](./Images/PWSCUP2025_Main_Data_for_Attack_07-12.zip)
+- [Team13-18](./Images/PWSCUP2025_Main_Data_for_Attack_13-18.zip)
+- [Team19-24](./Images/PWSCUP2025_Main_Data_for_Attack_19-24.zip)
 
 ## プライバシーポリシー
 - [プライバシーポリシーのページ](./privacy_policy.html)をご参照ください。
