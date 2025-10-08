@@ -1,6 +1,8 @@
 # PWS Cup 2025
 
-![](./Images/poster2025.png){.center}
+<p align="center">
+  <img src="./Images/poster2025.png" alt="PWS2025 ポスター" width="30%">
+</p>
 
 ## What's New
 - 2025/10/08(水) [本戦の攻撃用データ](#main-attack-data)を公開しました
