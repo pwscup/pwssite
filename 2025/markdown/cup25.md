@@ -1,5 +1,7 @@
 # PWS Cup 2025
 
+![](./Images/poster2025.png){.center}
+
 ## What's New
 - 2025/10/08(水) [本戦の攻撃用データ](#main-attack-data)を公開しました
 - 2025/09/29(月) [PWS Cup 2025 本戦ガイドブックを1.2版に更新](./Images/PWSCUP2025本戦ガイドブックv1.2.pdf)しました
