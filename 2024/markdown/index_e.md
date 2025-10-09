@@ -75,6 +75,9 @@ The PWS Paper Award and the PWS Student Paper Award have been merged into the CS
 <a href="https://www.qunie.com/"><img src="Images/sponsors/Mark_Lage-A.jpg" alt="Logo" style="width:150px; margin: 10px"></a>
 <a href="https://www.jri.co.jp/"><img src="Images/sponsors/Logo_JRI_J.svg" alt="Logo" style="width:150px; margin: 10px"></a>
 
+## Supporters
+[Personal Information Protection Commission (PPC)](https://www.ppc.go.jp/en/)
+
 ## Past PWS Events
 - [PWS2023](https://www.iwsec.org/pws/2023/index_e.html)
 - [PWS2022](https://www.iwsec.org/pws/2022/index_e.html)
