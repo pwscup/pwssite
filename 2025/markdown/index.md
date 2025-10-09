@@ -3,7 +3,6 @@
 ## What's new
 - 2025/07/14(月) [PWS Cup 2025のページを作成](./cup25.html)
 
-
 ## PWS(Privacy Workshop)について
 ### 概要
 国内外においてビッグデータ活用ニーズが急速に高まる中で、データの効果的な活用とプライバシー保護を両立させる技術や規準の発展と確立が強く求められています。そのためには、プライバシー保護技術の研究開発を進める学術機関とデータ活用の現場で活躍する技術者・専門家との間での議論や交流を活発にし、日本におけるプライバシー保護技術の研究開発を活性化していくことが重要と考えられます。
@@ -74,7 +73,6 @@
   </dd>
 </dl>
 
-
 ### 参加登録
 PWS2025への参加登録は、[コンピュータセキュリティシンポジウム2025 (CSS2025)](https://www.iwsec.org/css/2025/) への参加登録と共通となっております (ご登録頂くと、CSS2025および併催の他のワークショップにも参加が可能です)。
 
@@ -83,6 +81,22 @@ PWS2025への論文投稿受付は、[コンピュータセキュリティシン
 
 ### 論文賞
 PWS優秀論文賞とPWS学生論文賞はCSS論文賞に統合されました。詳しくは[CSS論文賞について](https://www.iwsec.org/css/2025/award.html#css) をご覧ください。
+
+## 協賛組織
+<a href="http://www.deloitte.com/jp/cyber"><img src="Images/sponsors/DEL_g_PRI_RGB.jpg" style="width:150px; margin: 10px"></a>
+<a href="https://www.future.co.jp/"><img src="Images/sponsors/Future_logo.svg" style="width:150px; margin: 10px"></a>
+<a href="https://www.mitsubishielectric.co.jp/"><img src="Images/sponsors/05-CorporateLogoCfB-color.png" style="width:150px; margin: 10px"></a>
+<a href="https://x-pro.w3.kanazawa-u.ac.jp"><img src="Images/sponsors/kanazawa_u.jpg" style="width:150px; margin: 10px"></a>
+<a href="https://www.sios.com" target="_blank"><img src="Images/sponsors/logo-sios.svg" style="width:150px; margin: 10px"></a>
+<a href="https://www.hitachi.co.jp/rd/" target="_blank"><img src="Images/sponsors/Hitachi_Global_Logo_Black_RGB.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.iij.ad.jp/wizsafe/" target="_blank"><img src="Images/sponsors/iij_logo2.png" style="width:150px; margin: 10px"></a>
+<a href="https://www.soliton.co.jp" target="_blank"><img src="Images/sponsors/Soliton_logo.png" style="width:150px; margin: 10px"></a>
+<a href="https://nflabs.jp/" target="_blank"><img src="Images/sponsors/nflabs_logo.jpg" style="width:150px; margin: 10px"></a>
+<a href="https://www.jri.co.jp/" target="_blank"><img src="Images/sponsors/Logo_JRI_J.svg" style="width:150px; margin: 10px"></a>
+<a href="https://www.oisec.jp/CMS/" target="_blank"><img src="Images/sponsors/banner_234x60.png" style="width:150px; margin: 10px"></a>
+
+## 後援組織
+[個人情報保護委員会](https://www.ppc.go.jp/)
 
 ## 過去のPWS
 - [PWS2024](https://www.iwsec.org/pws/2024/)
