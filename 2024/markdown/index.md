@@ -63,6 +63,9 @@ PWS優秀論文賞とPWS学生論文賞はCSS論文賞に統合されました�
 <a href="https://www.qunie.com/"><img src="Images/sponsors/Mark_Lage-A.jpg" alt="Logo" style="width:150px; margin: 10px"></a>
 <a href="https://www.jri.co.jp/"><img src="Images/sponsors/Logo_JRI_J.svg" alt="Logo" style="width:150px; margin: 10px"></a>
 
+## 後援組織
+[個人情報保護委員会](https://www.ppc.go.jp/)
+
 ## 過去のPWS
 - [PWS2023](https://www.iwsec.org/pws/2023/)
 - [PWS2022](https://www.iwsec.org/pws/2022/)
