@@ -145,7 +145,7 @@
 
 ### <a id="TheDay"></a>PWS Cup 2025 発表・表彰式
 <p align="left">
-  <img src="./Images/floormap.png" alt="PWS2025 フロアマップ" width="30%">
+  <img src="./Images/floormap.png" alt="PWS2025 フロアマップ" width="60%">
 </p>
 
 日時：2025/10/29(水)
