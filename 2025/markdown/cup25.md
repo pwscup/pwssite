@@ -4,7 +4,13 @@
   <img src="./Images/poster2025.png" alt="PWS2025 ポスター" width="30%">
 </p>
 
+## PWS Cup 2025 は終了しました。ご参加いただいたみなさま、ありがとうございました。
+
 ## What's New
+- 2025/11/02(日) [PWS Cup 2025 発表会資料](./Images/20251029_PWSCUP2025)を公開しました
+- 2025/11/02(日) [本戦＆総合の結果と本戦結果詳細](#main-result)を公開しました
+- 2025/11/02(日) [最終結果](#overall-result)を掲載しました
+- 2025/11/02(日) [本戦の正解ファイル](#main-answer)を公開しました
 - 2025/10/23(木) [PWS Cup 2025 発表・表彰式](#TheDay)を追記しました　<font color="red">**★New**</font>
 - 2025/10/08(水) [本戦の攻撃用データ](#main-attack-data)を公開しました
 - 2025/09/29(月) [PWS Cup 2025 本戦ガイドブックを1.2版に更新](./Images/PWSCUP2025本戦ガイドブックv1.2.pdf)しました
@@ -191,6 +197,7 @@
       <th scope="col">代表者所属</th>
       <th scope="col">責任者</th>
       <th scope="col">責任者所属</th>
+      <th scope="col">ポスター</th>
     </tr>
   </thead>
   <tbody>
@@ -202,6 +209,7 @@
       <td>大阪大学 / 宮地研究室</td>
       <td>宮地充子</td>
       <td>大阪大学 / 宮地研究室</td>
+      <td></td>
     </tr>
     <tr>
       <td>02</td>
@@ -209,6 +217,7 @@
       <td></td>
       <td>（非公開）</td>
       <td>NECソリューションイノベータ</td>
+      <td></td>
       <td></td>
       <td></td>
     </tr>
@@ -220,6 +229,7 @@
       <td>（非公開）</td>
       <td></td>
       <td></td>
+      <td></td>
     </tr>
     <tr>
       <td>04</td>
@@ -227,6 +237,7 @@
       <td>がんばります。</td>
       <td>（非公開）</td>
       <td>（非公開）</td>
+      <td></td>
       <td></td>
       <td></td>
     </tr>
@@ -238,6 +249,7 @@
       <td>明治大学</td>
       <td>菊池浩明</td>
       <td>明治大学</td>
+      <td></td>
     </tr>
     <tr>
       <td>06</td>
@@ -245,6 +257,7 @@
       <td>頑張ります</td>
       <td>（非公開）</td>
       <td>（非公開）</td>
+      <td></td>
       <td></td>
       <td></td>
     </tr>
@@ -256,6 +269,7 @@
       <td>Inner Mongolia University of Technology</td>
       <td></td>
       <td></td>
+      <td></td>
     </tr>
     <tr>
       <td>08</td>
@@ -265,6 +279,7 @@
       <td>静岡大学創造科学技術大学院</td>
       <td>大木哲史</td>
       <td>静岡大学</td>
+      <td></td>
     </tr>
     <tr>
       <td>09</td>
@@ -274,6 +289,7 @@
       <td>静岡大学</td>
       <td>西垣正勝</td>
       <td>静岡大学</td>
+      <td></td>
     </tr>
     <tr>
       <td>10</td>
@@ -281,6 +297,7 @@
       <td></td>
       <td>（非公開）</td>
       <td>群馬大学</td>
+      <td></td>
       <td></td>
       <td></td>
     </tr>
@@ -292,6 +309,7 @@
       <td>群馬大学</td>
       <td>千田浩司</td>
       <td>群馬大学</td>
+      <td></td>
     </tr>
     <tr>
       <td>12</td>
@@ -299,6 +317,7 @@
       <td>頑張ります</td>
       <td>（非公開）</td>
       <td>（非公開）</td>
+      <td></td>
       <td></td>
       <td></td>
     </tr>
@@ -310,6 +329,7 @@
       <td>（非公開）</td>
       <td></td>
       <td></td>
+      <td></td>
     </tr>
     <tr>
       <td>14</td>
@@ -319,6 +339,7 @@
       <td>筑波技術大学</td>
       <td>渡辺知恵美</td>
       <td>筑波技術大学</td>
+      <td></td>
     </tr>
     <tr>
       <td>15</td>
@@ -328,6 +349,7 @@
       <td>静岡大学</td>
       <td>大木哲史</td>
       <td>静岡大学</td>
+      <td></td>
     </tr>
     <tr>
       <td>16</td>
@@ -337,6 +359,7 @@
       <td>明治大学</td>
       <td>菊池浩明</td>
       <td>明治大学</td>
+      <td></td>
     </tr>
     <tr>
       <td>17</td>
@@ -346,6 +369,7 @@
       <td>名古屋工業大学</td>
       <td>掛井将平</td>
       <td>名古屋工業大学</td>
+      <td></td>
     </tr>
     <tr>
       <td>18</td>
@@ -355,6 +379,7 @@
       <td>神奈川大学</td>
       <td>藤岡淳</td>
       <td>神奈川大学</td>
+      <td></td>
     </tr>
     <tr>
       <td>19</td>
@@ -364,13 +389,15 @@
       <td>（非公開）</td>
       <td></td>
       <td></td>
+      <td></td>
     </tr>
     <tr>
       <td>20</td>
       <td>Electric</td>
       <td></td>
       <td>（非公開）</td>
-      <td>（非公開）</td>
+      <td>三菱電機株式会社</td>
+      <td></td>
       <td></td>
       <td></td>
     </tr>
@@ -382,6 +409,7 @@
       <td>（非公開）</td>
       <td></td>
       <td></td>
+      <td></td>
     </tr>
     <tr>
       <td>22</td>
@@ -391,6 +419,7 @@
       <td>中央大学／データサイエンス共同利用基盤施設</td>
       <td>南和宏</td>
       <td>統計数理研究所／データサイエンス共同利用基盤施設</td>
+      <td></td>
     </tr>
     <tr>
       <td>23</td>
@@ -400,13 +429,15 @@
       <td>TOPPANデジタル株式会社</td>
       <td></td>
       <td></td>
+      <td></td>
     </tr>
     <tr>
       <td>24</td>
       <td>HiddenMetrics</td>
       <td></td>
       <td>（非公開）</td>
-      <td>（非公開）</td>
+      <td>株式会社NTTドコモ</td>
+      <td></td>
       <td></td>
       <td></td>
     </tr>
@@ -440,6 +471,30 @@
 - [Team07-12](./Images/PWSCUP2025_Main_Data_for_Attack_07-12.zip)
 - [Team13-18](./Images/PWSCUP2025_Main_Data_for_Attack_13-18.zip)
 - [Team19-24](./Images/PWSCUP2025_Main_Data_for_Attack_19-24.zip)
+
+### <a id="main-result"></a>結果
+- 本戦総合1位：Team 18 神ぼ大 sponsored by νττ
+- 本戦総合2位：Team 20 Electric
+- 本戦総合3位：Team 08 Asakatsu2025
+- 本戦総合4位：Team 06 (・▴・) / cdot
+- 本戦総合5位：Team 13 肥満フラグ管理局《Flag of Adipose》
+- 本戦ベストアタック：Team 08 Asakatsu2025
+- 結果詳細は[こちら](./Images/PWSCUP2025_main_result.xlsx)
+
+### <a id="main-answer"></a>本戦正解ファイル
+- [正解ファイル](./Images/ZZ.csv)
+
+## 総合
+
+### <a id="overall-result"></a>結果
+- 1位：Team 18 神ぼ大 sponsored by νττ
+- 2位：Team 20 Electric
+- 3位：Team 08 Asakatsu2025
+- 4位：Team 13 肥満フラグ管理局《Flag of Adipose》
+- 5位：Team 06 (・▴・) / cdot
+- ベストアタック：Team 08 Asakatsu2025
+- ベストプレゼン：Team 22 HAPPY
+- ベストデータサイエンティスト：Team 23 GW.AVATECT
 
 ## プライバシーポリシー
 - [プライバシーポリシーのページ](./privacy_policy.html)をご参照ください。
