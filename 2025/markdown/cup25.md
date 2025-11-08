@@ -320,7 +320,7 @@
       <td>群馬大学</td>
       <td>千田浩司</td>
       <td>群馬大学</td>
-      <td></td>
+      <td>[○](./Images/pwscup2025_poster_team11.pdf)</td>
       <td></td>
     </tr>
     <tr>
