@@ -452,8 +452,8 @@
       <td>TOPPANデジタル株式会社</td>
       <td></td>
       <td></td>
-      <td></td>
-      <td></td>
+      <td>[○](./Images/pwscup2025_poster_team23.pdf)</td>
+      <td>[○](https://github.com/pwscup/pwscup2025-scripts/tree/master/teams/Team23)</td>
     </tr>
     <tr>
       <td>24</td>
