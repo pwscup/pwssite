@@ -287,7 +287,7 @@
       <td>静岡大学創造科学技術大学院</td>
       <td>大木哲史</td>
       <td>静岡大学</td>
-      <td></td>
+      <td>[○](./Images/pwscup2025_poster_team08.pdf)</td>
       <td></td>
     </tr>
     <tr>
