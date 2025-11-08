@@ -419,7 +419,7 @@
       <td>中央大学／データサイエンス共同利用基盤施設</td>
       <td>南和宏</td>
       <td>統計数理研究所／データサイエンス共同利用基盤施設</td>
-      <td></td>
+      <td>[○](./Images/pwscup2025_poster_team22.pdf)</td>
     </tr>
     <tr>
       <td>23</td>
