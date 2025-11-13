@@ -339,7 +339,7 @@
       <td>肥満フラグ管理局《Flag of Adipose》</td>
       <td>頑張ります</td>
       <td>（非公開）</td>
-      <td>（非公開）</td>
+      <td>セコム株式会社　IS研究所</td>
       <td></td>
       <td></td>
       <td></td>
