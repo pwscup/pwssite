@@ -375,8 +375,8 @@
       <td>明治大学</td>
       <td>菊池浩明</td>
       <td>明治大学</td>
-      <td></td>
-      <td></td>
+      <td>[○](./Images/pwscup2025_poster_team16.pdf)</td>
+      <td>[○](https://github.com/pwscup/pwscup2025-scripts/tree/master/teams/Team16)</td>
     </tr>
     <tr>
       <td>17</td>
