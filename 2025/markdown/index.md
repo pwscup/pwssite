@@ -2,6 +2,8 @@
 
 ## What's new
 - 2025/07/14(月) [PWS Cup 2025のページを作成](./cup25.html)
+- 2025/11/**(*) [PWS Cup 企画セッションの参加報告資料を作成](./pws2025_session_report.html)
+
 
 ## PWS(Privacy Workshop)について
 ### 概要
