@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head>
+  <meta name="generator" content=
+  "HTML Tidy for HTML5 for Linux version 5.6.0">
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8">
+  <script src="jquery.min.js" type="text/javascript"></script>
+  <title>企画セッション 「個人情報保護法の改正議論における統計目的第三者提供とPETs」 開催報告</title>
+</head>
+<body style="margin-top:40px">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <div id="menu-wrap" class="fixed">
+    <ul id="menu">
+      <li>
+        <a href="./index.html">Top</a>
+      </li>
+      <li>
+        <a href="./index.html">About PWS</a>
+      </li>
+      <li>
+        <a href="./cup25.html">PWSCUP2025</a>
+      </li>
+      <li>
+        <a href="https://www.iwsec.org/pws">Past PWS</a>
+      </li>
+    </ul>
+  </div>
+  <div id="page">
+    <!-- contents start -->
+    <h1>企画セッション 「個人情報保護法の改正議論における統計目的第三者提供とPETs」 開催報告</h1>
+    <p>2025年10月に岡山で開催された<a href=
+    "https://www.iwsec.org/css/2025/index.html">Computer Security
+    Symposium (CSS 2025)</a>において、<a href=
+    "https://www.iwsec.org/pws/">Privacy Work Shop
+    (PWS)</a>の<a href=
+    "https://www.iwsec.org/css/2025/program.html#2E4">企画セッション2「個人情報保護法の改正議論における統計目的第三者提供とPETs」</a>が開催された。
+    本セッションでは、個人情報保護法の改正議論におけるプライバシー保護技術(PETs: Privacy Enhancing
+    Technologies)の役割について、法律、技術、実務の各観点から議論が行われた。</p>
+    <p>
+    <em>なお、本報告はセッションでの議論概要を記載しているものです。セッションでの議論や結論は、学会を代表する意見ではありません。また、各登壇者の意見は所属団体を代表する意見ではなく個人の意見です。</em></p>
+    <h2>1. セッションの背景と目的</h2>
+    <p>
+    個人情報保護法の「いわゆる3年ごと見直し」において、統計情報等の目的であれば本人同意なく個人データ等を第三者提供することを認める方針（<a href="https://www.ppc.go.jp/files/pdf/seidotekikadainitaisurukangaekatanitsuite_250305.pdf">「個人情報保護法の制度的課題に対する考え方について」</a>の第1.1.(1)）が示され、議論が進んでいる。
+    この方針について、個人情報の安全な活用を実現するためには、技術的なガバナンスも重要となる。
+    本セッションでは、PWSで過去から議論してきた経緯も踏まえ、望ましいプライバシー保護技術や制度について、様々な視点から議論が行われた。</p>
+    <h2>2. 登壇者</h2>
+    <ul>
+      <li><strong>板倉 陽一郎</strong> 氏 (ひかり総合法律事務所)</li>
+      <li><strong>高橋 克巳</strong> 氏 (NTT社会情報研究所)</li>
+      <li><strong>寺田 雅之</strong> 氏 (NTTドコモ/京都橘大学)</li>
+      <li><strong>美馬 正司</strong> 氏 (日立コンサルティング/慶應義塾大学)</li>
+      <li><strong>竹之内 隆夫</strong> 氏 (Acompany) ※座長・ファシリテーター</li>
+    </ul>
+    <p>※<a href=
+    "https://www.iwsec.org/css/2025/program.html#2E4">学会プログラム</a>での掲載順</p>
+    <h2>3. セッション内容：登壇者によるプレゼン</h2>
+    <h3>発表1: セッションの概要・背景とPETs概要 (竹之内)</h3>
+    <p>
+    竹之内氏からは、セッションの背景説明が行われた。今回の法改正の方針として示されている内容は、過去のPWSで議論してきたユースケースとして、特に複数組織での個人データ突合分析に関するものである。2年前の2023年のPWS企画セッションでも、このようなユースケースを想定した議論を行ったことを説明した。</p>
+    <p>また、PETsには複数の技術が存在し、組み合わせて活用されることも有効であることを説明した。特にTEE(Trusted
+    Execution Environment)の事例が紹介された。</p>
+    <p>（説明資料は<a href=
+    "./html/Images/session2_1_takenouchi.pdf">こちら</a>）</p>
+    <h3>発表2: 組織を跨がる安全な統計情報の作成にあたっての安全性要件について (寺田氏)</h3>
+    <p>寺田氏からは、秘匿クロス統計技術の開発・実証経験や、経済安全保障重要技術育成プログラム (K Program)
+    の研究課題に基づく Project SDC4Society
+    での検討から、複数組織を跨がって安全に統計情報を作成するにあたっては以下の2つの安全性要件を満たす必要があることが説明された。</p>
+    <ul>
+      <li>出力されるデータは、適切にプライバシーが保護された統計情報であること</li>
+      <li>自らの不正がない限り、出力される統計情報以外に、自らのデータに関する情報が漏洩しないこと</li>
+    </ul>
+    <p>また、これらの要件は、PSI-CA (Private Set Intersection
+    Cardinality)や差分プライバシーなどの要素技術を適切に組み合わせることにより実現可能であるが、この技術さえ導入すればOK、という「銀の弾丸」のようなものがあるわけではないことや、さらなる要素技術の発展が望まれることなどが述べられた。</p>
+    <p>（説明資料は<a href=
+    "./html/Images/session2_2_terada.pdf">こちら</a>）</p>
+    <h3>発表3: 個人データの取扱いにおける「統計情報等の作成や利用」に関する規律の在り方 (板倉氏)</h3>
+    <p>板倉氏からは、個人情報保護法等の法律の観点から、主に以下の点について解説があった。</p>
+    <ul>
+      <li>「統計情報等の作成や利用」に関する規律</li>
+      <li>名寄せをしての「統計情報」への加工</li>
+      <li>インターネット上のウェブサイトからの「統計情報」のための情報取得</li>
+      <li>第二次いわゆる3年ごと見直しにおける現在の議論</li>
+      <li>今後の展開</li>
+    </ul>
+    <p>（説明資料は<a href=
+    "./html/Images/session2_3_itakura.pdf">こちら</a>）</p>
+    <h3>発表4: 統計利用目的の第三者提供のリスク (美馬氏)</h3>
+    <p>
+    美馬氏からは、リスク評価について解説があった。特に、本セッションで議論対象となっている、複数の組織がもつ個人データを突合して統計的な分析を行うユースケースについて、データのライフサイクルの各段階で発生すると考えられるリスクを整理したDANIEL
+    J. SOLOVEのモデルを参考としたリスク評価が紹介された。</p>
+    <p>そして、一定のリスクが有ることが示され、技術的、制度的なガバナンスが期待されることが説明された。</p>
+    <p>なお、DANIEL J. SOLOVEのリスク評価については、経済産業省「<a href=
+    "https://www.meti.go.jp/policy/it_policy/privacy/privacy.html">DX時代における企業のプライバシーガバナンスガイドブック</a>」が参考になると言及があった。</p>
+    <h3>発表5: 個人情報保護法と技術の過去議論と国際動向 (高橋氏)</h3>
+    <p>
+    高橋氏からは、2013年頃からの匿名加工情報制度が検討された際の経緯が、今回のいわゆる3年ごと見直しの議論の参考になる可能性があるとして、以下のパーソナルデータ検討会技術検討ワーキンググループドキュメントが紹介された。</p>
+    <ul>
+      <li>2013年 : 技術検討ワーキンググループ報告書</li>
+      <li>2014年 : 技術検討ワーキンググループ報告書</li>
+    </ul>
+    <p>また、<a href="https://ico.org.uk/">英国ICO(Information
+    Commissioner’s
+    Office)</a>が発行している、以下のPETs関係のドキュメントについて紹介があった。</p>
+    <ul>
+      <li>2021年：<a href=
+      "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-sharing/data-sharing-a-code-of-practice/">Data
+      sharing: a code of practice</a>
+      </li>
+      <li>2023年：<a href=
+      "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-sharing/privacy-enhancing-technologies/">Privacy-enhancing
+      technologies (PETs)</a>
+      </li>
+      <li>2024年：<a href=
+      "https://ico.org.uk/about-the-ico/research-reports-impact-and-evaluation/research-and-reports/technology-and-innovation/tackling-barriers-to-privacy-enhancing-technologies-adoption/">Tackling
+      barriers to privacy-enhancing technologies adoption</a>
+      </li>
+      <li>2024年：<a href=
+      "https://www.gov.uk/government/publications/privacy-enhancing-technologies-cost-benefit-awareness-tool/cost-benefit-awareness-tool">PETs
+      Cost-Benefit Awareness Tool</a>
+      </li>
+    </ul>
+    <h2>4. セッション内容：ディスカッション</h2>
+    <p>
+    上記のような各登壇者からのプレゼンを踏まえ、「法改正方針における技術への期待」をテーマにディスカッションが行われた。</p>
+    <p>例えば以下のような様々な観点での議論が行われた。</p>
+    <ul>
+      <li>
+      組織を跨がって統計情報を作成するメリットとしては、ひとつの組織が保有するデータに基づく統計情報からだけでは解決できなかったような、社会課題の解決も期待される</li>
+      <li>
+      PETsの適用検討は進めるべきだが、PETsという技術カテゴリで漠然と議論するのではなく、PETsに該当する個々の技術を明確にして議論する必要がある</li>
+      <li>
+      技術先行で議論するのではなく、どのような安全性が必要とされるか、要件ベースで適切な技術を組み合わせる必要がある</li>
+      <li>英国ICOのPETsに関するドキュメントは日本としても参考になる</li>
+    </ul>
+    <h2>5. まとめ</h2>
+    <p>本セッションでのプレゼンテーションとディスカッションを踏まえると、以下のようにまとめられると考える。</p>
+    <ul>
+      <li>組織間でのデータ活用が安全に進むことが望ましい一方で、一定のリスクが存在することも事実である</li>
+      <li>そのため、適切な安全性要件を定めた上で、それを満たす技術の適切な活用を検討することが望ましい</li>
+    </ul>
+    <p>今後も安全なデータ活用が進むよう、法制度、技術開発、実務運用の各側面から継続的な議論と取り組みが期待される。</p>
+    <hr>
+    <p><a href="index.html">PWS2025のページに戻る</a></p>
+    <!-- contents end -->
+  </div>
+  <script type="text/javascript">
+        $(function(){
+          var box    = $("#menu-wrap");
+          var boxTop = box.offset().top;
+          $(window).scroll(function () {
+            if($(window).scrollTop() >= boxTop) {
+              box.addClass("fixed");
+              $("body").css("margin-top","40px");
+            } else {
+              box.removeClass("fixed");
+              $("body").css("margin-top","0px");
+           }
+          });
+        });
+  </script>
+</body>
+</html>
