@@ -30,7 +30,7 @@ _なお、本報告はセッションでの議論概要を記載しているも�
 
 また、PETsには複数の技術が存在し、組み合わせて活用されることも有効であることを説明した。特にTEE(Trusted Execution Environment)の事例が紹介された。
 
-（説明資料は[こちら](./images/session2_1_takenouchi.pdf)）
+（説明資料は[こちら](./Images/session2_1_takenouchi.pdf)）
 
 
 ### 発表2: 組織を跨がる安全な統計情報の作成にあたっての安全性要件について (寺田氏)
