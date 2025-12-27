@@ -1,4 +1,4 @@
-# 2025 年 CSS PWS 企画セッション 2「個人情報保護法の改正議論における統計目的第三者提供と PETs」開催報告
+# 企画セッション 「個人情報保護法の改正議論における統計目的第三者提供とPETs」 開催報告
 
 2025年10月に岡山で開催された[Computer Security Symposium (CSS 2025)](https://www.iwsec.org/css/2025/index.html)において、[Privacy Work Shop (PWS)](https://www.iwsec.org/pws/)の[企画セッション2「個人情報保護法の改正議論における統計目的第三者提供とPETs」](https://www.iwsec.org/css/2025/program.html#2E4)が開催された。
 本セッションでは、個人情報保護法の改正議論におけるプライバシー保護技術(PETs: Privacy Enhancing Technologies)の役割について、法律、技術、実務の各観点から議論が行われた。
@@ -30,7 +30,7 @@ _なお、本報告はセッションでの議論概要を記載しているも�
 
 また、PETsには複数の技術が存在し、組み合わせて活用されることも有効であることを説明した。特にTEE(Trusted Execution Environment)の事例が紹介された。
 
-（説明資料はこちら）
+（説明資料は[こちら](./images/session2_1_takenouchi.pdf)）
 
 
 ### 発表2: 組織を跨がる安全な統計情報の作成にあたっての安全性要件について (寺田氏)
