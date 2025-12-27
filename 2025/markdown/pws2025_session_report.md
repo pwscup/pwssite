@@ -48,6 +48,7 @@ _なお、本報告はセッションでの議論概要を記載しているも�
 ### 発表3: 個人データの取扱いにおける「統計情報等の作成や利用」に関する規律の在り方  (板倉氏)
 
 板倉氏からは、個人情報保護法等の法律の観点から、主に以下の点について解説があった。
+
 - 「統計情報等の作成や利用」に関する規律
 - 名寄せをしての「統計情報」への加工
 - インターネット上のウェブサイトからの「統計情報」のための情報取得
@@ -67,10 +68,12 @@ _なお、本報告はセッションでの議論概要を記載しているも�
 ### 発表5: 個人情報保護法と技術の過去議論と国際動向 (高橋氏)
 
 高橋氏からは、2013年頃からの匿名加工情報制度が検討された際の経緯が、今回のいわゆる3年ごと見直しの議論の参考になる可能性があるとして、以下のパーソナルデータ検討会技術検討ワーキンググループドキュメントが紹介された。
+
 - 2013年 : 技術検討ワーキンググループ報告書
 - 2014年 : 技術検討ワーキンググループ報告書
 
 また、[英国ICO(Information Commissioner's Office)](https://ico.org.uk/)が発行している、以下のPETs関係のドキュメントについて紹介があった。
+
 - 2021年：[Data sharing: a code of practice](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-sharing/data-sharing-a-code-of-practice/)
 - 2023年：[Privacy-enhancing technologies (PETs)](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-sharing/privacy-enhancing-technologies/)
 - 2024年：[Tackling barriers to privacy-enhancing technologies adoption](https://ico.org.uk/about-the-ico/research-reports-impact-and-evaluation/research-and-reports/technology-and-innovation/tackling-barriers-to-privacy-enhancing-technologies-adoption/)
@@ -82,6 +85,7 @@ _なお、本報告はセッションでの議論概要を記載しているも�
 上記のような各登壇者からのプレゼンを踏まえ、「法改正方針における技術への期待」をテーマにディスカッションが行われた。
 
 例えば以下のような様々な観点での議論が行われた。
+
 - 組織を跨がって統計情報を作成するメリットとしては、ひとつの組織が保有するデータに基づく統計情報からだけでは解決できなかったような、社会課題の解決も期待される
 - PETsの適用検討は進めるべきだが、PETsという技術カテゴリで漠然と議論するのではなく、PETsに該当する個々の技術を明確にして議論する必要がある
 - 技術先行で議論するのではなく、どのような安全性が必要とされるか、要件ベースで適切な技術を組み合わせる必要がある
@@ -90,6 +94,7 @@ _なお、本報告はセッションでの議論概要を記載しているも�
 ## 5. まとめ
 
 本セッションでのプレゼンテーションとディスカッションを踏まえると、以下のようにまとめられると考える。
+
 - 組織間でのデータ活用が安全に進むことが望ましい一方で、一定のリスクが存在することも事実である
 - そのため、適切な安全性要件を定めた上で、それを満たす技術の適切な活用を検討することが望ましい
 
