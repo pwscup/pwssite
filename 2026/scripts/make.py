@@ -45,7 +45,7 @@ def main() -> int:
 
         print(f"[BUILD] {base}.md -> {base}.html")
         subprocess.run(
-            ["bash", str(script_dir / "pandoc.bash"), base],
+            [sys.executable, str(script_dir / "pandoc.py"), base],
             check=True,
         )
 

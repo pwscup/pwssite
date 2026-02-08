@@ -169,6 +169,17 @@ th{
   background: #f2f2f2;
   font-weight: bold;
 }
+pre{
+  background: #f7f7f7;
+  border: 1px solid #e0e0e0;
+  padding: 10px 12px;
+  overflow-x: auto;
+}
+code{
+  background: #f2f2f2;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
 em{
   font-weight: bold;
 }
