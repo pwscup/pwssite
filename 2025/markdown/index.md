@@ -1,8 +1,9 @@
 # 第11回プライバシーワークショップ (PWS2025)
 
 ## What's new
-- 2025/07/14(月) [PWS Cup 2025のページを作成](./cup25.html)
+- 2026/02/10(火) [PWS MeetUp 2026 開催のお知らせ](./MeetUp2025.html)
 - 2025/12/28(日) [PWS Cup 企画セッションの参加報告資料を作成](./pws2025_session_report.html)
+- 2025/07/14(月) [PWS Cup 2025のページを作成](./cup25.html)
 
 
 ## PWS(Privacy Workshop)について
@@ -14,7 +15,8 @@
 
 ### 開催日時
 - 2025/10/27(月)-2025/10/31(金)
-<h3>PWS2025実行委員会</h3>
+
+### PWS2025実行委員会
 <dl>
   <dt>委員長</dt>
   <dd>千田浩司（群馬大学）</dd>
@@ -99,8 +101,8 @@ PWS優秀論文賞とPWS学生論文賞はCSS論文賞に統合されました�
 <a href="https://www.oisec.jp/CMS/" target="_blank"><img src="Images/sponsors/banner_234x60.png" style="width:150px; margin: 10px"></a>
 
 ## 後援組織
-<a href="https://www.ppc.go.jp/" target="_blank"><img src="Images/sponsors/A.png" style="width:150px; margin: 10px"></a>
-<!-- [個人情報保護委員会](https://www.ppc.go.jp/) -->
+<!-- <a href="https://www.ppc.go.jp/" target="_blank"><img src="Images/sponsors/A.png" style="width:150px; margin: 10px"></a> -->
+[個人情報保護委員会](https://www.ppc.go.jp/)
 
 ## 過去のPWS
 - [PWS2024](https://www.iwsec.org/pws/2024/)
