@@ -6,25 +6,19 @@ on:
       - master
       - gh-pages
 
-# 同一ブランチのデプロイ競合を防止
-concurrency:
-  group: pages-${{ github.ref }}
-  cancel-in-progress: true
-
+# Pages デプロイで必要
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write        # gh-pages のコミット用
+  pages: write           # actions/deploy-pages 用
+  id-token: write        # actions/deploy-pages 用
 
 jobs:
-  # ------------------------------------------------------------------
-  # 1) master ブランチ = 本番環境へ反映
-  # ------------------------------------------------------------------
+# ------------------------------------------------------------------
+# 1) master ブランチ = 本番環境へ反映
+# ------------------------------------------------------------------
   prod-deploy:
     if: github.ref == 'refs/heads/master'
-    runs-on: ubuntu-24.04
-    permissions:
-      contents: read
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v3
@@ -43,16 +37,17 @@ jobs:
               -o UserKnownHostsFile=/dev/null \
               "cd /var/www/html/pws/ && git pull origin master"
 
-  # ------------------------------------------------------------------
-  # 2) gh-pages ブランチ = GitHub Pages 用（artifact方式）
-  # ------------------------------------------------------------------
+# ------------------------------------------------------------------
+# 2) gh-pages ブランチ = GitHub Pages 用
+# ------------------------------------------------------------------
   build-pages:
     if: github.ref == 'refs/heads/gh-pages'
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v3
 
+      # （任意）更新差分の確認
       - name: Show last commit
         run: git --no-pager log -1 --stat
 
@@ -62,19 +57,29 @@ jobs:
       - name: Build HTML by make.bash
         run: bash make.bash
 
-      - name: Configure Pages
-        uses: actions/configure-pages@v5
+      # HTML を gh-pages ブランチにコミット（必要なら）
+      - name: Commit & push built files
+        run: |
+          if ! git diff --quiet; then
+            git config --global user.name 'github-actions[bot]'
+            git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+            git add .
+            git commit -m 'Generate HTML [skip ci]'
+            git push origin gh-pages
+          fi
 
+      # GitHub Pages へ渡すアーティファクトをアップロード
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # make.bash の成果物ディレクトリに合わせてください（例: ./html や ./public 等）
-          path: ./
+          # make.bash の出力先に合わせて変更
+          path: ./ # 例：./public や ./docs など
 
   deploy-pages:
     needs: build-pages
+    # gh-pages ブランチのみ実行
     if: github.ref == 'refs/heads/gh-pages'
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
