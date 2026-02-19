@@ -18,16 +18,16 @@
 - **参加費**：無料 (懇親会は5,000円を予定)  
 - **参加申込方法**：  
   - 参加登録は [PWS Meetup 2026 & 懇親会 参加登録](https://forms.gle/2bxVzB127zrmjB568) からお申し込みください。  
-  - **懇親会・ランチ会の申込締切**：3月6日(金)  
+  - **懇親会の申込締切**：3月6日(金)  
 
 ---
 ## 📢 スケジュール
 <table border="1" cellpadding="6" width="100%">
   <colgroup>
-    <col width="16%">
+    <col width="14%">
     <col width="40%">
     <col width="20%">
-    <col width="24%">
+    <col width="26%">
   </colgroup>
   <thead>
     <tr>
