@@ -51,11 +51,16 @@ jobs:
       - name: Show last commit
         run: git --no-pager log -1 --stat
 
-      - name: Install dependencies
+      - name: Install system dependencies
         run: sudo apt-get update && sudo apt-get install -y tidy pandoc
 
-      - name: Build HTML by make.bash
-        run: bash make.bash
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build HTML
+        run: |
+          bash make.bash
+          python3 make.py
 
       # HTML を gh-pages ブランチにコミット（必要なら）
       - name: Commit & push built files
