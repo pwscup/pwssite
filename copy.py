@@ -79,10 +79,10 @@ def place_gitkeep(dst: Path) -> None:
 
 
 def run_build_test(script_dir: Path, target: str) -> None:
-    """make.bash を実行してビルドテスト"""
-    make_script = script_dir / target / "scripts" / "make.bash"
+    """make.py を実行してビルドテスト"""
+    make_script = script_dir / target / "scripts" / "make.py"
     result = subprocess.run(
-        ["bash", str(make_script)],
+        [sys.executable, str(make_script)],
         capture_output=True, text=True,
     )
     if result.stdout:
@@ -101,10 +101,10 @@ def main() -> None:
         print(f"使い方: python {sys.argv[0]} <参照元フォルダ名> <新規フォルダ名>", file=sys.stderr)
         print("", file=sys.stderr)
         print("例:", file=sys.stderr)
-        print("  python copy.py 2025 2026", file=sys.stderr)
-        print("    → 2025/ を元に 2026/ を作成", file=sys.stderr)
-        print("  python copy.py 2025 ipws2026", file=sys.stderr)
-        print("    → 2025/ を元に ipws2026/ を作成", file=sys.stderr)
+        print("  python copy.py 2026 2027", file=sys.stderr)
+        print("    → 2026/ を元に 2027/ を作成", file=sys.stderr)
+        print("  python copy.py 2026 ipws2027", file=sys.stderr)
+        print("    → 2026/ を元に ipws2027/ を作成", file=sys.stderr)
         sys.exit(1)
 
     template_year = sys.argv[1]
@@ -137,7 +137,7 @@ def main() -> None:
     create_html_placeholder(dst)
 
     print()
-    print(f"[5/6] ビルドテスト: {target_year}/scripts/make.bash を実行")
+    print(f"[5/6] ビルドテスト: {target_year}/scripts/make.py を実行")
     print("-" * 40)
     run_build_test(script_dir, target_year)
     print("-" * 40)

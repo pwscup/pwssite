@@ -6,6 +6,7 @@
 /2019/data/.DS_Store
 /pwscup/
 *.swp
+/gitworktree/
 
 # macOS system files
 .DS_Store
