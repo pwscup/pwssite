@@ -2,6 +2,7 @@
 """新年度ディレクトリ作成用スクリプト"""
 
 import os
+import re
 import shutil
 import subprocess
 import sys
@@ -69,6 +70,43 @@ def place_gitkeep(dst: Path) -> None:
             (Path(dirpath) / ".gitkeep").touch()
 
 
+def add_to_pyproject_targets(repo_root: Path, target_name: str) -> None:
+    """pyproject.toml の [tool.pwssite] targets にフォルダ名を追加する"""
+    pyproject = repo_root / "pyproject.toml"
+    text = pyproject.read_text(encoding="utf-8")
+
+    # targets = ["2026", "ppsd"] のような行を探してターゲットを追加
+    pattern = r'(targets\s*=\s*\[)([^\]]*?)(\])'
+    match = re.search(pattern, text)
+    if not match:
+        print(
+            "[WARN] pyproject.toml に targets 定義が見つかりません。"
+            "手動で追加してください。",
+            file=sys.stderr,
+        )
+        return
+
+    existing = match.group(2)
+    if f'"{target_name}"' in existing:
+        print(f'  targets に "{target_name}" は既に含まれています')
+        return
+
+    # 末尾にカンマがなければ追加
+    trimmed = existing.rstrip()
+    if trimmed and not trimmed.endswith(","):
+        trimmed += ","
+    new_targets = f'{trimmed} "{target_name}"'
+    new_text = (
+        text[: match.start()]
+        + match.group(1)
+        + new_targets
+        + match.group(3)
+        + text[match.end() :]
+    )
+    pyproject.write_text(new_text, encoding="utf-8")
+    print(f'  targets に "{target_name}" を追加しました')
+
+
 def run_build_test(repo_root: Path, target: str) -> None:
     """scripts/make.py を実行してビルドテスト"""
     make_script = repo_root / "scripts" / "make.py"
@@ -100,7 +138,7 @@ def main() -> None:
         )
         print("", file=sys.stderr)
         print("例:", file=sys.stderr)
-        print("  python scripts/copy.py 2026 2027", file=sys.stderr)
+        print("  python scripts/create_folder.py 2026 2027", file=sys.stderr)
         print("    → 2026/ を元に 2027/ を作成", file=sys.stderr)
         sys.exit(1)
 
@@ -121,31 +159,30 @@ def main() -> None:
     print(f"{template_name}/ を元に {target_name}/ を作成します")
     print()
 
-    print(f"[1/5] ディレクトリ構造をコピー: {template_name}/ → {target_name}/")
+    print(f"[1/6] ディレクトリ構造をコピー: {template_name}/ → {target_name}/")
     copy_directory_structure(src, dst)
 
-    print("[2/5] 共通ファイルをコピー (style.css, template/*, markdown/index.md)")
+    print("[2/6] 共通ファイルをコピー (style.css, template/*, markdown/index.md)")
     copy_common_files(src, dst)
 
-    print("[3/5] index.md を初期化 (見出し構造のみ残す)")
+    print("[3/6] index.md を初期化 (見出し構造のみ残す)")
     clean_index_md(dst)
 
-    print("[4/5] html/ にプレースホルダを作成")
+    print("[4/6] html/ にプレースホルダを作成")
     create_html_placeholder(dst)
 
+    print("[5/6] pyproject.toml の targets に追加")
+    add_to_pyproject_targets(repo_root, target_name)
+
     print()
-    print(f"[5/5] ビルドテスト: scripts/make.py {target_name} を実行")
+    print(f"[6/6] ビルドテスト: scripts/make.py {target_name} を実行")
     print("-" * 40)
     run_build_test(repo_root, target_name)
     print("-" * 40)
-    print("[5/5] ビルドテスト完了")
+    print("[6/6] ビルドテスト完了")
 
     print()
     print(f"完了: {target_name}/ を作成しました")
-    print(
-        "※ pyproject.toml の [tool.pwssite] targets に"
-        f' "{target_name}" を追加してください'
-    )
 
 
 if __name__ == "__main__":

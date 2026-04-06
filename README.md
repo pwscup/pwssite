@@ -45,18 +45,12 @@ GitHub上でMarkdownファイルを編集・commitするだけでページを更
 
 ---
 
-## 02. 新規フォルダの追加方法（ローカル）
+## 02. 新規フォルダの追加方法
 
-新年度や新規プロジェクト立ち上げ時に、既存フォルダをコピーして新しいサイトを作成する手順です。
-[`scripts/copy.py`](scripts/copy.py) を使って既存構成を複製します。
+新年度や新規プロジェクト立ち上げ時を想定した手順です。
+GitHub上の操作のみで完結できます（ローカルでの作業も可）。
 
-| 手順 | 概要 | 内容 |
-|---|---|---|
-| 1 | フォルダ作成 | `uv run python3 scripts/copy.py <参照元> <新規名>` でディレクトリを作成 |
-| 2 | コンテンツ編集 | `/<新規名>/markdown/index.md` を編集 |
-| 3 | テンプレート修正 | templateファイルのfooterに書かれた年度等を修正 |
-| 4 | ビルド対象に追加 | [`pyproject.toml`](pyproject.toml) の `[tool.pwssite] targets` に新規フォルダ名を追加 |
-| 5 | トップページ更新 | [`index.html`](index.html) に新規フォルダへのリンクを追加 |
+詳しくは [新規フォルダの作成方法](doc/how-to-create-new-folder.md) を参照してください。
 
 ---
 
@@ -71,7 +65,7 @@ GitHub上でMarkdownファイルを編集・commitするだけでページを更
 | [`2019/`](2019/) | 対象外 | PWS2019のサイト。htmlファイルを直接編集 |
 | `2020/` 以降 | **管理対象** | PWS各年度のサイト。mdファイルをGitHub上で編集して作成 |
 | [`ppsd/`](ppsd/) | **管理対象** | データ合成技術評価委員会のサイト。2020以降と同じ運用 |
-| [`scripts/`](scripts/) | **管理対象** | 共通ビルドスクリプト（[build.py](scripts/build.py), [make.py](scripts/make.py), [copy.py](scripts/copy.py)） |
+| [`scripts/`](scripts/) | **管理対象** | 共通ビルドスクリプト（[build.py](scripts/build.py), [make.py](scripts/make.py), [create_folder.py](scripts/create_folder.py)） |
 | [`tests/`](tests/) | **管理対象** | テストコード（pytest） |
 | [`doc/`](doc/) | **管理対象** | ドキュメント・タスク管理 |
 | [`.github/workflows/`](.github/workflows/) | **管理対象** | GitHub Actionsの設定（管理者向け） |
