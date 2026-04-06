@@ -32,6 +32,15 @@ def read_text(path: Path) -> str:
     return path.read_text(encoding="utf-8")
 
 
+def _replace_template_vars(template: str, target_dir: Path) -> str:
+    """Replace template variables like {{YEAR}} and {{YEAR_SHORT}}."""
+    year = target_dir.name  # e.g. "2026"
+    year_short = year[-2:] if len(year) >= 2 else year  # e.g. "26"
+    template = template.replace("{{YEAR}}", year)
+    template = template.replace("{{YEAR_SHORT}}", year_short)
+    return template
+
+
 def build_header(target_dir: Path, base: str, title: str) -> str:
     if base.endswith("_e"):
         header1 = read_text(target_dir / "template/header_e.html")
@@ -39,7 +48,8 @@ def build_header(target_dir: Path, base: str, title: str) -> str:
     else:
         header1 = read_text(target_dir / "template/header.html")
         header2 = read_text(target_dir / "template/header_afterTitle.html")
-    return f"{header1}    <title>{title}</title>\n{header2}"
+    combined = f"{header1}    <title>{title}</title>\n{header2}"
+    return _replace_template_vars(combined, target_dir)
 
 
 def _slugify(text: str) -> str:

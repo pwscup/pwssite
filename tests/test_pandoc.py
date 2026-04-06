@@ -128,6 +128,28 @@ class TestInsertTocAfterWhatsNew:
         assert result.index("intro") < result.index("目次")
 
 
+class TestReplaceTemplateVars:
+    def test_replaces_year(self):
+        template = "PWSCUP{{YEAR}} cup{{YEAR_SHORT}}.html"
+        result = build_mod._replace_template_vars(template, Path("/repo/2026"))
+        assert result == "PWSCUP2026 cup26.html"
+
+    def test_no_placeholders(self):
+        template = "no placeholders here"
+        result = build_mod._replace_template_vars(template, Path("/repo/2026"))
+        assert result == "no placeholders here"
+
+    def test_different_year(self):
+        template = "cup{{YEAR_SHORT}}.html PWSCUP{{YEAR}}"
+        result = build_mod._replace_template_vars(template, Path("/repo/2027"))
+        assert result == "cup27.html PWSCUP2027"
+
+    def test_non_numeric_dir(self):
+        template = "{{YEAR}} {{YEAR_SHORT}}"
+        result = build_mod._replace_template_vars(template, Path("/repo/ppsd"))
+        assert result == "ppsd sd"
+
+
 class TestBuildHeader:
     def test_japanese_template(self, template_dir_2026: Path):
         target_dir = template_dir_2026.parent
@@ -140,3 +162,19 @@ class TestBuildHeader:
         header = build_mod.build_header(target_dir, "index_e", "Test Title")
         assert "<title>Test Title</title>" in header
         assert 'lang="en"' in header
+
+    def test_placeholder_replaced_in_japanese(self, template_dir_2026: Path):
+        target_dir = template_dir_2026.parent
+        header = build_mod.build_header(target_dir, "index", "Test")
+        assert "{{YEAR}}" not in header
+        assert "{{YEAR_SHORT}}" not in header
+        assert "cup26.html" in header
+        assert "PWSCUP2026" in header
+
+    def test_placeholder_replaced_in_english(self, template_dir_2026: Path):
+        target_dir = template_dir_2026.parent
+        header = build_mod.build_header(target_dir, "index_e", "Test")
+        assert "{{YEAR}}" not in header
+        assert "{{YEAR_SHORT}}" not in header
+        assert "cup26_e.html" in header
+        assert "PWSCUP2026" in header
