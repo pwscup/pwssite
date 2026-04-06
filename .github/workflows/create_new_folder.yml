@@ -1,4 +1,4 @@
-name: Create New Folder
+name: "[手動] 新規フォルダ作成"
 
 on:
   workflow_dispatch:
