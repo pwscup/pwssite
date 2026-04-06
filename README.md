@@ -1,88 +1,83 @@
 # pwssite 概要
-- Privacy Workshop Webサイト管理用リポジトリです。
-- 誰でも触れるように、**GitHub上でもページを作成・編集**できるようにしています。
-  - ローカルで作業していただいても構いません
+
+Privacy Workshop Webサイト管理用リポジトリです。
+誰でも触れるように、**GitHub上でもページを作成・編集**できるようにしています（ローカルでの作業も可）。
+
 - ↓の"利用方法"をよく読みましょう　難しくありません
-  - [PWS Slack](https://pwscup.slack.com)で質問してください。
-  
-- ページの追加・更新方法(@GitHub)
-  - [まずはこのスライド](https://docs.google.com/presentation/d/1VPrXKw8AN9LVo-EXei2zOkcJoQwn1LSfwvPKT-2-5lA/edit)を読みましょう。
-    - 思いと全体構成が書いてあります
-  - 既存ページを更新する際は、gh-pagesブランチの/202*/markdown 等にある.mdファイルを、マークダウン形式で編集してください。
-    - 新規ページを作成する際は、/202*/markdown/hoge.md等を新規作成してください。
-  - commitして少し待つと、[テスト環境：github-pages](https://pwscup.github.io/pwssite)の/202*/hoge.mdに反映されます。ここで見た目を確認します。
-    - 表示に問題があれば、再度GitHub上でmarkdownを編集してcommitしてください。
-  - 表示が問題なければ、本番環境に反映してください。gh-pagesブランチの内容をmaster branchにマージするだけです。
-    - 自分で承認して構いません。少し待つと、[本番環境：IWSECサーバ](https://www.iwsec.org/pws/)にデプロイされます。
-    - テスト環境での表示確認は必ず行ってください。早まってビルド完了前にmasterにマージした場合は、本番環境に変更が反映されません。
-  - 詳細が気になる場合は [PWS Slack](https://pwscup.slack.com)で質問してください。誰かが答えてくれます。
-    - 招待済みでない場合は、他の適当な手段で運営委員のどなたかにコンタクトをとってください。担当者にスローされます。
+- [PWS Slack](https://pwscup.slack.com)で質問してください
 
-- ページの追加・更新方法(@ローカル)
-  - いい感じにお願いします
+## ページの追加・更新方法（GitHub上）
 
-- ルートへの新規フォルダ追加方法(@ローカル)
-  - 新年度や、新規プロジェクト立ち上げの際を想定
-  - `python3 copy.py (プロジェクト名)` としてください。空のディレクトリが作られます
-  - 次に、/(プロジェクト名)/markdown/index.mdを編集してください
-  - 次に、templateファイルのfooterに書かれた年度等を直してください
-  - 次に、`python3 /(プロジェクト名)/scripts/make.py` を実行すると、htmlが更新されます
-  - 次に、/make.pyを参照して、(プロジェクト名)/scripts/make.pyを追記してください
-    - これにより、githubにcommit内容が反映された際に、make.pyが実行されます
-  - 次に、/index.htmlに、/(新規プロジェクト名/index.html)へのリンクを追加してください
+| 手順 | 内容 |
+|---|---|
+| 1 | [まずはこのスライド](https://docs.google.com/presentation/d/1VPrXKw8AN9LVo-EXei2zOkcJoQwn1LSfwvPKT-2-5lA/edit)を読む（思いと全体構成） |
+| 2 | gh-pagesブランチの `/202*/markdown/` 等にある `.md` ファイルをマークダウン形式で編集（新規ページは `.md` を新規作成） |
+| 3 | commitして少し待つと、[テスト環境](https://pwscup.github.io/pwssite)に反映される。見た目を確認 |
+| 4 | 表示に問題があれば再度編集してcommit |
+| 5 | 問題なければ gh-pages → master にマージ。少し待つと[本番環境](https://www.iwsec.org/pws/)にデプロイされる |
 
-# フォルダ・ファイル構成
-- (管理対象外)2018以前
-  - PWS2018以前のサイト gitで管理していませんでした 
-- (管理対象外)2019
-  - PWS2019 のサイト htmlファイルを直接編集しています
-- (管理対象)2020以降
-  - PWS202* のサイト "運用方法"の手順で、mdファイルをgithub上で編集して作っています
-- (管理対象) ppsd
-  - データ合成技術評価委員会のサイト 2020以降と同じ運用です
-- (管理対象) .github/workflows
-  - GitHub Actionsの設定 (通常、これを触りたい場面はないと思います 管理者向けです)
-  - gh-pagesにコミット：mdファイルをhtmlに変換して、github pagesにて公開します
-  - masterにコミット：iwsecサーバでpullすることで、githubの内容を本番環境で公開します
+- テスト環境での表示確認は必ず行ってください。ビルド完了前にmasterにマージすると本番に反映されません
+- 詳細は [PWS Slack](https://pwscup.slack.com) で質問してください
 
-# ブランチ
-- master
-  - 本番の[IWSECサーバ](https://www.iwsec.org/pws/)用
-  - **masterにcommitされた内容は、Actionsで自動的に本番にデプロイされるので注意です**
-- gh-pages
-  - テスト用
-  - [github-pages](https://pwscup.github.io/pwssite)で確認できます
-- その他
-  - 自由に作成してください。
+## 新規フォルダの追加方法（ローカル）
 
-# 裏側で何が動いているか
-  - 気になる人は[このスライド](https://docs.google.com/presentation/d/1VPrXKw8AN9LVo-EXei2zOkcJoQwn1LSfwvPKT-2-5lA/edit)を見ましょう
-  - GitHub Actionsが頑張っています
-  - Markdown→HTML変換はPython (`markdown-it-py`) で行っています（GitHub Flavored Markdown互換）
-  - 依存管理には [uv](https://docs.astral.sh/uv/) を使用しています
-  - ローカルでビルドする場合は `uv run python3 make.py` を実行してください（依存の自動インストール + ビルドが走ります）
+新年度や新規プロジェクト立ち上げ時を想定した手順です。
 
+| 手順 | 内容 |
+|---|---|
+| 1 | `uv run python3 scripts/copy.py <参照元> <新規名>` でディレクトリを作成 |
+| 2 | `/<新規名>/markdown/index.md` を編集 |
+| 3 | templateファイルのfooterに書かれた年度等を修正 |
+| 4 | `pyproject.toml` の `[tool.pwssite] targets` に新規フォルダ名を追加 |
+| 5 | `/index.html` に新規フォルダへのリンクを追加 |
 
-# markdown作成Tips
+## フォルダ・ファイル構成
+
+| フォルダ | 管理 | 説明 |
+|---|---|---|
+| `2018以前` | 対象外 | PWS2018以前のサイト。gitで管理していませんでした |
+| `2019` | 対象外 | PWS2019のサイト。htmlファイルを直接編集 |
+| `2020以降` | **管理対象** | PWS202*のサイト。mdファイルをgithub上で編集して作成 |
+| `ppsd` | **管理対象** | データ合成技術評価委員会のサイト。2020以降と同じ運用 |
+| `scripts/` | **管理対象** | 共通ビルドスクリプト（build.py, make.py, copy.py） |
+| `.github/workflows` | **管理対象** | GitHub Actionsの設定（管理者向け） |
+
+## ブランチ
+
+| ブランチ | 用途 |
+|---|---|
+| `master` | 本番の[IWSECサーバ](https://www.iwsec.org/pws/)用。**commitされた内容は自動的に本番にデプロイされるので注意** |
+| `gh-pages` | テスト用。[github-pages](https://pwscup.github.io/pwssite)で確認できる |
+| その他 | 自由に作成してください |
+
+## 裏側で何が動いているか
+
+- 気になる人は[このスライド](https://docs.google.com/presentation/d/1VPrXKw8AN9LVo-EXei2zOkcJoQwn1LSfwvPKT-2-5lA/edit)を見ましょう
+- GitHub Actionsが頑張っています
+- Markdown→HTML変換はPython (`markdown-it-py`) で行っています（GitHub Flavored Markdown互換）
+- 依存管理には [uv](https://docs.astral.sh/uv/) を使用しています
+- ビルド対象は `pyproject.toml` の `[tool.pwssite] targets` で定義されています
+- ローカルでビルドする場合は `uv run python3 make.py` を実行してください
+
+## Markdown作成Tips
+
 - GitHub Flavored Markdown (GFM) に対応しています
   - GitHub上のプレビューと同じ見た目でビルドされます
   - 打ち消し線(`~~text~~`)、タスクリスト(`- [ ]`)、テーブル等が使えます
-- 最初に登場した "# ..." の文字列が title タグに採用されます。見つからない場合は "PWS" となります。
-- 画像の場所に注意
-  - markdown/Imagesに配置して、mdファイル内では./Images/hoge.pngという形で参照すれば大丈夫かと
+- 最初に登場した `# ...` の文字列が title タグに採用されます。見つからない場合は "PWS" となります
+- 画像は `markdown/Images/` に配置して、mdファイル内では `./Images/hoge.png` の形で参照
 - masterへのマージのタイミング
-  - gh-pagesにcommitして少し待つと、Actionsによるmarkdown->html変換が走って反映されます
-  - 焦ってすぐにmasterにmergeすると、htmlが生成されずにmasterに含まれてしまうので、注意です　gh-pagesで確認してからmasterにマージしましょう
-  - 上部のActionsタブから、自動ビルド実行様子が見られます。すべて完了状態になっていることを確認したら、次の作業に移りましょう
+  - gh-pagesにcommitして少し待つと、Actionsによるmarkdown→html変換が走って反映されます
+  - 焦ってすぐにmasterにmergeすると、htmlが生成されずにmasterに含まれてしまうので注意
+  - 上部のActionsタブから自動ビルドの実行状況が見られます。すべて完了状態になっていることを確認したら、次の作業に移りましょう
 
-# 備考
-  - スタイルシートとフッタは編集しない想定です。
-  - ヘッダは title タグだけ、 mdファイルの文字列の影響を受けます。
-  - Masterへの直接commit禁止です。
-    - iwsecサーバで↑の設定をしています。 Githubでは、...どうやるんだ？誰か教えてください
-  - サイズの大きなデータは、githubには置けません。
-    - 2019 は 2019/data/ をgitignoreしています data以下はローカルから直接iwsecサーバにscpしています
-    - google driveの公開ディレクトリのURLを記載する、など
+## 備考
 
-# 詳細は
-- [PWS Slack](https://pwscup.slack.com)で質問してください
+- スタイルシートとフッタは編集しない想定です
+- ヘッダは title タグだけ、mdファイルの文字列の影響を受けます
+- Masterへの直接commit禁止です
+- サイズの大きなデータはgithubには置けません（google driveの公開URL等を利用）
+
+## 詳細は
+
+[PWS Slack](https://pwscup.slack.com)で質問してください

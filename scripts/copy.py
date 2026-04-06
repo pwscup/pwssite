@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""新年度ディレクトリ作成用スクリプト (copy.bash の Python 版)"""
+"""新年度ディレクトリ作成用スクリプト"""
 
 import os
 import sys
@@ -8,24 +8,23 @@ import subprocess
 from pathlib import Path
 
 
-
-def get_script_dir() -> Path:
-    return Path(__file__).resolve().parent
+def get_repo_root() -> Path:
+    return Path(__file__).resolve().parent.parent
 
 
 def copy_directory_structure(src: Path, dst: Path) -> None:
-    """ディレクトリ構造のみをコピー (rsync --include "*/" --exclude "*" 相当)"""
+    """ディレクトリ構造のみをコピー (scripts/ は除外)"""
     for dirpath, dirnames, _ in os.walk(src):
         relative = Path(dirpath).relative_to(src)
+        # scripts/ は共通化済みなのでコピーしない
+        if relative.parts and relative.parts[0] == "scripts":
+            continue
         target = dst / relative
         target.mkdir(parents=True, exist_ok=True)
 
 
-def copy_common_files(script_dir: Path, template: str, target: str) -> None:
+def copy_common_files(src: Path, dst: Path) -> None:
     """共通ファイルのコピー"""
-    src = script_dir / template
-    dst = script_dir / target
-
     # style.css
     shutil.copy2(src / "style.css", dst / "style.css")
 
@@ -33,11 +32,6 @@ def copy_common_files(script_dir: Path, template: str, target: str) -> None:
     for f in (src / "template").iterdir():
         if f.is_file():
             shutil.copy2(f, dst / "template" / f.name)
-
-    # scripts/*
-    for f in (src / "scripts").iterdir():
-        if f.is_file():
-            shutil.copy2(f, dst / "scripts" / f.name)
 
     # markdown/index.md
     shutil.copy2(src / "markdown" / "index.md", dst / "markdown" / "index.md")
@@ -51,15 +45,12 @@ def clean_index_md(dst: Path) -> None:
     cleaned: list[str] = []
     for line in lines:
         if line.startswith("# "):
-            # h1: 見出し自体を TBD に
             cleaned.append("# TBD")
             cleaned.append("")
         elif line.startswith("## "):
-            # h2: 見出しテキストは残し、内容を TBD に
             cleaned.append(line)
             cleaned.append("TBD")
             cleaned.append("")
-        # h2 以下の本文・h3 等はすべて捨てる
 
     md_path.write_text("\n".join(cleaned) + "\n", encoding="utf-8")
 
@@ -78,11 +69,12 @@ def place_gitkeep(dst: Path) -> None:
             (Path(dirpath) / ".gitkeep").touch()
 
 
-def run_build_test(script_dir: Path, target: str) -> None:
-    """make.py を実行してビルドテスト"""
-    make_script = script_dir / target / "scripts" / "make.py"
+def run_build_test(repo_root: Path, target: str) -> None:
+    """scripts/make.py を実行してビルドテスト"""
+    make_script = repo_root / "scripts" / "make.py"
+    target_dir = repo_root / target
     result = subprocess.run(
-        [sys.executable, str(make_script)],
+        [sys.executable, str(make_script), str(target_dir)],
         capture_output=True, text=True,
     )
     if result.stdout:
@@ -101,53 +93,49 @@ def main() -> None:
         print(f"使い方: python {sys.argv[0]} <参照元フォルダ名> <新規フォルダ名>", file=sys.stderr)
         print("", file=sys.stderr)
         print("例:", file=sys.stderr)
-        print("  python copy.py 2026 2027", file=sys.stderr)
+        print("  python scripts/copy.py 2026 2027", file=sys.stderr)
         print("    → 2026/ を元に 2027/ を作成", file=sys.stderr)
-        print("  python copy.py 2026 ipws2027", file=sys.stderr)
-        print("    → 2026/ を元に ipws2027/ を作成", file=sys.stderr)
         sys.exit(1)
 
-    template_year = sys.argv[1]
-    target_year = sys.argv[2]
-    script_dir = get_script_dir()
-    src = script_dir / template_year
-    dst = script_dir / target_year
+    template_name = sys.argv[1]
+    target_name = sys.argv[2]
+    repo_root = get_repo_root()
+    src = repo_root / template_name
+    dst = repo_root / target_name
 
     if not src.is_dir():
-        print(f"参照元ディレクトリ {template_year} が見つかりません。", file=sys.stderr)
+        print(f"参照元ディレクトリ {template_name} が見つかりません。", file=sys.stderr)
         sys.exit(1)
 
     if dst.exists():
-        print(f"{target_year} directory already exists.")
+        print(f"{target_name} directory already exists.")
         sys.exit(1)
 
-    print(f"{template_year}/ を元に {target_year}/ を作成します")
+    print(f"{template_name}/ を元に {target_name}/ を作成します")
     print()
 
-    print(f"[1/6] ディレクトリ構造をコピー: {template_year}/ → {target_year}/")
+    print(f"[1/5] ディレクトリ構造をコピー: {template_name}/ → {target_name}/")
     copy_directory_structure(src, dst)
 
-    print(f"[2/6] 共通ファイルをコピー (style.css, template/*, scripts/*, markdown/index.md)")
-    copy_common_files(script_dir, template_year, target_year)
+    print(f"[2/5] 共通ファイルをコピー (style.css, template/*, markdown/index.md)")
+    copy_common_files(src, dst)
 
-    print(f"[3/6] index.md を初期化 (見出し構造のみ残す)")
+    print(f"[3/5] index.md を初期化 (見出し構造のみ残す)")
     clean_index_md(dst)
 
-    print(f"[4/6] html/ にプレースホルダを作成")
+    print(f"[4/5] html/ にプレースホルダを作成")
     create_html_placeholder(dst)
 
     print()
-    print(f"[5/6] ビルドテスト: {target_year}/scripts/make.py を実行")
+    print(f"[5/5] ビルドテスト: scripts/make.py {target_name} を実行")
     print("-" * 40)
-    run_build_test(script_dir, target_year)
+    run_build_test(repo_root, target_name)
     print("-" * 40)
-    print(f"[5/6] ビルドテスト完了")
-
-    print(f"[6/6] 空ディレクトリに .gitkeep を配置")
-    place_gitkeep(dst)
+    print(f"[5/5] ビルドテスト完了")
 
     print()
-    print(f"完了: {target_year}/ を作成しました")
+    print(f"完了: {target_name}/ を作成しました")
+    print(f"※ pyproject.toml の [tool.pwssite] targets に \"{target_name}\" を追加してください")
 
 
 if __name__ == "__main__":

@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+"""Build HTML for a single target directory."""
+
 from pathlib import Path
 import shutil
 import subprocess
@@ -13,11 +15,11 @@ def collect_markdown(md_dir: Path) -> list[Path]:
     return rels
 
 
-def main() -> int:
-    script_dir = Path(__file__).resolve().parent
-    md_dir = (script_dir / "../markdown").resolve()
-    html_dir = (script_dir / "../html").resolve()
-    public_dir = md_dir.parent.resolve()
+def build_target(target_dir: Path) -> int:
+    """Build all markdown files in target_dir."""
+    md_dir = target_dir / "markdown"
+    html_dir = target_dir / "html"
+    public_dir = target_dir
 
     html_dir.mkdir(parents=True, exist_ok=True)
 
@@ -40,12 +42,14 @@ def main() -> int:
         print(f"  {base}.md")
     print("----------------------------------------")
 
+    scripts_dir = Path(__file__).resolve().parent
+
     for base, _ in targets:
         html = html_dir / f"{base}.html"
 
         print(f"[BUILD] {base}.md -> {base}.html")
         subprocess.run(
-            [sys.executable, str(script_dir / "pandoc.py"), base],
+            [sys.executable, str(scripts_dir / "build.py"), str(target_dir), base],
             check=True,
         )
 
@@ -72,6 +76,15 @@ def main() -> int:
 
     print("Done.")
     return 0
+
+
+def main() -> int:
+    if len(sys.argv) != 2:
+        print("Usage: make.py <target_dir>")
+        return 1
+
+    target_dir = Path(sys.argv[1]).resolve()
+    return build_target(target_dir)
 
 
 if __name__ == "__main__":

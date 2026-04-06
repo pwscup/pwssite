@@ -2,9 +2,8 @@
 from __future__ import annotations
 
 from pathlib import Path
-import sys
-
 import re
+import sys
 import unicodedata
 
 from markdown_it import MarkdownIt
@@ -33,13 +32,13 @@ def read_text(path: Path) -> str:
     return path.read_text(encoding="utf-8")
 
 
-def build_header(script_dir: Path, base: str, title: str) -> str:
+def build_header(target_dir: Path, base: str, title: str) -> str:
     if base.endswith("_e"):
-        header1 = read_text(script_dir / "../template/header_e.html")
-        header2 = read_text(script_dir / "../template/header_afterTitle_e.html")
+        header1 = read_text(target_dir / "template/header_e.html")
+        header2 = read_text(target_dir / "template/header_afterTitle_e.html")
     else:
-        header1 = read_text(script_dir / "../template/header.html")
-        header2 = read_text(script_dir / "../template/header_afterTitle.html")
+        header1 = read_text(target_dir / "template/header.html")
+        header2 = read_text(target_dir / "template/header_afterTitle.html")
     return f"{header1}    <title>{title}</title>\n{header2}"
 
 
@@ -134,12 +133,7 @@ def build_body(md_text: str) -> tuple[str, str]:
     toc_html = _build_toc_html(headings)
 
     html_body = md.render(md_text)
-    # Re-render with the id attributes injected into heading tokens
-    # Since render() re-parses, we need to render from tokens directly
-    # markdown-it-py doesn't have a render_from_tokens, so we re-inject
-    # ids by post-processing the HTML
     for level, slug, text in headings:
-        # Add id to the first matching heading tag without an id
         pattern = f"<h{level}>"
         replacement = f'<h{level} id="{slug}">'
         html_body = html_body.replace(pattern, replacement, 1)
@@ -172,25 +166,19 @@ def insert_toc_after_whats_new(html_body: str, toc_html: str) -> str:
     return html_body[:insert_at] + toc_block + html_body[insert_at:]
 
 
-def main() -> int:
-    if len(sys.argv) != 2:
-        print("Usage: pandoc.py <base_filename>")
-        return 1
-
-    base = sys.argv[1]
-    script_dir = Path(__file__).resolve().parent
-    md_path = (script_dir / f"../markdown/{base}.md").resolve()
-    html_dir = (script_dir / "../html").resolve()
+def build_page(target_dir: Path, base: str) -> None:
+    """Build a single page: markdown -> HTML."""
+    md_path = target_dir / "markdown" / f"{base}.md"
+    html_dir = target_dir / "html"
     html_dir.mkdir(parents=True, exist_ok=True)
-    output_path = (script_dir / f"../html/{base}.html").resolve()
-    footer_path = (script_dir / "../template/footer.html").resolve()
+    output_path = html_dir / f"{base}.html"
+    footer_path = target_dir / "template" / "footer.html"
 
     if not md_path.exists():
-        print(f"[ERROR] markdown not found: {md_path}")
-        return 1
+        raise FileNotFoundError(f"markdown not found: {md_path}")
 
     title = extract_title(md_path)
-    header = build_header(script_dir, base, title)
+    header = build_header(target_dir, base, title)
     md_text = read_text(md_path)
     toc_html, html_body = build_body(md_text)
     footer = read_text(footer_path)
@@ -201,6 +189,21 @@ def main() -> int:
     parts.append(footer)
 
     output_path.write_text("\n".join(parts) + "\n", encoding="utf-8")
+
+
+def main() -> int:
+    if len(sys.argv) != 3:
+        print("Usage: pandoc.py <target_dir> <base_filename>")
+        return 1
+
+    target_dir = Path(sys.argv[1]).resolve()
+    base = sys.argv[2]
+
+    try:
+        build_page(target_dir, base)
+    except FileNotFoundError as e:
+        print(f"[ERROR] {e}")
+        return 1
     return 0
 
 
