@@ -65,6 +65,11 @@ class TestBuildBody:
         assert "<s>" in html or "<del>" in html
         assert "deleted text" in html
 
+    def test_autolink(self):
+        md = "Visit https://example.com for details\n"
+        _, html = build_mod.build_body(md)
+        assert '<a href="https://example.com"' in html
+
     def test_raw_html_preserved(self):
         md = "<dl>\n<dt>Key</dt>\n<dd>Value</dd>\n</dl>\n"
         _, html = build_mod.build_body(md)
