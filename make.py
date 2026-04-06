@@ -1,26 +1,35 @@
 #!/usr/bin/env python3
-"""2026 / ppsd のビルドエントリポイント
-
-2025 以前の bash ベースのビルドは make.bash を使用してください。
-"""
+"""Build entry point: reads targets from pyproject.toml and builds each."""
 
 from pathlib import Path
 import subprocess
 import sys
 
+import tomllib
+
 
 def main() -> int:
     root = Path(__file__).resolve().parent
-    targets = [
-        root / "2026" / "scripts" / "make.py",
-        root / "ppsd" / "scripts" / "make.py",
-    ]
+    pyproject = root / "pyproject.toml"
 
-    for script in targets:
-        print(f"=== {script.relative_to(root)} ===")
-        result = subprocess.run([sys.executable, str(script)])
+    with pyproject.open("rb") as f:
+        config = tomllib.load(f)
+
+    targets = config.get("tool", {}).get("pwssite", {}).get("targets", [])
+    if not targets:
+        print("[WARN] No targets defined in pyproject.toml [tool.pwssite].targets")
+        return 0
+
+    scripts_make = root / "scripts" / "make.py"
+
+    for target_name in targets:
+        target_dir = root / target_name
+        print(f"=== {target_name} ===")
+        result = subprocess.run(
+            [sys.executable, str(scripts_make), str(target_dir)],
+        )
         if result.returncode != 0:
-            print(f"[ERROR] {script.relative_to(root)} failed (exit {result.returncode})")
+            print(f"[ERROR] {target_name} failed (exit {result.returncode})")
             return result.returncode
 
     return 0

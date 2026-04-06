@@ -13,3 +13,6 @@ dev = [
     "pytest>=7.0",
 ]
 
+[tool.pwssite]
+targets = ["2026", "ppsd"]
+
