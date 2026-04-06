@@ -4,7 +4,12 @@ from __future__ import annotations
 from pathlib import Path
 import sys
 
-from markdown import Markdown
+import re
+import unicodedata
+
+from markdown_it import MarkdownIt
+from mdit_py_plugins.footnote import footnote_plugin
+from mdit_py_plugins.tasklists import tasklists_plugin
 
 
 DEFAULT_TITLE = "PWS"
@@ -38,15 +43,107 @@ def build_header(script_dir: Path, base: str, title: str) -> str:
     return f"{header1}    <title>{title}</title>\n{header2}"
 
 
+def _slugify(text: str) -> str:
+    """Generate a slug suitable for use as an HTML id attribute."""
+    text = unicodedata.normalize("NFC", text)
+    text = text.lower()
+    text = re.sub(r"[^\w\s-]", "", text, flags=re.UNICODE)
+    text = re.sub(r"[\s]+", "-", text).strip("-")
+    return text
+
+
+def _collect_headings(tokens: list) -> list[tuple[int, str, str]]:
+    """Walk markdown-it tokens and return (level, id, text) for h2-h6."""
+    headings: list[tuple[int, str, str]] = []
+    slug_counts: dict[str, int] = {}
+    counter = 0
+    i = 0
+    while i < len(tokens):
+        tok = tokens[i]
+        if tok.type == "heading_open":
+            level = int(tok.tag[1])  # e.g. "h2" -> 2
+            # Collect inline text from the next token
+            inline_tok = tokens[i + 1] if i + 1 < len(tokens) else None
+            text = ""
+            if inline_tok and inline_tok.children:
+                text = "".join(
+                    child.content for child in inline_tok.children
+                    if child.type in ("text", "code_inline")
+                )
+            if level >= 2:
+                slug = _slugify(text)
+                if not slug:
+                    counter += 1
+                    slug = f"_{counter}"
+                else:
+                    count = slug_counts.get(slug, 0)
+                    if count:
+                        slug = f"{slug}-{count}"
+                    slug_counts[slug.split("-")[0] if "-" in slug else slug] = count + 1
+                headings.append((level, slug, text))
+                # Inject id into the heading_open token
+                tok.attrSet("id", slug)
+        i += 1
+    return headings
+
+
+def _build_toc_html(headings: list[tuple[int, str, str]]) -> str:
+    """Build a nested TOC HTML string matching the old Markdown TOC format."""
+    if not headings:
+        return ""
+    lines: list[str] = ['<div class="toc">', "<ul>"]
+    base_level = headings[0][0]
+    prev_level = base_level
+
+    for level, slug, text in headings:
+        if level > prev_level:
+            # Open nested lists
+            for _ in range(level - prev_level):
+                lines.append("<ul>")
+        elif level < prev_level:
+            # Close nested lists and their parent items
+            for _ in range(prev_level - level):
+                lines.append("</li>")
+                lines.append("</ul>")
+            # Close the sibling item at the current level
+            lines.append("</li>")
+        else:
+            # Same level — close previous item
+            if lines[-1] != "<ul>":
+                lines.append("</li>")
+        lines.append(f'<li><a href="#{slug}">{text}</a>')
+        prev_level = level
+
+    # Close all remaining open tags
+    for _ in range(prev_level - base_level):
+        lines.append("</li>")
+        lines.append("</ul>")
+    lines.append("</li>")
+    lines.append("</ul>")
+    lines.append("</div>")
+    return "\n".join(lines)
+
+
 def build_body(md_text: str) -> tuple[str, str]:
-    md = Markdown(
-        extensions=["tables", "footnotes", "toc", "fenced_code"],
-        extension_configs={
-            "toc": {"toc_depth": "2-6"},
-        },
-    )
-    html_body = md.convert(md_text)
-    toc_html = md.toc or ""
+    md = MarkdownIt("commonmark", {"html": True}).enable(["table", "strikethrough"])
+    footnote_plugin(md)
+    tasklists_plugin(md)
+
+    tokens = md.parse(md_text)
+    headings = _collect_headings(tokens)
+    toc_html = _build_toc_html(headings)
+
+    html_body = md.render(md_text)
+    # Re-render with the id attributes injected into heading tokens
+    # Since render() re-parses, we need to render from tokens directly
+    # markdown-it-py doesn't have a render_from_tokens, so we re-inject
+    # ids by post-processing the HTML
+    for level, slug, text in headings:
+        # Add id to the first matching heading tag without an id
+        pattern = f"<h{level}>"
+        replacement = f'<h{level} id="{slug}">'
+        html_body = html_body.replace(pattern, replacement, 1)
+
     if "<li>" not in toc_html:
         toc_html = ""
     return toc_html, html_body
