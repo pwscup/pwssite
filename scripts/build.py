@@ -134,7 +134,7 @@ def _build_toc_html(headings: list[tuple[int, str, str]]) -> str:
 
 
 def build_body(md_text: str) -> tuple[str, str]:
-    md = MarkdownIt("commonmark", {"html": True}).enable(["table", "strikethrough"])
+    md = MarkdownIt("commonmark", {"html": True, "linkify": True}).enable(["table", "strikethrough", "linkify"])
     footnote_plugin(md)
     tasklists_plugin(md)
 
