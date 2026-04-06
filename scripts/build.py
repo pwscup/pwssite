@@ -1,15 +1,14 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
-from pathlib import Path
 import re
 import sys
 import unicodedata
+from pathlib import Path
 
 from markdown_it import MarkdownIt
 from mdit_py_plugins.footnote import footnote_plugin
 from mdit_py_plugins.tasklists import tasklists_plugin
-
 
 DEFAULT_TITLE = "PWS"
 
@@ -66,7 +65,8 @@ def _collect_headings(tokens: list) -> list[tuple[int, str, str]]:
             text = ""
             if inline_tok and inline_tok.children:
                 text = "".join(
-                    child.content for child in inline_tok.children
+                    child.content
+                    for child in inline_tok.children
                     if child.type in ("text", "code_inline")
                 )
             if level >= 2:

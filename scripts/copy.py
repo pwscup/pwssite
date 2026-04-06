@@ -2,9 +2,9 @@
 """新年度ディレクトリ作成用スクリプト"""
 
 import os
-import sys
 import shutil
 import subprocess
+import sys
 from pathlib import Path
 
 
@@ -75,14 +75,18 @@ def run_build_test(repo_root: Path, target: str) -> None:
     target_dir = repo_root / target
     result = subprocess.run(
         [sys.executable, str(make_script), str(target_dir)],
-        capture_output=True, text=True,
+        capture_output=True,
+        text=True,
     )
     if result.stdout:
         print(result.stdout, end="")
     if result.stderr:
         print(result.stderr, end="")
     if result.returncode != 0:
-        print(f"ビルドテストが失敗しました (終了コード: {result.returncode})", file=sys.stderr)
+        print(
+            f"ビルドテストが失敗しました (終了コード: {result.returncode})",
+            file=sys.stderr,
+        )
         sys.exit(result.returncode)
 
 
@@ -90,7 +94,10 @@ def main() -> None:
     if len(sys.argv) != 3:
         print("新規ディレクトリ作成スクリプト", file=sys.stderr)
         print("", file=sys.stderr)
-        print(f"使い方: python {sys.argv[0]} <参照元フォルダ名> <新規フォルダ名>", file=sys.stderr)
+        print(
+            f"使い方: python {sys.argv[0]} <参照元フォルダ名> <新規フォルダ名>",
+            file=sys.stderr,
+        )
         print("", file=sys.stderr)
         print("例:", file=sys.stderr)
         print("  python scripts/copy.py 2026 2027", file=sys.stderr)
@@ -117,13 +124,13 @@ def main() -> None:
     print(f"[1/5] ディレクトリ構造をコピー: {template_name}/ → {target_name}/")
     copy_directory_structure(src, dst)
 
-    print(f"[2/5] 共通ファイルをコピー (style.css, template/*, markdown/index.md)")
+    print("[2/5] 共通ファイルをコピー (style.css, template/*, markdown/index.md)")
     copy_common_files(src, dst)
 
-    print(f"[3/5] index.md を初期化 (見出し構造のみ残す)")
+    print("[3/5] index.md を初期化 (見出し構造のみ残す)")
     clean_index_md(dst)
 
-    print(f"[4/5] html/ にプレースホルダを作成")
+    print("[4/5] html/ にプレースホルダを作成")
     create_html_placeholder(dst)
 
     print()
@@ -131,11 +138,14 @@ def main() -> None:
     print("-" * 40)
     run_build_test(repo_root, target_name)
     print("-" * 40)
-    print(f"[5/5] ビルドテスト完了")
+    print("[5/5] ビルドテスト完了")
 
     print()
     print(f"完了: {target_name}/ を作成しました")
-    print(f"※ pyproject.toml の [tool.pwssite] targets に \"{target_name}\" を追加してください")
+    print(
+        "※ pyproject.toml の [tool.pwssite] targets に"
+        f' "{target_name}" を追加してください'
+    )
 
 
 if __name__ == "__main__":

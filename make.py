@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Build entry point: reads targets from pyproject.toml and builds each."""
 
-from pathlib import Path
 import subprocess
 import sys
+from pathlib import Path
 
 import tomllib
 
