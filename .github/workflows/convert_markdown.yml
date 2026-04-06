@@ -1,4 +1,4 @@
-name: Branch Specific Actions
+name: "[自動] ビルド・デプロイ"
 
 on:
   push:
