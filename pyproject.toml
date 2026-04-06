@@ -11,7 +11,20 @@ dependencies = [
 [dependency-groups]
 dev = [
     "pytest>=7.0",
+    "ruff>=0.4",
 ]
+
+[tool.ruff]
+target-version = "py39"
+line-length = 88
+extend-exclude = ["20[0-9][0-9]/"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+ignore = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
 
 [tool.pwssite]
 targets = ["2026", "ppsd"]

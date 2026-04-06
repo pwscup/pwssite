@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Build HTML for a single target directory."""
 
-from pathlib import Path
 import shutil
 import subprocess
 import sys
+from pathlib import Path
 
 
 def collect_markdown(md_dir: Path) -> list[Path]:

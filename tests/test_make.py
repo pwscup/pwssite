@@ -4,8 +4,6 @@ import sys
 import time
 from pathlib import Path
 
-import pytest
-
 SCRIPTS_DIR = Path(__file__).resolve().parent.parent / "scripts"
 sys.path.insert(0, str(SCRIPTS_DIR))
 
@@ -54,7 +52,6 @@ class TestIncrementalBuild:
         html_dir.mkdir()
         md = md_dir / "test.md"
         md.write_text("# Test\n", encoding="utf-8")
-        rel = Path("test.md")
         html = html_dir / "test.html"
         assert not html.exists()
 
