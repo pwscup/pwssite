@@ -19,17 +19,12 @@ Privacy Workshop Webサイト管理用リポジトリです。
 - テスト環境での表示確認は必ず行ってください。ビルド完了前にmasterにマージすると本番に反映されません
 - 詳細は [PWS Slack](https://pwscup.slack.com) で質問してください
 
-## 新規フォルダの追加方法（ローカル）
+## 新規フォルダの追加方法
 
 新年度や新規プロジェクト立ち上げ時を想定した手順です。
+GitHub上の操作のみで完結できます（ローカルでの作業も可）。
 
-| 手順 | 内容 |
-|---|---|
-| 1 | `uv run python3 scripts/copy.py <参照元> <新規名>` でディレクトリを作成 |
-| 2 | `/<新規名>/markdown/index.md` を編集 |
-| 3 | templateファイルのfooterに書かれた年度等を修正 |
-| 4 | `pyproject.toml` の `[tool.pwssite] targets` に新規フォルダ名を追加 |
-| 5 | `/index.html` に新規フォルダへのリンクを追加 |
+詳しくは [新規フォルダの作成方法](doc/how-to-create-new-folder.md) を参照してください。
 
 ## フォルダ・ファイル構成
 
