@@ -23,12 +23,12 @@
 
 - ルートへの新規フォルダ追加方法(@ローカル)
   - 新年度や、新規プロジェクト立ち上げの際を想定
-  - copy.bash (プロジェクト名)としてください。空のディレクトリが作られます
+  - `python3 copy.py (プロジェクト名)` としてください。空のディレクトリが作られます
   - 次に、/(プロジェクト名)/markdown/index.mdを編集してください
   - 次に、templateファイルのfooterに書かれた年度等を直してください
-  - 次に、/(プロジェクト名)/scripts/make.bashを実行すると、htmlが更新されます
-  - 次に、/make.bashを参照して、(プロジェクト名)/scripts/make.bashを追記してください
-    - これにより、githubにcommit内容が反映された際に、make.bashが実行されます
+  - 次に、`python3 /(プロジェクト名)/scripts/make.py` を実行すると、htmlが更新されます
+  - 次に、/make.pyを参照して、(プロジェクト名)/scripts/make.pyを追記してください
+    - これにより、githubにcommit内容が反映された際に、make.pyが実行されます
   - 次に、/index.htmlに、/(新規プロジェクト名/index.html)へのリンクを追加してください
 
 # フォルダ・ファイル構成
@@ -38,6 +38,8 @@
   - PWS2019 のサイト htmlファイルを直接編集しています
 - (管理対象)2020以降
   - PWS202* のサイト "運用方法"の手順で、mdファイルをgithub上で編集して作っています
+- (管理対象) ppsd
+  - データ合成技術評価委員会のサイト 2020以降と同じ運用です
 - (管理対象) .github/workflows
   - GitHub Actionsの設定 (通常、これを触りたい場面はないと思います 管理者向けです)
   - gh-pagesにコミット：mdファイルをhtmlに変換して、github pagesにて公開します
@@ -56,11 +58,14 @@
 # 裏側で何が動いているか
   - 気になる人は[このスライド](https://docs.google.com/presentation/d/1VPrXKw8AN9LVo-EXei2zOkcJoQwn1LSfwvPKT-2-5lA/edit)を見ましょう
   - GitHub Actionsが頑張っています
+  - Markdown→HTML変換はPython (`markdown-it-py`) で行っています（GitHub Flavored Markdown互換）
+  - ローカルで実行する場合は `pip install -r requirements.txt` で依存ライブラリをインストールしてください
 
 
 # markdown作成Tips
-- インデントはタブ2つで
-  - pandocの設定不足なせいで、タブ１つだと深さが変わりません　いつか調べて直します
+- GitHub Flavored Markdown (GFM) に対応しています
+  - GitHub上のプレビューと同じ見た目でビルドされます
+  - 打ち消し線(`~~text~~`)、タスクリスト(`- [ ]`)、テーブル等が使えます
 - 最初に登場した "# ..." の文字列が title タグに採用されます。見つからない場合は "PWS" となります。
 - 画像の場所に注意
   - markdown/Imagesに配置して、mdファイル内では./Images/hoge.pngという形で参照すれば大丈夫かと
