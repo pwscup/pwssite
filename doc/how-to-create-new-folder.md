@@ -42,9 +42,9 @@ PRが作成されたら、GitHub上でファイルを編集して追加コミッ
 
 1. フォルダを作成
    ```bash
-   uv run python3 scripts/copy.py <参照元> <新規名>
+   uv run python3 scripts/create_folder.py <参照元> <新規名>
    ```
-   例: `uv run python3 scripts/copy.py 2026 2027`
+   例: `uv run python3 scripts/create_folder.py 2026 2027`
 
 2. `<新規名>/markdown/index.md` を編集
 

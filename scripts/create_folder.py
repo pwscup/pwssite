@@ -138,7 +138,7 @@ def main() -> None:
         )
         print("", file=sys.stderr)
         print("例:", file=sys.stderr)
-        print("  python scripts/copy.py 2026 2027", file=sys.stderr)
+        print("  python scripts/create_folder.py 2026 2027", file=sys.stderr)
         print("    → 2026/ を元に 2027/ を作成", file=sys.stderr)
         sys.exit(1)
 
