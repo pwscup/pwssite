@@ -49,13 +49,6 @@ def main() -> int:
             check=True,
         )
 
-        tidy_result = subprocess.run(
-            ["tidy", "-quiet", "-indent", "-utf8", "-m", str(html)],
-            check=False,
-        )
-        if tidy_result.returncode != 0:
-            print("[WARN] tidy reported issues; continuing")
-
         html.chmod(0o660)
 
         dest = public_dir / f"{base}.html"
