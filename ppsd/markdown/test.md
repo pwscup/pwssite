@@ -67,7 +67,11 @@ print("Hello, World!")
 - [ ] 未完了タスク
 - [x] 完了済みタスク
 
-## 12. 混在テスト（HTML + Markdown）
+## 12. 画像挿入
+
+![サンプル画像](./Images/test_sample.svg)
+
+## 13. 混在テスト（HTML + Markdown）
 
 <dl>
   <dt>関連リンク</dt>
