@@ -1,0 +1,15 @@
+[project]
+name = "pwssite"
+version = "0.1.0"
+description = "Privacy Workshop Website build tools"
+requires-python = ">=3.9"
+dependencies = [
+    "markdown-it-py==3.0.0",
+    "mdit-py-plugins==0.4.2",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=7.0",
+]
+

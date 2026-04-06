@@ -59,7 +59,8 @@
   - 気になる人は[このスライド](https://docs.google.com/presentation/d/1VPrXKw8AN9LVo-EXei2zOkcJoQwn1LSfwvPKT-2-5lA/edit)を見ましょう
   - GitHub Actionsが頑張っています
   - Markdown→HTML変換はPython (`markdown-it-py`) で行っています（GitHub Flavored Markdown互換）
-  - ローカルで実行する場合は `pip install -r requirements.txt` で依存ライブラリをインストールしてください
+  - 依存管理には [uv](https://docs.astral.sh/uv/) を使用しています
+  - ローカルでビルドする場合は `uv run python3 make.py` を実行してください（依存の自動インストール + ビルドが走ります）
 
 
 # markdown作成Tips
