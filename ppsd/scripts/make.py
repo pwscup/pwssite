@@ -57,17 +57,18 @@ def main() -> int:
 
     images_dir = md_dir / "Images"
     if images_dir.is_dir():
-        subprocess.run(
-            [
-                "rsync",
-                "-rt",
-                "--delete",
-                "--chmod=Du=rwx,Dg=rwx,Fu=rw,Fg=rw",
-                f"{images_dir}/",
-                f"{(html_dir / 'Images')}/",
-            ],
-            check=True,
-        )
+        for dest_images in [html_dir / "Images", public_dir / "Images"]:
+            subprocess.run(
+                [
+                    "rsync",
+                    "-rt",
+                    "--delete",
+                    "--chmod=Du=rwx,Dg=rwx,Fu=rw,Fg=rw",
+                    f"{images_dir}/",
+                    f"{dest_images}/",
+                ],
+                check=True,
+            )
 
     print("Done.")
     return 0
