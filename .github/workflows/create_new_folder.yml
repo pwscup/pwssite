@@ -1,0 +1,72 @@
+name: Create New Folder
+
+on:
+  workflow_dispatch:
+    inputs:
+      source:
+        description: '参照元フォルダ名 (例: 2026)'
+        required: true
+        type: string
+      target:
+        description: '新規フォルダ名 (例: 2027)'
+        required: true
+        type: string
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  create-folder:
+    runs-on: ubuntu-24.04
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: gh-pages
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+
+      - name: Run copy.py
+        run: |
+          uv run python3 scripts/copy.py "${{ inputs.source }}" "${{ inputs.target }}"
+
+      - name: Create branch and commit
+        run: |
+          BRANCH="feature-new-folder-${{ inputs.target }}"
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git checkout -b "$BRANCH"
+          git add .
+          git commit -m "新規フォルダ ${{ inputs.target }}/ を作成 (#701)"
+          git push origin "$BRANCH"
+
+      - name: Create Pull Request
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr create \
+            --base gh-pages \
+            --title "新規フォルダ ${{ inputs.target }}/ を追加" \
+            --body "$(cat <<EOF
+          ## 概要
+
+          \`${{ inputs.source }}/\` を参照元として \`${{ inputs.target }}/\` を作成しました。
+
+          workflow_dispatch により自動生成されたPRです。
+
+          ## 自動で行われた処理
+
+          - ディレクトリ構造のコピー
+          - 共通ファイルのコピー (style.css, template/*, markdown/index.md)
+          - index.md の初期化
+          - html/ プレースホルダの作成
+          - pyproject.toml の targets への追加
+
+          ## PR上で手動対応が必要な作業
+
+          - [ ] \`index.html\` にリンクを追加
+          - [ ] \`${{ inputs.target }}/markdown/index.md\` の内容を編集
+          EOF
+          )"
