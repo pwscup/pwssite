@@ -129,7 +129,6 @@ HTML変換には [markdown-it-py](https://markdown-it-py.readthedocs.io/) を使
 | 項目 | 内容 |
 |---|---|
 | スタイルシート・フッタ | 編集しない想定です（`style.css` や template 内のフッタ） |
-| titleタグ | ヘッダのtitleタグのみ、mdファイルの最初の `#` 見出しから生成されます |
 | 大きなデータ | GitHubにはサイズの大きなデータを置けません。Google Driveの公開URL等を利用してください |
 
 ---
