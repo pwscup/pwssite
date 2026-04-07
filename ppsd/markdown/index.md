@@ -49,5 +49,5 @@
 
 
 <div id="footer">
- <p id="copyright">Copyright 2023-2024 (一社)情報処理学会 コンピュータセキュリティ研究会 PWS組織委員会 データ合成技術評価委員会 All rights reserved</p>
+ <p id="copyright">Copyright 2023-2026 (一社)情報処理学会 コンピュータセキュリティ研究会 PWS組織委員会 データ合成技術評価委員会 All rights reserved</p>
 </div>
