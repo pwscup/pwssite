@@ -156,6 +156,19 @@ clear: left;
 #table-right td{
   text-align: right;
 }
+table{
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em 0;
+}
+th, td{
+  border: 1px solid #cccccc;
+  padding: 6px 10px;
+}
+th{
+  background: #f2f2f2;
+  font-weight: bold;
+}
 em{
   font-weight: bold;
 }
