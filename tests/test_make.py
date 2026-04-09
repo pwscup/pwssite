@@ -1,12 +1,10 @@
-"""Tests for make.py build logic."""
+"""Tests for scripts/make.py build logic."""
 
 import sys
 import time
 from pathlib import Path
 
-import pytest
-
-SCRIPTS_DIR = Path(__file__).resolve().parent.parent / "2026" / "scripts"
+SCRIPTS_DIR = Path(__file__).resolve().parent.parent / "scripts"
 sys.path.insert(0, str(SCRIPTS_DIR))
 
 import make as make_mod  # noqa: E402
@@ -54,8 +52,6 @@ class TestIncrementalBuild:
         html_dir.mkdir()
         md = md_dir / "test.md"
         md.write_text("# Test\n", encoding="utf-8")
-        # No HTML exists → should be a target
-        rel = Path("test.md")
         html = html_dir / "test.html"
         assert not html.exists()
 

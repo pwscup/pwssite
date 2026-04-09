@@ -7,6 +7,8 @@
 /pwscup/
 *.swp
 /gitworktree/
+.venv/
+__pycache__/
 
 # macOS system files
 .DS_Store

@@ -4,14 +4,12 @@ import subprocess
 import sys
 from pathlib import Path
 
-import pytest
-
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 
-def run_build(script: Path) -> subprocess.CompletedProcess:
+def run_build(target_dir: Path) -> subprocess.CompletedProcess:
     return subprocess.run(
-        [sys.executable, str(script)],
+        [sys.executable, str(REPO_ROOT / "scripts" / "make.py"), str(target_dir)],
         capture_output=True,
         text=True,
     )
@@ -19,11 +17,11 @@ def run_build(script: Path) -> subprocess.CompletedProcess:
 
 class TestPpsdBuild:
     def test_build_succeeds(self):
-        result = run_build(REPO_ROOT / "ppsd" / "scripts" / "make.py")
+        result = run_build(REPO_ROOT / "ppsd")
         assert result.returncode == 0
 
     def test_html_generated(self):
-        run_build(REPO_ROOT / "ppsd" / "scripts" / "make.py")
+        run_build(REPO_ROOT / "ppsd")
         html = REPO_ROOT / "ppsd" / "index.html"
         assert html.exists()
         content = html.read_text(encoding="utf-8")
@@ -31,7 +29,7 @@ class TestPpsdBuild:
         assert "<!-- contents end -->" in content
 
     def test_html_has_title(self):
-        run_build(REPO_ROOT / "ppsd" / "scripts" / "make.py")
+        run_build(REPO_ROOT / "ppsd")
         html = REPO_ROOT / "ppsd" / "index.html"
         content = html.read_text(encoding="utf-8")
         assert "<title>" in content
@@ -39,11 +37,11 @@ class TestPpsdBuild:
 
 class Test2026Build:
     def test_build_succeeds(self):
-        result = run_build(REPO_ROOT / "2026" / "scripts" / "make.py")
+        result = run_build(REPO_ROOT / "2026")
         assert result.returncode == 0
 
     def test_html_generated(self):
-        run_build(REPO_ROOT / "2026" / "scripts" / "make.py")
+        run_build(REPO_ROOT / "2026")
         html = REPO_ROOT / "2026" / "index.html"
         assert html.exists()
         content = html.read_text(encoding="utf-8")
@@ -53,10 +51,18 @@ class Test2026Build:
 
 class TestRootMakePy:
     def test_build_succeeds(self):
-        result = run_build(REPO_ROOT / "make.py")
+        result = subprocess.run(
+            [sys.executable, str(REPO_ROOT / "make.py")],
+            capture_output=True,
+            text=True,
+        )
         assert result.returncode == 0
 
     def test_both_directories_built(self):
-        run_build(REPO_ROOT / "make.py")
+        subprocess.run(
+            [sys.executable, str(REPO_ROOT / "make.py")],
+            capture_output=True,
+            text=True,
+        )
         assert (REPO_ROOT / "2026" / "index.html").exists()
         assert (REPO_ROOT / "ppsd" / "index.html").exists()
