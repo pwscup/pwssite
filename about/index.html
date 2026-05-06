@@ -34,8 +34,9 @@
       position: sticky;
       top: 56px; /* 上部メニュー(40px) + 余白 */
       align-self: start;
+      display: flex;
+      flex-direction: column;
       max-height: calc(100vh - 72px);
-      overflow-y: auto;
       padding-right: 4px;
     }
     .sidebar .panel {
@@ -43,6 +44,15 @@
       border: 1px solid #e5e2d6;
       padding: 12px 14px;
       margin-bottom: 14px;
+    }
+    .sidebar .filter-panel { flex-shrink: 0; }
+    .sidebar .year-panel {
+      flex: 1 1 auto;
+      min-height: 0;
+      margin-bottom: 0;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
     }
     .sidebar .panel-title {
       font-size: 0.78em; font-weight: bold; color: #745850;
@@ -72,7 +82,13 @@
     }
     .chip[aria-pressed="true"] .chip-count { color: #ccc; }
 
-    .year-list { display: flex; flex-direction: column; }
+    .year-list {
+      display: flex; flex-direction: column;
+      flex: 0 1 auto;
+      overflow-y: auto;
+      max-height: 50vh;
+      min-height: 80px;
+    }
     .year-list a {
       display: flex; justify-content: space-between; align-items: center;
       padding: 5px 8px; font-size: 0.9em; color: #5f5f5f;
@@ -82,6 +98,39 @@
     .year-list a:hover { background: #fff; }
     .year-list a.active { color: #8a3838; font-weight: bold; background: #fff; }
     .year-list .yc { font-size: 0.8em; color: #999; }
+
+    /* サイドバー内：選択中年度のテーマ詳細 */
+    .theme-display {
+      flex-shrink: 0;
+      margin-top: 12px; padding-top: 12px;
+      border-top: 1px solid #d8d3c2;
+      font-size: 0.85em; line-height: 1.55;
+      max-height: 40vh;
+      overflow-y: auto;
+    }
+    .theme-display .label {
+      font-size: 0.78em; color: #745850; font-weight: bold;
+      letter-spacing: 1px; margin-bottom: 4px; display: block;
+    }
+    .theme-display .y-num {
+      font-family: Georgia, serif; font-weight: bold;
+      color: #180614; margin-right: 6px;
+    }
+    .theme-display .title { font-weight: bold; color: #333; display: inline; }
+    .theme-display .title a { color: #333; }
+    .theme-display .desc { margin-top: 6px; color: #5f5f5f; font-size: 0.95em; }
+    .theme-display .url-link { margin-top: 6px; display: block; font-size: 0.92em; }
+    .theme-display .url-link a { color: #2f2b3f; }
+    .theme-display .empty {
+      color: #aaa; font-style: italic; font-size: 0.92em;
+    }
+    .theme-display .sample-badge {
+      display: inline-block;
+      font-size: 0.72em; font-weight: bold; letter-spacing: 1px;
+      padding: 0px 6px; margin-left: 6px;
+      background: #fff3cd; color: #8a6a1a; border: 1px solid #f0d97a;
+      vertical-align: middle;
+    }
 
     .year-block { margin-top: 28px; scroll-margin-top: 56px; }
     .year-block:first-child { margin-top: 0; }
@@ -155,12 +204,28 @@
       .layout { grid-template-columns: 1fr; gap: 16px; }
       .sidebar {
         position: static; max-height: none; overflow: visible;
+        display: block;
+      }
+      .sidebar .filter-panel {
+        /* モバイルでも filter は画面上部に常駐させる */
+        position: sticky;
+        top: 40px; /* 上部メニューバー(40px) のすぐ下 */
+        z-index: 5;
+        margin: 0 -4px 14px;
+        background: #f6f4ef;
+      }
+      .sidebar .year-panel {
+        display: block; overflow: visible;
       }
       .chip-list { flex-direction: row; flex-wrap: wrap; }
       .chip { width: auto; }
       .chip-count { margin-left: 6px; }
-      .year-list { flex-direction: row; flex-wrap: wrap; gap: 4px; }
+      .year-list {
+        flex-direction: row; flex-wrap: wrap; gap: 4px;
+        max-height: none; overflow: visible;
+      }
       .year-list a { border: 1px solid #e8e4d7; padding: 3px 8px; }
+      .theme-display { max-height: none; }
     }
 
     .voices { margin-top: 32px; }
@@ -223,13 +288,14 @@
 
     <div class="layout">
       <aside class="sidebar" aria-label="絞り込み">
-        <div class="panel">
+        <div class="panel filter-panel">
           <div class="panel-title">区分でフィルタ</div>
           <div class="chip-list" id="filter-chips" role="tablist"></div>
         </div>
-        <div class="panel">
+        <div class="panel year-panel">
           <div class="panel-title">年度ジャンプ</div>
           <nav class="year-list" id="year-list"></nav>
+          <div class="theme-display" id="theme-display"></div>
         </div>
       </aside>
       <div id="timeline"></div>
@@ -322,6 +388,43 @@
           <span>${y}</span><span class="yc">${count}</span>
         </a>`;
       }).join("");
+      renderActiveTheme();
+    }
+
+    function renderActiveTheme() {
+      const el = $("#theme-display");
+      if (!el) return;
+      const y = state.activeYear;
+      if (!y) {
+        el.innerHTML = `<div class="empty">年度を選択するとテーマが表示されます。</div>`;
+        return;
+      }
+      const t = PWS_THEMES_BY_YEAR[y];
+      if (!t) {
+        el.innerHTML = `
+          <span class="label">テーマ</span>
+          <div><span class="y-num">${y}</span><span class="empty">テーマ情報未登録</span></div>
+        `;
+        return;
+      }
+      const titleHtml = t.url
+        ? `<a href="${escapeHtml(t.url)}" target="_blank" rel="noopener">${escapeHtml(t.title)}</a>`
+        : escapeHtml(t.title);
+      const sample = t.sample
+        ? `<span class="sample-badge" title="サンプルデータ。確認後に sample フィールドを削除">サンプル</span>`
+        : "";
+      const desc = t.description
+        ? `<div class="desc">${escapeHtml(t.description)}</div>`
+        : "";
+      const url = t.url
+        ? `<div class="url-link"><a href="${escapeHtml(t.url)}" target="_blank" rel="noopener">公式ページを開く ↗</a></div>`
+        : "";
+      el.innerHTML = `
+        <span class="label">テーマ</span>
+        <div><span class="y-num">${y}</span><span class="title">${titleHtml}</span>${sample}</div>
+        ${desc}
+        ${url}
+      `;
     }
 
     function renderTimeline() {
@@ -453,6 +556,7 @@
         }
         years = [...new Set(PWS_CASES.map(c => c.year))].sort((a, b) => b - a);
         awardsCount = PWS_CASES.filter(c => c.award).length;
+        if (state.activeYear === null && years.length) state.activeYear = years[0];
 
         $("#stat-cases").textContent = PWS_CASES.length;
         $("#stat-cases-2").textContent = PWS_CASES.length;
