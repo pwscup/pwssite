@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>PWS Cup 事例アーカイブ</title>
+  <meta name="description" content="PWS Cup（プライバシーワークショップ・カップ）の関連事例（公式ページ・企業発表・大学受賞報告・論文・参加記など）を年表形式で一覧化したアーカイブページ。">
+  <link rel="stylesheet" type="text/css" href="../style.css">
+  <style>
+    /* このページ固有の追加スタイル（既存 style.css を上書きしない範囲で最小限） */
+    #page { width: 1040px; }
+
+    .intro { line-height: 1.8; }
+
+    .stats {
+      display: flex; gap: 0; margin: 16px 0 8px;
+      border-top: 1px solid #cccccc; border-bottom: 1px solid #cccccc;
+    }
+    .stats .stat {
+      flex: 1; padding: 12px 16px 12px 0; border-right: 1px solid #e5e5e5;
+    }
+    .stats .stat:last-child { border-right: none; }
+    .stats .stat-n { font-size: 1.8em; font-weight: bold; color: #180614; line-height: 1; }
+    .stats .stat-label { font-size: 0.85em; margin-top: 4px; }
+    .stats .stat-sub { font-size: 0.75em; color: #999; margin-top: 2px; }
+
+    /* 2カラムレイアウト：左サイドバー + 本文 */
+    .layout {
+      display: grid;
+      grid-template-columns: 200px 1fr;
+      gap: 28px;
+      margin-top: 8px;
+    }
+    .sidebar {
+      position: sticky;
+      top: 56px; /* 上部メニュー(40px) + 余白 */
+      align-self: start;
+      max-height: calc(100vh - 72px);
+      overflow-y: auto;
+      padding-right: 4px;
+    }
+    .sidebar .panel {
+      background: #f6f4ef;
+      border: 1px solid #e5e2d6;
+      padding: 12px 14px;
+      margin-bottom: 14px;
+    }
+    .sidebar .panel-title {
+      font-size: 0.78em; font-weight: bold; color: #745850;
+      letter-spacing: 1px; margin-bottom: 8px;
+      padding-bottom: 6px; border-bottom: 1px solid #e0dccd;
+    }
+
+    .chip-list { display: flex; flex-direction: column; gap: 4px; }
+    .chip {
+      display: flex; align-items: center;
+      background: #fff; border: 1px solid #cccccc;
+      padding: 6px 10px;
+      font-size: 0.85em; cursor: pointer; color: #5f5f5f;
+      font-family: inherit;
+      text-align: left; width: 100%;
+    }
+    .chip:hover { border-color: #999; }
+    .chip[aria-pressed="true"] {
+      background: #2f2b3f; color: #fff; border-color: #2f2b3f;
+    }
+    .chip-dot {
+      width: 8px; height: 8px; border-radius: 99px;
+      margin-right: 8px; display: inline-block; flex-shrink: 0;
+    }
+    .chip-count {
+      margin-left: auto; font-size: 0.85em; color: #999;
+    }
+    .chip[aria-pressed="true"] .chip-count { color: #ccc; }
+
+    .year-list { display: flex; flex-direction: column; }
+    .year-list a {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 5px 8px; font-size: 0.9em; color: #5f5f5f;
+      text-decoration: none; border-bottom: 1px solid #e8e4d7;
+    }
+    .year-list a:last-child { border-bottom: none; }
+    .year-list a:hover { background: #fff; }
+    .year-list a.active { color: #8a3838; font-weight: bold; background: #fff; }
+    .year-list .yc { font-size: 0.8em; color: #999; }
+
+    .year-block { margin-top: 28px; scroll-margin-top: 56px; }
+    .year-block:first-child { margin-top: 0; }
+    .year-head {
+      display: flex; align-items: baseline; gap: 12px;
+      border-bottom: 2px dotted #180614;
+      border-left: 10px solid #180614;
+      padding: 7px;
+      margin-bottom: 8px;
+    }
+    .year-head .y { font-size: 1.4em; font-weight: bold; color: #180614; }
+    .year-head .meta { font-size: 0.85em; color: #888; }
+
+    .case-list { list-style: none; padding: 0; margin: 0; }
+    .case-item {
+      display: grid;
+      grid-template-columns: 4px 1fr auto;
+      gap: 12px;
+      padding: 10px 8px;
+      border-bottom: 1px solid #ececec;
+      align-items: start;
+    }
+    .case-item:hover { background: #faf8f3; }
+    .case-bar { width: 4px; align-self: stretch; }
+    .case-meta {
+      font-size: 0.78em; color: #888; margin-bottom: 3px;
+    }
+    .case-type {
+      display: inline-block; padding: 1px 6px;
+      border: 1px solid; margin-right: 8px; font-size: 0.92em;
+    }
+    .case-source { margin-right: 8px; }
+    .case-award {
+      display: inline-block; padding: 1px 7px;
+      background: #fdf6db; color: #8a6a1a; font-weight: bold;
+      font-size: 0.92em;
+    }
+    .case-title { font-size: 1.0em; line-height: 1.5; color: #333; }
+    .case-title a { color: #333; }
+    .case-cat { font-size: 0.78em; color: #aaa; margin-top: 2px; }
+    .case-arrow { color: #bbb; font-size: 1.1em; align-self: center; }
+
+    /* 狭いビューポートではサイドバーを上に積む */
+    @media (max-width: 1080px) {
+      #page { width: auto; max-width: 820px; padding: 0 16px; }
+      .layout { grid-template-columns: 1fr; gap: 16px; }
+      .sidebar {
+        position: static; max-height: none; overflow: visible;
+      }
+      .chip-list { flex-direction: row; flex-wrap: wrap; }
+      .chip { width: auto; }
+      .chip-count { margin-left: 6px; }
+      .year-list { flex-direction: row; flex-wrap: wrap; gap: 4px; }
+      .year-list a { border: 1px solid #e8e4d7; padding: 3px 8px; }
+    }
+
+    .voices { margin-top: 32px; }
+    .voices-list { padding: 0; margin: 0; list-style: none; }
+    .voice {
+      margin: 12px 0; padding: 14px 18px;
+      background: #faf8f3; border-left: 4px solid #745850;
+    }
+    .voice-q {
+      margin: 0; font-size: 0.95em; line-height: 1.7;
+      font-family: 'Hiragino Mincho ProN', 'Yu Mincho', serif;
+    }
+    .voice-cap {
+      margin-top: 8px; font-size: 0.78em; color: #888;
+    }
+
+    .empty {
+      padding: 24px; text-align: center; color: #999; font-size: 0.9em;
+    }
+  </style>
+</head>
+<body style="margin-top: 40px;">
+  <div id="menu-wrap" class="fixed">
+    <ul id="menu">
+      <li><a href="../index.html">Top</a></li>
+      <li><a href="../index.html#pws">About PWS</a></li>
+      <li><a href="./index.html">事例</a></li>
+      <li><a href="../index.html">Past PWS</a></li>
+    </ul>
+  </div>
+
+  <div id="page">
+    <h1>PWS Cup 事例アーカイブ</h1>
+
+    <h2>概要</h2>
+    <p class="intro">
+      PWS Cup（プライバシーワークショップ・カップ）は、プライバシー保護技術の研究者・実務家が「匿名加工」と「再識別攻撃」で競い合う、国内唯一のコンテストです。2015年の第1回以来、大学・企業を横断する <strong id="stat-orgs">23</strong> 以上の組織が参加し、<strong id="stat-cases">53</strong> 件を超える発表・記事・論文として記録されてきました。
+      本ページは、これらの公式ページ・企業発表・大学の受賞報告・論文・参加記などを年表形式で一覧化したものです。
+    </p>
+
+    <div class="stats">
+      <div class="stat">
+        <div class="stat-n">11</div>
+        <div class="stat-label">年連続開催</div>
+        <div class="stat-sub">2015–2025</div>
+      </div>
+      <div class="stat">
+        <div class="stat-n" id="stat-cases-2">53</div>
+        <div class="stat-label">関連事例</div>
+        <div class="stat-sub">記事・論文・発表</div>
+      </div>
+      <div class="stat">
+        <div class="stat-n" id="stat-awards">18</div>
+        <div class="stat-label">受賞報告</div>
+        <div class="stat-sub">大学・企業から</div>
+      </div>
+    </div>
+
+    <h2>事例一覧</h2>
+
+    <div class="layout">
+      <aside class="sidebar" aria-label="絞り込み">
+        <div class="panel">
+          <div class="panel-title">区分でフィルタ</div>
+          <div class="chip-list" id="filter-chips" role="tablist"></div>
+        </div>
+        <div class="panel">
+          <div class="panel-title">年度ジャンプ</div>
+          <nav class="year-list" id="year-list"></nav>
+        </div>
+      </aside>
+      <div id="timeline"></div>
+    </div>
+
+    <div class="voices">
+      <h2>参加者の声</h2>
+      <p>過去の参加記・受賞インタビューから抜粋（要旨）。</p>
+      <ul class="voices-list" id="voices-list"></ul>
+    </div>
+
+    <div id="footer">
+      <p id="copyright">Copyright (社)情報処理学会 コンピュータセキュリティ研究会 PWS組織委員会 All rights reserved.</p>
+    </div>
+  </div>
+
+  <script>
+    const PWS_CASES = [
+      { no: 1, year: 2015, category: "公式ページ", title: "PWS Cup 2015", source: "PWS公式", type: "official" },
+      { no: 2, year: 2015, category: "公式ページ", title: "PWSCUP2015 Rules & Info", source: "PWS公式", type: "official" },
+      { no: 3, year: 2015, category: "企業公式・受賞報告", title: "パーソナルデータを守る技術を競うコンテスト", source: "NTT", type: "company" },
+      { no: 4, year: 2016, category: "企業公式・インタビュー", title: "PWSCUP2016で3位 再識別賞も受賞", source: "NSSOL", type: "company" },
+      { no: 5, year: 2016, category: "公式ページ", title: "PWSCUP2016", source: "PWS公式", type: "official" },
+      { no: 6, year: 2016, category: "公式ページ", title: "PWSCUP2016 Rules & Info", source: "PWS公式", type: "official" },
+      { no: 7, year: 2016, category: "公式振り返り資料", title: "匿名加工・再識別コンテスト2015 振り返り", source: "PWS Meetup資料", type: "official" },
+      { no: 8, year: 2016, category: "大学公式・受賞報告", title: "菊池浩明研究室がPWS CUP2016にて再識別賞を受賞", source: "明治大学", type: "university" },
+      { no: 9, year: 2017, category: "公式ページ", title: "PWS CUP 2017", source: "PWS公式", type: "official" },
+      { no: 10, year: 2017, category: "発表資料・参加者視点", title: "パーソナル履歴データに対する匿名化と再識別", source: "SlideShare", type: "blog" },
+      { no: 11, year: 2017, category: "公式振り返り資料", title: "PWSCUP 2017 コンテスト振り返り", source: "PWS Meetup資料", type: "official" },
+      { no: 12, year: 2018, category: "個人ブログ・紹介", title: "匿名化・再識別コンテスト「PWS Cup」の紹介", source: "はてなブログ", type: "blog" },
+      { no: 14, year: 2018, category: "Qiita Advent Calendar", title: "匿名化・再識別コンテスト「PWSCUP」は面白そう、という話", source: "NSSOL Advent Calendar 2018", type: "blog" },
+      { no: 15, year: 2018, category: "公式ページ", title: "PWS Cup 2018", source: "PWS公式", type: "official" },
+      { no: 16, year: 2018, category: "論文・開催報告", title: "PWS Cup 2018: 匿名加工再識別コンテストの設計", source: "PWS公式PDF", type: "paper" },
+      { no: 17, year: 2018, category: "論文・総括", title: "個人データの保護と流通を目的とする匿名化と再識別コンテスト", source: "情報処理学会", type: "paper" },
+      { no: 18, year: 2018, category: "研究発表資料", title: "ユークリッド距離を用いた再識別手法とPWSCup2015の匿名加工データを用いた評価", source: "明治大学 菊池研究室", type: "paper" },
+      { no: 19, year: 2019, category: "公式ページ", title: "PWS Cup 2019について", source: "PWS公式", type: "official" },
+      { no: 20, year: 2019, category: "公式ページ", title: "PWS Cup 2019 発表案内", source: "PWS公式", type: "official" },
+      { no: 21, year: 2019, category: "運営ブログ", title: "GSuiteを使って簡単にコンテストをやろう", source: "はてなブログ", type: "blog" },
+      { no: 22, year: 2019, category: "公式・技術説明資料", title: "匿名加工コンテストPWSCupのルールや技術説明", source: "PWS勉強会資料", type: "official" },
+      { no: 23, year: 2020, category: "Qiita・参加記", title: "メタヒューリスティクス最強？ ～データプライバシー保護コンテストPWS Cup 2020参加記～", source: "Qiita / NTTドコモ R&D", type: "blog" },
+      { no: 24, year: 2020, category: "企業ブログ・参加記", title: "匿名メンバシップ推定コンテスト参戦記", source: "DataSign", type: "blog" },
+      { no: 25, year: 2020, category: "企業公式・ニュース", title: "NSSOLチーム、PWS Cup 2020総合優勝", source: "NSSOL", type: "company", award: "総合優勝" },
+      { no: 26, year: 2020, category: "企業公式・受賞一覧", title: "PWS Cup 2020 総合部門2位 優秀発表賞", source: "セコムIS研究所", type: "company", award: "総合2位" },
+      { no: 27, year: 2020, category: "企業公式・受賞一覧", title: "PWS Cup 2020 攻撃部門 第3位", source: "富士通", type: "company", award: "攻撃3位" },
+      { no: 28, year: 2020, category: "大学ニュース", title: "PWS Cup 2020 匿名化部門2位獲得", source: "筑波大学", type: "university", award: "匿名化2位" },
+      { no: 29, year: 2020, category: "公式ページ", title: "第6回プライバシーワークショップ PWS2020", source: "PWS公式", type: "official" },
+      { no: 30, year: 2020, category: "企業公式・参加振り返り", title: "研究所×事業部の混成チーム 祝！PWS Cup 2019総合2位＆匿名加工賞", source: "NSSOL", type: "company", award: "総合2位" },
+      { no: 31, year: 2021, category: "Qiita・参加記", title: "プライバシを保護しながら糖尿病罹患リスクを正確に予測する！", source: "Qiita / NTTドコモ R&D", type: "blog" },
+      { no: 32, year: 2021, category: "研究室ニュース", title: "PWS Cup 2021 参加報告", source: "明治大学 菊池研究室", type: "university" },
+      { no: 33, year: 2021, category: "公式ページ", title: "第7回プライバシーワークショップ PWS2021", source: "PWS公式", type: "official" },
+      { no: 34, year: 2022, category: "大学公式・受賞紹介", title: "PWS Cup 2022 攻撃部門第3位、二刀流部門第3位", source: "明治大学", type: "university", award: "攻撃3位" },
+      { no: 35, year: 2022, category: "研究室ニュース", title: "PWS Cup 2022で優勝", source: "群馬大学 千田研究室", type: "university", award: "優勝" },
+      { no: 36, year: 2022, category: "公式ページ", title: "第8回プライバシーワークショップ PWS2022", source: "PWS公式", type: "official" },
+      { no: 37, year: 2022, category: "学会イベント", title: "匿名加工コンテストPWS Cup 2021", source: "情報処理学会 全国大会イベント", type: "paper" },
+      { no: 38, year: 2023, category: "研究室ニュース", title: "PWS Cup 2023 参加報告", source: "明治大学 菊池研究室", type: "university" },
+      { no: 39, year: 2023, category: "研究室ニュース", title: "PWS Cup 2023 総合準優勝", source: "大阪大学 藤原研究室", type: "university", award: "総合準優勝" },
+      { no: 40, year: 2023, category: "公式ページ", title: "PWS Cup 2023 セッション実施要領", source: "PWS公式", type: "official" },
+      { no: 41, year: 2023, category: "公式ページ", title: "第9回プライバシーワークショップ PWS2023", source: "PWS公式", type: "official" },
+      { no: 42, year: 2024, category: "企業公式・ニュース", title: "PWS Cup 2024に三社合同チームで参加、ベストアタック賞を受賞", source: "KDDI総合研究所", type: "company", award: "ベストアタック賞" },
+      { no: 43, year: 2024, category: "企業公式・PDF", title: "PWS Cup 2024に三社合同チームで参加、ベストアタック賞を受賞", source: "トヨタ大手町／共同PDF", type: "company", award: "ベストアタック賞" },
+      { no: 44, year: 2024, category: "企業公式・note", title: "TOPPANデジタルがPWS Cup 2024において、総合第2位を受賞", source: "TOPPAN Digital｜DX note", type: "company", award: "総合2位" },
+      { no: 45, year: 2024, category: "公式資料", title: "PWS Cup 2024 公式資料", source: "PWS公式", type: "official" },
+      { no: 46, year: 2025, category: "企業公式・技術ブログ", title: "PWSCup2024-参加記", source: "ARISE analytics", type: "company" },
+      { no: 47, year: 2025, category: "企業公式・note", title: "PWS Cup2024 ベストアタック賞受賞の裏側インタビュー", source: "ARISE analytics note", type: "company", award: "ベストアタック賞" },
+      { no: 48, year: 2025, category: "企業公式・一覧", title: "PWS Cup 2024 TECH BLOG・インタビュー", source: "トヨタ大手町", type: "company" },
+      { no: 49, year: 2025, category: "大学公式・受賞紹介", title: "PWS Cup 2025 ベストプレゼン賞受賞", source: "中央大学", type: "university", award: "ベストプレゼン賞" },
+      { no: 50, year: 2025, category: "大学公式・受賞紹介", title: "PWS Cup 2025 総合優勝", source: "神奈川大学", type: "university", award: "総合優勝" },
+      { no: 51, year: 2025, category: "大学公式・受賞紹介", title: "PWS Cup 2025 総合3位・ベストアタック賞", source: "静岡大学", type: "university", award: "総合3位" },
+      { no: 52, year: 2025, category: "公式資料", title: "PWS Cup 2025 説明資料", source: "PWS公式", type: "official" },
+      { no: 53, year: 2025, category: "大学公式・受賞報告・発展", title: "経済学研究科 博士後期課程の菊池 陽さんが情報処理学会の研究会にてCSEC優秀学生研究賞を受賞", source: "中央大学", type: "university", award: "CSEC優秀学生研究賞" },
+    ];
+
+    const PWS_TYPE_LABEL = {
+      official: "公式", company: "企業",
+      university: "大学・研究室", paper: "論文・学会", blog: "ブログ・参加記",
+    };
+    const PWS_TYPE_COLOR = {
+      official: "#1f3a5f", company: "#7a4f1f",
+      university: "#2d5f3f", paper: "#5a3a6e", blog: "#8a5a3a",
+    };
+    const PWS_VOICES = [
+      { quote: "攻撃側に回ると、データの匿名化がいかに難しいかが肌でわかる。学んだ理論が実戦で試される、稀有な機会だった。", role: "参加学生", affiliation: "国立大学 修士1年", year: 2024 },
+      { quote: "再識別の手法を実装してみて、初めて差分プライバシーの本質に触れた気がした。", role: "研究室メンバー", affiliation: "明治大学 菊池研究室", year: 2023 },
+      { quote: "メタヒューリスティクスで攻撃データを最適化したら、想像以上にスコアが伸びた。試行錯誤が楽しい。", role: "企業R&D", affiliation: "NTTドコモ", year: 2020 },
+      { quote: "匿名加工と再識別の両方を経験できるのはPWS Cupだけ。研究テーマのヒントもここで得られた。", role: "受賞チーム", affiliation: "神奈川大学", year: 2025 },
+    ];
+
+    const $ = (s, r = document) => r.querySelector(s);
+    const escapeHtml = (s) => String(s).replace(/[&<>"']/g, (c) => ({
+      "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+    }[c]));
+
+    let state = { filter: "all", activeYear: null };
+    const years = [...new Set(PWS_CASES.map(c => c.year))].sort((a, b) => b - a);
+    const awardsCount = PWS_CASES.filter(c => c.award).length;
+
+    $("#stat-cases").textContent = PWS_CASES.length;
+    $("#stat-cases-2").textContent = PWS_CASES.length;
+    $("#stat-awards").textContent = awardsCount;
+
+    const FILTERS = [
+      ["all", "すべて", null],
+      ["official", "公式", PWS_TYPE_COLOR.official],
+      ["company", "企業", PWS_TYPE_COLOR.company],
+      ["university", "大学・研究室", PWS_TYPE_COLOR.university],
+      ["paper", "論文・学会", PWS_TYPE_COLOR.paper],
+      ["blog", "ブログ・参加記", PWS_TYPE_COLOR.blog],
+    ];
+
+    function countFor(k) {
+      return k === "all"
+        ? PWS_CASES.length
+        : PWS_CASES.filter(c => c.type === k).length;
+    }
+
+    function renderFilters() {
+      $("#filter-chips").innerHTML = FILTERS.map(([k, label, color]) => `
+        <button class="chip" type="button" role="tab" data-filter="${k}" aria-pressed="${state.filter === k}">
+          ${color ? `<span class="chip-dot" style="background:${color}"></span>` : `<span class="chip-dot" style="background:transparent;border:1px solid #ccc"></span>`}
+          <span>${escapeHtml(label)}</span>
+          <span class="chip-count">${countFor(k)}</span>
+        </button>
+      `).join("");
+      $("#filter-chips").querySelectorAll(".chip").forEach(b => {
+        b.addEventListener("click", () => {
+          state.filter = b.dataset.filter;
+          renderFilters();
+          renderTimeline();
+          setupScrollSpy();
+        });
+      });
+    }
+
+    function renderYearList() {
+      $("#year-list").innerHTML = years.map(y => {
+        const count = state.filter === "all"
+          ? PWS_CASES.filter(c => c.year === y).length
+          : PWS_CASES.filter(c => c.year === y && c.type === state.filter).length;
+        const cls = state.activeYear === y ? "active" : "";
+        const dim = count === 0 ? "opacity:0.4;" : "";
+        return `<a href="#year-${y}" data-year="${y}" class="${cls}" style="${dim}">
+          <span>${y}</span><span class="yc">${count}</span>
+        </a>`;
+      }).join("");
+    }
+
+    function renderTimeline() {
+      const filtered = state.filter === "all"
+        ? PWS_CASES : PWS_CASES.filter(c => c.type === state.filter);
+      const byYear = years
+        .map(y => ({ year: y, items: filtered.filter(c => c.year === y) }))
+        .filter(g => g.items.length);
+
+      if (!byYear.length) {
+        $("#timeline").innerHTML = `<div class="empty">該当する事例がありません。</div>`;
+        renderYearList();
+        return;
+      }
+
+      $("#timeline").innerHTML = byYear.map(({ year, items }) => `
+        <div class="year-block" id="year-${year}">
+          <div class="year-head">
+            <span class="y">${year}</span>
+            <span class="meta">第${year - 2014}回 PWS Cup ／ ${items.length}件</span>
+          </div>
+          <ul class="case-list">
+            ${items.map(renderCase).join("")}
+          </ul>
+        </div>
+      `).join("");
+      renderYearList();
+    }
+
+    let scrollObserver = null;
+    function setupScrollSpy() {
+      if (scrollObserver) scrollObserver.disconnect();
+      if (!("IntersectionObserver" in window)) return;
+      const blocks = years
+        .map(y => document.getElementById(`year-${y}`))
+        .filter(Boolean);
+      if (!blocks.length) return;
+
+      scrollObserver = new IntersectionObserver(entries => {
+        const visible = entries
+          .filter(e => e.isIntersecting)
+          .sort((a, b) => b.intersectionRatio - a.intersectionRatio);
+        if (visible.length) {
+          const y = Number(visible[0].target.id.replace("year-", ""));
+          if (y !== state.activeYear) {
+            state.activeYear = y;
+            renderYearList();
+          }
+        }
+      }, { rootMargin: "-56px 0px -60% 0px", threshold: [0, 0.25, 0.5, 1] });
+
+      blocks.forEach(b => scrollObserver.observe(b));
+    }
+
+    function renderCase(c) {
+      const color = PWS_TYPE_COLOR[c.type];
+      const label = PWS_TYPE_LABEL[c.type];
+      const titleHtml = c.url
+        ? `<a href="${escapeHtml(c.url)}" target="_blank" rel="noopener">${escapeHtml(c.title)} ↗</a>`
+        : escapeHtml(c.title);
+      return `
+        <li class="case-item">
+          <div class="case-bar" style="background:${color}"></div>
+          <div>
+            <div class="case-meta">
+              <span class="case-type" style="color:${color};border-color:${color}55;">${escapeHtml(label)}</span>
+              <span class="case-source">${escapeHtml(c.source)}</span>
+              ${c.award ? `<span class="case-award">★ ${escapeHtml(c.award)}</span>` : ""}
+            </div>
+            <div class="case-title">${titleHtml}</div>
+            <div class="case-cat">${escapeHtml(c.category)}</div>
+          </div>
+          <div class="case-arrow">${c.url ? "↗" : ""}</div>
+        </li>
+      `;
+    }
+
+    function renderVoices() {
+      $("#voices-list").innerHTML = PWS_VOICES.map(v => `
+        <li class="voice">
+          <p class="voice-q">「${escapeHtml(v.quote)}」</p>
+          <div class="voice-cap">— ${escapeHtml(v.role)}（${escapeHtml(v.affiliation)}）／ PWS Cup ${v.year}</div>
+        </li>
+      `).join("");
+    }
+
+    renderFilters();
+    renderTimeline();
+    renderVoices();
+    setupScrollSpy();
+  </script>
+</body>
+</html>
