@@ -293,8 +293,8 @@
           <div class="chip-list" id="filter-chips" role="tablist"></div>
         </div>
         <div class="panel year-panel">
-          <div class="panel-title">年度ジャンプ</div>
-          <nav class="year-list" id="year-list"></nav>
+          <div class="panel-title">年度でフィルタ</div>
+          <nav class="year-list" id="year-list" role="tablist"></nav>
           <div class="theme-display" id="theme-display"></div>
         </div>
       </aside>
@@ -342,7 +342,7 @@
     let PWS_THEMES_BY_YEAR = {};
     let years = [];
     let awardsCount = 0;
-    let state = { filter: "all", activeYear: null };
+    let state = { filter: "all", yearFilter: "all", activeYear: null };
 
     const FILTERS = [
       ["all", "すべて", null],
@@ -378,16 +378,34 @@
     }
 
     function renderYearList() {
-      $("#year-list").innerHTML = years.map(y => {
-        const count = state.filter === "all"
-          ? PWS_CASES.filter(c => c.year === y).length
-          : PWS_CASES.filter(c => c.year === y && c.type === state.filter).length;
-        const cls = state.activeYear === y ? "active" : "";
+      const baseFiltered = state.filter === "all"
+        ? PWS_CASES
+        : PWS_CASES.filter(c => c.type === state.filter);
+      const allActive = state.yearFilter === "all" ? "active" : "";
+      const allHtml = `<a href="#" role="tab" data-year="all" class="${allActive}" aria-pressed="${state.yearFilter === "all"}">
+        <span>すべての年度</span><span class="yc">${baseFiltered.length}</span>
+      </a>`;
+      const yearHtml = years.map(y => {
+        const count = baseFiltered.filter(c => c.year === y).length;
+        const cls = state.yearFilter === y ? "active" : "";
         const dim = count === 0 ? "opacity:0.4;" : "";
-        return `<a href="#year-${y}" data-year="${y}" class="${cls}" style="${dim}">
+        return `<a href="#" role="tab" data-year="${y}" class="${cls}" style="${dim}" aria-pressed="${state.yearFilter === y}">
           <span>${y}</span><span class="yc">${count}</span>
         </a>`;
       }).join("");
+      const list = $("#year-list");
+      list.innerHTML = allHtml + yearHtml;
+      list.querySelectorAll("a").forEach(a => {
+        a.addEventListener("click", (e) => {
+          e.preventDefault();
+          const v = a.dataset.year;
+          state.yearFilter = v === "all" ? "all" : Number(v);
+          if (v !== "all") state.activeYear = Number(v);
+          renderYearList();
+          renderTimeline();
+          setupScrollSpy();
+        });
+      });
       renderActiveTheme();
     }
 
@@ -428,8 +446,11 @@
     }
 
     function renderTimeline() {
-      const filtered = state.filter === "all"
+      let filtered = state.filter === "all"
         ? PWS_CASES : PWS_CASES.filter(c => c.type === state.filter);
+      if (state.yearFilter !== "all") {
+        filtered = filtered.filter(c => c.year === state.yearFilter);
+      }
       const byYear = years
         .map(y => ({ year: y, items: filtered.filter(c => c.year === y) }))
         .filter(g => g.items.length);
