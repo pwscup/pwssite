@@ -228,18 +228,94 @@
       .theme-display { max-height: none; }
     }
 
-    .voices { margin-top: 32px; }
-    .voices-list { padding: 0; margin: 0; list-style: none; }
-    .voice {
-      margin: 12px 0; padding: 14px 18px;
-      background: #faf8f3; border-left: 4px solid #745850;
+    /* PWS Cupの特徴セクション */
+    .features {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+      margin: 12px 0;
     }
-    .voice-q {
-      margin: 0; font-size: 0.95em; line-height: 1.7;
-      font-family: 'Hiragino Mincho ProN', 'Yu Mincho', serif;
+    .feature {
+      padding: 14px 16px;
+      background: #faf8f3;
+      border: 1px solid #e5e2d6;
+      border-left: 4px solid #745850;
     }
-    .voice-cap {
-      margin-top: 8px; font-size: 0.78em; color: #888;
+    .feature h4 {
+      margin: 0 0 6px;
+      font-size: 1.0em;
+      color: #180614;
+    }
+    .feature p {
+      margin: 0;
+      font-size: 0.88em;
+      line-height: 1.65;
+      color: #5f5f5f;
+    }
+    @media (max-width: 720px) {
+      .features { grid-template-columns: 1fr; }
+    }
+
+    /* CTA ボックス */
+    .cta-box {
+      margin: 20px 0 8px;
+      padding: 18px 22px;
+      background: #2f2b3f;
+      color: #fff;
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 16px; flex-wrap: wrap;
+    }
+    .cta-box .cta-text {
+      flex: 1 1 auto;
+    }
+    .cta-box .cta-text strong {
+      font-size: 1.05em; display: block; margin-bottom: 4px;
+    }
+    .cta-box .cta-text span {
+      font-size: 0.85em; color: #ccc;
+    }
+    .cta-box .cta-buttons {
+      display: flex; gap: 8px; flex-shrink: 0;
+    }
+    .cta-button {
+      display: inline-block;
+      padding: 10px 18px;
+      background: #fff; color: #2f2b3f;
+      font-weight: bold; font-size: 0.9em;
+      text-decoration: none; border: 1px solid #fff;
+    }
+    .cta-button:hover { background: #f4f1e6; }
+    .cta-button.ghost {
+      background: transparent; color: #fff;
+    }
+    .cta-button.ghost:hover { background: rgba(255,255,255,0.1); }
+
+    /* 賞の種類テーブル */
+    .awards-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.92em;
+    }
+    .awards-table th, .awards-table td {
+      padding: 10px 12px;
+      border-bottom: 1px solid #e5e2d6;
+      text-align: left;
+      vertical-align: top;
+    }
+    .awards-table th {
+      background: #f6f4ef;
+      font-weight: bold;
+      color: #180614;
+      width: 30%;
+    }
+    .awards-table td {
+      color: #5f5f5f; line-height: 1.6;
+    }
+    .awards-table .since {
+      display: inline-block;
+      font-size: 0.78em; color: #888;
+      margin-left: 6px;
     }
 
     .empty {
@@ -284,6 +360,67 @@
       </div>
     </div>
 
+    <h2>PWS Cup の特徴</h2>
+    <div class="features">
+      <div class="feature">
+        <h4>攻撃と防御の両面を体験</h4>
+        <p>匿名加工する側と、再識別/属性推定/メンバシップ推定などで攻撃する側の両方を1コンテストで経験できる。プライバシー保護技術を「使う」だけでなく「破る」側からも学べる、国内では稀有な機会。</p>
+      </div>
+      <div class="feature">
+        <h4>大学と企業が同じ土俵で</h4>
+        <p>学生・研究室から企業のR&Dチームまで、立場を問わず同じルールで競う。NTT・NSSOL・TOPPAN・KDDI・富士通・セコム・トヨタなど主要企業と、明治大・神奈川大・中央大・大阪大などの研究室が参加。</p>
+      </div>
+      <div class="feature">
+        <h4>毎年テーマが変わる</h4>
+        <p>家計調査・購買履歴・位置情報・ヘルスケア・合成データなど、毎年異なる題材で攻防を競う。最新の研究テーマと社会課題が反映されるため、参加するたびに新しい技術領域に触れられる。</p>
+      </div>
+      <div class="feature">
+        <h4>論文・受賞でキャリアに</h4>
+        <p>コンテスト結果は論文・受賞・技術ブログとして記録され、これまで11年で53件以上が公開されている。総合優勝・ベストアタック賞・CSEC優秀学生研究賞など、研究・キャリア上の実績にもつながる。</p>
+      </div>
+    </div>
+
+    <h2>受賞の種類</h2>
+    <table class="awards-table">
+      <tbody>
+        <tr>
+          <th>総合 <span class="since">毎年</span></th>
+          <td>匿名加工と攻撃の両面を総合評価。総合優勝・準優勝・3位など。</td>
+        </tr>
+        <tr>
+          <th>匿名加工賞 <span class="since">毎年</span></th>
+          <td>もっとも安全に匿名加工できたチームに贈られる。</td>
+        </tr>
+        <tr>
+          <th>再識別賞 / ベストアタック賞 <span class="since">毎年</span></th>
+          <td>もっとも効果的に他チームの加工データを再識別／属性推定／メンバシップ推定できたチームに贈られる。</td>
+        </tr>
+        <tr>
+          <th>ベストプレゼン賞 <span class="since">2022〜</span></th>
+          <td>手法・成果のプレゼンテーションが最も優れたチームに贈られる。</td>
+        </tr>
+        <tr>
+          <th>匿名加工基準賞 <span class="since">2022〜</span></th>
+          <td>関連法令・規準にもっとも適切に対応した加工を行ったチームに贈られる。</td>
+        </tr>
+        <tr>
+          <th>データサイエンス賞 <span class="since">2024〜</span></th>
+          <td>加工データの分析活用方法を提案し、その独自性・実用性が評価されたチームに贈られる。</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="cta-box">
+      <div class="cta-text">
+        <strong>次回 PWS Cup に参加するには</strong>
+        <span>毎年夏ごろに参加チームの募集を開始。学生・社会人、個人・チーム、大学・企業を問わず参加可能です。</span>
+      </div>
+      <div class="cta-buttons">
+        <a class="cta-button" href="../2026/index.html">最新の参加情報 →</a>
+        <a class="cta-button ghost" href="../index.html#past">過去のコンテストを見る</a>
+      </div>
+    </div>
+
     <h2>事例一覧</h2>
 
     <div class="layout">
@@ -299,12 +436,6 @@
         </div>
       </aside>
       <div id="timeline"></div>
-    </div>
-
-    <div class="voices">
-      <h2>参加者の声</h2>
-      <p>過去の参加記・受賞インタビューから抜粋（要旨）。</p>
-      <ul class="voices-list" id="voices-list"></ul>
     </div>
 
     <div id="footer">
@@ -338,7 +469,6 @@
     }[c]));
 
     let PWS_CASES = [];
-    let PWS_VOICES = [];
     let PWS_THEMES_BY_YEAR = {};
     let years = [];
     let awardsCount = 0;
@@ -545,15 +675,6 @@
       `;
     }
 
-    function renderVoices() {
-      $("#voices-list").innerHTML = PWS_VOICES.map(v => `
-        <li class="voice">
-          <p class="voice-q">「${escapeHtml(v.quote)}」</p>
-          <div class="voice-cap">— ${escapeHtml(v.role)}（${escapeHtml(v.affiliation)}）／ PWS Cup ${v.year}</div>
-        </li>
-      `).join("");
-    }
-
     function showError(msg) {
       $("#timeline").innerHTML = `
         <div class="empty" style="color:#a33; font-size:0.95em; line-height:1.6;">
@@ -570,7 +691,6 @@
         if (!Array.isArray(data.cases)) throw new Error("cases.json: 'cases' is missing or not an array");
 
         PWS_CASES = data.cases;
-        PWS_VOICES = Array.isArray(data.voices) ? data.voices : [];
         PWS_THEMES_BY_YEAR = {};
         if (Array.isArray(data.themes)) {
           for (const t of data.themes) PWS_THEMES_BY_YEAR[t.year] = t;
@@ -585,7 +705,6 @@
 
         renderFilters();
         renderTimeline();
-        renderVoices();
         setupScrollSpy();
       } catch (e) {
         showError(e.message || String(e));

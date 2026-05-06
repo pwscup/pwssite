@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "PWS Cup 事例アーカイブ データ",
   "type": "object",
-  "required": ["cases", "voices"],
+  "required": ["cases"],
   "additionalProperties": false,
   "properties": {
     "themes": {

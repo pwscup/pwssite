@@ -78,12 +78,6 @@
       "sample": true
     }
   ],
-  "voices": [
-    { "quote": "攻撃側に回ると、データの匿名化がいかに難しいかが肌でわかる。学んだ理論が実戦で試される、稀有な機会だった。", "role": "参加学生", "affiliation": "国立大学 修士1年", "year": 2024 },
-    { "quote": "再識別の手法を実装してみて、初めて差分プライバシーの本質に触れた気がした。", "role": "研究室メンバー", "affiliation": "明治大学 菊池研究室", "year": 2023 },
-    { "quote": "メタヒューリスティクスで攻撃データを最適化したら、想像以上にスコアが伸びた。試行錯誤が楽しい。", "role": "企業R&D", "affiliation": "NTTドコモ", "year": 2020 },
-    { "quote": "匿名加工と再識別の両方を経験できるのはPWS Cupだけ。研究テーマのヒントもここで得られた。", "role": "受賞チーム", "affiliation": "神奈川大学", "year": 2025 }
-  ],
   "cases": [
     { "no": 1, "year": 2015, "category": "公式ページ", "title": "PWS Cup 2015", "source": "PWS公式", "type": "official" },
     { "no": 2, "year": 2015, "category": "公式ページ", "title": "PWSCUP2015 Rules & Info", "source": "PWS公式", "type": "official" },
