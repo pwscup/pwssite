@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PWS Cup 事例アーカイブ データ",
+  "type": "object",
+  "required": ["cases", "voices"],
+  "additionalProperties": false,
+  "properties": {
+    "cases": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["no", "year", "category", "title", "source", "type"],
+        "additionalProperties": false,
+        "properties": {
+          "no":       { "type": "integer", "minimum": 1, "description": "連番。重複不可" },
+          "year":     { "type": "integer", "minimum": 2015, "maximum": 2099, "description": "開催年（西暦）" },
+          "category": { "type": "string", "minLength": 1, "description": "区分（細分類、自由記述）例：公式ページ、企業公式・受賞報告、研究室ニュース など" },
+          "title":    { "type": "string", "minLength": 1, "description": "記事/ページのタイトル" },
+          "source":   { "type": "string", "minLength": 1, "description": "掲載元 例：PWS公式、NSSOL、明治大学 菊池研究室 など" },
+          "type":     {
+            "type": "string",
+            "enum": ["official", "company", "university", "paper", "blog"],
+            "description": "official=公式 / company=企業 / university=大学・研究室 / paper=論文・学会 / blog=ブログ・参加記"
+          },
+          "award":    { "type": "string", "minLength": 1, "description": "受賞名（任意）例：総合優勝、ベストアタック賞 など" },
+          "url":      { "type": "string", "format": "uri", "pattern": "^https?://", "description": "記事URL（任意、http(s)で始まる）" }
+        }
+      }
+    },
+    "voices": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["quote", "role", "affiliation", "year"],
+        "additionalProperties": false,
+        "properties": {
+          "quote":       { "type": "string", "minLength": 1 },
+          "role":        { "type": "string", "minLength": 1 },
+          "affiliation": { "type": "string", "minLength": 1 },
+          "year":        { "type": "integer", "minimum": 2015, "maximum": 2099 }
+        }
+      }
+    }
+  }
+}

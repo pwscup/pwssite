@@ -14,9 +14,26 @@ permissions:
 
 jobs:
 # ------------------------------------------------------------------
+# 0) cases.json バリデーション（全ブランチ共通）
+#    失敗するとデプロイがブロックされる
+# ------------------------------------------------------------------
+  validate-cases:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+
+      - name: Validate about/cases.json
+        run: |
+          uv run python3 scripts/validate_cases.py
+
+# ------------------------------------------------------------------
 # 1) master ブランチ = 本番環境へ反映
 # ------------------------------------------------------------------
   prod-deploy:
+    needs: validate-cases
     if: github.ref == 'refs/heads/master'
     runs-on: ubuntu-24.04
 
@@ -41,6 +58,7 @@ jobs:
 # 2) gh-pages ブランチ = GitHub Pages 用
 # ------------------------------------------------------------------
   build-pages:
+    needs: validate-cases
     if: github.ref == 'refs/heads/gh-pages'
     runs-on: ubuntu-24.04
 
