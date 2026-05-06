@@ -49,6 +49,13 @@ def main() -> int:
         if dupes:
             errors.append(f"❌ cases: no が重複しています → {sorted(dupes)}")
 
+    themes = data.get("themes", [])
+    if isinstance(themes, list):
+        years = [t.get("year") for t in themes if isinstance(t, dict) and "year" in t]
+        dupe_years = [y for y, count in Counter(years).items() if count > 1]
+        if dupe_years:
+            errors.append(f"❌ themes: year が重複しています → {sorted(dupe_years)}")
+
     if errors:
         print(f"\n{len(errors)} 件のバリデーションエラー:\n", file=sys.stderr)
         for msg in errors:

@@ -95,6 +95,31 @@
     .year-head .y { font-size: 1.4em; font-weight: bold; color: #180614; }
     .year-head .meta { font-size: 0.85em; color: #888; }
 
+    .year-theme {
+      margin: 0 0 12px 14px;
+      padding: 8px 12px 8px 14px;
+      border-left: 3px solid #d8d3c2;
+      background: #faf8f3;
+      font-size: 0.9em; line-height: 1.6;
+    }
+    .year-theme .label {
+      display: inline-block; font-size: 0.78em; font-weight: bold;
+      color: #745850; letter-spacing: 1px; margin-right: 8px;
+    }
+    .year-theme .title { font-weight: bold; color: #333; }
+    .year-theme .title a { color: #333; text-decoration: none; }
+    .year-theme .title a:hover { text-decoration: underline; }
+    .year-theme .desc {
+      margin-top: 4px; font-size: 0.92em; color: #5f5f5f;
+    }
+    .year-theme .sample-badge {
+      display: inline-block;
+      font-size: 0.7em; font-weight: bold; letter-spacing: 1px;
+      padding: 1px 7px; margin-left: 8px;
+      background: #fff3cd; color: #8a6a1a; border: 1px solid #f0d97a;
+      vertical-align: middle;
+    }
+
     .case-list { list-style: none; padding: 0; margin: 0; }
     .case-item {
       display: grid;
@@ -248,6 +273,7 @@
 
     let PWS_CASES = [];
     let PWS_VOICES = [];
+    let PWS_THEMES_BY_YEAR = {};
     let years = [];
     let awardsCount = 0;
     let state = { filter: "all", activeYear: null };
@@ -317,12 +343,34 @@
             <span class="y">${year}</span>
             <span class="meta">第${year - 2014}回 PWS Cup ／ ${items.length}件</span>
           </div>
+          ${renderTheme(year)}
           <ul class="case-list">
             ${items.map(renderCase).join("")}
           </ul>
         </div>
       `).join("");
       renderYearList();
+    }
+
+    function renderTheme(year) {
+      const t = PWS_THEMES_BY_YEAR[year];
+      if (!t) return "";
+      const titleHtml = t.url
+        ? `<a href="${escapeHtml(t.url)}" target="_blank" rel="noopener">${escapeHtml(t.title)} ↗</a>`
+        : escapeHtml(t.title);
+      const sample = t.sample
+        ? `<span class="sample-badge" title="サンプルデータ。実情報を確認のうえ更新してください">サンプル</span>`
+        : "";
+      const desc = t.description
+        ? `<div class="desc">${escapeHtml(t.description)}</div>`
+        : "";
+      return `
+        <div class="year-theme">
+          <span class="label">テーマ</span>
+          <span class="title">${titleHtml}</span>${sample}
+          ${desc}
+        </div>
+      `;
     }
 
     let scrollObserver = null;
@@ -399,6 +447,10 @@
 
         PWS_CASES = data.cases;
         PWS_VOICES = Array.isArray(data.voices) ? data.voices : [];
+        PWS_THEMES_BY_YEAR = {};
+        if (Array.isArray(data.themes)) {
+          for (const t of data.themes) PWS_THEMES_BY_YEAR[t.year] = t;
+        }
         years = [...new Set(PWS_CASES.map(c => c.year))].sort((a, b) => b - a);
         awardsCount = PWS_CASES.filter(c => c.award).length;
 

@@ -1,4 +1,83 @@
 {
+  "themes": [
+    {
+      "year": 2015,
+      "title": "匿名加工・再識別コンテストの初回開催",
+      "description": "擬似マイクロデータ（家計調査ベース）を題材に、匿名加工・再識別・合成データの3課題で競う。世界初のオープン型匿名加工コンテストとして開催。",
+      "url": "https://www.iwsec.org/pws/2015/pwscup.html",
+      "sample": true
+    },
+    {
+      "year": 2016,
+      "title": "履歴データ（購買履歴）の匿名加工・再識別",
+      "description": "オンライン小売の購買履歴（UCI Online Retail）を題材にトランザクション型データへ拡張。顧客マスタと購買履歴の両方を加工対象に。",
+      "url": "https://www.iwsec.org/pws/2016/pwscup.html",
+      "sample": true
+    },
+    {
+      "year": 2017,
+      "title": "長期トランザクションデータの仮名ID更新",
+      "description": "改正個情法施行直後。長期間蓄積された購買履歴を、仮名IDの定期更新で再識別リスクを抑える設計。レコメンド用途を想定した有用性指標。",
+      "url": "https://www.iwsec.org/pws/pwscup/PWSCUP2017.html",
+      "sample": true
+    },
+    {
+      "year": 2018,
+      "title": "購買日・商品名の一般化加工",
+      "description": "購買履歴データの一般化加工（generalization）を中心に、匿名加工フェーズと再識別フェーズの2段構成で競う。",
+      "url": "https://www.iwsec.org/pws/2018/cup18.html",
+      "sample": true
+    },
+    {
+      "year": 2019,
+      "title": "位置情報・移動履歴（トレース）の匿名加工",
+      "description": "ユーザの移動履歴（徒歩・電車・自動車）を題材に、ID識別とトレース推定の両方を防ぐ加工技術を競う。",
+      "url": "https://www.iwsec.org/pws/2019/cup19.html",
+      "sample": true
+    },
+    {
+      "year": 2020,
+      "title": "匿名メンバシップ推定コンテスト（AMIC）",
+      "description": "従来の再識別攻撃に代わり、メンバシップ推定攻撃を安全性指標に採用。学習データに含まれる対象者の存在自体が機微な場合を想定。",
+      "url": "https://www.iwsec.org/pws/2020/cup20.html",
+      "sample": true
+    },
+    {
+      "year": 2021,
+      "title": "ヘルスケアデータ「Diabetes」",
+      "description": "糖尿病罹患リスク予測モデルの精度を保ったまま、健康診断・診断結果データを匿名加工する課題。",
+      "url": "https://www.iwsec.org/pws/2021/cup21.html",
+      "sample": true
+    },
+    {
+      "year": 2022,
+      "title": "攻防型コンテスト（多部門制）",
+      "description": "匿名加工賞・再識別賞・総合賞・発表賞・匿名加工基準賞などの複数部門を整備。攻防双方の技術を評価。",
+      "url": "https://www.iwsec.org/pws/2022/cup22.html",
+      "sample": true
+    },
+    {
+      "year": 2023,
+      "title": "属性推定攻撃の対戦型コンテスト",
+      "description": "顧客データを題材に、属性推定（attribute inference）攻撃を中心に攻防を競う。海外チームも多数参加。",
+      "url": "https://www.iwsec.org/pws/2023/cup23.html",
+      "sample": true
+    },
+    {
+      "year": 2024,
+      "title": "DB再構成攻撃 × MovieLens合成データ",
+      "description": "MovieLens 1Mから生成した合成データを題材に、近年問題視される『データベース再構成攻撃』への耐性を競う。新設『データサイエンス賞』も。",
+      "url": "https://www.iwsec.org/pws/2024/cup24.html",
+      "sample": true
+    },
+    {
+      "year": 2025,
+      "title": "ヘルスデータの安全な利活用",
+      "description": "医療・健康に資する分析や予測モデルの精度を競う。リアルに近いダミーのヘルスデータを用いた攻防型コンテスト。",
+      "url": "https://www.iwsec.org/pws/2025/cup25.html",
+      "sample": true
+    }
+  ],
   "voices": [
     { "quote": "攻撃側に回ると、データの匿名化がいかに難しいかが肌でわかる。学んだ理論が実戦で試される、稀有な機会だった。", "role": "参加学生", "affiliation": "国立大学 修士1年", "year": 2024 },
     { "quote": "再識別の手法を実装してみて、初めて差分プライバシーの本質に触れた気がした。", "role": "研究室メンバー", "affiliation": "明治大学 菊池研究室", "year": 2023 },
