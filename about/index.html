@@ -217,65 +217,20 @@
     </div>
 
     <div id="footer">
+      <p style="text-align:center; font-size:0.9em; margin: 0 0 8px;">
+        新しい事例を追加したい方へ：
+        <a href="https://github.com/pwscup/pwssite/blob/gh-pages/about/README.md" target="_blank" rel="noopener">追加手順ドキュメント（GitHub）</a>
+      </p>
       <p id="copyright">Copyright (社)情報処理学会 コンピュータセキュリティ研究会 PWS組織委員会 All rights reserved.</p>
     </div>
   </div>
 
   <script>
-    const PWS_CASES = [
-      { no: 1, year: 2015, category: "公式ページ", title: "PWS Cup 2015", source: "PWS公式", type: "official" },
-      { no: 2, year: 2015, category: "公式ページ", title: "PWSCUP2015 Rules & Info", source: "PWS公式", type: "official" },
-      { no: 3, year: 2015, category: "企業公式・受賞報告", title: "パーソナルデータを守る技術を競うコンテスト", source: "NTT", type: "company" },
-      { no: 4, year: 2016, category: "企業公式・インタビュー", title: "PWSCUP2016で3位 再識別賞も受賞", source: "NSSOL", type: "company" },
-      { no: 5, year: 2016, category: "公式ページ", title: "PWSCUP2016", source: "PWS公式", type: "official" },
-      { no: 6, year: 2016, category: "公式ページ", title: "PWSCUP2016 Rules & Info", source: "PWS公式", type: "official" },
-      { no: 7, year: 2016, category: "公式振り返り資料", title: "匿名加工・再識別コンテスト2015 振り返り", source: "PWS Meetup資料", type: "official" },
-      { no: 8, year: 2016, category: "大学公式・受賞報告", title: "菊池浩明研究室がPWS CUP2016にて再識別賞を受賞", source: "明治大学", type: "university" },
-      { no: 9, year: 2017, category: "公式ページ", title: "PWS CUP 2017", source: "PWS公式", type: "official" },
-      { no: 10, year: 2017, category: "発表資料・参加者視点", title: "パーソナル履歴データに対する匿名化と再識別", source: "SlideShare", type: "blog" },
-      { no: 11, year: 2017, category: "公式振り返り資料", title: "PWSCUP 2017 コンテスト振り返り", source: "PWS Meetup資料", type: "official" },
-      { no: 12, year: 2018, category: "個人ブログ・紹介", title: "匿名化・再識別コンテスト「PWS Cup」の紹介", source: "はてなブログ", type: "blog" },
-      { no: 14, year: 2018, category: "Qiita Advent Calendar", title: "匿名化・再識別コンテスト「PWSCUP」は面白そう、という話", source: "NSSOL Advent Calendar 2018", type: "blog" },
-      { no: 15, year: 2018, category: "公式ページ", title: "PWS Cup 2018", source: "PWS公式", type: "official" },
-      { no: 16, year: 2018, category: "論文・開催報告", title: "PWS Cup 2018: 匿名加工再識別コンテストの設計", source: "PWS公式PDF", type: "paper" },
-      { no: 17, year: 2018, category: "論文・総括", title: "個人データの保護と流通を目的とする匿名化と再識別コンテスト", source: "情報処理学会", type: "paper" },
-      { no: 18, year: 2018, category: "研究発表資料", title: "ユークリッド距離を用いた再識別手法とPWSCup2015の匿名加工データを用いた評価", source: "明治大学 菊池研究室", type: "paper" },
-      { no: 19, year: 2019, category: "公式ページ", title: "PWS Cup 2019について", source: "PWS公式", type: "official" },
-      { no: 20, year: 2019, category: "公式ページ", title: "PWS Cup 2019 発表案内", source: "PWS公式", type: "official" },
-      { no: 21, year: 2019, category: "運営ブログ", title: "GSuiteを使って簡単にコンテストをやろう", source: "はてなブログ", type: "blog" },
-      { no: 22, year: 2019, category: "公式・技術説明資料", title: "匿名加工コンテストPWSCupのルールや技術説明", source: "PWS勉強会資料", type: "official" },
-      { no: 23, year: 2020, category: "Qiita・参加記", title: "メタヒューリスティクス最強？ ～データプライバシー保護コンテストPWS Cup 2020参加記～", source: "Qiita / NTTドコモ R&D", type: "blog" },
-      { no: 24, year: 2020, category: "企業ブログ・参加記", title: "匿名メンバシップ推定コンテスト参戦記", source: "DataSign", type: "blog" },
-      { no: 25, year: 2020, category: "企業公式・ニュース", title: "NSSOLチーム、PWS Cup 2020総合優勝", source: "NSSOL", type: "company", award: "総合優勝" },
-      { no: 26, year: 2020, category: "企業公式・受賞一覧", title: "PWS Cup 2020 総合部門2位 優秀発表賞", source: "セコムIS研究所", type: "company", award: "総合2位" },
-      { no: 27, year: 2020, category: "企業公式・受賞一覧", title: "PWS Cup 2020 攻撃部門 第3位", source: "富士通", type: "company", award: "攻撃3位" },
-      { no: 28, year: 2020, category: "大学ニュース", title: "PWS Cup 2020 匿名化部門2位獲得", source: "筑波大学", type: "university", award: "匿名化2位" },
-      { no: 29, year: 2020, category: "公式ページ", title: "第6回プライバシーワークショップ PWS2020", source: "PWS公式", type: "official" },
-      { no: 30, year: 2020, category: "企業公式・参加振り返り", title: "研究所×事業部の混成チーム 祝！PWS Cup 2019総合2位＆匿名加工賞", source: "NSSOL", type: "company", award: "総合2位" },
-      { no: 31, year: 2021, category: "Qiita・参加記", title: "プライバシを保護しながら糖尿病罹患リスクを正確に予測する！", source: "Qiita / NTTドコモ R&D", type: "blog" },
-      { no: 32, year: 2021, category: "研究室ニュース", title: "PWS Cup 2021 参加報告", source: "明治大学 菊池研究室", type: "university" },
-      { no: 33, year: 2021, category: "公式ページ", title: "第7回プライバシーワークショップ PWS2021", source: "PWS公式", type: "official" },
-      { no: 34, year: 2022, category: "大学公式・受賞紹介", title: "PWS Cup 2022 攻撃部門第3位、二刀流部門第3位", source: "明治大学", type: "university", award: "攻撃3位" },
-      { no: 35, year: 2022, category: "研究室ニュース", title: "PWS Cup 2022で優勝", source: "群馬大学 千田研究室", type: "university", award: "優勝" },
-      { no: 36, year: 2022, category: "公式ページ", title: "第8回プライバシーワークショップ PWS2022", source: "PWS公式", type: "official" },
-      { no: 37, year: 2022, category: "学会イベント", title: "匿名加工コンテストPWS Cup 2021", source: "情報処理学会 全国大会イベント", type: "paper" },
-      { no: 38, year: 2023, category: "研究室ニュース", title: "PWS Cup 2023 参加報告", source: "明治大学 菊池研究室", type: "university" },
-      { no: 39, year: 2023, category: "研究室ニュース", title: "PWS Cup 2023 総合準優勝", source: "大阪大学 藤原研究室", type: "university", award: "総合準優勝" },
-      { no: 40, year: 2023, category: "公式ページ", title: "PWS Cup 2023 セッション実施要領", source: "PWS公式", type: "official" },
-      { no: 41, year: 2023, category: "公式ページ", title: "第9回プライバシーワークショップ PWS2023", source: "PWS公式", type: "official" },
-      { no: 42, year: 2024, category: "企業公式・ニュース", title: "PWS Cup 2024に三社合同チームで参加、ベストアタック賞を受賞", source: "KDDI総合研究所", type: "company", award: "ベストアタック賞" },
-      { no: 43, year: 2024, category: "企業公式・PDF", title: "PWS Cup 2024に三社合同チームで参加、ベストアタック賞を受賞", source: "トヨタ大手町／共同PDF", type: "company", award: "ベストアタック賞" },
-      { no: 44, year: 2024, category: "企業公式・note", title: "TOPPANデジタルがPWS Cup 2024において、総合第2位を受賞", source: "TOPPAN Digital｜DX note", type: "company", award: "総合2位" },
-      { no: 45, year: 2024, category: "公式資料", title: "PWS Cup 2024 公式資料", source: "PWS公式", type: "official" },
-      { no: 46, year: 2025, category: "企業公式・技術ブログ", title: "PWSCup2024-参加記", source: "ARISE analytics", type: "company" },
-      { no: 47, year: 2025, category: "企業公式・note", title: "PWS Cup2024 ベストアタック賞受賞の裏側インタビュー", source: "ARISE analytics note", type: "company", award: "ベストアタック賞" },
-      { no: 48, year: 2025, category: "企業公式・一覧", title: "PWS Cup 2024 TECH BLOG・インタビュー", source: "トヨタ大手町", type: "company" },
-      { no: 49, year: 2025, category: "大学公式・受賞紹介", title: "PWS Cup 2025 ベストプレゼン賞受賞", source: "中央大学", type: "university", award: "ベストプレゼン賞" },
-      { no: 50, year: 2025, category: "大学公式・受賞紹介", title: "PWS Cup 2025 総合優勝", source: "神奈川大学", type: "university", award: "総合優勝" },
-      { no: 51, year: 2025, category: "大学公式・受賞紹介", title: "PWS Cup 2025 総合3位・ベストアタック賞", source: "静岡大学", type: "university", award: "総合3位" },
-      { no: 52, year: 2025, category: "公式資料", title: "PWS Cup 2025 説明資料", source: "PWS公式", type: "official" },
-      { no: 53, year: 2025, category: "大学公式・受賞報告・発展", title: "経済学研究科 博士後期課程の菊池 陽さんが情報処理学会の研究会にてCSEC優秀学生研究賞を受賞", source: "中央大学", type: "university", award: "CSEC優秀学生研究賞" },
-    ];
+    /**
+     * 事例データは about/cases.json から読み込みます。
+     * データを追加・編集したい場合は cases.json を編集してください。
+     * （詳細は about/README.md を参照）
+     */
 
     const PWS_TYPE_LABEL = {
       official: "公式", company: "企業",
@@ -285,25 +240,17 @@
       official: "#1f3a5f", company: "#7a4f1f",
       university: "#2d5f3f", paper: "#5a3a6e", blog: "#8a5a3a",
     };
-    const PWS_VOICES = [
-      { quote: "攻撃側に回ると、データの匿名化がいかに難しいかが肌でわかる。学んだ理論が実戦で試される、稀有な機会だった。", role: "参加学生", affiliation: "国立大学 修士1年", year: 2024 },
-      { quote: "再識別の手法を実装してみて、初めて差分プライバシーの本質に触れた気がした。", role: "研究室メンバー", affiliation: "明治大学 菊池研究室", year: 2023 },
-      { quote: "メタヒューリスティクスで攻撃データを最適化したら、想像以上にスコアが伸びた。試行錯誤が楽しい。", role: "企業R&D", affiliation: "NTTドコモ", year: 2020 },
-      { quote: "匿名加工と再識別の両方を経験できるのはPWS Cupだけ。研究テーマのヒントもここで得られた。", role: "受賞チーム", affiliation: "神奈川大学", year: 2025 },
-    ];
 
     const $ = (s, r = document) => r.querySelector(s);
     const escapeHtml = (s) => String(s).replace(/[&<>"']/g, (c) => ({
       "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
     }[c]));
 
+    let PWS_CASES = [];
+    let PWS_VOICES = [];
+    let years = [];
+    let awardsCount = 0;
     let state = { filter: "all", activeYear: null };
-    const years = [...new Set(PWS_CASES.map(c => c.year))].sort((a, b) => b - a);
-    const awardsCount = PWS_CASES.filter(c => c.award).length;
-
-    $("#stat-cases").textContent = PWS_CASES.length;
-    $("#stat-cases-2").textContent = PWS_CASES.length;
-    $("#stat-awards").textContent = awardsCount;
 
     const FILTERS = [
       ["all", "すべて", null],
@@ -435,10 +382,40 @@
       `).join("");
     }
 
-    renderFilters();
-    renderTimeline();
-    renderVoices();
-    setupScrollSpy();
+    function showError(msg) {
+      $("#timeline").innerHTML = `
+        <div class="empty" style="color:#a33; font-size:0.95em; line-height:1.6;">
+          ⚠ 事例データの読み込みに失敗しました。<br>
+          <small style="color:#888;">${escapeHtml(msg)}</small>
+        </div>`;
+    }
+
+    async function init() {
+      try {
+        const res = await fetch("./cases.json", { cache: "no-cache" });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const data = await res.json();
+        if (!Array.isArray(data.cases)) throw new Error("cases.json: 'cases' is missing or not an array");
+
+        PWS_CASES = data.cases;
+        PWS_VOICES = Array.isArray(data.voices) ? data.voices : [];
+        years = [...new Set(PWS_CASES.map(c => c.year))].sort((a, b) => b - a);
+        awardsCount = PWS_CASES.filter(c => c.award).length;
+
+        $("#stat-cases").textContent = PWS_CASES.length;
+        $("#stat-cases-2").textContent = PWS_CASES.length;
+        $("#stat-awards").textContent = awardsCount;
+
+        renderFilters();
+        renderTimeline();
+        renderVoices();
+        setupScrollSpy();
+      } catch (e) {
+        showError(e.message || String(e));
+      }
+    }
+
+    init();
   </script>
 </body>
 </html>
