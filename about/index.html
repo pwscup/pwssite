@@ -699,8 +699,9 @@
         awardsCount = PWS_CASES.filter(c => c.award).length;
         if (state.activeYear === null && years.length) state.activeYear = years[0];
 
-        $("#stat-cases").textContent = PWS_CASES.length;
-        $("#stat-cases-2").textContent = PWS_CASES.length;
+        const nonOfficialCount = PWS_CASES.filter(c => c.type !== "official").length;
+        $("#stat-cases").textContent = nonOfficialCount;
+        $("#stat-cases-2").textContent = nonOfficialCount;
         $("#stat-awards").textContent = awardsCount;
 
         renderFilters();
