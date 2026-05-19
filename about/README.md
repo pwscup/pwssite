@@ -11,7 +11,14 @@
 | `cases.schema.json` | JSON Schema。バリデーションに使用 |
 | `README.md` | 本ファイル |
 
-## 事例を追加・編集する手順
+## 事例を追加・編集する手順(バッチ)
+
+以下を実行すると、一覧が得られます。
+```bash
+curl -L "https://docs.google.com/spreadsheets/d/1xfBD17rjLFy9ZPg381ghcHnvk1cu1tw_k1Y6EK3krOk/export?format=csv&gid=0"
+```
+
+## 事例を追加・編集する手順(逐次追加)
 
 ### 通常フロー（GitHub Web UI で完結）
 
