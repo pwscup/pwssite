@@ -4,78 +4,67 @@
       "year": 2015,
       "title": "擬似マイクロデータの匿名加工・再識別（初回）",
       "description": "擬似マイクロデータ（家計調査ベース）を題材に、匿名加工・再識別・合成データの3課題で競う。世界初のオープン型匿名加工コンテストとして開催。",
-      "url": "https://www.iwsec.org/pws/2015/pwscup.html",
-      "sample": true
+      "url": "https://www.iwsec.org/pws/2015/pwscup.html"
     },
     {
       "year": 2016,
       "title": "履歴データ（購買履歴）の匿名加工・再識別",
       "description": "オンライン小売の購買履歴（UCI Online Retail）を題材にトランザクション型データへ拡張。顧客マスタと購買履歴の両方を加工対象に。",
-      "url": "https://www.iwsec.org/pws/2016/pwscup.html",
-      "sample": true
+      "url": "https://www.iwsec.org/pws/2016/pwscup.html"
     },
     {
       "year": 2017,
       "title": "長期トランザクションデータの仮名ID更新",
       "description": "改正個情法施行直後。長期間蓄積された購買履歴を、仮名IDの定期更新で再識別リスクを抑える設計。レコメンド用途を想定した有用性指標。",
-      "url": "https://www.iwsec.org/pws/pwscup/PWSCUP2017.html",
-      "sample": true
+      "url": "https://www.iwsec.org/pws/pwscup/PWSCUP2017.html"
     },
     {
       "year": 2018,
       "title": "購買日・商品名の一般化加工",
       "description": "購買履歴データの一般化加工（generalization）を中心に、匿名加工フェーズと再識別フェーズの2段構成で競う。",
-      "url": "https://www.iwsec.org/pws/2018/cup18.html",
-      "sample": true
+      "url": "https://www.iwsec.org/pws/2018/cup18.html"
     },
     {
       "year": 2019,
       "title": "位置情報・移動履歴（トレース）の匿名加工",
       "description": "ユーザの移動履歴（徒歩・電車・自動車）を題材に、ID識別とトレース推定の両方を防ぐ加工技術を競う。",
-      "url": "https://www.iwsec.org/pws/2019/cup19.html",
-      "sample": true
+      "url": "https://www.iwsec.org/pws/2019/cup19.html"
     },
     {
       "year": 2020,
       "title": "匿名メンバシップ推定コンテスト（AMIC）",
       "description": "従来の再識別攻撃に代わり、メンバシップ推定攻撃を安全性指標に採用。学習データに含まれる対象者の存在自体が機微な場合を想定。",
-      "url": "https://www.iwsec.org/pws/2020/cup20.html",
-      "sample": true
+      "url": "https://www.iwsec.org/pws/2020/cup20.html"
     },
     {
       "year": 2021,
       "title": "ヘルスケアデータ「Diabetes」",
       "description": "糖尿病罹患リスク予測モデルの精度を保ったまま、健康診断・診断結果データを匿名加工する課題。",
-      "url": "https://www.iwsec.org/pws/2021/cup21.html",
-      "sample": true
+      "url": "https://www.iwsec.org/pws/2021/cup21.html"
     },
     {
       "year": 2022,
       "title": "COVID-19 重篤化リスク × 合成ヘルスケアデータ",
       "description": "NHANESベースの合成データ（性別・年齢・人種・学歴・病歴など）を題材に、誰のレコードか特定されない加工を施しつつ、COVID-19重篤化リスクを算出可能な有用性を保つことを競う。攻撃者は匿名化データから知人の重篤化を推定する設定。",
-      "url": "https://www.iwsec.org/pws/2022/cup22.html",
-      "sample": true
+      "url": "https://www.iwsec.org/pws/2022/cup22.html"
     },
     {
       "year": 2023,
       "title": "顧客データの属性推定攻撃",
       "description": "オンラインサービスの顧客データを題材に、属性推定（attribute inference）攻撃を中心に攻防を競う。海外チームも多数参加。",
-      "url": "https://www.iwsec.org/pws/2023/cup23.html",
-      "sample": true
+      "url": "https://www.iwsec.org/pws/2023/cup23.html"
     },
     {
       "year": 2024,
       "title": "DB再構成攻撃 × MovieLens合成データ",
       "description": "MovieLens 1Mから生成した合成データを題材に、近年問題視される『データベース再構成攻撃』への耐性を競う。新設『データサイエンス賞』も。",
-      "url": "https://www.iwsec.org/pws/2024/cup24.html",
-      "sample": true
+      "url": "https://www.iwsec.org/pws/2024/cup24.html"
     },
     {
       "year": 2025,
       "title": "ヘルスデータ × 予測モデルの精度",
       "description": "リアルに近いダミーのヘルスデータを題材に、所与の医療・健康に資する分析や予測モデルの精度を保ったまま安全に加工する技術を競う。",
-      "url": "https://www.iwsec.org/pws/2025/cup25.html",
-      "sample": true
+      "url": "https://www.iwsec.org/pws/2025/cup25.html"
     }
   ],
   "cases": [
@@ -130,7 +119,7 @@
     {"no":49,"year":2025,"cup_year":2025,"category":"大学公式・受賞紹介","title":"PWS Cup 2025 総合優勝","source":"神奈川大学","type":"university","award":"総合優勝","url":"https://www.kanagawa-u.ac.jp/news/article0201_02129"},
     {"no":50,"year":2025,"cup_year":2025,"category":"大学公式・受賞紹介","title":"PWS Cup 2025 総合3位・ベストアタック賞","source":"静岡大学","type":"university","award":"総合3位","url":"https://www.shizuoka.ac.jp/news/detail.html?CN=11441"},
     {"no":51,"year":2025,"cup_year":2025,"category":"公式資料","title":"PWS Cup 2025 説明資料","source":"PWS公式","type":"official","url":"https://www.iwsec.org/pws/2025/Images/20250806_PWSCUP2025%E8%AA%AC%E6%98%8E%E8%B3%87%E6%96%99.pdf"},
-    {"no":52,"year":2025,"cup_year":2025,"category":"大学公式・受賞報告・発展","title":"【究める vol.163】経済学研究科 博士後期課程１年の菊池 陽さんが情報処理学会の研究会にて「CSEC優秀学生研究賞」を受賞しました","source":"中央大学","type":"university","award":"CSEC優秀学生研究賞","url":"https://www.chuo-u.ac.jp/academics/graduateschool/news/2025/11/83055/"},
+    {"no":52,"year":2025,"cup_year":2024,"category":"大学公式・受賞報告・発展","title":"【究める vol.163】経済学研究科 博士後期課程１年の菊池 陽さんが情報処理学会の研究会にて「CSEC優秀学生研究賞」を受賞しました","source":"中央大学","type":"university","award":"CSEC優秀学生研究賞","url":"https://www.chuo-u.ac.jp/academics/graduateschool/news/2025/11/83055/"},
     {"no":53,"year":2021,"cup_year":2021,"category":"企業公式・受賞一覧","title":"IS研究所のチームが匿名加工技術を競うPWS Cup 2021で匿名加工部門優勝","source":"セコムIS研究所","type":"company","award":"匿名加工部門優勝","url":"https://www.secom.co.jp/isl/news/2021/1119-PWS-Cup-2021/"},
     {"no":54,"year":2017,"cup_year":2017,"category":"論文・受賞一覧","title":"第82回CSEC研究会優秀研究賞　複数回にわたる匿名加工情報の提供に対する再識別リスク評価方法：PWSCUP2017における安全性指標の考察と分析から","source":"情報処理学会 CSEC研究会","type":"paper","award":"第82回CSEC研究会優秀研究賞","url":"https://www.ipsj.or.jp/award/csec-award.html"},
     {"no":55,"year":2022,"cup_year":2022,"category":"大学公式・受賞紹介","title":"PWS Cup 2022 総合優勝、攻撃部門優勝、二刀流部門優勝","source":"神奈川大学","type":"university","award":"総合優勝、攻撃部門優勝、二刀流部門優勝","url":"https://www.kanagawa-u.ac.jp/news/details_26022.html"},
