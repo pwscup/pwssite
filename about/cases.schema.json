@@ -26,11 +26,12 @@
       "minItems": 1,
       "items": {
         "type": "object",
-        "required": ["no", "year", "category", "title", "source", "type"],
+        "required": ["no", "year", "cup_year", "category", "title", "source", "type"],
         "additionalProperties": false,
         "properties": {
           "no":       { "type": "integer", "minimum": 1, "description": "連番。重複不可" },
-          "year":     { "type": "integer", "minimum": 2015, "maximum": 2099, "description": "開催年（西暦）" },
+          "year":     { "type": "integer", "minimum": 2015, "maximum": 2099, "description": "公開年（記事/資料が公開された西暦）" },
+          "cup_year": { "type": "integer", "minimum": 2015, "maximum": 2099, "description": "Cup開催年（その記事が対象とするPWS Cupの年）。グルーピングのキー" },
           "category": { "type": "string", "minLength": 1, "description": "区分（細分類、自由記述）例：公式ページ、企業公式・受賞報告、研究室ニュース など" },
           "title":    { "type": "string", "minLength": 1, "description": "記事/ページのタイトル" },
           "source":   { "type": "string", "minLength": 1, "description": "掲載元 例：PWS公式、NSSOL、明治大学 菊池研究室 など" },

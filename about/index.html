@@ -516,7 +516,7 @@
         <span>すべての年度</span><span class="yc">${baseFiltered.length}</span>
       </a>`;
       const yearHtml = years.map(y => {
-        const count = baseFiltered.filter(c => c.year === y).length;
+        const count = baseFiltered.filter(c => c.cup_year === y).length;
         const cls = state.yearFilter === y ? "active" : "";
         const dim = count === 0 ? "opacity:0.4;" : "";
         return `<a href="#" role="tab" data-year="${y}" class="${cls}" style="${dim}" aria-pressed="${state.yearFilter === y}">
@@ -579,10 +579,10 @@
       let filtered = state.filter === "all"
         ? PWS_CASES : PWS_CASES.filter(c => c.type === state.filter);
       if (state.yearFilter !== "all") {
-        filtered = filtered.filter(c => c.year === state.yearFilter);
+        filtered = filtered.filter(c => c.cup_year === state.yearFilter);
       }
       const byYear = years
-        .map(y => ({ year: y, items: filtered.filter(c => c.year === y) }))
+        .map(y => ({ year: y, items: filtered.filter(c => c.cup_year === y) }))
         .filter(g => g.items.length);
 
       if (!byYear.length) {
@@ -695,7 +695,7 @@
         if (Array.isArray(data.themes)) {
           for (const t of data.themes) PWS_THEMES_BY_YEAR[t.year] = t;
         }
-        years = [...new Set(PWS_CASES.map(c => c.year))].sort((a, b) => b - a);
+        years = [...new Set(PWS_CASES.map(c => c.cup_year))].sort((a, b) => b - a);
         awardsCount = PWS_CASES.filter(c => c.award).length;
         if (state.activeYear === null && years.length) state.activeYear = years[0];
 
