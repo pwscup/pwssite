@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>PWS Cup 事例アーカイブ</title>
+  <meta name="description" content="PWS Cup（プライバシーワークショップ・カップ）の関連事例（公式ページ・企業発表・大学受賞報告・論文・参加記など）を年表形式で一覧化したアーカイブページ。">
+  <link rel="stylesheet" type="text/css" href="../style.css">
+  <style>
+    /* このページ固有の追加スタイル（既存 style.css を上書きしない範囲で最小限） */
+    #page { width: 1040px; }
+
+    .intro { line-height: 1.8; }
+
+    .stats {
+      display: flex; gap: 0; margin: 16px 0 8px;
+      border-top: 1px solid #cccccc; border-bottom: 1px solid #cccccc;
+    }
+    .stats .stat {
+      flex: 1; padding: 12px 16px 12px 0; border-right: 1px solid #e5e5e5;
+    }
+    .stats .stat:last-child { border-right: none; }
+    .stats .stat-n { font-size: 1.8em; font-weight: bold; color: #180614; line-height: 1; }
+    .stats .stat-label { font-size: 0.85em; margin-top: 4px; }
+    .stats .stat-sub { font-size: 0.75em; color: #999; margin-top: 2px; }
+
+    /* 2カラムレイアウト：左サイドバー + 本文 */
+    .layout {
+      display: grid;
+      grid-template-columns: 200px 1fr;
+      gap: 28px;
+      margin-top: 8px;
+    }
+    .sidebar {
+      position: sticky;
+      top: 56px; /* 上部メニュー(40px) + 余白 */
+      align-self: start;
+      display: flex;
+      flex-direction: column;
+      max-height: calc(100vh - 72px);
+      padding-right: 4px;
+    }
+    .sidebar .panel {
+      background: #f6f4ef;
+      border: 1px solid #e5e2d6;
+      padding: 12px 14px;
+      margin-bottom: 14px;
+    }
+    .sidebar .filter-panel { flex-shrink: 0; }
+    .sidebar .year-panel {
+      flex: 1 1 auto;
+      min-height: 0;
+      margin-bottom: 0;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    .sidebar .panel-title {
+      font-size: 0.78em; font-weight: bold; color: #745850;
+      letter-spacing: 1px; margin-bottom: 8px;
+      padding-bottom: 6px; border-bottom: 1px solid #e0dccd;
+    }
+
+    .chip-list { display: flex; flex-direction: column; gap: 4px; }
+    .chip {
+      display: flex; align-items: center;
+      background: #fff; border: 1px solid #cccccc;
+      padding: 6px 10px;
+      font-size: 0.85em; cursor: pointer; color: #5f5f5f;
+      font-family: inherit;
+      text-align: left; width: 100%;
+    }
+    .chip:hover { border-color: #999; }
+    .chip[aria-pressed="true"] {
+      background: #2f2b3f; color: #fff; border-color: #2f2b3f;
+    }
+    .chip-dot {
+      width: 8px; height: 8px; border-radius: 99px;
+      margin-right: 8px; display: inline-block; flex-shrink: 0;
+    }
+    .chip-count {
+      margin-left: auto; font-size: 0.85em; color: #999;
+    }
+    .chip[aria-pressed="true"] .chip-count { color: #ccc; }
+
+    .year-list {
+      display: flex; flex-direction: column;
+      flex: 0 1 auto;
+      overflow-y: auto;
+      max-height: 50vh;
+      min-height: 80px;
+    }
+    .year-list a {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 5px 8px; font-size: 0.9em; color: #5f5f5f;
+      text-decoration: none; border-bottom: 1px solid #e8e4d7;
+    }
+    .year-list a:last-child { border-bottom: none; }
+    .year-list a:hover { background: #fff; }
+    .year-list a.active { color: #8a3838; font-weight: bold; background: #fff; }
+    .year-list .yc { font-size: 0.8em; color: #999; }
+
+    /* サイドバー内：選択中年度のテーマ詳細 */
+    .theme-display {
+      flex-shrink: 0;
+      margin-top: 12px; padding-top: 12px;
+      border-top: 1px solid #d8d3c2;
+      font-size: 0.85em; line-height: 1.55;
+      max-height: 40vh;
+      overflow-y: auto;
+    }
+    .theme-display .label {
+      font-size: 0.78em; color: #745850; font-weight: bold;
+      letter-spacing: 1px; margin-bottom: 4px; display: block;
+    }
+    .theme-display .y-num {
+      font-family: Georgia, serif; font-weight: bold;
+      color: #180614; margin-right: 6px;
+    }
+    .theme-display .title { font-weight: bold; color: #333; display: inline; }
+    .theme-display .title a { color: #333; }
+    .theme-display .desc { margin-top: 6px; color: #5f5f5f; font-size: 0.95em; }
+    .theme-display .url-link { margin-top: 6px; display: block; font-size: 0.92em; }
+    .theme-display .url-link a { color: #2f2b3f; }
+    .theme-display .empty {
+      color: #aaa; font-style: italic; font-size: 0.92em;
+    }
+    .theme-display .sample-badge {
+      display: inline-block;
+      font-size: 0.72em; font-weight: bold; letter-spacing: 1px;
+      padding: 0px 6px; margin-left: 6px;
+      background: #fff3cd; color: #8a6a1a; border: 1px solid #f0d97a;
+      vertical-align: middle;
+    }
+
+    .year-block { margin-top: 28px; scroll-margin-top: 56px; }
+    .year-block:first-child { margin-top: 0; }
+    .year-head {
+      display: flex; align-items: baseline; gap: 12px;
+      border-bottom: 2px dotted #180614;
+      border-left: 10px solid #180614;
+      padding: 7px;
+      margin-bottom: 8px;
+    }
+    .year-head .y { font-size: 1.4em; font-weight: bold; color: #180614; }
+    .year-head .meta { font-size: 0.85em; color: #888; }
+
+    .year-theme {
+      margin: 0 0 12px 14px;
+      padding: 8px 12px 8px 14px;
+      border-left: 3px solid #d8d3c2;
+      background: #faf8f3;
+      font-size: 0.9em; line-height: 1.6;
+    }
+    .year-theme .label {
+      display: inline-block; font-size: 0.78em; font-weight: bold;
+      color: #745850; letter-spacing: 1px; margin-right: 8px;
+    }
+    .year-theme .title { font-weight: bold; color: #333; }
+    .year-theme .title a { color: #333; text-decoration: none; }
+    .year-theme .title a:hover { text-decoration: underline; }
+    .year-theme .desc {
+      margin-top: 4px; font-size: 0.92em; color: #5f5f5f;
+    }
+    .year-theme .sample-badge {
+      display: inline-block;
+      font-size: 0.7em; font-weight: bold; letter-spacing: 1px;
+      padding: 1px 7px; margin-left: 8px;
+      background: #fff3cd; color: #8a6a1a; border: 1px solid #f0d97a;
+      vertical-align: middle;
+    }
+
+    .case-list { list-style: none; padding: 0; margin: 0; }
+    .case-item {
+      display: grid;
+      grid-template-columns: 4px 1fr auto;
+      gap: 12px;
+      padding: 10px 8px;
+      border-bottom: 1px solid #ececec;
+      align-items: start;
+    }
+    .case-item:hover { background: #faf8f3; }
+    .case-bar { width: 4px; align-self: stretch; }
+    .case-meta {
+      font-size: 0.78em; color: #888; margin-bottom: 3px;
+    }
+    .case-type {
+      display: inline-block; padding: 1px 6px;
+      border: 1px solid; margin-right: 8px; font-size: 0.92em;
+    }
+    .case-source { margin-right: 8px; }
+    .case-award {
+      display: inline-block; padding: 1px 7px;
+      background: #fdf6db; color: #8a6a1a; font-weight: bold;
+      font-size: 0.92em;
+    }
+    .case-title { font-size: 1.0em; line-height: 1.5; color: #333; }
+    .case-title a { color: #333; }
+    .case-cat { font-size: 0.78em; color: #aaa; margin-top: 2px; }
+    .case-arrow { color: #bbb; font-size: 1.1em; align-self: center; }
+
+    /* 狭いビューポートではサイドバーを上に積む */
+    @media (max-width: 1080px) {
+      #page { width: auto; max-width: 820px; padding: 0 16px; }
+      .layout { grid-template-columns: 1fr; gap: 16px; }
+      .sidebar {
+        position: static; max-height: none; overflow: visible;
+        display: block;
+      }
+      .sidebar .filter-panel {
+        /* モバイルでも filter は画面上部に常駐させる */
+        position: sticky;
+        top: 40px; /* 上部メニューバー(40px) のすぐ下 */
+        z-index: 5;
+        margin: 0 -4px 14px;
+        background: #f6f4ef;
+      }
+      .sidebar .year-panel {
+        display: block; overflow: visible;
+      }
+      .chip-list { flex-direction: row; flex-wrap: wrap; }
+      .chip { width: auto; }
+      .chip-count { margin-left: 6px; }
+      .year-list {
+        flex-direction: row; flex-wrap: wrap; gap: 4px;
+        max-height: none; overflow: visible;
+      }
+      .year-list a { border: 1px solid #e8e4d7; padding: 3px 8px; }
+      .theme-display { max-height: none; }
+    }
+
+    /* PWS Cupの特徴セクション */
+    .features {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+      margin: 12px 0;
+    }
+    .feature {
+      padding: 14px 16px;
+      background: #faf8f3;
+      border: 1px solid #e5e2d6;
+      border-left: 4px solid #745850;
+    }
+    .feature h4 {
+      margin: 0 0 6px;
+      font-size: 1.0em;
+      color: #180614;
+    }
+    .feature p {
+      margin: 0;
+      font-size: 0.88em;
+      line-height: 1.65;
+      color: #5f5f5f;
+    }
+    @media (max-width: 720px) {
+      .features { grid-template-columns: 1fr; }
+    }
+
+    /* CTA ボックス */
+    .cta-box {
+      margin: 20px 0 8px;
+      padding: 18px 22px;
+      background: #2f2b3f;
+      color: #fff;
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 16px; flex-wrap: wrap;
+    }
+    .cta-box .cta-text {
+      flex: 1 1 auto;
+    }
+    .cta-box .cta-text strong {
+      font-size: 1.05em; display: block; margin-bottom: 4px;
+    }
+    .cta-box .cta-text span {
+      font-size: 0.85em; color: #ccc;
+    }
+    .cta-box .cta-buttons {
+      display: flex; gap: 8px; flex-shrink: 0;
+    }
+    .cta-button {
+      display: inline-block;
+      padding: 10px 18px;
+      background: #fff; color: #2f2b3f;
+      font-weight: bold; font-size: 0.9em;
+      text-decoration: none; border: 1px solid #fff;
+    }
+    .cta-button:hover { background: #f4f1e6; }
+    .cta-button.ghost {
+      background: transparent; color: #fff;
+    }
+    .cta-button.ghost:hover { background: rgba(255,255,255,0.1); }
+
+    /* 賞の種類テーブル */
+    .awards-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.92em;
+    }
+    .awards-table th, .awards-table td {
+      padding: 10px 12px;
+      border-bottom: 1px solid #e5e2d6;
+      text-align: left;
+      vertical-align: top;
+    }
+    .awards-table th {
+      background: #f6f4ef;
+      font-weight: bold;
+      color: #180614;
+      width: 30%;
+    }
+    .awards-table td {
+      color: #5f5f5f; line-height: 1.6;
+    }
+    .awards-table .since {
+      display: inline-block;
+      font-size: 0.78em; color: #888;
+      margin-left: 6px;
+    }
+
+    .empty {
+      padding: 24px; text-align: center; color: #999; font-size: 0.9em;
+    }
+  </style>
+</head>
+<body style="margin-top: 40px;">
+  <div id="menu-wrap" class="fixed">
+    <ul id="menu">
+      <li><a href="../index.html">Top</a></li>
+      <li><a href="../index.html#pws">About PWS</a></li>
+      <li><a href="./index.html">事例</a></li>
+      <li><a href="../index.html">Past PWS</a></li>
+    </ul>
+  </div>
+
+  <div id="page">
+    <h1>PWS Cup 事例アーカイブ</h1>
+
+    <h2>概要</h2>
+    <p class="intro">
+      PWS Cup（プライバシーワークショップ・カップ）は、プライバシー保護技術の研究者・実務家が「匿名加工」と「再識別攻撃」で競い合う、国内唯一のコンテストです。2015年の第1回以来、大学・企業を横断する <strong id="stat-orgs">23</strong> 以上の組織が参加し、<strong id="stat-cases">53</strong> 件を超える発表・記事・論文として記録されてきました。
+      本ページは、これらの公式ページ・企業発表・大学の受賞報告・論文・参加記などを年表形式で一覧化したものです。
+    </p>
+
+    <div class="stats">
+      <div class="stat">
+        <div class="stat-n">11</div>
+        <div class="stat-label">年連続開催</div>
+        <div class="stat-sub">2015–2025</div>
+      </div>
+      <div class="stat">
+        <div class="stat-n" id="stat-cases-2">53</div>
+        <div class="stat-label">関連事例</div>
+        <div class="stat-sub">記事・論文・発表</div>
+      </div>
+      <div class="stat">
+        <div class="stat-n" id="stat-awards">18</div>
+        <div class="stat-label">受賞報告</div>
+        <div class="stat-sub">大学・企業から</div>
+      </div>
+    </div>
+
+    <h2>PWS Cup の特徴</h2>
+    <div class="features">
+      <div class="feature">
+        <h4>攻撃と防御の両面を体験</h4>
+        <p>匿名加工する側と、再識別/属性推定/メンバシップ推定などで攻撃する側の両方を1コンテストで経験できる。プライバシー保護技術を「使う」だけでなく「破る」側からも学べる、国内では稀有な機会。</p>
+      </div>
+      <div class="feature">
+        <h4>大学と企業が同じ土俵で</h4>
+        <p>学生・研究室から企業のR&Dチームまで、立場を問わず同じルールで競う。NTT・NSSOL・TOPPAN・KDDI・富士通・セコム・トヨタなど主要企業と、明治大・神奈川大・中央大・大阪大などの研究室が参加。</p>
+      </div>
+      <div class="feature">
+        <h4>毎年テーマが変わる</h4>
+        <p>家計調査・購買履歴・位置情報・ヘルスケア・合成データなど、毎年異なる題材で攻防を競う。最新の研究テーマと社会課題が反映されるため、参加するたびに新しい技術領域に触れられる。</p>
+      </div>
+      <div class="feature">
+        <h4>論文・受賞でキャリアに</h4>
+        <p>コンテスト結果は論文・受賞・技術ブログとして記録され、これまで11年で53件以上が公開されている。総合優勝・ベストアタック賞・CSEC優秀学生研究賞など、研究・キャリア上の実績にもつながる。</p>
+      </div>
+    </div>
+
+    <h2>受賞の種類</h2>
+    <table class="awards-table">
+      <tbody>
+        <tr>
+          <th>総合 <span class="since">毎年</span></th>
+          <td>匿名加工と攻撃の両面を総合評価。総合優勝・準優勝・3位など。</td>
+        </tr>
+        <tr>
+          <th>匿名加工賞 <span class="since">毎年</span></th>
+          <td>もっとも安全に匿名加工できたチームに贈られる。</td>
+        </tr>
+        <tr>
+          <th>再識別賞 / ベストアタック賞 <span class="since">毎年</span></th>
+          <td>もっとも効果的に他チームの加工データを再識別／属性推定／メンバシップ推定できたチームに贈られる。</td>
+        </tr>
+        <tr>
+          <th>ベストプレゼン賞 <span class="since">2022〜</span></th>
+          <td>手法・成果のプレゼンテーションが最も優れたチームに贈られる。</td>
+        </tr>
+        <tr>
+          <th>匿名加工基準賞 <span class="since">2022〜</span></th>
+          <td>関連法令・規準にもっとも適切に対応した加工を行ったチームに贈られる。</td>
+        </tr>
+        <tr>
+          <th>データサイエンス賞 <span class="since">2024〜</span></th>
+          <td>加工データの分析活用方法を提案し、その独自性・実用性が評価されたチームに贈られる。</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="cta-box">
+      <div class="cta-text">
+        <strong>次回 PWS Cup に参加するには</strong>
+        <span>毎年夏ごろに参加チームの募集を開始。学生・社会人、個人・チーム、大学・企業を問わず参加可能です。</span>
+      </div>
+      <div class="cta-buttons">
+        <a class="cta-button" href="../2026/index.html">最新の参加情報 →</a>
+        <a class="cta-button ghost" href="../index.html#past">過去のコンテストを見る</a>
+      </div>
+    </div>
+
+    <h2>事例一覧</h2>
+
+    <div class="layout">
+      <aside class="sidebar" aria-label="絞り込み">
+        <div class="panel filter-panel">
+          <div class="panel-title">区分でフィルタ</div>
+          <div class="chip-list" id="filter-chips" role="tablist"></div>
+        </div>
+        <div class="panel year-panel">
+          <div class="panel-title">年度でフィルタ</div>
+          <nav class="year-list" id="year-list" role="tablist"></nav>
+          <div class="theme-display" id="theme-display"></div>
+        </div>
+      </aside>
+      <div id="timeline"></div>
+    </div>
+
+    <div id="footer">
+      <p style="text-align:center; font-size:0.9em; margin: 0 0 8px;">
+        新しい事例を追加したい方へ：
+        <a href="https://github.com/pwscup/pwssite/blob/gh-pages/about/README.md" target="_blank" rel="noopener">追加手順ドキュメント（GitHub）</a>
+      </p>
+      <p id="copyright">Copyright (社)情報処理学会 コンピュータセキュリティ研究会 PWS組織委員会 All rights reserved.</p>
+    </div>
+  </div>
+
+  <script>
+    /**
+     * 事例データは about/cases.json から読み込みます。
+     * データを追加・編集したい場合は cases.json を編集してください。
+     * （詳細は about/README.md を参照）
+     */
+
+    const PWS_TYPE_LABEL = {
+      official: "公式", company: "企業",
+      university: "大学・研究室", paper: "論文・学会", blog: "ブログ・参加記",
+    };
+    const PWS_TYPE_COLOR = {
+      official: "#1f3a5f", company: "#7a4f1f",
+      university: "#2d5f3f", paper: "#5a3a6e", blog: "#8a5a3a",
+    };
+
+    const $ = (s, r = document) => r.querySelector(s);
+    const escapeHtml = (s) => String(s).replace(/[&<>"']/g, (c) => ({
+      "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+    }[c]));
+
+    let PWS_CASES = [];
+    let PWS_THEMES_BY_YEAR = {};
+    let years = [];
+    let awardsCount = 0;
+    let state = { filter: "all", yearFilter: "all", activeYear: null };
+
+    const FILTERS = [
+      ["all", "すべて", null],
+      ["official", "公式", PWS_TYPE_COLOR.official],
+      ["company", "企業", PWS_TYPE_COLOR.company],
+      ["university", "大学・研究室", PWS_TYPE_COLOR.university],
+      ["paper", "論文・学会", PWS_TYPE_COLOR.paper],
+      ["blog", "ブログ・参加記", PWS_TYPE_COLOR.blog],
+    ];
+
+    function countFor(k) {
+      return k === "all"
+        ? PWS_CASES.length
+        : PWS_CASES.filter(c => c.type === k).length;
+    }
+
+    function renderFilters() {
+      $("#filter-chips").innerHTML = FILTERS.map(([k, label, color]) => `
+        <button class="chip" type="button" role="tab" data-filter="${k}" aria-pressed="${state.filter === k}">
+          ${color ? `<span class="chip-dot" style="background:${color}"></span>` : `<span class="chip-dot" style="background:transparent;border:1px solid #ccc"></span>`}
+          <span>${escapeHtml(label)}</span>
+          <span class="chip-count">${countFor(k)}</span>
+        </button>
+      `).join("");
+      $("#filter-chips").querySelectorAll(".chip").forEach(b => {
+        b.addEventListener("click", () => {
+          state.filter = b.dataset.filter;
+          renderFilters();
+          renderTimeline();
+          setupScrollSpy();
+        });
+      });
+    }
+
+    function renderYearList() {
+      const baseFiltered = state.filter === "all"
+        ? PWS_CASES
+        : PWS_CASES.filter(c => c.type === state.filter);
+      const allActive = state.yearFilter === "all" ? "active" : "";
+      const allHtml = `<a href="#" role="tab" data-year="all" class="${allActive}" aria-pressed="${state.yearFilter === "all"}">
+        <span>すべての年度</span><span class="yc">${baseFiltered.length}</span>
+      </a>`;
+      const yearHtml = years.map(y => {
+        const count = baseFiltered.filter(c => c.cup_year === y).length;
+        const cls = state.yearFilter === y ? "active" : "";
+        const dim = count === 0 ? "opacity:0.4;" : "";
+        return `<a href="#" role="tab" data-year="${y}" class="${cls}" style="${dim}" aria-pressed="${state.yearFilter === y}">
+          <span>${y}</span><span class="yc">${count}</span>
+        </a>`;
+      }).join("");
+      const list = $("#year-list");
+      list.innerHTML = allHtml + yearHtml;
+      list.querySelectorAll("a").forEach(a => {
+        a.addEventListener("click", (e) => {
+          e.preventDefault();
+          const v = a.dataset.year;
+          state.yearFilter = v === "all" ? "all" : Number(v);
+          if (v !== "all") state.activeYear = Number(v);
+          renderYearList();
+          renderTimeline();
+          setupScrollSpy();
+        });
+      });
+      renderActiveTheme();
+    }
+
+    function renderActiveTheme() {
+      const el = $("#theme-display");
+      if (!el) return;
+      const y = state.activeYear;
+      if (!y) {
+        el.innerHTML = `<div class="empty">年度を選択するとテーマが表示されます。</div>`;
+        return;
+      }
+      const t = PWS_THEMES_BY_YEAR[y];
+      if (!t) {
+        el.innerHTML = `
+          <span class="label">テーマ</span>
+          <div><span class="y-num">${y}</span><span class="empty">テーマ情報未登録</span></div>
+        `;
+        return;
+      }
+      const titleHtml = t.url
+        ? `<a href="${escapeHtml(t.url)}" target="_blank" rel="noopener">${escapeHtml(t.title)}</a>`
+        : escapeHtml(t.title);
+      const sample = t.sample
+        ? `<span class="sample-badge" title="サンプルデータ。確認後に sample フィールドを削除">サンプル</span>`
+        : "";
+      const desc = t.description
+        ? `<div class="desc">${escapeHtml(t.description)}</div>`
+        : "";
+      const url = t.url
+        ? `<div class="url-link"><a href="${escapeHtml(t.url)}" target="_blank" rel="noopener">公式ページを開く ↗</a></div>`
+        : "";
+      el.innerHTML = `
+        <span class="label">テーマ</span>
+        <div><span class="y-num">${y}</span><span class="title">${titleHtml}</span>${sample}</div>
+        ${desc}
+        ${url}
+      `;
+    }
+
+    function renderTimeline() {
+      let filtered = state.filter === "all"
+        ? PWS_CASES : PWS_CASES.filter(c => c.type === state.filter);
+      if (state.yearFilter !== "all") {
+        filtered = filtered.filter(c => c.cup_year === state.yearFilter);
+      }
+      const byYear = years
+        .map(y => ({ year: y, items: filtered.filter(c => c.cup_year === y) }))
+        .filter(g => g.items.length);
+
+      if (!byYear.length) {
+        $("#timeline").innerHTML = `<div class="empty">該当する事例がありません。</div>`;
+        renderYearList();
+        return;
+      }
+
+      $("#timeline").innerHTML = byYear.map(({ year, items }) => `
+        <div class="year-block" id="year-${year}">
+          <div class="year-head">
+            <span class="y">${year}</span>
+            <span class="meta">第${year - 2014}回 PWS Cup ／ ${items.length}件</span>
+          </div>
+          ${renderTheme(year)}
+          <ul class="case-list">
+            ${items.map(renderCase).join("")}
+          </ul>
+        </div>
+      `).join("");
+      renderYearList();
+    }
+
+    function renderTheme(year) {
+      const t = PWS_THEMES_BY_YEAR[year];
+      if (!t) return "";
+      const titleHtml = t.url
+        ? `<a href="${escapeHtml(t.url)}" target="_blank" rel="noopener">${escapeHtml(t.title)} ↗</a>`
+        : escapeHtml(t.title);
+      const sample = t.sample
+        ? `<span class="sample-badge" title="サンプルデータ。実情報を確認のうえ更新してください">サンプル</span>`
+        : "";
+      const desc = t.description
+        ? `<div class="desc">${escapeHtml(t.description)}</div>`
+        : "";
+      return `
+        <div class="year-theme">
+          <span class="label">テーマ</span>
+          <span class="title">${titleHtml}</span>${sample}
+          ${desc}
+        </div>
+      `;
+    }
+
+    let scrollObserver = null;
+    function setupScrollSpy() {
+      if (scrollObserver) scrollObserver.disconnect();
+      if (!("IntersectionObserver" in window)) return;
+      const blocks = years
+        .map(y => document.getElementById(`year-${y}`))
+        .filter(Boolean);
+      if (!blocks.length) return;
+
+      scrollObserver = new IntersectionObserver(entries => {
+        const visible = entries
+          .filter(e => e.isIntersecting)
+          .sort((a, b) => b.intersectionRatio - a.intersectionRatio);
+        if (visible.length) {
+          const y = Number(visible[0].target.id.replace("year-", ""));
+          if (y !== state.activeYear) {
+            state.activeYear = y;
+            renderYearList();
+          }
+        }
+      }, { rootMargin: "-56px 0px -60% 0px", threshold: [0, 0.25, 0.5, 1] });
+
+      blocks.forEach(b => scrollObserver.observe(b));
+    }
+
+    function renderCase(c) {
+      const color = PWS_TYPE_COLOR[c.type];
+      const label = PWS_TYPE_LABEL[c.type];
+      const titleHtml = c.url
+        ? `<a href="${escapeHtml(c.url)}" target="_blank" rel="noopener">${escapeHtml(c.title)} ↗</a>`
+        : escapeHtml(c.title);
+      return `
+        <li class="case-item">
+          <div class="case-bar" style="background:${color}"></div>
+          <div>
+            <div class="case-meta">
+              <span class="case-type" style="color:${color};border-color:${color}55;">${escapeHtml(label)}</span>
+              <span class="case-source">${escapeHtml(c.source)}</span>
+              ${c.award ? `<span class="case-award">★ ${escapeHtml(c.award)}</span>` : ""}
+            </div>
+            <div class="case-title">${titleHtml}</div>
+            <div class="case-cat">${escapeHtml(c.category)}</div>
+          </div>
+          <div class="case-arrow">${c.url ? "↗" : ""}</div>
+        </li>
+      `;
+    }
+
+    function showError(msg) {
+      $("#timeline").innerHTML = `
+        <div class="empty" style="color:#a33; font-size:0.95em; line-height:1.6;">
+          ⚠ 事例データの読み込みに失敗しました。<br>
+          <small style="color:#888;">${escapeHtml(msg)}</small>
+        </div>`;
+    }
+
+    async function init() {
+      try {
+        const res = await fetch("./cases.json", { cache: "no-cache" });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const data = await res.json();
+        if (!Array.isArray(data.cases)) throw new Error("cases.json: 'cases' is missing or not an array");
+
+        PWS_CASES = data.cases;
+        PWS_THEMES_BY_YEAR = {};
+        if (Array.isArray(data.themes)) {
+          for (const t of data.themes) PWS_THEMES_BY_YEAR[t.year] = t;
+        }
+        years = [...new Set(PWS_CASES.map(c => c.cup_year))].sort((a, b) => b - a);
+        awardsCount = PWS_CASES.filter(c => c.award).length;
+        if (state.activeYear === null && years.length) state.activeYear = years[0];
+
+        const nonOfficialCount = PWS_CASES.filter(c => c.type !== "official").length;
+        $("#stat-cases").textContent = nonOfficialCount;
+        $("#stat-cases-2").textContent = nonOfficialCount;
+        $("#stat-awards").textContent = awardsCount;
+
+        renderFilters();
+        renderTimeline();
+        setupScrollSpy();
+      } catch (e) {
+        showError(e.message || String(e));
+      }
+    }
+
+    init();
+  </script>
+</body>
+</html>
