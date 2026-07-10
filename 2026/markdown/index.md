@@ -1,7 +1,8 @@
 # 第12回プライバシーワークショップ (PWS2026)
 
 ## What's new
-- 2026/06/27(土) [PWS Cup 2026のページを作成](./cup26.html) ★ New
+- 2026/07/10(金) 本ページを公開  ★ New
+- 2026/06/27(土) [PWS Cup 2026のページを作成](./cup26.html)  ★ New
 
 
 ## PWS(Privacy Workshop)について
