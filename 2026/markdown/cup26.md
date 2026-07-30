@@ -6,7 +6,8 @@
 
 
 ## What's New
-- 2026/07/30(木) [ユーザキット・ルールブック・CodaBench・説明会資料](#materials)を公開しました　★New
+- 2026/07/31(金) [説明会の録画](#materials)を公開しました　★New
+- 2026/07/30(木) [ユーザキット・ルールブック・CodaBench・説明会資料](#materials)を公開しました
 - 2026/07/29(水) 最新のルールに記述を同期し、WGメンバーを追加しました
 - 2026/07/28(火) 参加申込ページをスケジュール欄に追加しました（→[スケジュール](#schedule)）　　
 - 2026/07/10(金) 説明会参加のご案内をスケジュール欄に追加しました（→[スケジュール](#schedule)）
@@ -90,7 +91,7 @@
 - [ルールブック (PDF)](https://github.com/pwscup/pwscup2026-kit/blob/main/rulebook/PWS_Cup2026_%E3%83%AB%E3%83%BC%E3%83%AB%E3%83%96%E3%83%83%E3%82%AF_orientation-20260730c.pdf) — 競技ルールと採点定義の正本
 - [CodaBench コンテストページ](https://www.codabench.org/competitions/17698/) — 合成データの提出・採点
 - [説明会資料 (2026/07/30, PDF)](./Images/20260730_PWSCUP2026説明会資料.pdf)
-- 説明会 録画 — 後日公開予定
+- [説明会 録画 (2026/07/30, Google Drive)](https://drive.google.com/file/d/1lrxggMJw75V1xJYozBUoR1xN5zRTTYJD/view?usp=sharing) — 管理用の情報が映り込んでいたため、動画を一部編集しております
 
 
 ## 参加チーム
