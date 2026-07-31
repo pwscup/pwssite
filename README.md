@@ -92,7 +92,7 @@ GitHub上の操作のみで完結できます（ローカルでの作業も可�
 
 | 技術 | 用途 | 備考 |
 |---|---|---|
-| [Python 3.9+](https://www.python.org/) | ビルドスクリプト | [`make.py`](make.py) がエントリーポイント。ローカルビルドは `uv run python3 make.py` |
+| [Python 3.9+](https://www.python.org/) | ビルドスクリプト | [`make.py`](make.py) がエントリーポイント。ローカルビルドは `uv run python3 make.py`（更新されたmdのみビルド）。全ファイルを作り直すには `--force` |
 | [markdown-it-py](https://markdown-it-py.readthedocs.io/) | Markdown→HTML変換 | GitHub Flavored Markdown (GFM) 互換 |
 | [uv](https://docs.astral.sh/uv/) | 依存管理・実行環境 | `uv run` でスクリプトを実行 |
 | [GitHub Actions](https://github.com/pwscup/pwssite/actions) | CI/CD | [`convert_markdown.yml`](.github/workflows/convert_markdown.yml) でビルド・デプロイを自動化 |
