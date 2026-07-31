@@ -72,9 +72,11 @@ jobs:
       - name: Install uv
         uses: astral-sh/setup-uv@v6
 
+      # --force は必須。git は mtime を保存しないため、checkout 直後の
+      # md/html の新旧関係は不定で、差分ビルドだと黙ってスキップされうる。
       - name: Build HTML
         run: |
-          uv run python3 make.py
+          uv run python3 make.py --force
 
       # HTML を gh-pages ブランチにコミット（必要なら）
       - name: Commit & push built files

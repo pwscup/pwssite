@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Build entry point: reads targets from pyproject.toml and builds each."""
 
+import argparse
 import subprocess
 import sys
 from pathlib import Path
@@ -9,6 +10,17 @@ import tomllib
 
 
 def main() -> int:
+    parser = argparse.ArgumentParser(
+        description="Build HTML for every target in [tool.pwssite].targets."
+    )
+    parser.add_argument(
+        "-f",
+        "--force",
+        action="store_true",
+        help="rebuild every markdown file, ignoring mtime comparison",
+    )
+    args = parser.parse_args()
+
     root = Path(__file__).resolve().parent
     pyproject = root / "pyproject.toml"
 
@@ -21,12 +33,13 @@ def main() -> int:
         return 0
 
     scripts_make = root / "scripts" / "make.py"
+    extra_args = ["--force"] if args.force else []
 
     for target_name in targets:
         target_dir = root / target_name
         print(f"=== {target_name} ===")
         result = subprocess.run(
-            [sys.executable, str(scripts_make), str(target_dir)],
+            [sys.executable, str(scripts_make), str(target_dir), *extra_args],
         )
         if result.returncode != 0:
             print(f"[ERROR] {target_name} failed (exit {result.returncode})")
