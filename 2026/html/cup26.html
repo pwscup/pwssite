@@ -56,6 +56,8 @@
 </li>
 <li><a href="#資料リンク">資料・リンク</a>
 </li>
+<li><a href="#コホート割当の-salt-コミットメント">コホート割当の salt コミットメント</a>
+</li>
 <li><a href="#参加チーム">参加チーム</a>
 </li>
 <li><a href="#プライバシーポリシー">プライバシーポリシー</a>
@@ -68,7 +70,8 @@
 </div> -->
 <h2 id="whats-new">What's New</h2>
 <ul>
-<li>2026/07/31(金) <a href="#materials">説明会の録画</a>を公開しました　★New</li>
+<li>2026/08/03(月) コホート割当に使う <a href="#salt">salt のコミットメント</a>を公開しました　★New</li>
+<li>2026/07/31(金) <a href="#materials">説明会の録画</a>を公開しました</li>
 <li>2026/07/30(木) <a href="#materials">ユーザキット・ルールブック・CodaBench・説明会資料</a>を公開しました</li>
 <li>2026/07/29(水) 最新のルールに記述を同期し、WGメンバーを追加しました</li>
 <li>2026/07/28(火) 参加申込ページをスケジュール欄に追加しました（→<a href="#schedule">スケジュール</a>）</li>
@@ -219,6 +222,31 @@
 <li><a href="https://www.codabench.org/competitions/17698/">CodaBench コンテストページ</a> — 合成データの提出・採点</li>
 <li><a href="./Images/20260730_PWSCUP2026%E8%AA%AC%E6%98%8E%E4%BC%9A%E8%B3%87%E6%96%99.pdf">説明会資料 (2026/07/30, PDF)</a></li>
 <li><a href="https://drive.google.com/file/d/1lrxggMJw75V1xJYozBUoR1xN5zRTTYJD/view?usp=sharing">説明会 録画 (2026/07/30, Google Drive)</a> — 管理用の情報が映り込んでいたため、動画を一部編集しております</li>
+</ul>
+<h2 id="コホート割当の-salt-コミットメント"><a id="salt"></a>コホート割当の salt コミットメント</h2>
+<p>どのコホート <code>B_i</code> をどのチームに配るかは、ルールブック §3.2 のとおり <code>SHA-256(チーム名 ∥ salt)</code> で機械的に決まります。salt そのものは各ラウンドのデータ配布時（予備戦 2026/08/09(日)、本戦 2026/09/12(土)）に公表しますが、それまでのあいだに事務局が salt を選び直していないことを検証できるよう、salt のハッシュ値（コミットメント）を先に公開します。</p>
+<table>
+<thead>
+<tr>
+<th>ラウンド</th>
+<th>salt のコミットメント (SHA-256)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>予備戦</td>
+<td><code>49c5074a597afc70cc659bff95764bb9724201f5c2a8f0bb1a4615e853eeaecb</code></td>
+</tr>
+<tr>
+<td>本戦</td>
+<td><code>a63de294a02401bd9221e7b28d9574184724f276a2c22b97d558f7f88b2f7187</code></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>上の値は、salt の文字列を UTF-8 で符号化したバイト列（末尾に改行を含みません）の SHA-256 です。</li>
+<li>salt の公表後は、<code>printf '%s' '公表された salt' | shasum -a 256</code>（Linux では <code>sha256sum</code>）で上表の値と一致することを誰でも確認できます。</li>
+<li>salt は予備戦と本戦で別のものを使います。上の2つの値を今後変更することはありません。</li>
 </ul>
 <h2 id="参加チーム">参加チーム</h2>
 <p>TBD</p>

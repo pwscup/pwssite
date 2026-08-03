@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Build HTML for a single target directory."""
 
+import argparse
 import shutil
 import subprocess
 import sys
@@ -15,7 +16,31 @@ def collect_markdown(md_dir: Path) -> list[Path]:
     return rels
 
 
-def build_target(target_dir: Path) -> int:
+def select_targets(
+    md_dir: Path,
+    html_dir: Path,
+    rel_md_list: list[Path],
+    force: bool = False,
+) -> list[tuple[str, Path]]:
+    """Pick the markdown files that need building.
+
+    With force=True every markdown file is selected. Otherwise a file is
+    selected only when its HTML is missing or older, which relies on mtime.
+    git does not record mtime, so the order after a fresh checkout is not
+    deterministic and the comparison may silently skip everything. CI must
+    therefore pass force=True.
+    """
+    targets: list[tuple[str, Path]] = []
+    for rel in rel_md_list:
+        base = rel.stem
+        md = md_dir / rel
+        html = html_dir / f"{base}.html"
+        if force or (not html.exists()) or (md.stat().st_mtime > html.stat().st_mtime):
+            targets.append((base, md))
+    return targets
+
+
+def build_target(target_dir: Path, force: bool = False) -> int:
     """Build all markdown files in target_dir."""
     md_dir = target_dir / "markdown"
     html_dir = target_dir / "html"
@@ -24,14 +49,7 @@ def build_target(target_dir: Path) -> int:
     html_dir.mkdir(parents=True, exist_ok=True)
 
     rel_md_list = collect_markdown(md_dir)
-
-    targets: list[tuple[str, Path]] = []
-    for rel in rel_md_list:
-        base = rel.stem
-        md = md_dir / rel
-        html = html_dir / f"{base}.html"
-        if (not html.exists()) or (md.stat().st_mtime > html.stat().st_mtime):
-            targets.append((base, md))
+    targets = select_targets(md_dir, html_dir, rel_md_list, force=force)
 
     if not targets:
         print("No markdown newer than existing HTML.")
@@ -79,12 +97,19 @@ def build_target(target_dir: Path) -> int:
 
 
 def main() -> int:
-    if len(sys.argv) != 2:
-        print("Usage: make.py <target_dir>")
-        return 1
+    parser = argparse.ArgumentParser(
+        description="Build HTML for a single target directory."
+    )
+    parser.add_argument("target_dir", help="target directory (e.g. 2026)")
+    parser.add_argument(
+        "-f",
+        "--force",
+        action="store_true",
+        help="rebuild every markdown file, ignoring mtime comparison",
+    )
+    args = parser.parse_args()
 
-    target_dir = Path(sys.argv[1]).resolve()
-    return build_target(target_dir)
+    return build_target(Path(args.target_dir).resolve(), force=args.force)
 
 
 if __name__ == "__main__":
