@@ -56,6 +56,8 @@
 </li>
 <li><a href="#資料リンク">資料・リンク</a>
 </li>
+<li><a href="#スターターキットの版github-releases">スターターキットの版（GitHub Releases）</a>
+</li>
 <li><a href="#コホート割当の-salt-コミットメント">コホート割当の salt コミットメント</a>
 </li>
 <li><a href="#参加チーム">参加チーム</a>
@@ -70,7 +72,8 @@
 </div> -->
 <h2 id="whats-new">What's New</h2>
 <ul>
-<li>2026/08/03(月) コホート割当に使う <a href="#salt">salt のコミットメント</a>を公開しました　★New</li>
+<li>2026/08/08(土) <a href="#materials">ルールブックを予備戦版に更新</a>し、<a href="#materials">読みもの</a>と<a href="#releases">キットの版の説明</a>を追加しました　★New</li>
+<li>2026/08/03(月) コホート割当に使う <a href="#salt">salt のコミットメント</a>を公開しました</li>
 <li>2026/07/31(金) <a href="#materials">説明会の録画</a>を公開しました</li>
 <li>2026/07/30(木) <a href="#materials">ユーザキット・ルールブック・CodaBench・説明会資料</a>を公開しました</li>
 <li>2026/07/29(水) 最新のルールに記述を同期し、WGメンバーを追加しました</li>
@@ -131,7 +134,7 @@
   </dd>
 </dl>
 <h2 id="pws-cup-2026-スケジュール"><a id="schedule"></a>PWS Cup 2026 スケジュール</h2>
-<p>スケジュールは予告なく変更することがあります。あらかじめご了承ください。本ページに記載の日時は特に断りのない限り日本標準時(JST)です。</p>
+<p>スケジュールは予告なく変更することがあります。あらかじめご了承ください。本ページに記載の日時は特に断りのない限り日本標準時(JST)です。表の各フェーズは、記載した初日の 9:00 に始まり、記載した最終日の 9:00 に終わります（例：予備戦・加工は 08/09(日) 9:00 から 08/22(土) 9:00 まで）。</p>
 <table>
 <thead>
 <tr>
@@ -218,13 +221,42 @@
 <h2 id="資料リンク"><a id="materials"></a>資料・リンク</h2>
 <ul>
 <li><a href="https://github.com/pwscup/pwscup2026-kit/tree/main">ユーザキット (GitHub: pwscup/pwscup2026-kit)</a> — 練習用データ・自己採点コード・入門ノートブック</li>
-<li><a href="https://github.com/pwscup/pwscup2026-kit/blob/main/rulebook/PWS_Cup2026_%E3%83%AB%E3%83%BC%E3%83%AB%E3%83%96%E3%83%83%E3%82%AF_orientation-20260730c.pdf">ルールブック (PDF)</a> — 競技ルールと採点定義の正本</li>
+<li><a href="https://github.com/pwscup/pwscup2026-kit/blob/main/rulebook/PWS_Cup2026_%E3%83%AB%E3%83%BC%E3%83%AB%E3%83%96%E3%83%83%E3%82%AF_prelim-process-20260808.pdf">ルールブック (PDF)</a> — 競技ルールと採点定義の正本（予備戦版）</li>
 <li><a href="https://www.codabench.org/competitions/17698/">CodaBench コンテストページ</a> — 合成データの提出・採点</li>
 <li><a href="./Images/20260730_PWSCUP2026%E8%AA%AC%E6%98%8E%E4%BC%9A%E8%B3%87%E6%96%99.pdf">説明会資料 (2026/07/30, PDF)</a></li>
 <li><a href="https://drive.google.com/file/d/1lrxggMJw75V1xJYozBUoR1xN5zRTTYJD/view?usp=sharing">説明会 録画 (2026/07/30, Google Drive)</a> — 管理用の情報が映り込んでいたため、動画を一部編集しております</li>
+<li><a href="https://github.com/pwscup/pwscup2026-kit/tree/main/notebooks">読みもの (GitHub: notebooks/)</a> — 競技データの作り方のうち、開示する範囲。ノートブックと同じ場所にあります</li>
+<li><a href="https://github.com/pwscup/pwscup2026-kit/releases">キットの版 (GitHub Releases)</a> — どの版を見ればよいか（→<a href="#releases">説明</a>）</li>
+</ul>
+<h2 id="スターターキットの版github-releases"><a id="releases"></a>スターターキットの版（GitHub Releases）</h2>
+<p>ユーザキットは、フェーズの切り替わりにあわせて中身を更新します。どの時点の版かがはっきり分かるように、GitHub の <strong>Releases</strong> として版を固定して公開しています。</p>
+<p><strong>見るのは、いま進行中のフェーズに対応する版です。</strong><a href="https://github.com/pwscup/pwscup2026-kit/releases">Releases</a> の先頭に <code>Latest</code> と付いているものが、その時点の最新版です。</p>
+<p>版の名前は <code>ラウンド-フェーズ-配布日</code> の形で、<strong>ルールブックの版名と同じ文字列</strong>にしてあります。</p>
+<table>
+<thead>
+<tr>
+<th>版の名前</th>
+<th>対応する時期</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>orientation-20260730c</code></td>
+<td>参加者説明会（2026/07/30）の時点</td>
+</tr>
+<tr>
+<td><code>prelim-process-20260808</code></td>
+<td>予備戦・加工フェーズ（2026/08/09 開始）向け</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>それぞれの Release の説明に、<strong>その版のルールブック PDF</strong> と、<strong>対になる採点用 Docker イメージのタグ</strong>を書いてあります。手元で自己採点するときは、そこに書かれたタグを指定してください（<code>:latest</code> は更新のたびに動きます）。</li>
+<li>**キットに変更がないフェーズでは、新しい版は作りません。**前の版をそのまま使ってください。</li>
+<li>過去の版も残ります。「説明会のときはこうだった」を確かめたいときは、一覧から古い Release を開いてください。ダウンロードは Releases の <code>Source code (zip)</code> からどうぞ（リポジトリの「Code」→「Download ZIP」は常に最新を指します）。</li>
 </ul>
 <h2 id="コホート割当の-salt-コミットメント"><a id="salt"></a>コホート割当の salt コミットメント</h2>
-<p>どのコホート <code>B_i</code> をどのチームに配るかは、ルールブック §3.2 のとおり <code>SHA-256(チーム名 ∥ salt)</code> で機械的に決まります。salt そのものは各ラウンドのデータ配布時（予備戦 2026/08/09(日)、本戦 2026/09/12(土)）に公表しますが、それまでのあいだに事務局が salt を選び直していないことを検証できるよう、salt のハッシュ値（コミットメント）を先に公開します。</p>
+<p>どのコホート <code>B_i</code> をどのチームに配るかは、ルールブック §3.2 のとおり <code>SHA-256(チーム名 ∥ salt)</code> で機械的に決まります。salt そのものは各ラウンドのデータ配布時に参加チームへお知らせしますが、それまでのあいだに事務局が salt を選び直していないことを検証できるよう、salt のハッシュ値（コミットメント）を先に公開します。</p>
 <table>
 <thead>
 <tr>
@@ -248,6 +280,7 @@
 <li>salt の公表後は、<code>printf '%s' '公表された salt' | shasum -a 256</code>（Linux では <code>sha256sum</code>）で上表の値と一致することを誰でも確認できます。</li>
 <li>salt は予備戦と本戦で別のものを使います。上の2つの値を今後変更することはありません。</li>
 </ul>
+<p>予備戦の salt は、データ配布とあわせて参加チームへお知らせしました。予備戦・加工フェーズの期間中も参加登録を受け付けているため、これから登録される方が割当を狙えてしまわないよう、本ページでの公開は加工フェーズの終了後（2026/08/22(土)）とします。上のコミットメントと突き合わせれば、事務局があとから salt を選び直していないことは、公開後に誰でも確認できます。</p>
 <h2 id="参加チーム">参加チーム</h2>
 <p>TBD</p>
 <h2 id="プライバシーポリシー">プライバシーポリシー</h2>
