@@ -6,7 +6,8 @@
 
 
 ## What's New
-- 2026/08/08(土) [ルールブックを予備戦版に更新](#materials)し、[読みもの](#materials)と[キットの版の説明](#releases)を追加しました　★New
+- 2026/08/09(日) [参加チームとコホート割当](#team)を公開しました　★New
+- 2026/08/08(土) [ルールブックを予備戦版に更新](#materials)し、[読みもの](#materials)と[キットの版の説明](#releases)を追加しました
 - 2026/08/03(月) コホート割当に使う [salt のコミットメント](#salt)を公開しました
 - 2026/07/31(金) [説明会の録画](#materials)を公開しました
 - 2026/07/30(木) [ユーザキット・ルールブック・CodaBench・説明会資料](#materials)を公開しました
@@ -131,9 +132,221 @@
 
 予備戦の salt は、データ配布とあわせて参加チームへお知らせしました。予備戦・加工フェーズの期間中も参加登録を受け付けているため、これから登録される方が割当を狙えてしまわないよう、本ページでの公開は加工フェーズの終了後（2026/08/22(土)）とします。上のコミットメントと突き合わせれば、事務局があとから salt を選び直していないことは、公開後に誰でも確認できます。
 
+なお、**どのチームがどのコホートに割り当てられたか**は、[参加チーム](#team)の表に掲載しています。
 
-## 参加チーム
-TBD
+
+## <a id="team"></a>参加チーム
+
+<table class="schedule">
+  <thead>
+    <tr>
+      <th scope="col">登録順</th>
+      <th scope="col">コホート番号</th>
+      <th scope="col">チーム名</th>
+      <th scope="col">意気込み</th>
+      <th scope="col">代表者</th>
+      <th scope="col">代表者所属</th>
+      <th scope="col">責任者</th>
+      <th scope="col">責任者所属</th>
+      <th scope="col">指導者</th>
+      <th scope="col">指導者所属</th>
+      <th scope="col">ポスター</th>
+      <th scope="col">コード</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>5</td>
+      <td>2</td>
+      <td>HarunaDan@GU</td>
+      <td></td>
+      <td>（非公開）</td>
+      <td>（非公開）</td>
+      <td>千田浩司</td>
+      <td>群馬大学</td>
+      <td>（非公開）</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>3</td>
+      <td>ふてねこ/HuteNeko</td>
+      <td>一致団結</td>
+      <td>谷俊磨</td>
+      <td>明治大学</td>
+      <td>菊池浩明</td>
+      <td>明治大学</td>
+      <td>-</td>
+      <td>-</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>4</td>
+      <td>アノニメイジング・PRIダーマン / The Anonymazing Prider-Man</td>
+      <td>With great Utility comes great loss of Anonymity. / 大いなる有用性には大いなる匿名性損失が伴う。</td>
+      <td>（非公開）</td>
+      <td>静岡大学</td>
+      <td>（非公開）</td>
+      <td>静岡大学</td>
+      <td>前田若菜</td>
+      <td>LINEヤフー株式会社</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>5</td>
+      <td>ステテコは恥だが役に立つ</td>
+      <td>逃げずに頑張ります！</td>
+      <td>張知妍</td>
+      <td>明治大学</td>
+      <td>菊池浩明</td>
+      <td>明治大学</td>
+      <td>-</td>
+      <td>-</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>6</td>
+      <td>Trailblazer</td>
+      <td>頑張りってみます</td>
+      <td>（非公開）</td>
+      <td>（非公開）</td>
+      <td>代表者と同じ</td>
+      <td>代表者と同じ</td>
+      <td>-</td>
+      <td>-</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>7</td>
+      <td>神神公社 / KU nu tau tau</td>
+      <td>ぼっちに逃げられた…</td>
+      <td>横山彩更</td>
+      <td>神奈川大学</td>
+      <td>藤岡淳</td>
+      <td>神奈川大学</td>
+      <td>永井彰</td>
+      <td>NTT社会情報研究所</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>8</td>
+      <td>CyberMantra</td>
+      <td>Never settle for less</td>
+      <td>王 迪</td>
+      <td>Inner Mongolia University of Technology(IMUT)</td>
+      <td>代表者と同じ</td>
+      <td>代表者と同じ</td>
+      <td>馬 瑞強</td>
+      <td>Inner Mongolia University of Technology</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>9</td>
+      <td>あかぎ団＠群大/AkagiDan@GU</td>
+      <td>今年も頑張ります</td>
+      <td>中島崚杜</td>
+      <td>群馬大学</td>
+      <td>千田浩司</td>
+      <td>群馬大学</td>
+      <td>-</td>
+      <td>-</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>13</td>
+      <td>ステテコVanguard</td>
+      <td>全員初参加です！お手柔らかに。。。</td>
+      <td>武田悠生</td>
+      <td>明治大学</td>
+      <td>菊池浩明</td>
+      <td>明治大学</td>
+      <td>-</td>
+      <td>-</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>19</td>
+      <td>Asakatsu2026</td>
+      <td>活動は「アクティブ」なので，朝起きるために失ったエネルギーを補充することから1日が始まるんですよね．満タンになってから頑張ります！</td>
+      <td>金 杰</td>
+      <td>静岡大学 創造科学技術大学院</td>
+      <td>（非公開）</td>
+      <td></td>
+      <td>-</td>
+      <td>-</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>20</td>
+      <td>さいふぉん-3/siphon-3</td>
+      <td>成績が良かったら公開します</td>
+      <td>波多野卓磨</td>
+      <td>（非公開）</td>
+      <td>代表者と同じ</td>
+      <td>代表者と同じ</td>
+      <td>-</td>
+      <td>-</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>23</td>
+      <td>宮地研.exe</td>
+      <td></td>
+      <td>（非公開）</td>
+      <td>大阪大学宮地研究室</td>
+      <td>（非公開）</td>
+      <td>大阪大学宮地研究室</td>
+      <td>-</td>
+      <td>-</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>29</td>
+      <td>神ぼ大/jinbodai</td>
+      <td>頑張ります！</td>
+      <td>吉原若那</td>
+      <td>神奈川大学</td>
+      <td>藤岡淳</td>
+      <td>神奈川大学</td>
+      <td>井口誠</td>
+      <td>Kii株式会社</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+- 表の **コホート番号** は、ルールブック §3.2 のとおり `SHA-256(チーム名 ∥ salt)` を整数にして `mod N`（N=30）で決めています。**その番号がすでに埋まっていたら、空くまで +1 でずらします。**
+- **ずらす処理は登録順に行う**ので、検算には登録順が要ります。そのために **登録順**の列を付けてあります。検算に必要な salt は、加工フェーズの終了後（2026/08/22(土)）に[上の欄](#salt)で公開します。
+- **チーム名**は、参加申込時にご記入いただいた文字列をそのまま掲載しています（コホート番号の計算にも、この文字列をそのまま使っています）。
+- **氏名・所属の掲載はルールブック §2 に従っています。**公開の義務はなく、公開をご希望いただいた欄だけを掲載しています。ただし**責任者・指導者を複数チームで兼務されている方**は、同 §2 のとおり氏名・所属を掲載しています。
+- 表の読み方: **`-` は指導者を置いていないことを示します**（指導者は任意の役職です）。`（非公開）` はその役職の方がいて氏名・所属を掲載しない欄、`代表者と同じ` は代表者が責任者を兼ねているチーム、空欄は未記入の欄です。
+- **ポスター**と**コード**は、コンテストの終了後に掲載します。
+- 予備戦・加工フェーズの期間中も参加登録を受け付けています。チームが増えた場合は、この表を更新します。
 
 
 ## プライバシーポリシー
