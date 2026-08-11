@@ -6,7 +6,7 @@
 
 
 ## What's New
-- 2026/08/10(月) [参加チーム](#team)を14チームに更新しました　★New
+- 2026/08/10(月) [参加チーム](#team)を18チームに更新しました　★New
 - 2026/08/09(日) [参加チームとコホート割当](#team)を公開しました
 - 2026/08/08(土) [ルールブックを予備戦版に更新](#materials)し、[読みもの](#materials)と[キットの版の説明](#releases)を追加しました
 - 2026/08/03(月) コホート割当に使う [salt のコミットメント](#salt)を公開しました
@@ -157,6 +157,20 @@
   </thead>
   <tbody>
     <tr>
+      <td>17</td>
+      <td>1</td>
+      <td>Ritz</td>
+      <td>最近研究室に配属されたので、まだ初心者ですが頑張ります！</td>
+      <td>（非公開）</td>
+      <td>（非公開）</td>
+      <td>（非公開）</td>
+      <td>（非公開）</td>
+      <td>-</td>
+      <td>-</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
       <td>5</td>
       <td>2</td>
       <td>HarunaDan@GU</td>
@@ -191,7 +205,7 @@
       <td>With great Utility comes great loss of Anonymity. / 大いなる有用性には大いなる匿名性損失が伴う。</td>
       <td>（非公開）</td>
       <td>静岡大学</td>
-      <td>（非公開）</td>
+      <td>西垣正勝</td>
       <td>静岡大学</td>
       <td>前田若菜</td>
       <td>LINEヤフー株式会社</td>
@@ -269,6 +283,20 @@
       <td></td>
     </tr>
     <tr>
+      <td>16</td>
+      <td>12</td>
+      <td>k等分の花嫁</td>
+      <td>＊＊くん？＊＊！起きなさいよ！？＊＊～～！！＊＊さ～ん！！＊＊君おきて？</td>
+      <td>春日史亜</td>
+      <td>静岡大学</td>
+      <td>西垣正勝</td>
+      <td>静岡大学</td>
+      <td>前田若菜</td>
+      <td>LINEヤフー株式会社</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
       <td>9</td>
       <td>13</td>
       <td>ステテコVanguard</td>
@@ -277,6 +305,20 @@
       <td>明治大学</td>
       <td>菊池浩明</td>
       <td>明治大学</td>
+      <td>-</td>
+      <td>-</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>17</td>
+      <td>あれ / are</td>
+      <td>頑張ります</td>
+      <td>（非公開）</td>
+      <td>（非公開）</td>
+      <td>代表者と同じ</td>
+      <td>代表者と同じ</td>
       <td>-</td>
       <td>-</td>
       <td></td>
@@ -302,6 +344,20 @@
       <td>さいふぉん-3/siphon-3</td>
       <td>成績が良かったら公開します</td>
       <td>波多野卓磨</td>
+      <td>（非公開）</td>
+      <td>代表者と同じ</td>
+      <td>代表者と同じ</td>
+      <td>-</td>
+      <td>-</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>21</td>
+      <td>bot035</td>
+      <td></td>
+      <td>（非公開）</td>
       <td>（非公開）</td>
       <td>代表者と同じ</td>
       <td>代表者と同じ</td>
