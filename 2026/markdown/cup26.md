@@ -6,7 +6,8 @@
 
 
 ## What's New
-- 2026/08/22(土) 予備戦の [salt](#salt) を公開しました　★New
+- 2026/08/25(火) [攻撃用データ](#attack-data)を公開しました　★New
+- 2026/08/22(土) 予備戦の [salt](#salt) を公開しました
 - 2026/08/21(金) [参加チーム](#team)を22チームに更新しました
 - 2026/08/19(水) [参加チーム](#team)を20チームに更新しました
 - 2026/08/13(木) [参加チーム](#team)を19チームに更新しました
@@ -102,6 +103,7 @@
 - [説明会 録画 (2026/07/30, Google Drive)](https://drive.google.com/file/d/1lrxggMJw75V1xJYozBUoR1xN5zRTTYJD/view?usp=sharing) — 管理用の情報が映り込んでいたため、動画を一部編集しております
 - [読みもの (GitHub: notebooks/)](https://github.com/pwscup/pwscup2026-kit/tree/main/notebooks) — 競技データの作り方のうち、開示する範囲。ノートブックと同じ場所にあります
 - [キットの版 (GitHub Releases)](https://github.com/pwscup/pwscup2026-kit/releases) — どの版を見ればよいか（→[説明](#releases)）
+- [攻撃用データ（予備戦）](#attack-data) — 全チームの匿名化データ C と、その SHA-256
 
 
 ## <a id="releases"></a>スターターキットの版（GitHub Releases）
@@ -121,6 +123,60 @@
 - **キットに変更がないフェーズでは、新しい版は作りません。**前の版をそのまま使ってください。
 - 過去の版も残ります。「説明会のときはこうだった」を確かめたいときは、一覧から古い Release を開いてください。ダウンロードは Releases の `Source code (zip)` からどうぞ（リポジトリの「Code」→「Download ZIP」は常に最新を指します）。
 
+
+## <a id="attack-data"></a>攻撃用データ配布（予備戦）
+
+予備戦・攻撃フェーズ（2026/08/25(火) 9:00 〜 09/07(月) 9:00）で使うデータを公開しています。攻撃は全チーム総当たりで、全員が同じ材料を使います（ルールブック §7.2）。
+
+- [PWSCup2026_prelim_attack.zip (GitHub Releases: prelim-attack-20260825)](https://github.com/pwscup/pwscup2026-kit/releases/tag/prelim-attack-20260825) — 約1.6 MB
+
+| zip の中身 | |
+| --- | --- |
+| `C_<k>.csv` | コホート `k` のチームが提出した匿名化データ（21件・各1,049行） |
+| `aia_challenge_<k>.csv` | コホート `k` に対する属性推論の対象行（21件・各326行） |
+| `mia_columns.json` | その回の攻撃対象コホートの一覧 |
+| `SHA256SUMS.txt` | zip に入っている各ファイルの SHA-256 |
+| `README.txt` | 中身の説明と検証手順 |
+
+攻撃の対象になるのは、加工フェーズに匿名化データ `C` を提出したチームだけです（ルールブック §4・§5.3）。予備戦では22チーム中21チームが提出しました。対象のコホート番号は `mia_columns.json` に入っています。そこに無い番号に答える必要はありません（答えても採点されません）。
+
+### 配布物が改変されていないことの確認
+
+**提出時のバイト列をそのまま配布しています。**改行や数値の桁の書式も含めて、事務局は手を加えていません。各チームは、自分が提出した `C.csv` のハッシュを下表と突き合わせることで、中身が差し替えられていないことを確認できます。
+
+```text
+shasum -a 256 C.csv
+```
+
+配布 zip 全体の SHA-256 は `f10a6e09ab7b3b7cc336e4316261d92f6b233012a5060f9af36017573cb03a71` です。
+
+| コホート番号 | CodaBench 提出ID | ファイル名 | SHA-256 |
+| --- | --- | --- | --- |
+| 1 | 896020 | `C_1.csv` | `7f29d9ea5e58a129fa725d150217e186add65b14963867eb77c633c052afd4e0` |
+| 2 | 886326 | `C_2.csv` | `1671ef24e42b5125fea8407a4350403832dff1e1fc7acf7d49b85ae814dff807` |
+| 3 | 896712 | `C_3.csv` | `3cda48ae590fe74487481a88850b976a7ed726305f8f66a39bd2d3e5ce87b33d` |
+| 4 | 896276 | `C_4.csv` | `77e1d3d986c459e8deca76bd5fdac5f12e48e3a265fe029a991d1cd89b09bf66` |
+| 5 | 896465 | `C_5.csv` | `77717f02e68e6cf159c55950c2c148c469371e4044eb257fac096fa8625d6294` |
+| 6 | 896406 | `C_6.csv` | `de066048501d638cf9f6c7d4b1d36fd4214307a62a6102289f19cccdd45c7654` |
+| 7 | 894817 | `C_7.csv` | `ca0c4055eb75b0b9460535fea133dd7bfdf043b9dfef0f9b4aecabf59cec2f5f` |
+| 8 | 896347 | `C_8.csv` | `435489a182ea3e4c31fbfb9a664d2db930532655dca3eaff51cceab9b0a8f466` |
+| 9 | 895120 | `C_9.csv` | `ed416408440fd38d2d89bcc6323380abde69102439f3f576525b60b72aedf9db` |
+| 10 | 896713 | `C_10.csv` | `aee25c4d17d0938bdbe9d71e3319ceb93a2c4e175c1038094f4b9c7d394970f7` |
+| 12 | 896567 | `C_12.csv` | `968522f76529ba9f6cbdaff99f21c2543b094d5f6bd3c1bc4eb613893c200997` |
+| 13 | 896655 | `C_13.csv` | `ede2dcfa9cae9ba1bdcbf59fd52b6caa62f82da2bcb57f7a3b230818bbd02e53` |
+| 17 | 887702 | `C_17.csv` | `00bf2ecf3edf74e88f48b26a1c24132ce2124f85bf197dbbcd3ea5d2cd41df8d` |
+| 18 | 896160 | `C_18.csv` | `c1cf3dbb5aae8cc0c8910c0a98fb021f60f7d05086ecca5bc1245c526f9a0c3f` |
+| 19 | 896313 | `C_19.csv` | `c9fb8351c3f84c14ef4f7293bbc135681302c52e69eba554066ef8c83787996d` |
+| 20 | 895642 | `C_20.csv` | `b5468e08bf2740d44fe9992d0b9a6f985e60d95a88db32da022b773c0f6f972a` |
+| 22 | 896530 | `C_22.csv` | `5851d8b4a627d64e7cc247655934272a1de75bdf54a0e069b60d8064daa73f01` |
+| 23 | 896519 | `C_23.csv` | `61efac3efbba3b09e72a50434a1c57b83061fab421f4b489c5b2b4c77d1300a4` |
+| 24 | 893503 | `C_24.csv` | `efd38bf8ab973767caad34ce2b0ef9991b1e461bd7c1f9e17da06b9a847aaa14` |
+| 26 | 896690 | `C_26.csv` | `29996bd6cadf1eef6b3068c3fee83f77d3da47c8320e251ce9c2601ee51fe293` |
+| 29 | 896001 | `C_29.csv` | `fe52f71301f50f8924357230bf1f357f6f16521a127010e0c76df946188b3478` |
+
+- **CodaBench 提出ID** は、各チームがリーダーボードに掲載した提出の ID です。提出の原本は CodaBench 側に残っています。
+- 同じハッシュを、攻撃フェーズ開始時の一斉通知メールにも記載しています。
+- zip の中身をまとめて確かめるには、展開したフォルダで `shasum -a 256 -c SHA256SUMS.txt` を実行してください。
 
 ## <a id="salt"></a>コホート割当の salt コミットメント
 
