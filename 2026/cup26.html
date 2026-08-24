@@ -62,6 +62,12 @@
 </li>
 <li><a href="#スターターキットの版github-releases">スターターキットの版（GitHub Releases）</a>
 </li>
+<li><a href="#攻撃用データ配布予備戦">攻撃用データ配布（予備戦）</a>
+<ul>
+<li><a href="#配布物が改変されていないことの確認">配布物が改変されていないことの確認</a>
+</li>
+</ul>
+</li>
 <li><a href="#コホート割当の-salt-コミットメント">コホート割当の salt コミットメント</a>
 </li>
 <li><a href="#参加チーム">参加チーム</a>
@@ -76,7 +82,8 @@
 </div> -->
 <h2 id="whats-new">What's New</h2>
 <ul>
-<li>2026/08/22(土) 予備戦の <a href="#salt">salt</a> を公開しました　★New</li>
+<li>2026/08/25(火) <a href="#attack-data">攻撃用データ</a>を公開しました　★New</li>
+<li>2026/08/22(土) 予備戦の <a href="#salt">salt</a> を公開しました</li>
 <li>2026/08/21(金) <a href="#team">参加チーム</a>を22チームに更新しました</li>
 <li>2026/08/19(水) <a href="#team">参加チーム</a>を20チームに更新しました</li>
 <li>2026/08/13(木) <a href="#team">参加チーム</a>を19チームに更新しました</li>
@@ -237,6 +244,7 @@
 <li><a href="https://drive.google.com/file/d/1lrxggMJw75V1xJYozBUoR1xN5zRTTYJD/view?usp=sharing">説明会 録画 (2026/07/30, Google Drive)</a> — 管理用の情報が映り込んでいたため、動画を一部編集しております</li>
 <li><a href="https://github.com/pwscup/pwscup2026-kit/tree/main/notebooks">読みもの (GitHub: notebooks/)</a> — 競技データの作り方のうち、開示する範囲。ノートブックと同じ場所にあります</li>
 <li><a href="https://github.com/pwscup/pwscup2026-kit/releases">キットの版 (GitHub Releases)</a> — どの版を見ればよいか（→<a href="#releases">説明</a>）</li>
+<li><a href="#attack-data">攻撃用データ（予備戦）</a> — 全チームの匿名化データ C と、その SHA-256</li>
 </ul>
 <h2 id="スターターキットの版github-releases"><a id="releases"></a>スターターキットの版（GitHub Releases）</h2>
 <p>ユーザキットは、フェーズの切り替わりにあわせて中身を更新します。どの時点の版かがはっきり分かるように、GitHub の <strong>Releases</strong> として版を固定して公開しています。</p>
@@ -264,6 +272,190 @@
 <li>それぞれの Release の説明に、<strong>その版のルールブック PDF</strong> と、<strong>対になる採点用 Docker イメージのタグ</strong>を書いてあります。手元で自己採点するときは、そこに書かれたタグを指定してください（<code>:latest</code> は更新のたびに動きます）。</li>
 <li>**キットに変更がないフェーズでは、新しい版は作りません。**前の版をそのまま使ってください。</li>
 <li>過去の版も残ります。「説明会のときはこうだった」を確かめたいときは、一覧から古い Release を開いてください。ダウンロードは Releases の <code>Source code (zip)</code> からどうぞ（リポジトリの「Code」→「Download ZIP」は常に最新を指します）。</li>
+</ul>
+<h2 id="攻撃用データ配布予備戦"><a id="attack-data"></a>攻撃用データ配布（予備戦）</h2>
+<p>予備戦・攻撃フェーズ（2026/08/25(火) 9:00 〜 09/07(月) 9:00）で使うデータを公開しています。攻撃は全チーム総当たりで、全員が同じ材料を使います（ルールブック §7.2）。</p>
+<ul>
+<li><a href="https://github.com/pwscup/pwscup2026-kit/releases/tag/prelim-attack-20260825">PWSCup2026_prelim_attack.zip (GitHub Releases: prelim-attack-20260825)</a> — 約1.6 MB</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>zip の中身</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>C_&lt;k&gt;.csv</code></td>
+<td>コホート <code>k</code> のチームが提出した匿名化データ（21件・各1,049行）</td>
+</tr>
+<tr>
+<td><code>aia_challenge_&lt;k&gt;.csv</code></td>
+<td>コホート <code>k</code> に対する属性推論の対象行（21件・各326行）</td>
+</tr>
+<tr>
+<td><code>mia_columns.json</code></td>
+<td>その回の攻撃対象コホートの一覧</td>
+</tr>
+<tr>
+<td><code>SHA256SUMS.txt</code></td>
+<td>zip に入っている各ファイルの SHA-256</td>
+</tr>
+<tr>
+<td><code>README.txt</code></td>
+<td>中身の説明と検証手順</td>
+</tr>
+</tbody>
+</table>
+<p>攻撃の対象になるのは、加工フェーズに匿名化データ <code>C</code> を提出したチームだけです（ルールブック §4・§5.3）。予備戦では22チーム中21チームが提出しました。対象のコホート番号は <code>mia_columns.json</code> に入っています。そこに無い番号に答える必要はありません（答えても採点されません）。</p>
+<h3 id="配布物が改変されていないことの確認">配布物が改変されていないことの確認</h3>
+<p>**提出時のバイト列をそのまま配布しています。**改行や数値の桁の書式も含めて、事務局は手を加えていません。各チームは、自分が提出した <code>C.csv</code> のハッシュを下表と突き合わせることで、中身が差し替えられていないことを確認できます。</p>
+<pre><code class="language-text">shasum -a 256 C.csv
+</code></pre>
+<p>配布 zip 全体の SHA-256 は <code>f10a6e09ab7b3b7cc336e4316261d92f6b233012a5060f9af36017573cb03a71</code> です。</p>
+<table>
+<thead>
+<tr>
+<th>コホート番号</th>
+<th>CodaBench 提出ID</th>
+<th>ファイル名</th>
+<th>SHA-256</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>896020</td>
+<td><code>C_1.csv</code></td>
+<td><code>7f29d9ea5e58a129fa725d150217e186add65b14963867eb77c633c052afd4e0</code></td>
+</tr>
+<tr>
+<td>2</td>
+<td>886326</td>
+<td><code>C_2.csv</code></td>
+<td><code>1671ef24e42b5125fea8407a4350403832dff1e1fc7acf7d49b85ae814dff807</code></td>
+</tr>
+<tr>
+<td>3</td>
+<td>896712</td>
+<td><code>C_3.csv</code></td>
+<td><code>3cda48ae590fe74487481a88850b976a7ed726305f8f66a39bd2d3e5ce87b33d</code></td>
+</tr>
+<tr>
+<td>4</td>
+<td>896276</td>
+<td><code>C_4.csv</code></td>
+<td><code>77e1d3d986c459e8deca76bd5fdac5f12e48e3a265fe029a991d1cd89b09bf66</code></td>
+</tr>
+<tr>
+<td>5</td>
+<td>896465</td>
+<td><code>C_5.csv</code></td>
+<td><code>77717f02e68e6cf159c55950c2c148c469371e4044eb257fac096fa8625d6294</code></td>
+</tr>
+<tr>
+<td>6</td>
+<td>896406</td>
+<td><code>C_6.csv</code></td>
+<td><code>de066048501d638cf9f6c7d4b1d36fd4214307a62a6102289f19cccdd45c7654</code></td>
+</tr>
+<tr>
+<td>7</td>
+<td>894817</td>
+<td><code>C_7.csv</code></td>
+<td><code>ca0c4055eb75b0b9460535fea133dd7bfdf043b9dfef0f9b4aecabf59cec2f5f</code></td>
+</tr>
+<tr>
+<td>8</td>
+<td>896347</td>
+<td><code>C_8.csv</code></td>
+<td><code>435489a182ea3e4c31fbfb9a664d2db930532655dca3eaff51cceab9b0a8f466</code></td>
+</tr>
+<tr>
+<td>9</td>
+<td>895120</td>
+<td><code>C_9.csv</code></td>
+<td><code>ed416408440fd38d2d89bcc6323380abde69102439f3f576525b60b72aedf9db</code></td>
+</tr>
+<tr>
+<td>10</td>
+<td>896713</td>
+<td><code>C_10.csv</code></td>
+<td><code>aee25c4d17d0938bdbe9d71e3319ceb93a2c4e175c1038094f4b9c7d394970f7</code></td>
+</tr>
+<tr>
+<td>12</td>
+<td>896567</td>
+<td><code>C_12.csv</code></td>
+<td><code>968522f76529ba9f6cbdaff99f21c2543b094d5f6bd3c1bc4eb613893c200997</code></td>
+</tr>
+<tr>
+<td>13</td>
+<td>896655</td>
+<td><code>C_13.csv</code></td>
+<td><code>ede2dcfa9cae9ba1bdcbf59fd52b6caa62f82da2bcb57f7a3b230818bbd02e53</code></td>
+</tr>
+<tr>
+<td>17</td>
+<td>887702</td>
+<td><code>C_17.csv</code></td>
+<td><code>00bf2ecf3edf74e88f48b26a1c24132ce2124f85bf197dbbcd3ea5d2cd41df8d</code></td>
+</tr>
+<tr>
+<td>18</td>
+<td>896160</td>
+<td><code>C_18.csv</code></td>
+<td><code>c1cf3dbb5aae8cc0c8910c0a98fb021f60f7d05086ecca5bc1245c526f9a0c3f</code></td>
+</tr>
+<tr>
+<td>19</td>
+<td>896313</td>
+<td><code>C_19.csv</code></td>
+<td><code>c9fb8351c3f84c14ef4f7293bbc135681302c52e69eba554066ef8c83787996d</code></td>
+</tr>
+<tr>
+<td>20</td>
+<td>895642</td>
+<td><code>C_20.csv</code></td>
+<td><code>b5468e08bf2740d44fe9992d0b9a6f985e60d95a88db32da022b773c0f6f972a</code></td>
+</tr>
+<tr>
+<td>22</td>
+<td>896530</td>
+<td><code>C_22.csv</code></td>
+<td><code>5851d8b4a627d64e7cc247655934272a1de75bdf54a0e069b60d8064daa73f01</code></td>
+</tr>
+<tr>
+<td>23</td>
+<td>896519</td>
+<td><code>C_23.csv</code></td>
+<td><code>61efac3efbba3b09e72a50434a1c57b83061fab421f4b489c5b2b4c77d1300a4</code></td>
+</tr>
+<tr>
+<td>24</td>
+<td>893503</td>
+<td><code>C_24.csv</code></td>
+<td><code>efd38bf8ab973767caad34ce2b0ef9991b1e461bd7c1f9e17da06b9a847aaa14</code></td>
+</tr>
+<tr>
+<td>26</td>
+<td>896690</td>
+<td><code>C_26.csv</code></td>
+<td><code>29996bd6cadf1eef6b3068c3fee83f77d3da47c8320e251ce9c2601ee51fe293</code></td>
+</tr>
+<tr>
+<td>29</td>
+<td>896001</td>
+<td><code>C_29.csv</code></td>
+<td><code>fe52f71301f50f8924357230bf1f357f6f16521a127010e0c76df946188b3478</code></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>CodaBench 提出ID</strong> は、各チームがリーダーボードに掲載した提出の ID です。提出の原本は CodaBench 側に残っています。</li>
+<li>同じハッシュを、攻撃フェーズ開始時の一斉通知メールにも記載しています。</li>
+<li>zip の中身をまとめて確かめるには、展開したフォルダで <code>shasum -a 256 -c SHA256SUMS.txt</code> を実行してください。</li>
 </ul>
 <h2 id="コホート割当の-salt-コミットメント"><a id="salt"></a>コホート割当の salt コミットメント</h2>
 <p>どのコホート <code>B_i</code> をどのチームに配るかは、ルールブック §3.2 のとおり <code>SHA-256(チーム名 ∥ salt)</code> で機械的に決まります。salt そのものは各ラウンドのデータ配布時に参加チームへお知らせしますが、それまでのあいだに事務局が salt を選び直していないことを検証できるよう、salt のハッシュ値（コミットメント）を先に公開します。</p>
