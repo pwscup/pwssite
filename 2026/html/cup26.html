@@ -68,6 +68,8 @@
 </li>
 </ul>
 </li>
+<li><a href="#予備戦の結果公開">予備戦の結果公開</a>
+</li>
 <li><a href="#コホート割当の-salt-コミットメント">コホート割当の salt コミットメント</a>
 </li>
 <li><a href="#参加チーム">参加チーム</a>
@@ -82,7 +84,8 @@
 </div> -->
 <h2 id="whats-new">What's New</h2>
 <ul>
-<li>2026/08/25(火) <a href="#attack-data">攻撃用データ</a>を公開しました　★New</li>
+<li>2026/09/09(水) <a href="#prelim-results">予備戦の結果</a>と<a href="#materials">本戦版のルールブック</a>を公開しました　★New</li>
+<li>2026/08/25(火) <a href="#attack-data">攻撃用データ</a>を公開しました</li>
 <li>2026/08/22(土) 予備戦の <a href="#salt">salt</a> を公開しました</li>
 <li>2026/08/21(金) <a href="#team">参加チーム</a>を22チームに更新しました</li>
 <li>2026/08/19(水) <a href="#team">参加チーム</a>を20チームに更新しました</li>
@@ -238,13 +241,16 @@
 <h2 id="資料リンク"><a id="materials"></a>資料・リンク</h2>
 <ul>
 <li><a href="https://github.com/pwscup/pwscup2026-kit/tree/main">ユーザキット (GitHub: pwscup/pwscup2026-kit)</a> — 練習用データ・自己採点コード・入門ノートブック</li>
-<li><a href="https://github.com/pwscup/pwscup2026-kit/blob/main/rulebook/PWS_Cup2026_%E3%83%AB%E3%83%BC%E3%83%AB%E3%83%96%E3%83%83%E3%82%AF_prelim-process-20260808.pdf">ルールブック (PDF)</a> — 競技ルールと採点定義の正本（予備戦版）</li>
+<li><a href="https://github.com/pwscup/pwscup2026-kit/blob/main/rulebook/PWS_Cup2026_%E3%83%AB%E3%83%BC%E3%83%AB%E3%83%96%E3%83%83%E3%82%AF_main-process-20260912.pdf">ルールブック (PDF)</a> — 競技ルールと採点定義の正本（本戦版・<code>main-process-20260912</code>）</li>
+<li><a href="https://github.com/pwscup/pwscup2026-kit/blob/main/rulebook/PWS_Cup2026_%E3%83%AB%E3%83%BC%E3%83%AB%E3%83%96%E3%83%83%E3%82%AF_prelim-attack-20260825.pdf">ルールブック (PDF・予備戦の攻撃フェーズ版)</a> — <code>prelim-attack-20260825</code></li>
+<li><a href="https://github.com/pwscup/pwscup2026-kit/blob/main/rulebook/PWS_Cup2026_%E3%83%AB%E3%83%BC%E3%83%AB%E3%83%96%E3%83%83%E3%82%AF_prelim-process-20260808.pdf">ルールブック (PDF・予備戦の加工フェーズ版)</a> — <code>prelim-process-20260808</code></li>
 <li><a href="https://www.codabench.org/competitions/17698/">CodaBench コンテストページ</a> — 合成データの提出・採点</li>
 <li><a href="./Images/20260730_PWSCUP2026%E8%AA%AC%E6%98%8E%E4%BC%9A%E8%B3%87%E6%96%99.pdf">説明会資料 (2026/07/30, PDF)</a></li>
 <li><a href="https://drive.google.com/file/d/1lrxggMJw75V1xJYozBUoR1xN5zRTTYJD/view?usp=sharing">説明会 録画 (2026/07/30, Google Drive)</a> — 管理用の情報が映り込んでいたため、動画を一部編集しております</li>
 <li><a href="https://github.com/pwscup/pwscup2026-kit/tree/main/notebooks">読みもの (GitHub: notebooks/)</a> — 競技データの作り方のうち、開示する範囲。ノートブックと同じ場所にあります</li>
 <li><a href="https://github.com/pwscup/pwscup2026-kit/releases">キットの版 (GitHub Releases)</a> — どの版を見ればよいか（→<a href="#releases">説明</a>）</li>
 <li><a href="#attack-data">攻撃用データ（予備戦）</a> — 全チームの匿名化データ C と、その SHA-256</li>
+<li><a href="#prelim-results">予備戦の結果公開</a> — 採点結果表・攻撃フェーズの正解データ・攻撃フェーズの提出物</li>
 </ul>
 <h2 id="スターターキットの版github-releases"><a id="releases"></a>スターターキットの版（GitHub Releases）</h2>
 <p>ユーザキットは、フェーズの切り替わりにあわせて中身を更新します。どの時点の版かがはっきり分かるように、GitHub の <strong>Releases</strong> として版を固定して公開しています。</p>
@@ -265,6 +271,10 @@
 <tr>
 <td><code>prelim-process-20260808</code></td>
 <td>予備戦・加工フェーズ（2026/08/09 開始）向け</td>
+</tr>
+<tr>
+<td><code>prelim-attack-20260825</code></td>
+<td>予備戦・攻撃フェーズ（2026/08/25 開始）向け</td>
 </tr>
 </tbody>
 </table>
@@ -457,6 +467,14 @@
 <li>同じハッシュを、攻撃フェーズ開始時の一斉通知メールにも記載しています。</li>
 <li>zip の中身をまとめて確かめるには、展開したフォルダで <code>shasum -a 256 -c SHA256SUMS.txt</code> を実行してください。</li>
 </ul>
+<h2 id="予備戦の結果公開"><a id="prelim-results"></a>予備戦の結果公開</h2>
+<p>予備戦（加工フェーズ 2026/08/09(日) – 08/22(土)、攻撃フェーズ 2026/08/25(火) – 09/07(月)）の結果を公開しています。チーム名は伏せていません。</p>
+<ul>
+<li><a href="https://drive.google.com/file/d/1BLiwflR7FJ9tp5lCeSkP-kJga4ByHRnB/view?usp=sharing">各チームの採点結果表 (Excel)</a> — 全チームの U・Anon・総合得点・攻撃力と、標的ごとの実数</li>
+<li><a href="https://drive.google.com/file/d/1jnYGBEX1vjSgrvzBywHjeBnYru9_H5MQ/view?usp=sharing">攻撃フェーズで使用した正解データ (zip)</a> — コホートごとの <code>pool_ids_&lt;k&gt;.csv</code> と <code>aia_truth_&lt;k&gt;.csv</code></li>
+<li><a href="https://drive.google.com/file/d/1x1KGX_XmEMunHqEmjq8ZYMcDqx5BtQs8/view?usp=sharing">攻撃フェーズの提出物 (zip)</a> — 各チームがリーダーボードに掲載した1件（21チームぶんで21件）</li>
+</ul>
+<p><a href="#attack-data">攻撃用データ配布（予備戦）</a>で公開している匿名化データ <code>C</code> とお手元の配布物をあわせてお使いいただくと、提出しなかった攻撃を手元で作って自分で採点してみることができます。</p>
 <h2 id="コホート割当の-salt-コミットメント"><a id="salt"></a>コホート割当の salt コミットメント</h2>
 <p>どのコホート <code>B_i</code> をどのチームに配るかは、ルールブック §3.2 のとおり <code>SHA-256(チーム名 ∥ salt)</code> で機械的に決まります。salt そのものは各ラウンドのデータ配布時に参加チームへお知らせしますが、それまでのあいだに事務局が salt を選び直していないことを検証できるよう、salt のハッシュ値（コミットメント）を先に公開します。</p>
 <table>
