@@ -6,7 +6,8 @@
 
 
 ## What's New
-- 2026/08/25(火) [攻撃用データ](#attack-data)を公開しました　★New
+- 2026/09/09(水) [予備戦の結果](#prelim-results)と[本戦版のルールブック](#materials)を公開しました　★New
+- 2026/08/25(火) [攻撃用データ](#attack-data)を公開しました
 - 2026/08/22(土) 予備戦の [salt](#salt) を公開しました
 - 2026/08/21(金) [参加チーム](#team)を22チームに更新しました
 - 2026/08/19(水) [参加チーム](#team)を20チームに更新しました
@@ -97,13 +98,16 @@
 ## <a id="materials"></a>資料・リンク
 
 - [ユーザキット (GitHub: pwscup/pwscup2026-kit)](https://github.com/pwscup/pwscup2026-kit/tree/main) — 練習用データ・自己採点コード・入門ノートブック
-- [ルールブック (PDF)](https://github.com/pwscup/pwscup2026-kit/blob/main/rulebook/PWS_Cup2026_%E3%83%AB%E3%83%BC%E3%83%AB%E3%83%96%E3%83%83%E3%82%AF_prelim-process-20260808.pdf) — 競技ルールと採点定義の正本（予備戦版）
+- [ルールブック (PDF)](https://github.com/pwscup/pwscup2026-kit/blob/main/rulebook/PWS_Cup2026_%E3%83%AB%E3%83%BC%E3%83%AB%E3%83%96%E3%83%83%E3%82%AF_main-process-20260912.pdf) — 競技ルールと採点定義の正本（本戦版・`main-process-20260912`）
+- [ルールブック (PDF・予備戦の攻撃フェーズ版)](https://github.com/pwscup/pwscup2026-kit/blob/main/rulebook/PWS_Cup2026_%E3%83%AB%E3%83%BC%E3%83%AB%E3%83%96%E3%83%83%E3%82%AF_prelim-attack-20260825.pdf) — `prelim-attack-20260825`
+- [ルールブック (PDF・予備戦の加工フェーズ版)](https://github.com/pwscup/pwscup2026-kit/blob/main/rulebook/PWS_Cup2026_%E3%83%AB%E3%83%BC%E3%83%AB%E3%83%96%E3%83%83%E3%82%AF_prelim-process-20260808.pdf) — `prelim-process-20260808`
 - [CodaBench コンテストページ](https://www.codabench.org/competitions/17698/) — 合成データの提出・採点
 - [説明会資料 (2026/07/30, PDF)](./Images/20260730_PWSCUP2026説明会資料.pdf)
 - [説明会 録画 (2026/07/30, Google Drive)](https://drive.google.com/file/d/1lrxggMJw75V1xJYozBUoR1xN5zRTTYJD/view?usp=sharing) — 管理用の情報が映り込んでいたため、動画を一部編集しております
 - [読みもの (GitHub: notebooks/)](https://github.com/pwscup/pwscup2026-kit/tree/main/notebooks) — 競技データの作り方のうち、開示する範囲。ノートブックと同じ場所にあります
 - [キットの版 (GitHub Releases)](https://github.com/pwscup/pwscup2026-kit/releases) — どの版を見ればよいか（→[説明](#releases)）
 - [攻撃用データ（予備戦）](#attack-data) — 全チームの匿名化データ C と、その SHA-256
+- [予備戦の結果公開](#prelim-results) — 採点結果表・攻撃フェーズの正解データ・攻撃フェーズの提出物
 
 
 ## <a id="releases"></a>スターターキットの版（GitHub Releases）
@@ -118,6 +122,7 @@
 | --- | --- |
 | `orientation-20260730c` | 参加者説明会（2026/07/30）の時点 |
 | `prelim-process-20260808` | 予備戦・加工フェーズ（2026/08/09 開始）向け |
+| `prelim-attack-20260825` | 予備戦・攻撃フェーズ（2026/08/25 開始）向け |
 
 - それぞれの Release の説明に、**その版のルールブック PDF** と、**対になる採点用 Docker イメージのタグ**を書いてあります。手元で自己採点するときは、そこに書かれたタグを指定してください（`:latest` は更新のたびに動きます）。
 - **キットに変更がないフェーズでは、新しい版は作りません。**前の版をそのまま使ってください。
@@ -177,6 +182,17 @@ shasum -a 256 C.csv
 - **CodaBench 提出ID** は、各チームがリーダーボードに掲載した提出の ID です。提出の原本は CodaBench 側に残っています。
 - 同じハッシュを、攻撃フェーズ開始時の一斉通知メールにも記載しています。
 - zip の中身をまとめて確かめるには、展開したフォルダで `shasum -a 256 -c SHA256SUMS.txt` を実行してください。
+
+## <a id="prelim-results"></a>予備戦の結果公開
+
+予備戦（加工フェーズ 2026/08/09(日) – 08/22(土)、攻撃フェーズ 2026/08/25(火) – 09/07(月)）の結果を公開しています。チーム名は伏せていません。
+
+- [各チームの採点結果表 (Excel)](https://drive.google.com/file/d/1BLiwflR7FJ9tp5lCeSkP-kJga4ByHRnB/view?usp=sharing) — 全チームの U・Anon・総合得点・攻撃力と、標的ごとの実数
+- [攻撃フェーズで使用した正解データ (zip)](https://drive.google.com/file/d/1jnYGBEX1vjSgrvzBywHjeBnYru9_H5MQ/view?usp=sharing) — コホートごとの `pool_ids_<k>.csv` と `aia_truth_<k>.csv`
+- [攻撃フェーズの提出物 (zip)](https://drive.google.com/file/d/1x1KGX_XmEMunHqEmjq8ZYMcDqx5BtQs8/view?usp=sharing) — 各チームがリーダーボードに掲載した1件（21チームぶんで21件）
+
+[攻撃用データ配布（予備戦）](#attack-data)で公開している匿名化データ `C` とお手元の配布物をあわせてお使いいただくと、提出しなかった攻撃を手元で作って自分で採点してみることができます。
+
 
 ## <a id="salt"></a>コホート割当の salt コミットメント
 
