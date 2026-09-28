@@ -133,7 +133,7 @@ TBD
 
 
 ## 後援組織
-TBD
+[個人情報保護委員会](https://www.ppc.go.jp/)
 
 ## 過去のPWS
 - [PWS2025](https://www.iwsec.org/pws/2025/)
