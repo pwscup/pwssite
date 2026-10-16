@@ -409,7 +409,7 @@ shasum -a 256 C.csv
       <td>西垣正勝</td>
       <td>静岡大学</td>
       <td>前田若菜</td>
-      <td>LINEヤフー株式会社</td>
+      <td>三井物産セキュアディレクション</td>
       <td></td>
       <td></td>
     </tr>
