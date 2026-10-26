@@ -35,7 +35,7 @@ PRが作成されたら、GitHub上でファイルを編集して追加コミッ
 
 ### 前提
 
-- Python 3.9以上
+- Python 3.12以上
 - [uv](https://docs.astral.sh/uv/) がインストール済み
 
 ### 手順
