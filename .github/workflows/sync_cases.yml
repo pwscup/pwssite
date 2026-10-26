@@ -1,0 +1,56 @@
+name: "[手動] 事例アーカイブをシートから同期"
+
+# シート「[随時更新] PWSCUP関連の記事・ブログ・プレスリリース一覧」から
+# about/cases.json を作り直し、変化があれば gh-pages にコミットする。
+# シートを更新したら Actions 画面から手動で実行する。
+# 本番 (master) への反映は、これまでどおり gh-pages → master のマージで行う。
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write   # gh-pages へのコミット用
+  actions: write    # ビルド・デプロイの起動用
+
+jobs:
+  sync:
+    runs-on: ubuntu-24.04
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: gh-pages
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+
+      - name: Regenerate about/cases.json from the sheet
+        run: |
+          uv run python3 scripts/sync_cases.py
+
+      - name: Validate about/cases.json
+        run: |
+          uv run python3 scripts/validate_cases.py
+
+      - name: Commit & push if changed
+        id: commit
+        run: |
+          git add about/cases.json
+          if git diff --cached --quiet; then
+            echo "変更なし"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git config user.name 'github-actions[bot]'
+            git config user.email 'github-actions[bot]@users.noreply.github.com'
+            git commit -m 'Sync about/cases.json from spreadsheet'
+            git push origin gh-pages
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      # GITHUB_TOKEN による push では他のワークフローが起動しないため、
+      # テスト環境へのデプロイを明示的に起動する
+      - name: Trigger build & deploy
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh workflow run convert_markdown.yml --ref gh-pages
