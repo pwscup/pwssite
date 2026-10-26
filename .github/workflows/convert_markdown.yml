@@ -5,6 +5,7 @@ on:
     branches:
       - master
       - gh-pages
+  workflow_dispatch:   # sync_cases.yml から起動される
 
 # Pages デプロイで必要
 permissions:
