@@ -3,11 +3,13 @@
 The spreadsheet "[随時更新] PWSCUP関連の記事・ブログ・プレスリリース一覧" is the
 single source of truth. Columns are looked up by header name:
 
-  項番 公開年 記事分類 区分 記事タイトル 掲載元 URL 受賞 タイプ 年度テーマ テーマ補足
+  項番 公開年 記事分類 詳細 記事タイトル 掲載元 URL 受賞 分類 年度テーマ テーマ補足
+
+(詳細 and 分類 were formerly named 区分 and タイプ; the old names are still read.)
 
 - Rows whose 項番 is blank are drafts and are skipped.
 - 記事分類 must look like "PWS Cup 2026"; the year becomes cup_year.
-- タイプ is one of 公式 / 企業 / 大学 / 論文 / ブログ / コード / その他.
+- 分類 is one of 公式 / 企業 / 大学 / 論文 / ブログ / リポジトリ / その他.
 - A row with 年度テーマ provides that cup_year's theme (at most one per year).
   The theme links to the row's URL.
 
@@ -39,18 +41,19 @@ DEFAULT_CSV_URL = (
     f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=csv&gid=0"
 )
 
+# key -> accepted header names (the first is the current name)
 COLUMNS = {
-    "no": "項番",
-    "year": "公開年",
-    "cup": "記事分類",
-    "category": "区分",
-    "title": "記事タイトル",
-    "source": "掲載元",
-    "url": "URL",
-    "award": "受賞",
-    "type": "タイプ",
-    "theme": "年度テーマ",
-    "theme_desc": "テーマ補足",
+    "no": ("項番",),
+    "year": ("公開年",),
+    "cup": ("記事分類",),
+    "category": ("詳細", "区分"),
+    "title": ("記事タイトル",),
+    "source": ("掲載元",),
+    "url": ("URL",),
+    "award": ("受賞",),
+    "type": ("分類", "タイプ"),
+    "theme": ("年度テーマ",),
+    "theme_desc": ("テーマ補足",),
 }
 
 TYPES = {
@@ -59,8 +62,7 @@ TYPES = {
     "大学": "university",
     "論文": "paper",
     "ブログ": "blog",
-    "コード": "code",
-    "コード・リポジトリ": "code",
+    "リポジトリ": "repository",
     "その他": "other",
 }
 
@@ -86,10 +88,14 @@ def parse_rows(
         return [], [], ["シートが空です"], 0
 
     header = [clean(h) for h in rows[0]]
-    missing = [name for name in COLUMNS.values() if name not in header]
+    found = {
+        key: next((n for n in names if n in header), None)
+        for key, names in COLUMNS.items()
+    }
+    missing = [COLUMNS[key][0] for key, name in found.items() if name is None]
     if missing:
         return [], [], [f"列が見つかりません → {', '.join(missing)}"], 0
-    idx = {key: header.index(name) for key, name in COLUMNS.items()}
+    idx = {key: header.index(name) for key, name in found.items()}
 
     cases: list[dict[str, Any]] = []
     themes: dict[int, dict[str, Any]] = {}
@@ -125,12 +131,12 @@ def parse_rows(
 
         for key in ("category", "title", "source"):
             if not cell[key]:
-                row_errors.append(f"{COLUMNS[key]}が空です")
+                row_errors.append(f"{found[key]}が空です")
 
         type_ = TYPES.get(cell["type"])
         if type_ is None:
-            choices = " / ".join(k for k in TYPES if k != "コード・リポジトリ")
-            row_errors.append(f"タイプは {choices} のいずれかにしてください")
+            choices = " / ".join(TYPES)
+            row_errors.append(f"{found['type']}は {choices} のいずれかにしてください")
 
         if cell["url"] and not re.match(r"https?://", cell["url"]):
             row_errors.append("URL は http(s):// で始めてください")

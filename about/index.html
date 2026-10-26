@@ -426,7 +426,7 @@
     <div class="layout">
       <aside class="sidebar" aria-label="絞り込み">
         <div class="panel filter-panel">
-          <div class="panel-title">区分でフィルタ</div>
+          <div class="panel-title">分類でフィルタ</div>
           <div class="chip-list" id="filter-chips" role="tablist"></div>
         </div>
         <div class="panel year-panel">
@@ -457,12 +457,12 @@
     const PWS_TYPE_LABEL = {
       official: "公式", company: "企業",
       university: "大学・研究室", paper: "論文・学会", blog: "ブログ・参加記",
-      code: "コード・リポジトリ", other: "その他",
+      repository: "リポジトリ", other: "その他",
     };
     const PWS_TYPE_COLOR = {
       official: "#1f3a5f", company: "#7a4f1f",
       university: "#2d5f3f", paper: "#5a3a6e", blog: "#8a5a3a",
-      code: "#1f5f5f", other: "#5f5f5f",
+      repository: "#1f5f5f", other: "#5f5f5f",
     };
 
     const $ = (s, r = document) => r.querySelector(s);
@@ -483,7 +483,7 @@
       ["university", "大学・研究室", PWS_TYPE_COLOR.university],
       ["paper", "論文・学会", PWS_TYPE_COLOR.paper],
       ["blog", "ブログ・参加記", PWS_TYPE_COLOR.blog],
-      ["code", "コード・リポジトリ", PWS_TYPE_COLOR.code],
+      ["repository", "リポジトリ", PWS_TYPE_COLOR.repository],
       ["other", "その他", PWS_TYPE_COLOR.other],
     ];
 
