@@ -1,11 +1,10 @@
-name: "[自動] 事例アーカイブをシートから同期"
+name: "[手動] 事例アーカイブをシートから同期"
 
 # シート「[随時更新] PWSCUP関連の記事・ブログ・プレスリリース一覧」から
 # about/cases.json を作り直し、変化があれば gh-pages にコミットする。
+# シートを更新したら Actions 画面から手動で実行する。
 # 本番 (master) への反映は、これまでどおり gh-pages → master のマージで行う。
 on:
-  schedule:
-    - cron: "17 21 * * *"   # 毎日 06:17 JST
   workflow_dispatch:
 
 permissions:

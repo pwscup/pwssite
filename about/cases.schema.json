@@ -37,8 +37,8 @@
           "source":   { "type": "string", "minLength": 1, "description": "掲載元 例：PWS公式、NSSOL、明治大学 菊池研究室 など" },
           "type":     {
             "type": "string",
-            "enum": ["official", "company", "university", "paper", "blog"],
-            "description": "official=公式 / company=企業 / university=大学・研究室 / paper=論文・学会 / blog=ブログ・参加記"
+            "enum": ["official", "company", "university", "paper", "blog", "repository", "other"],
+            "description": "official=公式 / company=企業 / university=大学・研究室 / paper=論文・学会 / blog=ブログ・参加記 / repository=リポジトリ / other=その他"
           },
           "award":    { "type": "string", "minLength": 1, "description": "受賞名（任意）例：総合優勝、ベストアタック賞 など" },
           "url":      { "type": "string", "format": "uri", "pattern": "^https?://", "description": "記事URL（任意、http(s)で始まる）" }

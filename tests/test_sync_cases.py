@@ -9,7 +9,7 @@ sys.path.insert(0, str(SCRIPTS_DIR))
 
 import sync_cases  # noqa: E402
 
-HEADER = list(sync_cases.COLUMNS.values())
+HEADER = [names[0] for names in sync_cases.COLUMNS.values()]
 
 
 def row(no="1", cup="PWS Cup 2025", type_="公式", theme="", theme_desc="", **kw):
@@ -17,12 +17,12 @@ def row(no="1", cup="PWS Cup 2025", type_="公式", theme="", theme_desc="", **k
         "項番": no,
         "公開年": kw.get("year", "2025"),
         "記事分類": cup,
-        "区分": kw.get("category", "公式ページ"),
+        "詳細": kw.get("category", "公式ページ"),
         "記事タイトル": kw.get("title", "PWS Cup 2025"),
         "掲載元": kw.get("source", "PWS公式"),
         "URL": kw.get("url", "https://www.iwsec.org/pws/2025/cup25.html"),
         "受賞": kw.get("award", ""),
-        "タイプ": type_,
+        "分類": type_,
         "年度テーマ": theme,
         "テーマ補足": theme_desc,
     }
@@ -64,6 +64,30 @@ class TestParseRows:
         cases, _, _, _ = sync_cases.parse_rows(rows)
         assert cases[0]["title"] == "参加記〜"
 
+    def test_other_type(self):
+        cases, _, errors, _ = sync_cases.parse_rows([HEADER, row(type_="その他")])
+        assert errors == []
+        assert cases[0]["type"] == "other"
+
+    def test_repository_type(self):
+        rows = [HEADER, row(type_="リポジトリ")]
+        cases, _, errors, _ = sync_cases.parse_rows(rows)
+        assert errors == []
+        assert cases[0]["type"] == "repository"
+
+    def test_old_header_names(self):
+        old = [{"詳細": "区分", "分類": "タイプ"}.get(h, h) for h in HEADER]
+        cases, _, errors, _ = sync_cases.parse_rows([old, row(type_="企業")])
+        assert errors == []
+        assert cases[0]["category"] == "公式ページ"
+        assert cases[0]["type"] == "company"
+
+    def test_error_uses_sheet_header_name(self):
+        old = [{"分類": "タイプ"}.get(h, h) for h in HEADER]
+        _, _, errors, _ = sync_cases.parse_rows([old, row(type_="コード")])
+        assert len(errors) == 1
+        assert errors[0].startswith("2行目（項番 1）: タイプは")
+
     def test_award_kept(self):
         cases, _, _, _ = sync_cases.parse_rows([HEADER, row(award="総合優勝")])
         assert cases[0]["award"] == "総合優勝"
@@ -84,7 +108,7 @@ class TestParseRows:
     def test_missing_column(self):
         _, _, errors, _ = sync_cases.parse_rows([HEADER[:7], row()[:7]])
         assert len(errors) == 1
-        assert "受賞" in errors[0] and "タイプ" in errors[0]
+        assert "受賞" in errors[0] and "分類" in errors[0]
 
     def test_row_errors_collected(self):
         rows = [
