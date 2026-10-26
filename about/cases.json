@@ -139,6 +139,7 @@
     {"no":63,"year":2025,"cup_year":2025,"category":"公式ページ","title":"PWS Cup 2025","source":"PWS公式","type":"official","url":"https://www.iwsec.org/pws/2025/cup25.html"},
     {"no":64,"year":2026,"cup_year":2026,"category":"公式ページ","title":"PWS Cup 2026","source":"PWS公式","type":"official","url":"https://www.iwsec.org/pws/2026/cup26.html"},
     {"no":65,"year":2026,"cup_year":2026,"category":"公式・スターターキット","title":"PWS Cup 2026 スターターキット","source":"GitHub（pwscup）","type":"official","url":"https://github.com/pwscup/pwscup2026-kit/tree/main"},
-    {"no":66,"year":2026,"cup_year":2026,"category":"公式資料","title":"PWS Cup 2026 説明会資料","source":"PWS公式","type":"official","url":"https://www.iwsec.org/pws/2026/Images/20260730_PWSCUP2026%E8%AA%AC%E6%98%8E%E4%BC%9A%E8%B3%87%E6%96%99.pdf"}
+    {"no":66,"year":2026,"cup_year":2026,"category":"公式資料","title":"PWS Cup 2026 説明会資料","source":"PWS公式","type":"official","url":"https://www.iwsec.org/pws/2026/Images/20260730_PWSCUP2026%E8%AA%AC%E6%98%8E%E4%BC%9A%E8%B3%87%E6%96%99.pdf"},
+    {"no":67,"year":2026,"cup_year":2026,"category":"個人ブログ・紹介","title":"Shadow Competition Zoo：表形式データの加工・合成データ生成に対して、どのような情報が推測され得るかを比較するための Python製の実験ツール","source":"GitHub","type":"repository","url":"https://github.com/4beshinji/shadow-zoo"}
   ]
 }
