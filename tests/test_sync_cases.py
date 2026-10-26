@@ -69,6 +69,16 @@ class TestParseRows:
         assert errors == []
         assert cases[0]["type"] == "other"
 
+    def test_code_type_and_alias(self):
+        rows = [
+            HEADER,
+            row(no="1", type_="コード"),
+            row(no="2", type_="コード・リポジトリ"),
+        ]
+        cases, _, errors, _ = sync_cases.parse_rows(rows)
+        assert errors == []
+        assert [c["type"] for c in cases] == ["code", "code"]
+
     def test_award_kept(self):
         cases, _, _, _ = sync_cases.parse_rows([HEADER, row(award="総合優勝")])
         assert cases[0]["award"] == "総合優勝"

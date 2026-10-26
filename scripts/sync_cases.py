@@ -7,7 +7,7 @@ single source of truth. Columns are looked up by header name:
 
 - Rows whose 項番 is blank are drafts and are skipped.
 - 記事分類 must look like "PWS Cup 2026"; the year becomes cup_year.
-- タイプ is one of 公式 / 企業 / 大学 / 論文 / ブログ / その他.
+- タイプ is one of 公式 / 企業 / 大学 / 論文 / ブログ / コード / その他.
 - A row with 年度テーマ provides that cup_year's theme (at most one per year).
   The theme links to the row's URL.
 
@@ -59,6 +59,8 @@ TYPES = {
     "大学": "university",
     "論文": "paper",
     "ブログ": "blog",
+    "コード": "code",
+    "コード・リポジトリ": "code",
     "その他": "other",
 }
 
@@ -127,7 +129,7 @@ def parse_rows(
 
         type_ = TYPES.get(cell["type"])
         if type_ is None:
-            choices = " / ".join(TYPES)
+            choices = " / ".join(k for k in TYPES if k != "コード・リポジトリ")
             row_errors.append(f"タイプは {choices} のいずれかにしてください")
 
         if cell["url"] and not re.match(r"https?://", cell["url"]):
