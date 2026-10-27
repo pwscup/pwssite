@@ -6,7 +6,8 @@
 
 
 ## What's New
-- 2026/10/26(月) [本戦と総合の結果](#final-results)を公開しました　★New
+- 2026/10/28(水) [参加チーム](#team)の表で、コードの掲載を開始しました　★New
+- 2026/10/26(月) [本戦と総合の結果](#final-results)を公開しました
 - 2026/10/22(木) [参加チーム](#team)の表で、ポスターの掲載を開始しました
 - 2026/10/05(月) 本戦・攻撃フェーズの終了を 10/11(日) 21:00 に変更しました（当初 9:00）。停電の時間帯は[スケジュール](#schedule)に記載しています
 - 2026/09/27(日) 本戦の[攻撃用データ](#attack-data-final)を公開しました
@@ -527,7 +528,7 @@ shasum -a 256 C.csv
       <td>（非公開）</td>
       <td>-</td>
       <td>-</td>
-      <td><a href="./Images/posters/PWSCup2026_Team17.pdf">PDF</a></td>
+      <td><a href="https://drive.google.com/file/d/1_T4k8T5NNhSLWsp0KosHfy2xQcr6RCHI/view?usp=sharing">PDF</a></td>
       <td></td>
     </tr>
     <tr>
@@ -557,8 +558,8 @@ shasum -a 256 C.csv
       <td>情報・システム研究機構</td>
       <td>-</td>
       <td>-</td>
-      <td></td>
-      <td></td>
+      <td><a href="https://drive.google.com/file/d/1rj1pa4XjaKv61jfL2LtP5w8Ogc_CfOTD/view?usp=sharing">PDF</a></td>
+      <td><a href="https://github.com/kiti1924/pwscup2026_pub">GitHub</a></td>
     </tr>
     <tr>
       <td>3</td>
