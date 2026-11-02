@@ -393,7 +393,7 @@ shasum -a 256 C.csv
       <td>神奈川大学</td>
       <td>井口誠</td>
       <td>Kii株式会社</td>
-      <td></td>
+      <td><a href="https://drive.google.com/file/d/1ysEzVzHHCb4f6zWsF9CLe5uuibYA1bel/view?usp=sharing">PDF</a></td>
       <td></td>
     </tr>
     <tr>
